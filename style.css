@@ -1,0 +1,141 @@
+@import url("resources/variables.css");
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-primary);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  flex-grow: 1;
+  padding: var(--body-padding);
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+/* Background image */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: var(--background-image) center/cover no-repeat;
+  z-index: -1;
+}
+
+/* Typography weights */
+.light {
+  font-weight: var(--font-weight-light); 
+}
+
+.bold {
+  font-weight: var(--font-weight-bold); 
+}
+
+.extra-light {
+  font-weight: var(--font-weight-extra-light); 
+}
+
+/* Blocks that should each occupy their own line */
+.block {
+  display: block;
+  text-align: left;
+}
+
+/* Header styling */
+h1 {
+  font-size: var(--font-size-xlarge);
+  line-height: 1.2;
+  margin-bottom: var(--spacing-medium);
+}
+
+p {
+  font-size: var(--font-size-large);
+  margin: var(--spacing-small) 0;
+}
+
+/* Widget section */
+.widget-section {
+  max-width: 500px;
+  padding: var(--spacing-medium);
+  border-radius: var(--border-radius);
+  margin-top: var(--spacing-large);
+}
+
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: var(--spacing-large);
+}
+
+footer p {
+  font-size: var(--font-size-small);
+  margin-bottom: var(--spacing-small);
+}
+
+/* Social icons */
+.social-icons {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-small);
+  margin: 0;
+  padding: 0;
+}
+
+.social-icons li a img {
+  width: 32px;
+  height: 32px;
+  filter: invert(1);
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+  .widget-section {
+    width: 95%;
+    padding: 0.8rem;
+  }
+
+  .social-icons li a img {
+    width: 28px;
+    height: 28px;
+  }
+}

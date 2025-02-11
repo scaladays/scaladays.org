@@ -1,0 +1,76 @@
+@import url("../resources/variables.css");
+
+.ticket-widget {
+  width: var(--widget-width);
+  height: var(--widget-height);
+  background: var(--widget-bg);
+  padding: var(--spacing-large);
+  border-radius: var(--border-radius);
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-family: var(--font-primary);
+  box-sizing: border-box;
+}
+
+/* List bullets */
+.ticket-widget ul {
+  margin: 0;
+  padding-left: var(--spacing-medium);
+  list-style: disc;
+}
+
+.ticket-widget ul li {
+  margin: var(--spacing-small) 0;
+  font-size: var(--font-size-medium);
+  color: var(--widget-text-color);
+}
+
+/* Custom bullet styling */
+.ticket-widget ul li::marker {
+  color: var(--bullet-color);
+  font-size: 1.5em;
+}
+
+/* Separator */
+.separator {
+  border: none;
+  border-bottom: 2px solid var(--bullet-color);
+  margin: var(--spacing-large) 0;
+}
+
+/* Newsletter section */
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: var(--spacing-small);
+}
+
+.newsletter p {
+  margin: 0;
+  font-size: var(--font-size-medium);
+  color: var(--widget-text-color);
+}
+
+/* Round button */
+.round-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--button-size);
+  height: var(--button-size);
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: var(--bullet-color);
+  color: #fff;
+  font-size: var(--button-text-size);
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.round-btn:hover {
+  background: var(--bullet-hover-color);
+}
