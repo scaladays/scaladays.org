@@ -4,7 +4,7 @@ html, body {
   height: 100%;
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 50px;
   box-sizing: border-box;
   font-family: var(--font-primary);
   color: var(--text-color);
@@ -40,30 +40,10 @@ body::before {
   z-index: -1;
 }
 
-/* Typography weights */
-.light {
-  font-weight: var(--font-weight-light); 
-}
-
-.bold {
-  font-weight: var(--font-weight-bold); 
-}
-
-.extra-light {
-  font-weight: var(--font-weight-extra-light); 
-}
-
 /* Blocks that should each occupy their own line */
 .block {
   display: block;
   text-align: left;
-}
-
-/* Header styling */
-h1 {
-  font-size: var(--font-size-xlarge);
-  line-height: 1.2;
-  margin-bottom: var(--spacing-medium);
 }
 
 p {
@@ -133,6 +113,10 @@ footer p {
     font-size: 2rem;
   }
 
+  .title {
+    height: 150px;
+    width: 300px;
+  }
   .widget-section {
     width: 95%;
     padding: 0.8rem;
@@ -142,4 +126,8 @@ footer p {
     width: 28px;
     height: 28px;
   }
+}
+
+.follow-text {
+  color: #fff;
 }

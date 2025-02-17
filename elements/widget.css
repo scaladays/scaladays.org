@@ -1,8 +1,9 @@
 @import url("../resources/variables.css");
 
 .ticket-widget {
-  width: var(--widget-width);
-  height: var(--widget-height);
+  width: auto;
+  height: auto;
+  max-width: 350px;
   background: var(--widget-bg);
   padding: var(--spacing-large);
   border-radius: var(--border-radius);
@@ -52,23 +53,6 @@
   margin: 0;
   font-size: var(--font-size-medium);
   color: var(--widget-text-color);
-}
-
-/* Round button */
-.round-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: var(--button-size);
-  height: var(--button-size);
-  padding: 0;
-  border: none;
-  border-radius: 50%;
-  background: var(--bullet-color);
-  color: #fff;
-  font-size: var(--button-text-size);
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
 }
 
 .round-btn:hover {
