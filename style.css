@@ -23,6 +23,11 @@ body {
   flex-grow: 1;
 }
 
+.title {
+  height: 300px;
+  width: 600px;
+}
+
 /* Background image */
 body::before {
   content: "";
@@ -100,7 +105,6 @@ footer p {
 .social-icons li a img {
   width: 32px;
   height: 32px;
-  filter: invert(1);
 }
 
 @keyframes fadeInUp {
