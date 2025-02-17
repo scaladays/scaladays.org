@@ -1,0 +1,69 @@
+/* In your main CSS, you already import variables: */
+@import url("../resources/variables.css");
+
+/* Use the primary font and gray text colors as you have defined */
+body,
+#mc_embed_shell,
+#mc_embed_signup,
+#mc-embedded-subscribe-form,
+#mc_embed_signup label,
+#mc_embed_signup .mc-field-group,
+#mc_embed_signup .clear,
+#mc_embed_signup .indicates-required {
+  font-family: var(--font-primary);
+  color: var(--widget-text-color);
+  margin: 0;
+  padding: 0;
+}
+
+/* Spacing for the .clear container */
+#mc_embed_signup .clear {
+  padding: 5px;
+}
+
+#mc_embed_signup div.mce_inline_error {
+    background: none;
+    color: red;
+    font-weight: bolder;
+}
+
+/* Make the button perfectly round and center the character */
+#mc-embedded-subscribe {
+  background-color: var(--bullet-color);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  
+  /* Make width and height equal for a true circle */
+  width: 50px;
+  height: 50px;
+  
+  
+  font-size: 1.25rem;  
+  cursor: pointer;
+  font-weight: 200;
+  padding: 0; /* Remove default padding since we're using fixed width/height */
+}
+
+#mce-success-response {
+    color: #02ba61;
+    background: #e8fff4;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/* Optional hover effect on the button */
+#mc-embedded-subscribe:hover {
+  background-color: var(--bullet-hover-color);
+}
+
+
+.mc-field-group input[type="email"],
+.mc-field-group input[type="text"] {
+  width: auto;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: var(--border-radius);
+}
+
+
