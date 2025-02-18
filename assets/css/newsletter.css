@@ -1,7 +1,5 @@
-/* In your main CSS, you already import variables: */
-@import url("../resources/variables.css");
+@import url("variables.css");
 
-/* Use the primary font and gray text colors as you have defined */
 body,
 #mc_embed_shell,
 #mc_embed_signup,
@@ -16,7 +14,6 @@ body,
   padding: 0;
 }
 
-/* Spacing for the .clear container */
 #mc_embed_signup .clear {
   padding: 5px;
 }
@@ -27,14 +24,11 @@ body,
     font-weight: bolder;
 }
 
-/* Make the button perfectly round and center the character */
 #mc-embedded-subscribe {
   background-color: var(--bullet-color);
   color: #fff;
   border: none;
   border-radius: 50%;
-  
-  /* Make width and height equal for a true circle */
   width: 50px;
   height: 50px;
   
@@ -42,7 +36,7 @@ body,
   font-size: 1.25rem;  
   cursor: pointer;
   font-weight: 200;
-  padding: 0; /* Remove default padding since we're using fixed width/height */
+  padding: 0;
 }
 
 #mce-success-response {
@@ -52,7 +46,6 @@ body,
     padding: 10px;
 }
 
-/* Optional hover effect on the button */
 #mc-embedded-subscribe:hover {
   background-color: var(--bullet-hover-color);
 }
@@ -65,5 +58,3 @@ body,
   border: 1px solid #ccc;
   border-radius: var(--border-radius);
 }
-
-

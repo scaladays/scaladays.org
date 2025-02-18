@@ -1,4 +1,4 @@
-@import url("../resources/variables.css");
+@import url("variables.css");
 
 .ticket-widget {
   width: auto;
@@ -13,7 +13,6 @@
   box-sizing: border-box;
 }
 
-/* List bullets */
 .ticket-widget ul {
   margin: 0;
   padding-left: var(--spacing-medium);
@@ -26,20 +25,17 @@
   color: var(--widget-text-color);
 }
 
-/* Custom bullet styling */
 .ticket-widget ul li::marker {
   color: var(--bullet-color);
   font-size: 1.5em;
 }
 
-/* Separator */
 .separator {
   border: none;
   border-bottom: 2px solid var(--bullet-color);
   margin: var(--spacing-large) 0;
 }
 
-/* Newsletter section */
 .newsletter {
   display: flex;
   flex-direction: column;
