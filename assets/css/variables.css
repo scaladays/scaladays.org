@@ -1,19 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;700&display=swap');
 
-/* Root variables */
 :root {
-  /* Font family */
   --font-primary: 'Inter', sans-serif;
 
-  /* Colors */
   --text-color: white;
-  --background-image: url("assets/images/background-02.jpg");
+  --background-image: url("../images/background-02.jpg");
   --widget-bg: #fff;
   --widget-text-color: #515151;
   --bullet-color: #d33;
   --bullet-hover-color: #b22;
 
-  /* Sizing */
   --body-padding: 60px;
   --widget-width: 350px;
   --widget-height: 430px;
@@ -22,7 +18,6 @@
   --spacing-medium: 1rem;
   --spacing-large: 2rem;
 
-  /* Typography */
   --font-size-small: 1rem;
   --font-size-medium: 1.4rem;
   --font-size-large: 3rem;
@@ -31,7 +26,6 @@
   --font-weight-light: 300;
   --font-weight-bold: 600;
 
-  /* Buttons */
   --button-size: 60px;
   --button-text-size: 1.8rem;
 }
