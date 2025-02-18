@@ -67,9 +67,19 @@ footer p {
 }
 
 @media screen and (max-width: 680px) {
+  .title {
+    width: 500px;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+  }
+
   footer {
     justify-content: center;
   }
+
 }
 
 .social-icons {
@@ -97,30 +107,6 @@ footer p {
 .fade-in-up {
   animation: fadeInUp 0.8s ease-out forwards;
   opacity: 0;
-}
-
-@media (max-width: 600px) {
-  h1 {
-    font-size: 3rem;
-  }
-
-  p {
-    font-size: 2rem;
-  }
-
-  .title {
-    height: 150px;
-    width: 300px;
-  }
-  .widget-section {
-    width: 95%;
-    padding: 0.8rem;
-  }
-
-  .social-icons li a img {
-    width: 28px;
-    height: 28px;
-  }
 }
 
 .follow-text {
