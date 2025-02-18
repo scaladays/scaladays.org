@@ -4,24 +4,20 @@
 
 html, body {
   height: 100%;
-  width: 100%;
   margin: 0;
-  padding: 50px;
-  box-sizing: border-box;
-  font-family: var(--font-primary);
-  color: var(--text-color);
-  display: flex;
-  flex-direction: column;
 }
 
 body {
-  flex-grow: 1;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  box-sizing: border-box;
+  font-family: var(--font-primary);
+  color: var(--text-color);
   padding: var(--body-padding);
-  display: flex;
-  flex-direction: column;
 }
 
-body main {
+main {
   flex-grow: 1;
 }
 
@@ -59,10 +55,10 @@ p {
 }
 
 footer {
+  padding: 1em;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  margin-top: var(--spacing-large);
+  justify-content: flex-end;
+  align-items: center;
 }
 
 footer p {
@@ -70,16 +66,19 @@ footer p {
   margin-bottom: var(--spacing-small);
 }
 
+@media screen and (max-width: 600px) {
+  footer {
+    justify-content: center;
+  }
+}
+
 .social-icons {
-  list-style: none;
   display: flex;
   flex-direction: row;
   gap: var(--spacing-small);
-  margin: 0;
-  padding: 0;
 }
 
-.social-icons li a img {
+.social-icons a img {
   width: 32px;
   height: 32px;
 }
