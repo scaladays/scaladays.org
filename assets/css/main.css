@@ -3,14 +3,19 @@
 @import url("widget.css");
 
 html, body {
-  height: 100%;
   margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
 body {
   display: grid;
   grid-template-rows: auto 1fr auto;
-  min-height: 100vh;
   box-sizing: border-box;
   font-family: var(--font-primary);
   color: var(--text-color);
@@ -23,9 +28,15 @@ main {
   align-items: center;
 }
 
+main article {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
 .title {
-  height: 300px;
-  width: 600px;
+  width: 90%;
+  max-width: 600px;
+  height: auto;
 }
 
 body::before {
@@ -51,10 +62,8 @@ p {
 }
 
 .widget-section {
-  max-width: 500px;
   padding: var(--spacing-medium);
   border-radius: var(--border-radius);
-  margin-top: var(--spacing-large);
 }
 
 footer {
@@ -71,17 +80,12 @@ footer p {
 
 @media screen and (max-width: 680px) {
 
-  .title {
-    width: 500px;
-  }
-
   main {
     justify-content: center;
   }
 
   .widget-section {
-    width: 90%;
-    max-width: 400px;
+    max-width: 450px;
   }
 
   footer {

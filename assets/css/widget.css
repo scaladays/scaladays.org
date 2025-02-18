@@ -1,8 +1,6 @@
 @import url("variables.css");
 
 .ticket-widget {
-  width: auto;
-  height: auto;
   max-width: 350px;
   background: var(--widget-bg);
   padding: var(--spacing-large);
