@@ -18,7 +18,9 @@ body {
 }
 
 main {
-  flex-grow: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .title {
@@ -67,6 +69,20 @@ footer p {
 }
 
 @media screen and (max-width: 680px) {
+
+  .title {
+    width: 500px;
+  }
+
+  main {
+    justify-content: center;
+  }
+
+  .widget-section {
+    width: 90%;
+    max-width: 400px;
+  }
+
   footer {
     justify-content: center;
   }
@@ -97,30 +113,6 @@ footer p {
 .fade-in-up {
   animation: fadeInUp 0.8s ease-out forwards;
   opacity: 0;
-}
-
-@media (max-width: 600px) {
-  h1 {
-    font-size: 3rem;
-  }
-
-  p {
-    font-size: 2rem;
-  }
-
-  .title {
-    height: 150px;
-    width: 300px;
-  }
-  .widget-section {
-    width: 95%;
-    padding: 0.8rem;
-  }
-
-  .social-icons li a img {
-    width: 28px;
-    height: 28px;
-  }
 }
 
 .follow-text {
