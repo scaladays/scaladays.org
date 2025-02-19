@@ -5,8 +5,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  max-width: 100%;
-  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
 }
 
 *, *::before, *::after {
@@ -34,7 +34,6 @@ main article {
 }
 
 .title {
-  width: 90%;
   max-width: 600px;
   height: auto;
 }
