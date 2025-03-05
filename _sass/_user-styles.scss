@@ -1,0 +1,559 @@
+//
+// Personal styles
+// --------------------------------------------------
+
+[id] {
+    scroll-margin-top: 4rem;
+}
+
+// Site nav
+#site-nav {
+    transition: background linear 166ms;
+}
+
+
+
+/* 
+.site-nav-home {
+    .navbar-nav {
+        .nav-item {
+            &:nth-child(4),
+            &:nth-child(5) {
+                a {
+                    @extend .btn;
+                    @extend .btn-outline-light;
+                    @extend .fw-bold;
+                }
+            }
+        }
+    }
+} */
+
+.vimeo-full-width {
+    padding: 56.25% 0 0 0;
+    position: relative;
+}
+
+.vimeo-full-width iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.transition {
+    transition: box-shadow linear 166ms;
+}
+
+.testimonial {
+    border: 1px solid #ddd;
+    padding: 20px;
+   font-weight: 300;
+   font-style: italic;
+    font-size: 18px;
+}
+
+// Masthead
+#masthead {
+    min-height: 720px;
+    //padding: 150px 0;
+    background-image: url("../img/assets/masthead-pattern.svg"),
+        url("../img/assets/masthead-background.jpg");
+    background-position: top center, top center;
+    background-repeat: no-repeat;
+    background-size: auto, auto;
+    background-attachment: scroll, fixed;
+    background-color: $white;
+    background-size: auto, 4000px 720px;
+
+    img {
+        max-width: 80%;
+        width: 560px;
+    }
+
+    .editions {
+        .editiond-item {
+            &:first-child,
+            &:last-child {
+                opacity: 0.6;
+                @extend .border-end;
+                ul {
+                    text-decoration: line-through;
+                }
+            }
+
+            .editions-info {
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+}
+
+// Hero
+#hero {
+    padding: 9rem 0;
+    position: relative;
+    background: $black;
+    overflow: hidden;
+
+    .editions {
+        .editiond-item {
+            &:first-child {
+                @extend .border-end;
+            }
+
+            .editions-info {
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+
+    .hero-brand {
+        max-width: 80%;
+        width: 560px;
+    }
+
+    .hero-cta {
+        a {
+            &:first-child {
+                @extend .btn-primary;
+            }
+
+            &:nth-child(2n) {
+                @extend .btn-outline-light;
+            }
+        }
+    }
+
+    .hero-arrow {
+        a {
+            position: relative;
+            bottom: 0;
+            transition: all linear 166ms;
+            opacity: 0.6;
+
+            &:hover {
+                bottom: 0.25rem;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+// Price
+
+.box-active {
+    margin-top: -1rem;
+    box-shadow: 0 0.5rem 1rem rgba($black, 0.05);
+    position: relative;
+    bottom: 0;
+    transition: all linear 166ms;
+
+    &:hover {
+        bottom: 0.5rem;
+        box-shadow: 0 1rem 1rem rgba($black, 0.07);
+    }
+}
+
+.box-inactive {
+    opacity: 0.5;
+}
+
+.description-ticket {
+    font-size: 0.938rem;
+
+    ul {
+        li {
+            @extend .border-bottom;
+            @extend .py-2;
+
+            &:last-child {
+                border-bottom: 0 !important;
+            }
+        }
+    }
+}
+
+.lead {
+    strong {
+        @extend .fw-semibold;
+    }
+}
+
+// Cover opacity
+.cover-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+
+		&.home {
+			background: url("../img/assets/background-2025.jpg") no-repeat center center;
+			background-size: cover;
+		}
+
+    &.the-venue {
+        background: url("../img/assets/hero-background-the-venue.jpg") no-repeat center center;
+        background-size: cover;
+    }
+
+    &.sponsor {
+        background: url("../img/assets/hero-background-sponsor.jpg") no-repeat center center;
+        background-size: cover;
+    }
+
+    &.workshops {
+        background: url("../img/assets/hero-background-workshops.jpg") no-repeat center center;
+        background-size: cover;
+    }
+}
+
+.cover-gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg,
+            rgba(0, 0, 0, 0.85) 0%,
+            rgba(0, 0, 0, 0) 41.35%);
+    top: 0;
+    left: 0;
+}
+
+.cover-shape {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.video-background {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+}
+
+#countdown-clock-2025 {
+    background: url("../img/assets/scala-logo-large.svg") no-repeat center center $secondary;
+}
+
+// Features
+
+.features-list {
+    .row {
+        &:nth-child(2) {
+            div {
+                &:first-child {
+                    @extend .order-lg-2;
+                }
+
+                &:last-child {
+                    @extend .order-md-1;
+                }
+            }
+        }
+    }
+
+    img {
+        object-fit: cover;
+    }
+}
+
+.feature-image {
+    background-size: cover;
+    background-position: center center;
+}
+
+.item-team {
+    position: relative;
+    bottom: 0;
+    transition: all linear 166ms;
+
+    &:hover {
+        .image-avatar {
+            filter: none;
+
+            .image-gradient {
+                opacity: 0;
+            }
+        }
+
+        bottom: 0.5rem;
+    }
+}
+
+.image-avatar {
+    position: relative;
+    transition: all linear 166ms;
+    //filter: grayscale(100%);
+
+    .image-gradient {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(224.81deg,
+                rgba(222, 52, 35, 0) 75.08%,
+                $secondary 100%);
+
+        top: 0;
+        left: 0;
+        transition: all linear 166ms;
+    }
+}
+
+.bg-gray {
+    background: rgba($gray-900, 0.03);
+}
+
+.div-border {
+    height: 1px;
+}
+
+.table {
+    tbody {
+        tr {
+            td {
+                &.active {
+                    @extend .bg-gray;
+                }
+            }
+        }
+    }
+}
+
+// Blog
+
+.date {
+    font-size: 0.9rem;
+    color: rgba($black, 0.6);
+}
+
+iframe {
+    margin: 2rem 0;
+}
+
+.post-detail {
+    img {
+        max-width: 100%;
+    }
+}
+
+th {
+    font-weight: $font-weight-base;
+}
+
+// Worshops
+
+.workshop-icon-sidebar {
+    width: 3rem;
+    height: auto;
+}
+
+.workshop-trainer {
+    width: 64px;
+    height: 64px;
+}
+
+.workshop-position {
+    font-size: 0.837rem;
+}
+
+.icon-social-workshops {
+    width: 20px;
+    height: auto;
+}
+
+.sidebar-nav {
+    li {
+
+        //@extend .border-bottom;
+        a {
+            @extend .d-block;
+            @extend .p-2;
+            @extend .border-2;
+            @extend .border-white;
+            @extend .border-start;
+
+            &:hover {
+                @extend .bg-gray;
+            }
+
+            &.active {
+                @extend .border-primary;
+                @extend .bg-gray;
+                @extend .fw-bold;
+            }
+        }
+    }
+}
+
+.hero-zoom {
+    -webkit-animation: hero-zoom 20s ease-out infinite alternate both;
+    animation: hero-zoom 20s ease-out infinite alternate both;
+}
+
+@-webkit-keyframes hero-zoom {
+    0% {
+        -webkit-transform: scale(1) translateY(0);
+        transform: scale(1) translateY(0);
+        -webkit-transform-origin: 50% 16%;
+        transform-origin: 50% 16%;
+    }
+
+    100% {
+        -webkit-transform: scale(1.25) translateY(-15px);
+        transform: scale(1.25) translateY(-15px);
+        -webkit-transform-origin: top;
+        transform-origin: top;
+    }
+}
+
+@keyframes hero-zoom {
+    0% {
+        -webkit-transform: scale(1) translateY(0);
+        transform: scale(1) translateY(0);
+        -webkit-transform-origin: 50% 16%;
+        transform-origin: 50% 16%;
+    }
+
+    100% {
+        -webkit-transform: scale(1.25) translateY(-15px);
+        transform: scale(1.25) translateY(-15px);
+        -webkit-transform-origin: top;
+        transform-origin: top;
+    }
+}
+
+// Cta
+#cta {
+    background: $white;
+
+    a {
+        &:first-child {
+            margin-right: 1rem;
+        }
+    }
+}
+
+// Footer
+#site-footer {
+    background: darken($primary, 6%);
+}
+
+// Schedule
+
+#schedule {
+    padding: 100px 0;
+    background: rgba($black, 0.05);
+}
+
+.icon-stage {
+    @extend .me-3;
+    width: 32px;
+    height: auto;
+}
+
+.icon-social {
+    width: 28px;
+    height: auto;
+}
+
+.icon-time-slot {
+    filter: brightness(100);
+}
+
+.item-schedule {
+    height: 12rem;
+    transition: box-shadow linear 166ms;
+    //@extend .border-top;
+
+    @extend .p-4;
+
+    h5 {
+        transition: color linear 166ms;
+    }
+
+    &:nth-child(2n) {
+        background: rgba($gray-100, 0.1);
+    }
+
+    &:hover {
+        @extend .shadow;
+
+        h5 {
+            color: $primary;
+        }
+    }
+
+    .badge {
+        @extend .mb-3;
+    }
+}
+
+.talk-title {
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.break {
+    @extend .p-4;
+    @extend .bg-secondary;
+    color: $white;
+    height: 12rem;
+}
+
+// Sponsors
+
+.sponsor-item {
+    img {
+        position: relative;
+        //opacity: 0.7;
+        transition: all linear 166ms;
+        bottom: 0;
+        
+    }
+
+    &:hover {
+        img {
+            //opacity: 1;
+            bottom: 0.25rem;
+        }
+    }
+}
+
+// Responsive
+
+@include media-breakpoint-down(sm) {
+    #hero {
+        padding: 6rem 0;
+    }
+
+    #cta {
+        background: $white;
+
+        a {
+            &:first-child {
+                margin-right: 0;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
+
+.font-serif {
+	font-family: $font-family-serif;
+}

@@ -1,0 +1,54 @@
+"2025":
+  - title: Schedule
+    url: /schedule
+    nav: nav
+    wip: false
+
+  - title: Speakers
+    url: /speakers
+    nav: nav
+    wip: false
+
+  - title: Sponsors
+    url: "/#sponsors"
+    nav: nav
+
+  - title: Venue
+    url: /the-venue
+    nav: nav
+    wip: false
+
+  - title: Blog
+    url: /blog
+    nav: nav
+    wip: false
+
+  - title: Tickets
+    title-large: Buy tickets now
+    url: "/#pricetable"
+    id: tickets
+    nav: nav
+    section: hero
+
+  - title: Coming soon
+    url: /wip
+    nav: nav
+    wip: true
+
+  - title: 
+    title-large: Become a sponsor
+    url: /sponsorships
+    section: hero
+    id: sponsor
+    wip: false
+
+workshops:
+  - title: Embedding of Domain-Specific Languages in Scala
+    url: /workshop/1/
+
+  - title: Online multiplayer game
+    url: /workshop/2/
+
+  - title: Moving from Scala 2 to Scala 3
+    url: /workshop/3/
+

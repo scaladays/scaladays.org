@@ -1,0 +1,30 @@
+//
+// Bootstrap components
+// --------------------------------------------------
+  
+.list-group-item {
+    span {
+        transition: color linear 166ms;
+        &:last-child {
+            color: rgba($gray-900, 0.4);
+        }
+    }
+    &.active {
+        @extend .border-bottom;
+        @extend .border-2;
+        @extend .border-primary;
+        span {
+            &:last-child {
+                color: $primary;
+            }
+        }
+    }
+
+    &:hover {
+        span {
+            &:last-child {
+                color: $primary;
+            }
+        }
+    }
+}

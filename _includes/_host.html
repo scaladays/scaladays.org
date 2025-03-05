@@ -1,0 +1,8 @@
+<section id="host" class="bg-primary py-4 d-flex flex-column flex-md-row align-items-center justify-content-center">
+    <h3 class="text-white px-4 py-3">Organizing Hosts</h3>
+        {% for item in site.data.conference.host %}
+        <a href="{{item.url}}" target="_blank" rel="noopener noreferrer">
+            <img height="76px" class="px-4 py-3" src="{{ site.baseurl }}/{{item.logo}}" alt="{{item.name}}">
+        </a>
+        {% endfor %}
+</section>

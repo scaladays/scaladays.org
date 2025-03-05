@@ -1,0 +1,34 @@
+---
+layout: detail-edition
+title: The Venue
+permalink: /the-venue
+---
+{% include _nav.html %}
+{% include _hero-the-venue.html %}
+<section id="the-venue" class="py-5">
+    <div class="container py-0 py-lg-5">
+        <div class="row justify-content-between">
+            <div class="col-lg-6 pe-0 pe-lg-5 mb-5 mb-lg-0">
+                <span class="text-primary text-uppercase fw-bold mb-2 d-inline-block">{{ site.data.conference.the-venue-subtitle}}</span>
+                <h2 class="mb-4">{{ site.data.conference.the-venue-title}}</h2>
+                <p class="lead">{{ site.data.conference.the-venue-description}}</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-left mt-4">
+                    <a class="btn btn-primary btn-lg px-4 gap-3" href="{{ site.data.conference.the-venue-url}}" target="_blank" rel="noopener noreferrer">{{ site.data.conference.the-venue-cta}}</a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img class="img-fluid" src="{{site.baseurl}}/img/assets/the-venue-madrid.jpg" alt="">
+            </div>
+        </div>
+        <div class="row pt-5 my-5 mb-5">
+            {% for item in site.data.conference.the-venue %}
+            <div class="col-lg-4 text-center mb-4 mb-lg-0 p-4">
+                <img src="{{ site.baseurl }}/{{item.icon}}" alt="{{item.title}}">
+                <h4 class="my-3">{{item.title}}</h4>
+                <p>{{item.description}}</p>
+            </div>
+            {% endfor %}
+        </div>
+        
+    </div>
+</section>

@@ -1,0 +1,74 @@
+<section id="pricetable" class="pt-5">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-md-12 text-center">
+        <span class="text-primary text-uppercase fw-bold mb-2 d-inline-block">
+          {{site.data.pricetable.pricetable-subtitle }}
+        </span>
+        <h2 class="mb-4">{{site.data.pricetable.pricetable-title }}</h2>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 text-center justify-content-evenly aos-animate"
+      data-aos="fade-in">
+      {% for item in site.data.pricetable.pricetable %} {% if item.state
+      == "active" %}
+      <div class="col">
+        <div class="card mb-4 border box-active">
+          <div class="card-header py-3">
+            <img class="mb-2" src="{{ site.baseurl }}/img/assets/icon-inactive.svg" alt="" />
+            <h3 class="my-0 fw-bold fs-4">{{item.title}}</h3>
+          </div>
+          <div class="card-body">
+            <h4 class="display-4 fw-bold">{{item.price}}</h4>
+            <p class="fs-5">{{item.date}}</p>
+            <div class="description-ticket">
+              {{item.description | markdownify }}
+            </div>
+            <a href="{{item.cta-url}}" target="_blank" rel="noopener noreferrer"
+              class="w-100 btn btn-lg btn-primary fw-bold">{{item.cta}}</a>
+          </div>
+        </div>
+      </div>
+      {% elsif item.state == "inactive" %}
+
+      <div class="col">
+        <div class="card mb-4 border box-inactive">
+          <div class="card-header py-3">
+            <img class="mb-2" src="{{ site.baseurl }}/img/assets/icon-inactive.svg" alt="" />
+            <h3 class="my-0 fw-normal fs-5">{{item.title}}</h3>
+          </div>
+          <div class="card-body">
+            <h4 class="display-6 fw-bold">{{item.price}}</h4>
+            <p class="fs-5">{{item.date}}</p>
+            <div class="description-ticket">
+              {{item.description | markdownify }}
+            </div>
+            <a href="{{item.cta-url}}" target="_blank" rel="noopener noreferrer"
+              class="w-100 btn btn-lg btn-primary disabled" role="button" aria-disabled="true" role="button"
+              aria-disabled="true">{{item.cta}}</a>
+          </div>
+        </div>
+      </div>
+      {% endif %} {% endfor %}
+    </div>
+    <div class="row mt-5 mb-5">
+      <div class="col">
+        <div class="card border box-active">
+          <div class="card-header py-3 text-center">
+            <img class="mb-2" src="{{ site.baseurl }}/img/assets/icon-inactive.svg" alt="" />
+            <h3 class="my-0 fw-bold fs-4">Group Discount Options</h3>
+          </div>
+          <div class="card-body">
+            <p class="fs-5 text-center">
+              For more information about the available group discount options,
+              email the Scala Days team.
+            </p>
+            <div class="d-flex justify-content-center align-items-center">
+              <a class="btn btn-primary btn-lg" href="mailto:info@scaladays.org">info@scaladays.org</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
