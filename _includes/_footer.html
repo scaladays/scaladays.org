@@ -1,0 +1,24 @@
+<footer id="site-footer" class="py-5 text-white">
+    <div class="container">
+        <div class="row">
+            <div class="footer-brand col-md-5 mb-4 mb-sm-0">
+                <img class="mb-2" src="{{ site.baseurl }}/{{ site.data.conference.scaladays-brand }}" alt="">
+                <p>For information about corporate sponsorship packages or general inquiries, please email:  <a class="text-white" href="mailto:info@scaladays.org">info@scaladays.org</a></p>
+            </div>
+            <div class="footer-social col-md-3 offset-md-4">
+               <ul class="d-flex justify-content-md-end list-unstyled my-2">
+                {% for item in site.data.conference.footer-social %}
+                <li class="me-2">
+                    <a class="" href="{{item.socialUrl}}" target="_blank" rel="noopener noreferrer"><img src="{{ site.baseurl }}/{{item.socialIcon}}" alt="test">
+                    </a>
+                </li>
+                {% endfor %}
+               </ul>
+               <p class="text-md-end"><a class="text-white me-2" href="{{ site.baseurl }}/code-of-conduct/">Code of conduct</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+{% include _modal.html %}

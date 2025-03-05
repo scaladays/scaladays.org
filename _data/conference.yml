@@ -1,0 +1,244 @@
+# Scala Days brand
+# ----------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------
+scaladays-brand: img/assets/scala-days-brand.svg
+
+# Editions
+# ----------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------
+edition:
+  - name: 2025
+    conferenceDate: August 19th - 21th
+
+  - name: Seattle
+    workshopDate: June 4th - 5th
+    conferenceDate: June 5th - 7th
+
+  - name: Madrid
+    workshopDate: Sept 11th - 12th
+    conferenceDate: Sept 12th - 14th
+
+# Countdown
+# ----------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------
+countdown-day: Days
+countdown-minutes: Minutes
+countdown-second: Second
+
+countdown-title: Bringing Scala Days in...
+
+subscribe-cta: Subscribe for Updates
+
+# About
+# ----------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------
+about-subtitle: About Scala Days
+about-title: Spirit of Scala Days 2025
+about-description: |
+  {: .lead}
+  Scala Days brings developers from around the globe to share their experiences and new ideas around creating applications with Scala and related technologies, like Spark, Kafka, and Akka. Scala Days provides a unique opportunity for Scala users to interact with the contributors to the language and related technologies and connect with fellow developers.
+
+  {: .lead}
+  Leaders from Scala User Groups and global communities, students, and language contributors will gather to discuss academic research, use cases, and visionary projects for a two-day, action-packed event.
+
+testimonials-subtitle: Opinions Matter
+testimonials-title: Attendee Testimonials
+
+testimonials:
+  - icon: img/assets/icon-quote.svg
+    description: Scala Days 2023 has been terrific, from the organization to the talks. I am really happy to see that the community is coming back together with a clear plan for the future. 
+    
+  - icon: img/assets/icon-quote.svg
+    description: Scala Days was by far the best conference I've ever been to. With lots of inspiring people and talks, this is an event you want to attend!
+
+  - icon: img/assets/icon-quote.svg
+    description: I'm so happy that Scala Days is back and meeting so many wonderful people in person! 
+
+  - icon: img/assets/icon-quote.svg
+    description: I loved seeing new and familiar faces at the conference, exchanging notes, ideas, and our passion for Scala. 
+
+  - icon: img/assets/icon-quote.svg
+    description: Scala Days 2023 was a great community and learning event. 
+
+  - icon: img/assets/icon-quote.svg
+    description: It's a great way to discover the Scala community. 
+
+  - icon: img/assets/icon-quote.svg
+    description: I just loved it. I feel uplifted and lucky to be part of such a community. 
+
+
+about:
+  - icon: img/assets/icon-editions.svg
+    title: Lake Geneva
+    description: Enjoy some extra time sightseeing and relaxing by the magnificent Alps.
+
+  - icon: img/assets/icon-workshops.svg
+    title: Business-driven
+    description: Scala Days it’s where the future of Scala business takes shape.
+
+  - icon: img/assets/icon-networking.svg
+    title: Community
+    description: Bringing the community together to learn, share, and contribute.
+
+  - icon: img/assets/icon-community.svg
+    title: Family-friendly
+    description: Daycare will be available at the venue. Bring your family along! 
+
+host:
+  - name: Xebia Functional
+    logo: img/assets/xebia-logo.svg
+    url: https://xebia.com/
+
+  - name: Scalacenter
+    logo: img/assets/scalacenter-logo.svg
+    url: https://scala.epfl.ch/
+
+# Featured
+# ----------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------
+feature:
+  - image: img/assets/madrid/feature-madrid-01.jpg
+    subtitle: The city
+    title: Lausanne, Switzerland
+    description: Workshops and other co-located events will take place the week of the conference, starting on August 18. Why not seize the opportunity and stay a full week in Lausanne to get the most out of your trip? And maybe even enjoy some extra time sightseeing and relaxing by Lake Geneva (Lac Léman), overlooked by the magnificent Alps?
+
+  - image: img/assets/madrid/feature-madrid-02.jpg
+    subtitle: EPFL
+    title: Venue
+    description: Scala Days will be taking place in Scala’s sunny hometown of Lausanne, Switzerland, 19–21 August 2025. The conference is organised by the Scala Center at the SwissTech Convention Center, in the heart of campus at EPFL (École Polytechnique Fédérale de Lausanne).
+    href: /the-venue
+
+  - image: img/assets/madrid/feature-madrid-03.jpg
+    subtitle: Courses
+    title: Training Opportunities
+    description: Scala Days hosts two days of paid training courses on various topics. These intensive workshops are a separate ticket, and limited space is available. Workshops will conclude before the opening keynote.
+    href: /workshops
+
+footer-social:
+  - socialIcon: img/assets/icon-mastodon.svg
+    socialUrl: https://mastodon.social/@scaladays
+
+  - socialIcon: img/assets/icon-bsky.svg
+    socialUrl: https://bsky.app/profile/scaladays.org
+
+  - socialIcon: img/assets/icon-discord.svg
+    socialUrl: https://discord.com/invite/scala
+
+  - socialIcon: img/assets/icon-linkedin-white.svg
+    socialUrl: https://www.linkedin.com/company/scala-center
+
+  - socialIcon: img/assets/icon-youtube.svg
+    socialUrl: https://www.youtube.com/c/ScalaDaysConferences
+
+# Speakers
+# ----------------------------------------------------------------------------------------------------------
+speakers-title: Speakers
+speakers-subtitle: Experts
+speakers-cta: Speakers lineup
+speakers-description: Our growing lineup of speakers consists of many figures in the Scala community representing some of the awesome technologies advancing the field today.
+# Sponsors
+# ----------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------
+sponsors-title: Sponsors
+sponsors-subtitle: Opportunities
+sponsors-description: Represent your company in front of hundreds of attendees and top experts at Scala Days. Email our team at <a href="mailto:info@scaladays.org">info@scaladays.org</a> or fill out the Sponsor Information form to receive more information today!
+
+sponsors:
+  - type: Platinum
+    icon: img/assets/icon-platinum.svg
+    sponsor-list:
+      - title: Signify Technology
+        logo: img/assets/seattle/sponsors/signify-logo.svg
+        url: https://www.signifytechnology.com
+        edition: [Seattle, Madrid]
+      - title: Lunatech
+        logo: img/assets/madrid/sponsors/lunatech-logo.svg
+        url: https://lunatech.com/
+        edition: [Madrid]
+
+  - type: Gold
+    icon: img/assets/icon-gold.svg
+    sponsor-list:
+      - title: Databricks
+        logo: img/assets/madrid/sponsors/databricks-logo.svg
+        url: https://www.databricks.com/
+        edition: [Seattle, Madrid]
+      - title: Sourcegraph
+        logo: img/assets/seattle/sponsors/sourcegraph-logo.svg
+        url: https://sourcegraph.com/search
+        edition: [Seattle]
+      - title: VirtusLab
+        logo: img/assets/sponsors/virtuslab-logo.svg
+        url: https://www.virtuslab.com/
+        edition: [Seattle, Madrid]
+      - title: JetBrains
+        logo: img/assets/sponsors/JetBrains.svg
+        url: https://www.jetbrains.com/
+        edition: [Madrid]
+
+  - type: Silver
+    icon: img/assets/icon-silver.svg
+    sponsor-list:
+      - title: Kalix
+        logo: img/assets/sponsors/kalix-logo.svg
+        url: https://www.kalix.io/
+        edition: [Seattle, Madrid]
+      - title: MOIA
+        logo: img/assets/madrid/sponsors/moia-logo.svg
+        url: https://www.moia.io/
+        edition: [Madrid]
+
+  - type: Bronze
+    icon: img/assets/icon-bronze.svg
+    sponsor-list:
+      - title: Expedia
+        logo: img/assets/sponsors/expedia-group-logo.svg
+        url: https://expediagroup.com/home/
+        edition: [Seattle]
+
+  - type: Media
+    icon: img/assets/icon-media.svg
+    sponsor-list:
+      - title: Manning Publications
+        logo: img/assets/sponsors/manning-logo.svg
+        url: https://www.manning.com/
+        edition: [Seattle, Madrid]
+
+# Subscribe
+# ----------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------
+subscribe-title: Join our conference
+subscribe-subtitle: Subscribe
+subscribe-description: Subscribe and follow <a href="https://bsky.app/profile/scaladays.org" target="_blank" rel="noopener noreferrer">@ScalaDays</a> on BlueSky for the latest conference updates.
+
+# The venue
+# ----------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------
+
+the-venue:
+  - icon: img/assets/icon-about-location.svg
+    title: Location
+    description: Scala Days Madrid is located around the Chamartín train station, in the northern part of Madrid's city center. The address is Calle de Agustín de Foxá, 40, 28036 Madrid.
+  - icon: img/assets/icon-airport.svg
+    title: The Airport
+    description: Adolfo Suárez Madrid–Barajas Airport (MAD), or more commonly referred to as Madrid–Barajas Airport, is Spain’s largest airport and Europe’s second-largest behind Paris–Charles de Gaulle. Madrid-Barajas has four passenger terminals and is 12 kilometers from Madrid’s city center.
+  - icon: img/assets/icon-city.svg
+    title: The city
+    description: While in the city, explore more of Madrid! Madrid is the home to the oldest operating restaurant, some of the world's best museums, and is one of the world's greenest cities with expansive, green parks.
+
+the-venue-hero-description: The conference is organised by the Scala Center at the SwissTech Convention Center, in the heart of campus at EPFL (École Polytechnique Fédérale de Lausanne).
+the-venue-hero-cta: Learn more about the Venue
+
+the-venue-title: An awesome venue
+the-venue-subtitle: MEUU
+the-venue-description: MEEU is located at the Chamartín train station with state-of-the-art infrastructure and technology at the center of the Spanish capital's financial district. Its convenient location allows fast transportation to easily get anywhere in Madrid or the rest of Spain. The MEEU space is versatile and functional, with large outdoor areas. Along with its convenient location, MEEU is surrounded by great restaurants and hotels. You can find MEEU at Calle de Agustín de Foxá, 40, 28036 Madrid.
+the-venue-cta: Visit the website
+the-venue-url: https://www.meeu.es/
+the-venue-image: img/assets/madrid/the-venue-madrid.jpg
+
+
+# Sponsor
+# ----------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------
+sponsor-hero-description: Thanks for your interest in sponsorship opportunities for Scala Days.
+sponsor-hero-cta: Sponsorship Packages

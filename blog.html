@@ -1,0 +1,24 @@
+---
+layout: post-list
+title: Blog
+---
+
+<div class="row mt-5 pt-2">
+  {% for post in site.posts %}
+  <div class="col-lg-4 col-md-6 mb-4">
+    <div class="card h-100 shadow">
+      <a href="{{ post.url | relative_url}}">
+        <img src="{{ site.baseurl }}/{{ post.image }}" class="card-img-top" alt="...">
+      </a>
+      
+      <div class="card-body">
+        <span class="badge text-bg-light mb-2">{{ post.tag }}</span>
+        <h5>{{ post.title }}</h5>
+        <p class="date my-2">{{ post.date | date_to_string: "ordinal", "US" }}</p>
+        <div class="card-text fs-6 mb-4">{{ post.description | truncatewords: 18 }}</div>
+        <a class="btn btn-primary" href="{{ post.url | relative_url}}">Read more</a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

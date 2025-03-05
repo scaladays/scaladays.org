@@ -1,0 +1,77 @@
+
+
+$path-to-fonts: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800&family=Roboto+Slab:wght@400&display=swap' !default;
+
+
+// Color
+$primary: #de3423 !default;
+$secondary: #087aac !default;
+$white:  #fff !default;
+$gray-900: #212529 !default;
+$scala-gray: #515151 !default;
+$black:    #000 !default;
+
+
+
+$spacer: 1rem !default;
+
+// Typography
+$font-family-sans-serif: "Inter", sans-serif !default;
+$font-size-base: 1rem !default;
+$headings-font-weight:        800 !default;
+
+$font-family-serif: 'Roboto Slab', serif;
+
+
+// Navbar
+$navbar-dark-color:                 $white !default;
+$navbar-dark-hover-color:           rgba($white, .75) !default;
+
+// Button
+$input-btn-padding-y-lg:      1rem !default;
+$input-btn-padding-x-lg:      2rem !default;
+$btn-border-width:   2px;
+
+// Border
+$border-radius:               0 !default;
+$border-radius-sm:            0 !default;
+$border-radius-lg:            0 !default;
+$border-radius-xl:            0 !default;
+$border-radius-2xl:           0 !default;
+
+
+
+// Box shadow
+$box-shadow:                  0 .4rem .9rem rgba($black, .07) !default;
+
+
+
+// Card
+
+$card-spacer-y:                     $spacer * 1.7 !default;
+$card-spacer-x:                     $spacer * 1.7 !default;
+$card-border-width:                 none !default;
+
+$offcanvas-horizontal-width:        312px;
+
+// List group
+
+// scss-docs-start list-group-variables
+
+$list-group-border-width:           none !default;
+$list-group-active-color:           $scala-gray !default;
+$list-group-active-bg:              none !default;
+$list-group-hover-bg:               none !default;
+$list-group-action-hover-color:     $gray-900 !default;
+$list-group-action-active-bg:        none !default;
+
+
+$enable-negative-margins: true !default;
+
+// Tables
+$table-cell-padding-y:        0.8rem !default;
+
+
+$transition-collapse:         height 0.7s ease;
+
+

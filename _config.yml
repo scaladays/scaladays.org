@@ -1,0 +1,38 @@
+title: Scala Days | The premier Scala conference
+name: Scala Days
+description: The premier Scala conference returns in 2025
+author: 
+keywords: scala, scala center
+url: "" 
+baseurl: ""
+email: "info@scaladays.org"
+twitter_username: "@scaladays"
+social_image: "/img/social-card.png"
+
+sass:
+    sass_dir: _sass
+    style: compressed
+    
+
+collections:
+  talks-2025:
+    output: true
+    permalink: /2025/:title
+    sort_by: time
+  workshops:
+    output: true
+    permalink: /workshops/:title
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: "talks-2025"
+    values:
+      layout: "schedule-detail"
+  - scope:
+      path: ""
+      type: "workshops"
+    values:
+      layout: "workshops-detail"
+
