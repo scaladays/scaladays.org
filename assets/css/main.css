@@ -83,6 +83,10 @@ footer p {
     justify-content: center;
   }
 
+  body::before {
+    background: url("../images/background-mobile.svg") center/cover no-repeat;
+  }
+
   .widget-section {
     max-width: 450px;
   }
