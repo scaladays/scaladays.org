@@ -212,29 +212,6 @@ subscribe-title: Join our conference
 subscribe-subtitle: Subscribe
 subscribe-description: Subscribe and follow <a href="https://bsky.app/profile/scaladays.org" target="_blank" rel="noopener noreferrer">@ScalaDays</a> on BlueSky for the latest conference updates.
 
-# Sightseeing
-# ----------------------------------------------------------------------------------------------------------
-# ----------------------------------------------------------------------------------------------------------
-sightseeing:
-  - icon: img/assets/icon-about-location.svg
-    title: Post-conference site-seeing
-    description: Scala Days Madrid is located around the Chamartín train station, in the northern part of Madrid's city center. The address is Calle de Agustín de Foxá, 40, 28036 Madrid.
-  - icon: img/assets/icon-airport.svg
-    title: The Airport
-    description: Adolfo Suárez Madrid–Barajas Airport (MAD), or more commonly referred to as Madrid–Barajas Airport, is Spain’s largest airport and Europe’s second-largest behind Paris–Charles de Gaulle. Madrid-Barajas has four passenger terminals and is 12 kilometers from Madrid’s city center.
-  - icon: img/assets/icon-city.svg
-    title: The city
-    description: While in the city, explore more of Madrid! Madrid is the home to the oldest operating restaurant, some of the world's best museums, and is one of the world's greenest cities with expansive, green parks.
-
-sightseeing-hero-description: While in the city, explore more of Lausanne!
-sightseeing-hero-cta: Learn more 
-
-sightseeing-title: Explore Lausanne!
-sightseeing-subtitle: Wine tasting
-sightseeing-description: Lausanne Tourisme is here to organise a fantastic wine tasting tour in the UNESCO World Heritage site of Lavaux near Lausanne, Friday 22nd August. This tour costs 55 CHF per person, and includes train ticket, guided tour, visit of a local winery with wine tasting.
-sightseeing-cta: Register now
-sightseeing-url: https://www.notareallink.ch/
-the-venue-image: img/assets/madrid/the-venue-madrid.jpg
 
 # The venue
 # -----------------------------------------------------------------------------------------------------------
@@ -259,7 +236,7 @@ the-venue-subtitle: Swissteck Convention Center
 the-venue-description: The SwissTech Convention Center (STCC) is located on the EPFL campus, featuring state-of-the-art infrastructure and technology at the heart of the Lake Geneva region's innovation hub. Its strategic location provides excellent connectivity, with easy access to Lausanne’s city center and nearby cities like Geneva. The STCC offers a versatile and functional space with modern facilities designed to accommodate a wide range of events. Along with its convenient location, the area surrounding the STCC features various restaurants, hotels, and leisure options. You can find the STCC at Route Louis-Favre 2, 1024 Ecublens.
 the-venue-cta: Visit the website
 the-venue-url: https://www.stcc.ch/
-the-venue-image: img/assets/madrid/the-venue-madrid.jpg
+the-venue-image: img/assets/madrid/the-venue-lausanne.jpg
 
 
 # Sponsor
