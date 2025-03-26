@@ -97,19 +97,19 @@ host:
 # ----------------------------------------------------------------------------------------------------------
 # ----------------------------------------------------------------------------------------------------------
 feature:
-  - image: img/assets/madrid/feature-madrid-01.jpg
+  - image: img/assets/madrid/feature-lausanne-01.jpg
     subtitle: The city
     title: Lausanne, Switzerland
     description: Workshops and other co-located events will take place the week of the conference, starting on August 18. Why not seize the opportunity and stay a full week in Lausanne to get the most out of your trip? And maybe even enjoy some extra time sightseeing and relaxing by Lake Geneva (Lac Léman), overlooked by the magnificent Alps?
     href: /sightseeing
 
-  - image: img/assets/madrid/feature-madrid-02.jpg
+  - image: img/assets/madrid/feature-lausanne-02.jpg
     subtitle: EPFL
     title: Venue
     description: Scala Days will be taking place in Scala’s sunny hometown of Lausanne, Switzerland, 19–21 August 2025. The conference is organised by the Scala Center at the SwissTech Convention Center, in the heart of campus at EPFL (École Polytechnique Fédérale de Lausanne).
     href: /the-venue
 
-  - image: img/assets/madrid/feature-madrid-03.jpg
+  - image: img/assets/madrid/feature-lausanne-03.png
     subtitle: Courses
     title: Training Opportunities
     description: Scala Days hosts two days of paid training courses on various topics. These intensive workshops are a separate ticket, and limited space is available. Workshops will conclude before the opening keynote.
