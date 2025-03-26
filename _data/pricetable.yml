@@ -1,8 +1,8 @@
-pricetable-subtitle: Pricetable
+pricetable-subtitle: Pricetable - Super Early Bird tickets are now on sale until April 4th. 
 pricetable-title: Scala Days 2025
 pricetable-description: |
   {: .lead}
-  Ticket price includes **30+ talks**, first access to talk recordings, meals during the conference, networking opportunities, and the community party.
+  Conference tickets give access to all scheduled sessions including lunch, coffee breaks, the welcome reception, and the community party. During your registration process, we ask you kindly to let us know if you will participate in surrounding social events, it helps us place orders and avoid wasting food. Exclusive and discounted tickets are available per demand for sponsors, group (5+) tickets, and awarded members. Please email info@scaladays.org for assistance. Students can directly buy discounted tickets by choosing the “Student - Conference” Ticket and providing a valid student ID is required. We also encourage individuals who have limited education budgets or otherwise are self-funded, joining from lower income countries, to reach out to the organizers, info@scaladays.org.
 
 pricetable-subtitle-workshops: Pricetable
 pricetable-title-workshops: Workshops
@@ -12,16 +12,49 @@ pricetable-description-workshops: |
 
 
 pricetable:
-  - title: Standard
+  - title: Conference
     state: active
-    price: €550
+    price: CHF 750
     description: |
       {: .list-unstyled}
-      - Keynotes and talks
+      - Access to all scheduled sessions
       - First access to talk recordings
       - Lunch during the conference and networking opportunities
       - Access to the community party day
-    date: + €115.50 VAT
+    date: Including VAT
+    cta: Buy now
+    cta-url: https://47deg.swoogo.com/scala-days-madrid/begin
+  
+  - title: Workshop
+    state: active
+    price: CHF 600
+    description: |
+      {: .list-unstyled}
+      - Intimate classroom setting
+      - Expert instruction
+      - Lunch and snacks
+    date: Including VAT
+    cta: Buy now
+    cta-url: https://47deg.swoogo.com/scala-days-madrid/begin
+
+  - title: Bundle
+    state: active
+    price: CHF 1200
+    description:description: |
+      {: .list-unstyled}
+      - Includes the content of Conference and Workshop tickets
+    date: Including VAT
+    cta: Buy now
+    cta-url: https://47deg.swoogo.com/scala-days-madrid/begin
+
+  - title: Student - Conference
+    state: active
+    price: CHF 400
+    description: |
+      {: .list-unstyled}
+      - Discounted ticket for students
+      - Valid student ID required
+    date: Including VAT
     cta: Buy now
     cta-url: https://47deg.swoogo.com/scala-days-madrid/begin
 
@@ -43,57 +76,17 @@ pricetable:
 pricetable-workshops:
   - title: |
       {: .mb-0}
-      Embedding of Domain-Specific Languages in Scala
+      Workshop ticket
 
-    workshop-id: embedding
+    workshop-id: workshop
 
     state: active
-    price1: €750
+    price1: CHF 600
     description: |
       {: .list-unstyled}
       - Intimate classroom setting
       - Expert instruction
       - Lunch and snacks
-      - [See workshop content](embedding-of-domain-specific-languages-in-scala)
 
     cta: Buy now
     cta-url: https://47deg.swoogo.com/scala-days-madrid/begin
-
-
-  - title: |
-      {: .mb-0}
-      Moving from Scala 2 to Scala 3
-
-    workshop-id: moving
-
-    state: active
-    price1: €750
-    description: |
-      {: .list-unstyled}
-      - Intimate classroom setting
-      - Expert instruction
-      - Meal and snacks
-      - [See workshop content](moving-from-scala-2-to-scala-3)
-
-    cta: Buy now
-    cta-url: https://47deg.swoogo.com/scala-days-madrid/begin
-
-
-  - title: |
-      {: .mb-0}
-      How to Build an Online Multiplayer Game with Scala 3, ScalaJS, and Kafka
-
-    workshop-id: game
-
-    state: active
-    price1: €750
-    description: |
-      {: .list-unstyled}
-      - Intimate classroom setting
-      - Expert instruction
-      - Meal and snacks
-      - [See workshop content](how-to-build-an-online-multiplayer-game-with-scala3-scalaJS-and-kafka)
-      
-    cta: Buy now
-    cta-url: https://47deg.swoogo.com/scala-days-madrid/begin
-    detail: cta
