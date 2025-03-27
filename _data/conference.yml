@@ -244,3 +244,29 @@ the-venue-image: img/assets/the-venue-lausanne.jpg
 # ----------------------------------------------------------------------------------------------------------
 sponsor-hero-description: Thanks for your interest in sponsorship opportunities for Scala Days.
 sponsor-hero-cta: Sponsorship Packages
+
+# Tickets
+# ----------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------
+tickets:
+  - icon: img/assets/icon-airport.svg
+    title: Visa/Invitation Letter
+    description: An invitation letter for your visa application procedure is available after completing the registration process.
+  - icon: img/assets/icon-airport.svg
+    title: Accompanying Persons
+    description: An accompanying person is an adult who travels with a conference attendee for the occasion but does not participate in the conference sessions or workshops. To ensure they too have fun, the Scala Days conference organizers are offering a special “Accompanying Person” ticket, which grants access to the welcome reception, community party, and lunches at the conference venue during the event. Additionally, the ticket includes a curated daytime program featuring activities such as a guided tour of Lausanne and a chocolate tasting experience. The cost for an accompanying person is CHF 400 and can be added to your booking during the registration process.
+  - icon: img/assets/icon-airport.svg
+    title: Daycare
+    description: If you are attending with a child (or children), daycare on site will be available and can be added to your booking during the registration process.
+  - icon: img/assets/icon-about-location.svg
+    title: Post-conference site-seeing
+    description: Lausanne Tourisme is here to organise a fantastic wine tasting tour in the UNESCO World Heritage site of Lavaux near Lausanne, Friday 22nd August. This tour costs 55 CHF per person, and includes train ticket, guided tour, visit of a local winery with wine tasting. Places are limited and will be allocated on a first-come, first-served basis. 
+
+ticket-hero-description: Book your ticket now!
+ticket-hero-cta: Browse ticket options
+
+
+# Pricetable
+# ----------------------------------------------------------------------------------------------------------
+pricetable-title: Pricetable
+pricetable-subtitle: Available tickets
