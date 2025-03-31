@@ -97,18 +97,19 @@ host:
 # ----------------------------------------------------------------------------------------------------------
 # ----------------------------------------------------------------------------------------------------------
 feature:
-  - image: img/assets/madrid/feature-madrid-01.jpg
+  - image: img/assets/madrid/feature-lausanne-01.jpg
     subtitle: The city
     title: Lausanne, Switzerland
     description: Workshops and other co-located events will take place the week of the conference, starting on August 18. Why not seize the opportunity and stay a full week in Lausanne to get the most out of your trip? And maybe even enjoy some extra time sightseeing and relaxing by Lake Geneva (Lac Léman), overlooked by the magnificent Alps?
+    href: /sightseeing
 
-  - image: img/assets/madrid/feature-madrid-02.jpg
+  - image: img/assets/madrid/feature-lausanne-02.jpg
     subtitle: EPFL
     title: Venue
     description: Scala Days will be taking place in Scala’s sunny hometown of Lausanne, Switzerland, 19–21 August 2025. The conference is organised by the Scala Center at the SwissTech Convention Center, in the heart of campus at EPFL (École Polytechnique Fédérale de Lausanne).
     href: /the-venue
 
-  - image: img/assets/madrid/feature-madrid-03.jpg
+  - image: img/assets/madrid/feature-lausanne-03.png
     subtitle: Courses
     title: Training Opportunities
     description: Scala Days hosts two days of paid training courses on various topics. These intensive workshops are a separate ticket, and limited space is available. Workshops will conclude before the opening keynote.
@@ -211,30 +212,31 @@ subscribe-title: Join our conference
 subscribe-subtitle: Subscribe
 subscribe-description: Subscribe and follow <a href="https://bsky.app/profile/scaladays.org" target="_blank" rel="noopener noreferrer">@ScalaDays</a> on BlueSky for the latest conference updates.
 
+
 # The venue
-# ----------------------------------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------------------------------
 # ----------------------------------------------------------------------------------------------------------
 
 the-venue:
   - icon: img/assets/icon-about-location.svg
     title: Location
-    description: Scala Days Madrid is located around the Chamartín train station, in the northern part of Madrid's city center. The address is Calle de Agustín de Foxá, 40, 28036 Madrid.
+    description: Scala Days Lausanne is located at the SwissTech Convention Center (STCC), situated on the EPFL campus in the western part of Lausanne. The address is Route Louis-Favre 2, 1024 Ecublens.
   - icon: img/assets/icon-airport.svg
     title: The Airport
-    description: Adolfo Suárez Madrid–Barajas Airport (MAD), or more commonly referred to as Madrid–Barajas Airport, is Spain’s largest airport and Europe’s second-largest behind Paris–Charles de Gaulle. Madrid-Barajas has four passenger terminals and is 12 kilometers from Madrid’s city center.
+    description: Switzerland is served by three major international airports: Zurich Airport (ZRH), Geneva Airport (GVA), and Basel-Mulhouse Airport (BSL/MLH/EAP). Zurich Airport, the country’s busiest and a major European hub, is located about 13 kilometers from Zurich’s city center and approximately 230 kilometers northeast of Lausanne. Geneva Airport, also known as Genève-Cointrin Airport, is Switzerland’s second-busiest airport, situated just 4 kilometers from Geneva’s city center and around 60 kilometers southwest of Lausanne. Basel-Mulhouse Airport, uniquely positioned near the borders of Switzerland, France, and Germany, lies about 6 kilometers from Basel and roughly 200 kilometers northwest of Lausanne, making it a viable option for travelers in the region.
   - icon: img/assets/icon-city.svg
     title: The city
-    description: While in the city, explore more of Madrid! Madrid is the home to the oldest operating restaurant, some of the world's best museums, and is one of the world's greenest cities with expansive, green parks.
+    description: While in the city, explore more of Lausanne! Lausanne is home to the Olympic Museum, offers stunning views of Lake Geneva, and is known for its vibrant cultural scene and beautiful parks, making it one of Switzerland's most picturesque cities.
 
 the-venue-hero-description: The conference is organised by the Scala Center at the SwissTech Convention Center, in the heart of campus at EPFL (École Polytechnique Fédérale de Lausanne).
 the-venue-hero-cta: Learn more about the Venue
 
 the-venue-title: An awesome venue
-the-venue-subtitle: MEUU
-the-venue-description: MEEU is located at the Chamartín train station with state-of-the-art infrastructure and technology at the center of the Spanish capital's financial district. Its convenient location allows fast transportation to easily get anywhere in Madrid or the rest of Spain. The MEEU space is versatile and functional, with large outdoor areas. Along with its convenient location, MEEU is surrounded by great restaurants and hotels. You can find MEEU at Calle de Agustín de Foxá, 40, 28036 Madrid.
+the-venue-subtitle: Swisstech Convention Center
+the-venue-description: The SwissTech Convention Center (STCC) is located on the EPFL campus, featuring state-of-the-art infrastructure and technology at the heart of the Lake Geneva region's innovation hub. Its strategic location provides excellent connectivity, with easy access to Lausanne’s city center and nearby cities like Geneva. The STCC offers a versatile and functional space with modern facilities designed to accommodate a wide range of events. Along with its convenient location, the area surrounding the STCC features various restaurants, hotels, and leisure options. You can find the STCC at Route Louis-Favre 2, 1024 Ecublens.
 the-venue-cta: Visit the website
-the-venue-url: https://www.meeu.es/
-the-venue-image: img/assets/madrid/the-venue-madrid.jpg
+the-venue-url: https://www.stcc.ch/
+the-venue-image: img/assets/the-venue-lausanne.jpg
 
 
 # Sponsor
@@ -242,3 +244,29 @@ the-venue-image: img/assets/madrid/the-venue-madrid.jpg
 # ----------------------------------------------------------------------------------------------------------
 sponsor-hero-description: Thanks for your interest in sponsorship opportunities for Scala Days.
 sponsor-hero-cta: Sponsorship Packages
+
+# Tickets
+# ----------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------
+tickets:
+  - icon: img/assets/icon-airport.svg
+    title: Visa/Invitation Letter
+    description: An invitation letter for your visa application procedure is available after completing the registration process.
+  - icon: img/assets/icon-airport.svg
+    title: Accompanying Persons
+    description: An accompanying person is an adult who travels with a conference attendee for the occasion but does not participate in the conference sessions or workshops. To ensure they too have fun, the Scala Days conference organizers are offering a special “Accompanying Person” ticket, which grants access to the welcome reception, community party, and lunches at the conference venue during the event. Additionally, the ticket includes a curated daytime program featuring activities such as a guided tour of Lausanne and a chocolate tasting experience. The cost for an accompanying person is CHF 400 and can be added to your booking during the registration process.
+  - icon: img/assets/icon-airport.svg
+    title: Daycare
+    description: If you are attending with a child (or children), daycare on site will be available and can be added to your booking during the registration process.
+  - icon: img/assets/icon-about-location.svg
+    title: Post-conference site-seeing
+    description: Lausanne Tourisme is here to organise a fantastic wine tasting tour in the UNESCO World Heritage site of Lavaux near Lausanne, Friday 22nd August. This tour costs 55 CHF per person, and includes train ticket, guided tour, visit of a local winery with wine tasting. Places are limited and will be allocated on a first-come, first-served basis. 
+
+ticket-hero-description: Book your ticket now!
+ticket-hero-cta: Browse ticket options
+
+
+# Pricetable
+# ----------------------------------------------------------------------------------------------------------
+pricetable-title: Pricetable
+pricetable-subtitle: Available tickets
