@@ -2,13 +2,13 @@ pricetable-subtitle: Pricetable - Super Early Bird tickets are now on sale until
 pricetable-title: Scala Days 2025
 pricetable-description: |
   {: .lead}
-  Conference tickets give access to all scheduled sessions including lunch, coffee breaks, the welcome reception, and the community party. During your registration process, we ask you kindly to let us know if you will participate in surrounding social events, it helps us place orders and avoid wasting food. Exclusive and discounted tickets are available per demand for sponsors, group (5+) tickets, and awarded members. Please email info@scaladays.org for assistance. Students can directly buy discounted tickets by choosing the “Student - Conference” Ticket and providing a valid student ID is required. We also encourage individuals who have limited education budgets or otherwise are self-funded, joining from lower income countries, to reach out to the organizers, info@scaladays.org.
+  Conference tickets give access to all scheduled sessions including lunch, coffee breaks, the welcome reception, and the community party. During your registration process, we ask you kindly to let us know if you will participate in surrounding social events, it helps us place orders and avoid wasting food. Exclusive and discounted tickets are available per demand for sponsors, group (5+) tickets, and awarded members. Please email info@scaladays.org for assistance. Students can directly buy discounted tickets by choosing the “Student - Conference” Ticket and providing a valid student ID is required. We also encourage individuals who have limited education budgets or otherwise are self-funded, joining from lower income countries to reach out to the organizers at info@scaladays.org.
 
 pricetable-subtitle-workshops: Pricetable
 pricetable-title-workshops: Workshops
 pricetable-description-workshops: |
   {: .lead}
-  All workshops are **2-day (16 hour)** courses and will be offered in **Seattle (4-5 June)** and in **Madrid (11-12 September)**. Each workshop will take place from 9:00 am to 5:00 pm. All workshops require a minimum of 9 participants to run.
+  All workshops are **2-day (16 hour)** courses and will be offered on August 18 and 19. Each workshop will take place from 9:00 am to 5:00 pm. All workshops require a minimum of 9 participants to run.
 
 
 pricetable:
@@ -22,8 +22,8 @@ pricetable:
       - Lunch during the conference and networking opportunities
       - Access to the community party day
     date: Including VAT
-    cta: Buy now
-    cta-url: https://47deg.swoogo.com/scala-days-madrid/begin
+    cta: Register now
+    cta-url: https://register.event-works.com/lausanne/Scaladays2025/e/lk/k/
   
   - title: Workshop
     state: active
@@ -34,8 +34,8 @@ pricetable:
       - Expert instruction
       - Lunch and snacks
     date: Including VAT
-    cta: Buy now
-    cta-url: https://47deg.swoogo.com/scala-days-madrid/begin
+    cta: Register now
+    cta-url: https://register.event-works.com/lausanne/Scaladays2025/e/lk/k/
 
   - title: Bundle
     state: active
@@ -44,10 +44,10 @@ pricetable:
       {: .list-unstyled}
       - Includes the content of Conference and Workshop tickets
     date: Including VAT
-    cta: Buy now
-    cta-url: https://47deg.swoogo.com/scala-days-madrid/begin
+    cta: Register now
+    cta-url: https://register.event-works.com/lausanne/Scaladays2025/e/lk/k/
 
-  - title: Student - Conference
+  - title: Student - Conference Only
     state: active
     price: CHF 400
     description: |
@@ -55,21 +55,20 @@ pricetable:
       - Discounted ticket for students
       - Valid student ID required
     date: Including VAT
-    cta: Buy now
-    cta-url: https://47deg.swoogo.com/scala-days-madrid/begin
+    cta: Register now
+    cta-url: https://register.event-works.com/lausanne/Scaladays2025/e/lk/k/
 
-  - title: Scholarship
+  - title: One-Day Conference
     state: active
-    price: No Cost
+    price: Email for more information
     description: |
       {: .list-unstyled}
-      - Our commitment to making Scala Days more inclusive
-      - For those facing financial hardship
-      - Students, underrepresented, etc.
-      - All applications are subject to review
-    date: Limited Availability
-    cta: Apply Today
-    cta-url: https://xebiafunctional.typeform.com/to/BJzHuOsQ
+      - Access to all scheduled sessions
+      - First access to talk recordings
+      - Lunch during the conference and networking opportunities
+    date: Including VAT
+    cta: Register now
+    cta-url: https://register.event-works.com/lausanne/Scaladays2025/e/lk/k/
 
 
 
@@ -87,6 +86,6 @@ pricetable-workshops:
       - Intimate classroom setting
       - Expert instruction
       - Lunch and snacks
-
-    cta: Buy now
-    cta-url: https://47deg.swoogo.com/scala-days-madrid/begin
+    date: Including VAT
+    cta: Register now
+    cta-url: https://register.event-works.com/lausanne/Scaladays2025/e/lk/k/
