@@ -7,7 +7,7 @@
     section: hero
 
   - title: Sponsors
-    url: "/#sponsors"
+    url: "/sponsorships"
     nav: nav
     wip: false
 
