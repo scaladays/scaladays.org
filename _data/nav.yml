@@ -21,7 +21,7 @@
     nav: nav
     wip: false
 
- - title: Blog
+ - title: 
     url: /blog
     nav: nav
     wip: true
@@ -31,7 +31,7 @@
     nav: nav
     wip: true
 
-  - title: Speakers
+  - title: 
     url: /speakers
     nav: nav
     wip: true
