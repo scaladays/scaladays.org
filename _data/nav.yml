@@ -17,7 +17,7 @@
     wip: true
 
   - title: Venue
-    url: /venue
+    url: /the-venue
     nav: nav
     wip: false
 
