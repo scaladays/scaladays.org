@@ -103,7 +103,7 @@ feature:
     subtitle: EPFL
     title: Venue
     description: Scala Days will be taking place in Scala’s sunny hometown of Lausanne, Switzerland, August 19-21, 2025. The conference is organised by the Scala Center at the SwissTech Convention Center, in the heart of campus at EPFL (École Polytechnique Fédérale de Lausanne).
-    href: /venue
+    href: /the-venue
 
   - image: img/assets/madrid/feature-lausanne-03.png
     subtitle: Courses
@@ -193,7 +193,7 @@ subscribe-description: Subscribe and follow <a href="https://bsky.app/profile/sc
 # -----------------------------------------------------------------------------------------------------------
 # ----------------------------------------------------------------------------------------------------------
 
-venue:
+the-venue:
   - icon: img/assets/icon-about-location.svg
     title: Location
     description: Scala Days Lausanne is located at the SwissTech Convention Center (STCC), situated on the EPFL campus in the western part of Lausanne. The address is Route Louis-Favre 2, 1024 Ecublens.
@@ -204,15 +204,15 @@ venue:
     title: The city
     description: While in the city, explore more of Lausanne! Lausanne is home to the Olympic Museum, offers stunning views of Lake Geneva, and is known for its vibrant cultural scene and beautiful parks, making it one of Switzerland's most picturesque cities.
 
-venue-hero-description: The conference is organised by the Scala Center at the SwissTech Convention Center, in the heart of campus at EPFL (École Polytechnique Fédérale de Lausanne).
-venue-hero-cta: Learn more about the Venue
+the-venue-hero-description: The conference is organised by the Scala Center at the SwissTech Convention Center, in the heart of campus at EPFL (École Polytechnique Fédérale de Lausanne).
+the-venue-hero-cta: Learn more about the Venue
 
-venue-title: An awesome venue
-venue-subtitle: Swisstech Convention Center
-venue-description: The SwissTech Convention Center (STCC) is located on the EPFL campus, featuring state-of-the-art infrastructure and technology at the heart of the Lake Geneva region's innovation hub. Its strategic location provides excellent connectivity, with easy access to Lausanne’s city center and nearby cities like Geneva. The STCC offers a versatile and functional space with modern facilities designed to accommodate a wide range of events. Along with its convenient location, the area surrounding the STCC features various restaurants, hotels, and leisure options. You can find the STCC at Route Louis-Favre 2, 1024 Ecublens.
-venue-cta: Visit the website
-venue-url: https://www.stcc.ch/
-venue-image: img/assets/the-venue-lausanne.jpg
+the-venue-title: An awesome venue
+the-venue-subtitle: Swisstech Convention Center
+the-venue-description: The SwissTech Convention Center (STCC) is located on the EPFL campus, featuring state-of-the-art infrastructure and technology at the heart of the Lake Geneva region's innovation hub. Its strategic location provides excellent connectivity, with easy access to Lausanne’s city center and nearby cities like Geneva. The STCC offers a versatile and functional space with modern facilities designed to accommodate a wide range of events. Along with its convenient location, the area surrounding the STCC features various restaurants, hotels, and leisure options. You can find the STCC at Route Louis-Favre 2, 1024 Ecublens.
+the-venue-cta: Visit the website
+the-venue-url: https://www.stcc.ch/
+the-venue-image: img/assets/the-venue-lausanne.jpg
 
 
 # Sponsor
