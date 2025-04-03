@@ -11,10 +11,10 @@
     nav: nav
     wip: false
 
-  - title: Workshops
+  - title: 
     url: /workshop
     nav: nav
-    wip: true
+    wip: false
 
   - title: Venue
     url: /the-venue
@@ -24,7 +24,7 @@
  - title: 
     url: /blog
     nav: nav
-    wip: true
+    wip: false
     
   - title: Schedule
     url: /schedule
@@ -34,7 +34,7 @@
   - title: 
     url: /speakers
     nav: nav
-    wip: true
+    wip: false
 
   - title: 
     title-large: Become a Sponsor
