@@ -31,8 +31,6 @@ The code of conduct is subject to change without notice.
 
 If you are being harassed, notice that someone else is being harassed, please contact one of the following members or any nearby conference staff immediately.
 
-- **Maureen Elsberry** [maureen.elsberry@47deg.com](mailto:maureen.elsberry)
-- **Jorge Galindo** [jorge@47deg.com](mailto:jorge@47deg.com)
 - **Darja Jovanovic** [darja.jovanovic@epfl.ch](mailto:darja.jovanovic@epfl.ch)
 
 The text part of this policy is licensed under the Creative Commons Zero license. A similar code of conduct has been adopted by Scala Matsuri, PNW Scala, NE Scala, and Reactive Summit to provide a harassment-free conference. We also support the cause.

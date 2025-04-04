@@ -85,10 +85,6 @@ about:
     description: Daycare will be available at the venue. Bring your family along! 
 
 host:
-  - name: Xebia Functional
-    logo: img/assets/xebia-logo.svg
-    url: https://xebia.com/
-
   - name: Scalacenter
     logo: img/assets/scalacenter-logo.svg
     url: https://scala.epfl.ch/
@@ -101,12 +97,12 @@ feature:
     subtitle: The city
     title: Lausanne, Switzerland
     description: Workshops and other co-located events will take place the week of the conference, starting on August 18. Why not seize the opportunity and stay a full week in Lausanne to get the most out of your trip? And maybe even enjoy some extra time sightseeing and relaxing by Lake Geneva (Lac Léman), overlooked by the magnificent Alps?
-    href: /sightseeing
+    href: /the-venue
 
   - image: img/assets/madrid/feature-lausanne-02.jpg
     subtitle: EPFL
     title: Venue
-    description: Scala Days will be taking place in Scala’s sunny hometown of Lausanne, Switzerland, 19–21 August 2025. The conference is organised by the Scala Center at the SwissTech Convention Center, in the heart of campus at EPFL (École Polytechnique Fédérale de Lausanne).
+    description: Scala Days will be taking place in Scala’s sunny hometown of Lausanne, Switzerland, August 19-21, 2025. The conference is organised by the Scala Center at the SwissTech Convention Center, in the heart of campus at EPFL (École Polytechnique Fédérale de Lausanne).
     href: /the-venue
 
   - image: img/assets/madrid/feature-lausanne-03.png
@@ -148,62 +144,42 @@ sponsors:
   - type: Platinum
     icon: img/assets/icon-platinum.svg
     sponsor-list:
-      - title: Signify Technology
-        logo: img/assets/seattle/sponsors/signify-logo.svg
-        url: https://www.signifytechnology.com
-        edition: [Seattle, Madrid]
-      - title: Lunatech
-        logo: img/assets/madrid/sponsors/lunatech-logo.svg
-        url: https://lunatech.com/
-        edition: [Madrid]
-
+      - title: 
+        logo: 
+        url: 
+        edition:
+  
   - type: Gold
     icon: img/assets/icon-gold.svg
     sponsor-list:
-      - title: Databricks
-        logo: img/assets/madrid/sponsors/databricks-logo.svg
-        url: https://www.databricks.com/
-        edition: [Seattle, Madrid]
-      - title: Sourcegraph
-        logo: img/assets/seattle/sponsors/sourcegraph-logo.svg
-        url: https://sourcegraph.com/search
-        edition: [Seattle]
-      - title: VirtusLab
-        logo: img/assets/sponsors/virtuslab-logo.svg
-        url: https://www.virtuslab.com/
-        edition: [Seattle, Madrid]
-      - title: JetBrains
-        logo: img/assets/sponsors/JetBrains.svg
-        url: https://www.jetbrains.com/
-        edition: [Madrid]
+      - title: 
+        logo: 
+        url: 
+        edition:
 
   - type: Silver
     icon: img/assets/icon-silver.svg
     sponsor-list:
-      - title: Kalix
-        logo: img/assets/sponsors/kalix-logo.svg
-        url: https://www.kalix.io/
-        edition: [Seattle, Madrid]
-      - title: MOIA
-        logo: img/assets/madrid/sponsors/moia-logo.svg
-        url: https://www.moia.io/
-        edition: [Madrid]
+      - title: 
+        logo: 
+        url: 
+        edition:
 
   - type: Bronze
     icon: img/assets/icon-bronze.svg
     sponsor-list:
-      - title: Expedia
-        logo: img/assets/sponsors/expedia-group-logo.svg
-        url: https://expediagroup.com/home/
-        edition: [Seattle]
-
+      - title: 
+        logo: 
+        url: 
+        edition:
+        
   - type: Media
     icon: img/assets/icon-media.svg
     sponsor-list:
-      - title: Manning Publications
-        logo: img/assets/sponsors/manning-logo.svg
-        url: https://www.manning.com/
-        edition: [Seattle, Madrid]
+     - title: 
+        logo: 
+        url: 
+        edition:
 
 # Subscribe
 # ----------------------------------------------------------------------------------------------------------
@@ -220,20 +196,20 @@ subscribe-description: Subscribe and follow <a href="https://bsky.app/profile/sc
 the-venue:
   - icon: img/assets/icon-about-location.svg
     title: Location
-    description: Scala Days Lausanne is located at the SwissTech Convention Center (STCC), situated on the EPFL campus in the western part of Lausanne. The address is Route Louis-Favre 2, 1024 Ecublens.
+    description: STCC is situated on the EPFL campus in the western part of Lausanne. <br><br> With a large focus on sustainability, the STCC facilities are energy efficient with 100% of their energy coming from renewable sources, such as using water from Lake Geneva to cool the building, primarily using natural light, and making the windowpanes act as solar panels. Be prepared to be floored by a state-of-the-art experience as you connect in rooms specifically tailored to fit the needs of Scala Days attendees. 
   - icon: img/assets/icon-airport.svg
     title: The Airport
-    description: Geneva Airport (GVA), also known as Genève-Cointrin Airport, is Switzerland’s second-busiest airport behind Zurich. GVA offers two passenger terminals and is located approximately 4 kilometers from Geneva’s city center and around 60 kilometers from Lausanne.
+    description: Geneva Airport (GVA), also known as Genève-Cointrin Airport, is Switzerland’s second-busiest airport behind Zurich. GVA is located approximately 60 km from Lausanne and is connected to the city by both road and train. <br><br> While planning your travel, GVA isn't your only option! Lausanne may also be reached from Switzerland's other international airports such as Basel, Zurich, and Bern-Belp. Trains from major European cities such as Paris, Lyon, Frankfurt, Brussels, and Milan also arrive in Lausanne's train station on a regular basis. <br><br> Find more travel and access information on the <a href="https://www.lausanne-tourisme.ch/en/access-to-lausanne/">Lausanne Tourism website</a>. 
   - icon: img/assets/icon-city.svg
     title: The city
-    description: While in the city, explore more of Lausanne! Lausanne is home to the Olympic Museum, offers stunning views of Lake Geneva, and is known for its vibrant cultural scene and beautiful parks, making it one of Switzerland's most picturesque cities.
+    description: While in the city, explore more of Lausanne! Lausanne is home to the Olympic Museum, offers stunning views of Lake Geneva, and is known for its vibrant cultural scene and beautiful parks, making it one of Switzerland's most picturesque cities. Lausanne was also named the best small town in the world in the first "Small Cities Index." <br><br> The city is strategically located in the heart of Europe within Switzerland's French-speaking region, it is easily navigated with public transport, and combines all of the benefits of a large, urban center with the relaxed pace of a small town. What's more exciting, all hotel guests are offered a Lausanne transport card. This card provides free access to public transportation as well as discounts and free admission with selected partners.
 
 the-venue-hero-description: The conference is organised by the Scala Center at the SwissTech Convention Center, in the heart of campus at EPFL (École Polytechnique Fédérale de Lausanne).
 the-venue-hero-cta: Learn more about the Venue
 
 the-venue-title: An awesome venue
-the-venue-subtitle: Swisstech Convention Center
-the-venue-description: The SwissTech Convention Center (STCC) is located on the EPFL campus, featuring state-of-the-art infrastructure and technology at the heart of the Lake Geneva region's innovation hub. Its strategic location provides excellent connectivity, with easy access to Lausanne’s city center and nearby cities like Geneva. The STCC offers a versatile and functional space with modern facilities designed to accommodate a wide range of events. Along with its convenient location, the area surrounding the STCC features various restaurants, hotels, and leisure options. You can find the STCC at Route Louis-Favre 2, 1024 Ecublens.
+the-venue-subtitle: SwissTech Convention Center
+the-venue-description: The SwissTech Convention Center (STCC) is located on the EPFL campus, featuring state-of-the-art infrastructure and technology at the heart of the Lake Geneva region's innovation hub. Its strategic location provides excellent connectivity, with easy access to Lausanne’s city center and nearby cities like Geneva. The STCC offers a versatile and functional space with modern facilities designed to accommodate a wide range of events. Along with its convenient location, the area surrounding the STCC features various restaurants, hotels, and leisure options. <br><br> You can find the STCC at Route Louis-Favre 2, 1024 Ecublens.
 the-venue-cta: Visit the website
 the-venue-url: https://www.stcc.ch/
 the-venue-image: img/assets/the-venue-lausanne.jpg
@@ -249,6 +225,9 @@ sponsor-hero-cta: Sponsorship Packages
 # ----------------------------------------------------------------------------------------------------------
 # ----------------------------------------------------------------------------------------------------------
 tickets:
+  - icon: 
+    title: Each Ticket Includes
+    description: Conference tickets give access to all scheduled sessions including lunch, coffee breaks, the welcome reception, and the community party. During your registration process, we ask you kindly to let us know if you will participate in surrounding social events, it helps us place orders and avoid wasting food. <br><br> Exclusive and discounted tickets are available per demand for sponsors, group (5+) tickets, and awarded members. Please email info@scaladays.org for assistance. <br><br> Students can directly buy discounted tickets by choosing “Student - Conference” on the registration page, a valid student ID is required. <br><br> We also encourage individuals who have limited education budgets or otherwise are self-funded, joining from lower income countries, to reach out to the organizers, info@scaladays.org.
   - icon: img/assets/icon-airport.svg
     title: Visa/Invitation Letter
     description: An invitation letter for your visa application procedure is available after completing the registration process.
@@ -262,11 +241,11 @@ tickets:
     title: Post-conference site-seeing
     description: Lausanne Tourisme is here to organise a fantastic wine tasting tour in the UNESCO World Heritage site of Lavaux near Lausanne, Friday 22nd August. This tour costs 55 CHF per person, and includes train ticket, guided tour, visit of a local winery with wine tasting. Places are limited and will be allocated on a first-come, first-served basis. 
 
-ticket-hero-description: Book your ticket now!
+ticket-hero-description: Learn more and register to attend today!
 ticket-hero-cta: Browse ticket options
 
 
 # Pricetable
 # ----------------------------------------------------------------------------------------------------------
 pricetable-title: Pricetable
-pricetable-subtitle: Available tickets
+pricetable-subtitle: 

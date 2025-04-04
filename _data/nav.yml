@@ -1,43 +1,43 @@
 "2025":
-  - title: Schedule
-    url: /schedule
+  - title: Tickets
+    title-large: Learn More & Register Today
+    url: /tickets
+    id: tickets
     nav: nav
-    wip: false
-
-  - title: Speakers
-    url: /speakers
-    nav: nav
-    wip: false
+    section: hero
 
   - title: Sponsors
-    url: "/#sponsors"
+    url: "/sponsorships"
     nav: nav
-    wip: true
+    wip: false
+
+  - title: 
+    url: /workshop
+    nav: nav
+    wip: false
 
   - title: Venue
     url: /the-venue
     nav: nav
     wip: false
 
-  - title: Blog
+ - title: 
     url: /blog
     nav: nav
     wip: false
-
-  - title: Tickets
-    title-large: Buy tickets now
-    url: /tickets
-    id: tickets
-    nav: nav
-    section: hero
-
-  - title: Coming soon
-    url: /wip
+    
+  - title: Schedule
+    url: /schedule
     nav: nav
     wip: true
 
   - title: 
-    title-large: Become a sponsor
+    url: /speakers
+    nav: nav
+    wip: false
+
+  - title: 
+    title-large: Become a Sponsor
     url: /sponsorships
     section: hero
     id: sponsor
