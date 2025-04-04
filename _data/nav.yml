@@ -11,18 +11,8 @@
     nav: nav
     wip: false
 
-  - title: 
-    url: /workshop
-    nav: nav
-    wip: false
-
   - title: Venue
     url: /the-venue
-    nav: nav
-    wip: false
-
- - title: 
-    url: /blog
     nav: nav
     wip: false
     
@@ -30,18 +20,6 @@
     url: /schedule
     nav: nav
     wip: true
-
-  - title: 
-    url: /speakers
-    nav: nav
-    wip: false
-
-  - title: 
-    title-large: Become a Sponsor
-    url: /sponsorships
-    section: hero
-    id: sponsor
-    wip: false
 
 workshops:
   - title: Embedding of Domain-Specific Languages in Scala
