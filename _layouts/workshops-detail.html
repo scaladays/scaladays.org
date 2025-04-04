@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+{% include _head.html %}
+
+<body>
+    {% assign trainer = site.data.workshops[page.trainer] %}
+    {% assign trainer2 = site.data.workshops[page.trainer2] %}
+    {% assign trainer3 = site.data.workshops[page.trainer3] %}
+    {% for workshop in site.data.pricetable.pricetable-workshops %}
+        {% if workshop.workshop-id == page.workshop-id %}
+            {% assign workshop-price = workshop %}
+        {% endif %}
+    {% endfor %}
+    {% include _nav-solid.html %}
+    <div class="container py-2">
+        <div class="row mt-5">
+            <div class="col-lg-3">
+                <div class="d-flex align-items-center mb-3 pb-2 ">
+                    <img class="workshop-icon-sidebar me-2" src="{{ site.baseurl }}/img/assets/icon-workshops.svg"
+                        alt="">
+                    <h4 class="mb-0">Workshops</h4>
+                </div>
+                <ul class="list-unstyled sidebar-nav mb-3">
+                    {% for workshop in site.workshops %}
+                    <li>
+                        <a {% if workshop.url==page.url %} class="active nav-link" {% endif %} class="nav-link"
+                            href="{{workshop.url | relative_url}}">{{workshop.title}}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <h1 class="mb-0 fs-1">{{page.title}}</h1>
+                <div class="badge my-3 text-bg-primary">
+                    {{page.level}}
+                </div>
+
+                {{ content }}
+            </div>
+            <div class="col-lg-3">
+
+                {% if trainer %}
+                <div class="mb-3 d-flex border-bottom pb-3">
+                    <div>
+                        <div class="image-avatar">
+                            <div class="image-gradient"></div>
+                            <img class="me-3 workshop-trainer" src="{{ site.baseurl }}{{ trainer.image }}" alt="">
+                        </div>
+                    </div>
+
+                    <div>
+                        <h6 class="mb-0">{{trainer.name}}</h6>
+                        <p class="mb-1 workshop-position">{{trainer.position}}</p>
+                        <ul class="list-unstyled d-flex mb-0">
+                            {% if trainer.linkedin != null %}
+                            <li class="me-2">
+                                <a href="{{ trainer.linkedin }}" target="_blank" rel="noopener noreferrer"><img class="icon-social-workshops"
+                                        src="{{ site.baseurl }}/img/assets/icon-linkedin.svg" alt=""></a>
+                            </li>
+                            {% endif %}
+                            {% if trainer.twitter != null %}
+                            <li class="me-2">
+                                <a href="{{ trainer.twitter }}" target="_blank" rel="noopener noreferrer"><img class="icon-social-workshops"
+                                        src="{{ site.baseurl }}/img/assets/icon-twitter-red.svg" alt=""></a>
+                            </li>
+                            {% endif %}
+                            {% if trainer.github != null %}
+                            <li class="me-2">
+                                <a href="{{ trainer.github }}" target="_blank" rel="noopener noreferrer"><img class="icon-social-workshops"
+                                        src="{{ site.baseurl }}/img/assets/icon-github.svg" alt=""></a>
+                            </li>
+                            {% endif %}
+                        </ul>
+                    </div>
+                </div>
+                {% endif %}
+                {% if trainer2 %}
+                <div class="mb-3 d-flex border-bottom pb-3">
+                    <div>
+                        <div class="image-avatar">
+                            <div class="image-gradient"></div>
+                            <img class="me-3 workshop-trainer" src="{{ site.baseurl }}{{ trainer2.image}}" alt="">
+                        </div>
+                    </div>
+
+                    <div>
+                        <h6 class="mb-0">{{trainer2.name}}</h6>
+                        <p class="mb-1 workshop-position">{{trainer2.position}}</p>
+                        <ul class="list-unstyled d-flex mb-0">
+                            {% if trainer2.linkedin != null %}
+                            <li class="me-2">
+                                <a href="{{ trainer2.linkedin }}" target="_blank" rel="noopener noreferrer"><img class="icon-social-workshops"
+                                        src="{{ site.baseurl }}/img/assets/icon-linkedin.svg" alt=""></a>
+                            </li>
+                            {% endif %}
+                            {% if trainer2.twitter != null %}
+                            <li class="me-2">
+                                <a href="{{ trainer2.twitter }}" target="_blank" rel="noopener noreferrer"><img class="icon-social-workshops"
+                                        src="{{ site.baseurl }}/img/assets/icon-twitter-red.svg" alt=""></a>
+                            </li>
+                            {% endif %}
+                            {% if trainer2.github != null %}
+                            <li class="me-2">
+                                <a href="{{ trainer2.github }}" target="_blank" rel="noopener noreferrer"><img class="icon-social-workshops"
+                                        src="{{ site.baseurl }}/img/assets/icon-github.svg" alt=""></a>
+                            </li>
+                            {% endif %}
+                        </ul>
+                    </div>
+                </div>
+                {% endif %}
+                {% if trainer3 %}
+                <div class="mb-3 d-flex border-bottom pb-3">
+                    <div>
+                        <div class="image-avatar">
+                            <div class="image-gradient"></div>
+                            <img class="me-3 workshop-trainer" src="{{ site.baseurl }}{{ trainer3.image }}" alt="">
+                        </div>
+                    </div>
+
+                    <div>
+                        <h6 class="mb-0">{{trainer3.name}}</h6>
+                        <p class="mb-1 workshop-position">{{trainer3.position}}</p>
+                        <ul class="list-unstyled d-flex mb-0">
+                            {% if trainer3.linkedin != null %}
+                            <li class="me-2">
+                                <a href="{{ trainer3.linkedin }}"><img class="icon-social-workshops"
+                                        src="{{ site.baseurl }}/img/assets/icon-linkedin.svg" alt=""></a>
+                            </li>
+                            {% endif %}
+                            {% if trainer3.twitter != null %}
+                            <li class="me-2">
+                                <a href="{{ trainer3.twitter }}"><img class="icon-social-workshops"
+                                        src="{{ site.baseurl }}/img/assets/icon-twitter-red.svg" alt=""></a>
+                            </li>
+                            {% endif %}
+                            {% if trainer3.github != null %}
+                            <li class="me-2">
+                                <a href="{{ trainer3.github }}"><img class="icon-social-workshops"
+                                        src="{{ site.baseurl }}/img/assets/icon-github.svg" alt=""></a>
+                            </li>
+                            {% endif %}
+                        </ul>
+                    </div>
+                </div>
+                {% endif %}
+                <div class="mt-3">
+                    <p class="fw-bold fs-5">Are you interested in this workshop?</p>
+                    {% if workshop-price.cta and workshop-price.cta-url %}
+                        <a href="{{workshop-price.cta-url}}" class="w-100 btn btn-primary">{{workshop-price.cta}}</a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% include _footer.html %}
+    {% include _js-site.html %}
+</body>
+
+</html>

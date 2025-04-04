@@ -1,0 +1,25 @@
+<header id="masthead" class="d-flex align-items-center justify-content-center text-center text-white">
+  <div class="container" data-aos="fade-up">
+    <div class="row">
+      <div class="col-lg-8 mx-auto masthead-inner">
+        <img class="mb-3 mt-5" src="{{ site.data.conference.scaladays-brand }}" alt="">
+        <h1 class="masthead-title fw-bold">{{ site.description }}</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div class="editions row">
+          {% for item in site.data.conference.edition %}
+          <div class="col-sm-6 mt-5 editiond-item">
+            <h3 class="text-uppercase">{{item.name}}</h3>
+            <ul class="editions-info list-unstyled">
+              <li class="fs-5">Workshops: {{item.workshopDate}}</li>
+              <li class="fs-5">Conference: {{item.conferenceDate}}</li>
+            </ul>
+          </div>
+          {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+</header>

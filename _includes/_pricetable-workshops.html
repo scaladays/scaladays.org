@@ -1,0 +1,42 @@
+<section id="workshops-pricetable" class="py-5">
+  <div class="container py-0 py-lg-5">
+    <div class="row mb-5">
+      <div class="col-md-8">
+        <span class="text-primary text-uppercase fw-bold mb-2 d-inline-block">
+          {{site.data.pricetable.pricetable-subtitle-workshops }}
+        </span>
+        <h2 class="mb-4">{{site.data.pricetable.pricetable-title-workshops }}</h2>
+        <div>{{site.data.pricetable.pricetable-description-workshops | markdownify }}</div>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 text-center aos-animate" data-aos="fade-in">
+      {% for item in site.data.pricetable.pricetable-workshops %}
+      <div class="col mb-4">
+        <div class="card mb-4 border h-100 box-active">
+          <div class="card-header py-3">
+            <img class="mb-2" src="{{ site.baseurl }}/img/assets/icon-workshops.svg" alt="">
+            <div class="fw-bold fs-5">{{item.title | markdownify}}</div>
+          </div>
+          <div class="card-body d-flex flex-column justify-content-between">
+            <div>
+              <h4 class="fs-3 fw-bold border-bottom pb-4">
+                {{item.price1}}
+                {% if item.price2 %}
+                / {{item.price2}}
+                {% endif %}
+              </h4>
+              <div class="description-ticket">{{item.description | markdownify }}</div>
+            </div>
+            <div>
+             
+              {% if item.cta-url %}
+              <a href="{{item.cta-url}}" class="w-100 btn btn-lg btn-primary">{{item.cta}}</a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

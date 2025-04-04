@@ -1,0 +1,48 @@
+<section id="countdown-clock-2025" class="py-5 text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        {% for item in site.data.nav.2025 %} {% if item.id == 'tickets' %}
+
+        <div
+          class="d-flex justify-content-center justify-content-lg-start mb-4 my-lg-0"
+        >
+          <a
+            type="button"
+            class="btn btn-outline-light btn-lg"
+            href="{{ item.url | relative_url }}"
+            >{{ item.title-large }}</a
+          >
+        </div>
+
+        {% endif %} {% endfor %}
+
+        <h2 class="my-3 text-center text-lg-start">
+          {{ site.data.conference.countdown-title }}
+        </h2>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="row">
+          <div class="col-4 text-center">
+            <h3 id="2025-day" class="display-2 fw-bold"></h3>
+
+            <p class="mb-0 text-uppercase">Days</p>
+          </div>
+
+          <div class="col-4 text-center">
+            <h3 id="2025-hour" class="display-2 fw-bold"></h3>
+
+            <p class="mb-0 text-uppercase">Hours</p>
+          </div>
+
+          <div class="col-4 text-center">
+            <h3 id="2025-minute" class="display-2 fw-bold"></h3>
+
+            <p class="mb-0 text-uppercase">Minutes</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

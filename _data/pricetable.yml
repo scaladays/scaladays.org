@@ -1,0 +1,99 @@
+pricetable-subtitle: Pricetable
+pricetable-title: Scala Days 2025
+pricetable-description: |
+  {: .lead}
+  Ticket price includes **30+ talks**, first access to talk recordings, meals during the conference, networking opportunities, and the community party.
+
+pricetable-subtitle-workshops: Pricetable
+pricetable-title-workshops: Workshops
+pricetable-description-workshops: |
+  {: .lead}
+  All workshops are **2-day (16 hour)** courses and will be offered in **Seattle (4-5 June)** and in **Madrid (11-12 September)**. Each workshop will take place from 9:00 am to 5:00 pm. All workshops require a minimum of 9 participants to run.
+
+
+pricetable:
+  - title: Standard
+    state: active
+    price: €550
+    description: |
+      {: .list-unstyled}
+      - Keynotes and talks
+      - First access to talk recordings
+      - Lunch during the conference and networking opportunities
+      - Access to the community party day
+    date: + €115.50 VAT
+    cta: Buy now
+    cta-url: https://47deg.swoogo.com/scala-days-madrid/begin
+
+  - title: Scholarship
+    state: active
+    price: No Cost
+    description: |
+      {: .list-unstyled}
+      - Our commitment to making Scala Days more inclusive
+      - For those facing financial hardship
+      - Students, underrepresented, etc.
+      - All applications are subject to review
+    date: Limited Availability
+    cta: Apply Today
+    cta-url: https://xebiafunctional.typeform.com/to/BJzHuOsQ
+
+
+
+pricetable-workshops:
+  - title: |
+      {: .mb-0}
+      Embedding of Domain-Specific Languages in Scala
+
+    workshop-id: embedding
+
+    state: active
+    price1: €750
+    description: |
+      {: .list-unstyled}
+      - Intimate classroom setting
+      - Expert instruction
+      - Lunch and snacks
+      - [See workshop content](embedding-of-domain-specific-languages-in-scala)
+
+    cta: Buy now
+    cta-url: https://47deg.swoogo.com/scala-days-madrid/begin
+
+
+  - title: |
+      {: .mb-0}
+      Moving from Scala 2 to Scala 3
+
+    workshop-id: moving
+
+    state: active
+    price1: €750
+    description: |
+      {: .list-unstyled}
+      - Intimate classroom setting
+      - Expert instruction
+      - Meal and snacks
+      - [See workshop content](moving-from-scala-2-to-scala-3)
+
+    cta: Buy now
+    cta-url: https://47deg.swoogo.com/scala-days-madrid/begin
+
+
+  - title: |
+      {: .mb-0}
+      How to Build an Online Multiplayer Game with Scala 3, ScalaJS, and Kafka
+
+    workshop-id: game
+
+    state: active
+    price1: €750
+    description: |
+      {: .list-unstyled}
+      - Intimate classroom setting
+      - Expert instruction
+      - Meal and snacks
+      - [See workshop content](how-to-build-an-online-multiplayer-game-with-scala3-scalaJS-and-kafka)
+      
+    cta: Buy now
+    cta-url: https://47deg.swoogo.com/scala-days-madrid/begin
+    detail: cta
