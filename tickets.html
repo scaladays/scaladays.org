@@ -1,0 +1,27 @@
+---
+layout: detail-edition
+title: Join the Scala Community in Lausanne
+permalink: /tickets
+---
+{% include _nav.html %}
+{% include _hero-tickets.html %}
+{% include _pricetable.html %}
+<section id="tickets" class="py-5">
+    <div class="container py-0 py-lg-5">
+        <div class="column pt-6 mb-8">
+            {% for item in site.data.conference.tickets %}
+            <div class="col-lg-8 pe-0 pe-lg-5 mb-5 mb-lg-0">
+                <h2 class="mb-4">{{ item.title}}</h2>
+                <p class="lead">{{ item.description}}</p>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="row">
+            <div class="col-md-7 mx-auto">
+                <div class="d-flex justify-content-center align-items-center">
+                  <a class="btn btn-primary btn-lg" href="https://register.event-works.com/lausanne/Scaladays2025/e/lk/k/">Register now</a>
+                </div>
+            </div>
+          </div>
+    </div>
+</section>

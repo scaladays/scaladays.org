@@ -1,0 +1,251 @@
+# Scala Days brand
+# ----------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------
+scaladays-brand: img/assets/scala-days-brand.svg
+
+# Editions
+# ----------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------
+edition:
+  - name: 2025
+    conferenceDate: August 19th - 21th
+
+  - name: Seattle
+    workshopDate: June 4th - 5th
+    conferenceDate: June 5th - 7th
+
+  - name: Madrid
+    workshopDate: Sept 11th - 12th
+    conferenceDate: Sept 12th - 14th
+
+# Countdown
+# ----------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------
+countdown-day: Days
+countdown-minutes: Minutes
+countdown-second: Second
+
+countdown-title: Bringing Scala Days in...
+
+subscribe-cta: Subscribe for Updates
+
+# About
+# ----------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------
+about-subtitle: About Scala Days
+about-title: Spirit of Scala Days 2025
+about-description: |
+  {: .lead}
+  Scala Days brings developers from around the globe to share their experiences and new ideas around creating applications with Scala and related technologies, like Spark, Kafka, and Akka. Scala Days provides a unique opportunity for Scala users to interact with the contributors to the language and related technologies and connect with fellow developers.
+
+  {: .lead}
+  Leaders from Scala User Groups and global communities, students, and language contributors will gather to discuss academic research, use cases, and visionary projects for a two-day, action-packed event.
+
+testimonials-subtitle: Opinions Matter
+testimonials-title: Attendee Testimonials
+
+testimonials:
+  - icon: img/assets/icon-quote.svg
+    description: Scala Days 2023 has been terrific, from the organization to the talks. I am really happy to see that the community is coming back together with a clear plan for the future. 
+    
+  - icon: img/assets/icon-quote.svg
+    description: Scala Days was by far the best conference I've ever been to. With lots of inspiring people and talks, this is an event you want to attend!
+
+  - icon: img/assets/icon-quote.svg
+    description: I'm so happy that Scala Days is back and meeting so many wonderful people in person! 
+
+  - icon: img/assets/icon-quote.svg
+    description: I loved seeing new and familiar faces at the conference, exchanging notes, ideas, and our passion for Scala. 
+
+  - icon: img/assets/icon-quote.svg
+    description: Scala Days 2023 was a great community and learning event. 
+
+  - icon: img/assets/icon-quote.svg
+    description: It's a great way to discover the Scala community. 
+
+  - icon: img/assets/icon-quote.svg
+    description: I just loved it. I feel uplifted and lucky to be part of such a community. 
+
+
+about:
+  - icon: img/assets/icon-editions.svg
+    title: Lake Geneva
+    description: Enjoy some extra time sightseeing and relaxing by the magnificent Alps.
+
+  - icon: img/assets/icon-workshops.svg
+    title: Business-driven
+    description: Scala Days it’s where the future of Scala business takes shape.
+
+  - icon: img/assets/icon-networking.svg
+    title: Community
+    description: Bringing the community together to learn, share, and contribute.
+
+  - icon: img/assets/icon-community.svg
+    title: Family-friendly
+    description: Daycare will be available at the venue. Bring your family along! 
+
+host:
+  - name: Scalacenter
+    logo: img/assets/scalacenter-logo.svg
+    url: https://scala.epfl.ch/
+
+# Featured
+# ----------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------
+feature:
+  - image: img/assets/madrid/feature-lausanne-01.jpg
+    subtitle: The city
+    title: Lausanne, Switzerland
+    description: Workshops and other co-located events will take place the week of the conference, starting on August 18. Why not seize the opportunity and stay a full week in Lausanne to get the most out of your trip? And maybe even enjoy some extra time sightseeing and relaxing by Lake Geneva (Lac Léman), overlooked by the magnificent Alps?
+    href: /the-venue
+
+  - image: img/assets/madrid/feature-lausanne-02.jpg
+    subtitle: EPFL
+    title: Venue
+    description: Scala Days will be taking place in Scala’s sunny hometown of Lausanne, Switzerland, August 19-21, 2025. The conference is organised by the Scala Center at the SwissTech Convention Center, in the heart of campus at EPFL (École Polytechnique Fédérale de Lausanne).
+    href: /the-venue
+
+  - image: img/assets/madrid/feature-lausanne-03.png
+    subtitle: Courses
+    title: Training Opportunities
+    description: Scala Days hosts two days of paid training courses on various topics. These intensive workshops are a separate ticket, and limited space is available. Workshops will conclude before the opening keynote.
+    href: /workshops
+
+footer-social:
+  - socialIcon: img/assets/icon-mastodon.svg
+    socialUrl: https://mastodon.social/@scaladays
+
+  - socialIcon: img/assets/icon-bsky.svg
+    socialUrl: https://bsky.app/profile/scaladays.org
+
+  - socialIcon: img/assets/icon-discord.svg
+    socialUrl: https://discord.com/invite/scala
+
+  - socialIcon: img/assets/icon-linkedin-white.svg
+    socialUrl: https://www.linkedin.com/company/scala-center
+
+  - socialIcon: img/assets/icon-youtube.svg
+    socialUrl: https://www.youtube.com/c/ScalaDaysConferences
+
+# Speakers
+# ----------------------------------------------------------------------------------------------------------
+speakers-title: Speakers
+speakers-subtitle: Experts
+speakers-cta: Speakers lineup
+speakers-description: Our growing lineup of speakers consists of many figures in the Scala community representing some of the awesome technologies advancing the field today.
+# Sponsors
+# ----------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------
+sponsors-title: Sponsors
+sponsors-subtitle: Opportunities
+sponsors-description: Represent your company in front of hundreds of attendees and top experts at Scala Days. Email our team at <a href="mailto:info@scaladays.org">info@scaladays.org</a> or fill out the Sponsor Information form to receive more information today!
+
+sponsors:
+  - type: Platinum
+    icon: img/assets/icon-platinum.svg
+    sponsor-list:
+      - title: 
+        logo: 
+        url: 
+        edition:
+  
+  - type: Gold
+    icon: img/assets/icon-gold.svg
+    sponsor-list:
+      - title: 
+        logo: 
+        url: 
+        edition:
+
+  - type: Silver
+    icon: img/assets/icon-silver.svg
+    sponsor-list:
+      - title: 
+        logo: 
+        url: 
+        edition:
+
+  - type: Bronze
+    icon: img/assets/icon-bronze.svg
+    sponsor-list:
+      - title: 
+        logo: 
+        url: 
+        edition:
+        
+  - type: Media
+    icon: img/assets/icon-media.svg
+    sponsor-list:
+     - title: 
+        logo: 
+        url: 
+        edition:
+
+# Subscribe
+# ----------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------
+subscribe-title: Join our conference
+subscribe-subtitle: Subscribe
+subscribe-description: Subscribe and follow <a href="https://bsky.app/profile/scaladays.org" target="_blank" rel="noopener noreferrer">@ScalaDays</a> on BlueSky for the latest conference updates.
+
+
+# The venue
+# -----------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------
+
+the-venue:
+  - icon: img/assets/icon-about-location.svg
+    title: Location
+    description: STCC is situated on the EPFL campus in the western part of Lausanne. <br><br> With a large focus on sustainability, the STCC facilities are energy efficient with 100% of their energy coming from renewable sources, such as using water from Lake Geneva to cool the building, primarily using natural light, and making the windowpanes act as solar panels. Be prepared to be floored by a state-of-the-art experience as you connect in rooms specifically tailored to fit the needs of Scala Days attendees. 
+  - icon: img/assets/icon-airport.svg
+    title: The Airport
+    description: Geneva Airport (GVA), also known as Genève-Cointrin Airport, is Switzerland’s second-busiest airport behind Zurich. GVA is located approximately 60 km from Lausanne and is connected to the city by both road and train. <br><br> While planning your travel, GVA isn't your only option! Lausanne may also be reached from Switzerland's other international airports such as Basel, Zurich, and Bern-Belp. Trains from major European cities such as Paris, Lyon, Frankfurt, Brussels, and Milan also arrive in Lausanne's train station on a regular basis. <br><br> Find more travel and access information on the <a href="https://www.lausanne-tourisme.ch/en/access-to-lausanne/">Lausanne Tourism website</a>. 
+  - icon: img/assets/icon-city.svg
+    title: The city
+    description: While in the city, explore more of Lausanne! Lausanne is home to the Olympic Museum, offers stunning views of Lake Geneva, and is known for its vibrant cultural scene and beautiful parks, making it one of Switzerland's most picturesque cities. Lausanne was also named the best small town in the world in the first "Small Cities Index." <br><br> The city is strategically located in the heart of Europe within Switzerland's French-speaking region, it is easily navigated with public transport, and combines all of the benefits of a large, urban center with the relaxed pace of a small town. What's more exciting, all hotel guests are offered a Lausanne transport card. This card provides free access to public transportation as well as discounts and free admission with selected partners.
+
+the-venue-hero-description: The conference is organised by the Scala Center at the SwissTech Convention Center, in the heart of campus at EPFL (École Polytechnique Fédérale de Lausanne).
+the-venue-hero-cta: Learn more about the Venue
+
+the-venue-title: An awesome venue
+the-venue-subtitle: SwissTech Convention Center
+the-venue-description: The SwissTech Convention Center (STCC) is located on the EPFL campus, featuring state-of-the-art infrastructure and technology at the heart of the Lake Geneva region's innovation hub. Its strategic location provides excellent connectivity, with easy access to Lausanne’s city center and nearby cities like Geneva. The STCC offers a versatile and functional space with modern facilities designed to accommodate a wide range of events. Along with its convenient location, the area surrounding the STCC features various restaurants, hotels, and leisure options. <br><br> You can find the STCC at Route Louis-Favre 2, 1024 Ecublens.
+the-venue-cta: Visit the website
+the-venue-url: https://www.stcc.ch/
+the-venue-image: img/assets/the-venue-lausanne.jpg
+
+
+# Sponsor
+# ----------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------
+sponsor-hero-description: Thanks for your interest in sponsorship opportunities for Scala Days.
+sponsor-hero-cta: Sponsorship Packages
+
+# Tickets
+# ----------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------
+tickets:
+  - icon: 
+    title: Each Ticket Includes
+    description: Conference tickets give access to all scheduled sessions including lunch, coffee breaks, the welcome reception, and the community party. During your registration process, we ask you kindly to let us know if you will participate in surrounding social events, it helps us place orders and avoid wasting food. <br><br> Exclusive and discounted tickets are available per demand for sponsors, group (5+) tickets, and awarded members. Please email info@scaladays.org for assistance. <br><br> Students can directly buy discounted tickets by choosing “Student - Conference” on the registration page, a valid student ID is required. <br><br> We also encourage individuals who have limited education budgets or otherwise are self-funded, joining from lower income countries, to reach out to the organizers, info@scaladays.org.
+  - icon: img/assets/icon-airport.svg
+    title: Visa/Invitation Letter
+    description: An invitation letter for your visa application procedure is available after completing the registration process.
+  - icon: img/assets/icon-airport.svg
+    title: Accompanying Persons
+    description: An accompanying person is an adult who travels with a conference attendee for the occasion but does not participate in the conference sessions or workshops. To ensure they too have fun, the Scala Days conference organizers are offering a special “Accompanying Person” ticket, which grants access to the welcome reception, community party, and lunches at the conference venue during the event. Additionally, the ticket includes a curated daytime program featuring activities such as a guided tour of Lausanne and a chocolate tasting experience. The cost for an accompanying person is CHF 400 and can be added to your booking during the registration process.
+  - icon: img/assets/icon-airport.svg
+    title: Daycare
+    description: If you are attending with a child (or children), daycare on site will be available and can be added to your booking during the registration process.
+  - icon: img/assets/icon-about-location.svg
+    title: Post-conference site-seeing
+    description: Lausanne Tourisme is here to organise a fantastic wine tasting tour in the UNESCO World Heritage site of Lavaux near Lausanne, Friday 22nd August. This tour costs 55 CHF per person, and includes train ticket, guided tour, visit of a local winery with wine tasting. Places are limited and will be allocated on a first-come, first-served basis. 
+
+ticket-hero-description: Learn more and register to attend today!
+ticket-hero-cta: Browse ticket options
+
+
+# Pricetable
+# ----------------------------------------------------------------------------------------------------------
+pricetable-title: Pricetable
+pricetable-subtitle: 

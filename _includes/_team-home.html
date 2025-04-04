@@ -1,0 +1,58 @@
+<section id="committee" class="pt-5">
+    <div class="container py-0 py-lg-5">
+        <div class="row mb-5">
+            <div class="col-md-8">
+                <span class="text-primary text-uppercase fw-bold mb-2 d-inline-block">{{
+                    site.data.conference.speakers-subtitle }}</span>
+                <h2 class="mb-4">{{ site.data.team.team-title }}</h2>
+                <p class="lead">{{ site.data.team.team-description }}</p>
+            </div>
+        </div>
+        <div class="row">
+            {% for member in site.data.team.members %}
+            <div class="col-md-6 col-lg-3 mb-5 aos-animate"  data-aos="fade-in">
+                <div class="item-team">
+                <div class="image-avatar">
+                    <div class="image-gradient"></div>
+                    <img class="img-fluid mb-0" src="{{ member.image | relative_url}}" alt="">
+                </div>
+                <h5 class="mt-3">{{ member.name }}</h5>
+                <p>{{ member.position }}</p>
+                <ul class="d-flex list-unstyled">
+
+                    {% if member.about != null %}
+   
+                    <li class="me-2">
+                        <a data-bs-toggle="collapse" href="#{{ member.id }}" role="button" aria-expanded="false" aria-controls="{{ member.id }}"><img class="icon-social" src="{{ site.baseurl }}/img/assets/icon-about.svg" alt=""></a>
+                    </li>
+                    {% endif %}
+
+                    {% if member.linkedin != null %}
+                    <li class="me-2">
+                        <a href="{{ member.linkedin }}" target="_blank" rel="noopener noreferrer"><img class="icon-social"
+                                src="{{ site.baseurl }}/img/assets/icon-linkedin.svg" alt=""></a>
+                    </li>
+                    {% endif %}
+                    {% if member.twitter != null %}
+                    <li class="me-2">
+                        <a href="{{ member.twitter }}" target="_blank" rel="noopener noreferrer"><img class="icon-social"
+                                src="{{ site.baseurl }}/img/assets/icon-twitter-red.svg" alt=""></a>
+                    </li>
+                    {% endif %}
+                    {% if member.github != null %}
+                    <li class="me-2">
+                        <a href="{{ member.github }}" target="_blank" rel="noopener noreferrer"><img class="icon-social"
+                                src="{{ site.baseurl }}/img/assets/icon-github.svg" alt=""></a>
+                    </li>
+                    {% endif %}
+                </ul>
+                <div class="collapse" id="{{ member.id }}">
+                    {{ member.about | markdownify }}
+                </div>
+            </div>
+            
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

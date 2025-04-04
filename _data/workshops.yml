@@ -1,0 +1,71 @@
+juanma:
+  name: "Juan Manuel Serrano"
+  position: University Rey Juan Carlos & Habla Computing
+  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Maecenas eget condimentum velit.
+  image: /img/assets/workshops/juan-manuel-serrano.jpg"
+  linkedin: "https://www.linkedin.com/in/jserranohidalgo/"
+  twitter: "http://twitter.com/juanshac"
+  github: "https://www.github.com/jserranohidalgo"
+
+ignacio:
+  name: "Ignacio Navarro"
+  position: Xebia Functional
+  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Maecenas eget condimentum velit.
+  image: /img/assets/workshops/ignacio-navarro.jpeg"
+  linkedin: "https://www.linkedin.com/in/ignacio-navarro-7332835/"
+  twitter: 
+  github: 
+
+fede:
+  name: "Fede Fernández"
+  position: Xebia Functional
+  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Maecenas eget condimentum velit.
+  image: /img/assets/madrid/speakers/FedeFernandezSq.png"
+  linkedin: "https://www.linkedin.com/in/ffbeltran/"
+  twitter: "https://twitter.com/fede_fdz"
+  github: "https://github.com/fedefernandez"
+
+jack:
+  name: "Jack Viers"
+  position: Xebia Functional
+  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Maecenas eget condimentum velit.
+  image: /img/assets/workshops/jack-viers.jpg"
+  linkedin: "https://www.linkedin.com/in/jack-viers-0764b1b/"
+  twitter: "https://twitter.com/jackcviers"
+  github: "https://www.github.com/jackcviers"
+
+rafa:
+  name: "Rafa Paradela"
+  position: Xebia Functional
+  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Maecenas eget condimentum velit.
+  image: /img/assets/workshops/rafa-paradela.jpg"
+  linkedin: "https://www.linkedin.com/in/rafaparadela/"
+  twitter: "https://twitter.com/rafaparadela"
+  github: "https://github.com/rafaparadela"
+
+eric:
+  name: "Eric Loots"
+  position: LunaTech
+  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Maecenas eget condimentum velit.
+  image: /img/assets/workshops/eric-loots.jpg"
+  linkedin: "https://www.linkedin.com/in/eric-loots-7ba8b6/"
+  twitter: 
+  github: "https://github.com/eloots"
+
+adrien:
+  name: "Adrien Piquerez"
+  position: Scala Center
+  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Maecenas eget condimentum velit.
+  image: /img/assets/workshops/adrien-piquerez.jpg"
+  linkedin: "https://www.linkedin.com/in/adrien-piquerez-22b478177/"
+  twitter: "https://twitter.com/adrienpi2"
+  github: "https://github.com/adpi2"
+
+trevor:
+  name: "Trevor Burton-McCreadie"
+  position: LunaTech
+  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Maecenas eget condimentum velit.
+  image: /img/assets/workshops/trevor.jpg"
+  linkedin: "https://www.linkedin.com/in/trevorburton/"
+  twitter:
+  github: "https://github.com/thinkmorestupidless"

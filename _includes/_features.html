@@ -1,0 +1,34 @@
+<section id="features" class="py-5">
+  <div class="container features-list py-0 py-lg-5">
+    {% for item in site.data.conference.feature %}
+    <div class="row g-0 aos-animate" data-aos="fade-in">
+      <div
+        class="col-lg-6 py-5 px-0 px-lg-5 d-flex align-items-center item-feature bg-white"
+      >
+        <div>
+          <span class="text-primary text-uppercase fw-bold mb-2 d-inline-block"
+            >{{item.subtitle}}</span
+          >
+          <h2 class="mb-3">{{item.title}}</h2>
+          <p class="mb-0">{{item.description}}</p>
+          {% if item.href %}
+          <a
+            type="button"
+            class="btn btn-primary mt-3"
+            href="{{ item.href | relative_url }}"
+            >Learn More</a
+          >
+          {% endif %}
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <img
+          class="img-fluid object-fit-cover"
+          src="{{ site.baseurl }}/{{item.image}}"
+          alt="{{item.title}}"
+        />
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

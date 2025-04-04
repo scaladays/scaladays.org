@@ -1,0 +1,90 @@
+<section id="sponsors" class="pt-5">
+  <div class="container py-0 py-lg-5">
+    <div class="row mb-5">
+      <div class="col-md-6">
+        <span class="text-primary text-uppercase fw-bold mb-2 d-inline-block"
+          >{{ site.data.conference.sponsors-subtitle }}</span
+        >
+        <h2 class="mb-4">{{ site.data.conference.sponsors-title }}</h2>
+        <p class="lead">{{ site.data.conference.sponsors-description }}</p>
+      </div>
+      <div class="col-md-6 d-flex justify-content-md-end align-items-center">
+        {% for item in site.data.nav.main %} {% if item.id == 'cta' %}
+        <a class="btn btn-primary btn-lg" href="{{ item.url | relative_url }}"
+          >{{item.title}}</a
+        >
+        {% endif %} {% endfor %}
+      </div>
+    </div>
+    <div class="row">
+      {% for tier in site.data.conference.sponsors %}
+      {% assign sponsors-tier = site.data.conference.sponsors | where: "type", tier.type | first %}
+
+      {% if sponsors-tier.sponsor-list and sponsors-tier.sponsor-list.size > 0 %}
+      <div class="col-md-12">
+        <div
+          class="d-flex align-items-center fs-2 fw-bold text-uppercase pb-3 mb-4"
+        >
+          <img src="{{ site.baseurl }}/{{ tier.icon}}" alt="" />
+          <h3 class="ms-2 mb-0 fs-4">{{sponsors-tier.type}}</h3>
+        </div>
+        <div class="row mb-5 aos-animate" data-aos="fade-in">
+          {% for sponsor-item in sponsors-tier.sponsor-list %} {% if sponsors-tier.type
+          == "Platinum" %}
+          <div class="col-md-4 mb-4">
+            <a class="d-block sponsor-item" href="{{sponsor-item.url}}" target="_blank" rel="noopener noreferrer">
+              <img
+                class="img-fluid w-100"
+                src="{{ site.baseurl }}/{{sponsor-item.logo}}"
+                alt="{{sponsor-item.title}}"
+              />
+            </a>
+          </div>
+          {% endif %} {% if sponsors-tier.type == "Gold" %}
+          <div class="col-6 col-md-3 mb-4">
+            <a class="d-block sponsor-item" href="{{sponsor-item.url}}" target="_blank" rel="noopener noreferrer">
+              <img
+                class="img-fluid w-100"
+                src="{{ site.baseurl }}/{{sponsor-item.logo}}"
+                alt="{{sponsor-item.title}}"
+              />
+            </a>
+          </div>
+          {% endif %} {% if sponsors-tier.type == "Silver" %}
+          <div class="col-4 col-md-2 mb-4">
+            <a class="d-block sponsor-item" href="{{sponsor-item.url}}" target="_blank" rel="noopener noreferrer">
+              <img
+                class="img-fluid w-100"
+                src="{{ site.baseurl }}/{{sponsor-item.logo}}"
+                alt="{{sponsor-item.title}}"
+              />
+            </a>
+          </div>
+          {% endif %} {% if sponsors-tier.type == "Bronze" %}
+          <div class="col-4 col-md-2 mb-4">
+            <a class="d-block sponsor-item" href="{{sponsor-item.url}}" target="_blank" rel="noopener noreferrer">
+              <img
+                class="img-fluid w-100"
+                src="{{ site.baseurl }}/{{sponsor-item.logo}}"
+                alt="{{sponsor-item.title}}"
+              />
+            </a>
+          </div>
+          {% endif %} {% if sponsors-tier.type == "Media" %}
+          <div class="col-4 col-md-2 mb-4">
+            <a class="d-block sponsor-item" href="{{sponsor-item.url}}" target="_blank" rel="noopener noreferrer">
+              <img
+                class="img-fluid w-100"
+                src="{{ site.baseurl }}/{{sponsor-item.logo}}"
+                alt="{{sponsor-item.title}}"
+              />
+            </a>
+          </div>
+          {% endif %} {% endfor %}
+        </div>
+      </div>
+      {% endif %} 
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+{% include _head.html %}
+
+<body>
+    {% assign day = site.data.schedule.days | find: "id", page.day  %}
+    {% assign stage = site.data.schedule.stages | find: "id", page.stage  %}
+    {% assign speaker = site.data.schedule.speakers | find: "name", page.speaker %}
+    {% assign speaker2 = site.data.schedule.speakers | find: "name", page.speaker2 %}
+
+    {% include _nav-solid.html %}
+
+    <div class="container py-5">
+
+        <div class="row">
+            {% if day %}
+            <div class=" col-md-6 d-flex align-items-center fs-2 fw-bold text-uppercase">
+                <img class="me-2" src="{{ site.baseurl }}/img/assets/icon-calendar.svg" alt="">
+                <p class="mb-0 me-2">{{ day.title }} -</p>
+                <p class="mb-0 text-primary"> {{ day.date }}</p>
+            </div>
+            {% endif %}
+            {% if stage %}
+            <div class=" col-md-6 d-flex align-items-center justify-content-md-end fs-2 fw-bold">
+                <img class="me-3" src="{{ site.baseurl }}/img/assets/icon-stage.svg" alt="">
+                <p class="mb-0 me-2">{{ stage.title }}</p>
+            </div>
+            {% endif %}
+        </div>
+
+        <div class="border-top border-bottom border-1 mt-4 mb-5 py-5">
+            {% if page.time and page.time != 0 %}
+            <span class="badge fs-5 bg-secondary mb-5">{{ page.time }}</span>
+            {% endif %}
+
+            <h1 class="mb-4 display-5 fw-bold">{{ page.title }}</h1>
+            <div class="fs-5">{{ content }}</div>
+            {% if speaker %}
+            <div class="row mt-5 pt-4">
+                <div class="col-md-2">
+                    <img class="img-fluid" src="{{ speaker.image | relative_url}}" alt="">
+                </div>
+                <div class="col-md-10 ps-lg-4">
+                    <h4>{{ speaker.name }}</h4>
+                    <p class="fs-6 my-3">{{ speaker.position }}</p>
+                    <small class="d-block mb-4">{{ speaker.about | markdownify }}</small>
+                    <ul class="d-flex list-unstyled">
+                        {% if speaker.linkedin != null %}
+                        <li class="me-2">
+                            <a href="{{ speaker.linkedin }}" target="_blank" rel="noopener noreferrer"><img class="icon-social" src="{{ site.baseurl }}/img/assets/icon-linkedin.svg" alt=""></a>
+                        </li>
+                        {% endif %}
+                        {% if speaker.twitter != null %}
+                        <li class="me-2">
+                            <a href="{{ speaker.twitter }}" target="_blank" rel="noopener noreferrer"><img class="icon-social" src="{{ site.baseurl }}/img/assets/icon-twitter-red.svg" alt=""></a>
+                        </li>
+                        {% endif %}
+                        {% if speaker.github != null %}
+                        <li class="me-2">
+                            <a href="{{ speaker.github }}" target="_blank" rel="noopener noreferrer"><img class="icon-social" src="{{ site.baseurl }}/img/assets/icon-github.svg" alt=""></a>
+                        </li>
+                        {% endif %}
+                    </ul>
+                </div>
+            </div>
+            {% endif %}
+            {% if speaker2 %}
+           
+            <div class="row mt-4 pt-4">
+                <div class="col-md-2">
+                    <img class="img-fluid" src="{{ speaker2.image | relative_url}}" alt="">
+                </div>
+                <div class="col-md-10 ps-lg-4">
+                    <h4>{{ speaker2.name }}</h4>
+                    <p class="fs-6 my-3">{{ speaker2.position }}</p>
+                    <small class="d-block mb-4">{{ speaker2.about | markdownify }}</small>
+                    <ul class="d-flex list-unstyled">
+                        {% if speaker2.linkedin != null %}
+                        <li class="me-2">
+                            <a href="{{ speaker2.linkedin }}" target="_blank" rel="noopener noreferrer"><img class="icon-social" src="{{ site.baseurl }}/img/assets/icon-linkedin.svg" alt=""></a>
+                        </li>
+                        {% endif %}
+                        {% if speaker2.twitter != null %}
+                        <li class="me-2">
+                            <a href="{{ speaker2.twitter }}" target="_blank" rel="noopener noreferrer"><img class="icon-social" src="{{ site.baseurl }}/img/assets/icon-twitter-red.svg" alt=""></a>
+                        </li>
+                        {% endif %}
+                        {% if speaker2.github != null %}
+                        <li class="me-2">
+                            <a href="{{ speaker2.github }}" target="_blank" rel="noopener noreferrer"><img class="icon-social" src="{{ site.baseurl }}/img/assets/icon-github.svg" alt=""></a>
+                        </li>
+                        {% endif %}
+                    </ul>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+         <div class="row pt-3">
+            <div class="col-md-6">
+                <span class="text-primary text-uppercase fw-bold mb-2 d-inline-block">{{ site.data.conference.subscribe-subtitle }}</span>
+                <h2>{{ site.data.conference.subscribe-title }}</h2>
+                <p>{{ site.data.conference.subscribe-description }}</p>
+            </div>
+            <div class="col-md-6 d-flex align-items-start justify-content-end mt-4">
+                {% for item in site.data.nav['2025'] %}
+                {% if item.id == 'tickets' %}
+                <a class="btn btn-primary btn-lg px-4 gap-3" href="{{ item.url | relative_url }}">{{ item.title-large }}</a>
+                {% endif %}
+                {% endfor %}
+            </div>
+         </div> 
+    </div>
+    {% include _footer.html %}
+    {% include _js-site.html %}
+
+</html>

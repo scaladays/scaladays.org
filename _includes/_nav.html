@@ -1,0 +1,32 @@
+<nav id="site-nav" class="site-nav-home navbar fixed-top navbar-expand-lg navbar-dark py-3 py-lg-4" aria-label="Offcanvas navbar large">
+	<div class="container">
+		<a class="navbar-brand" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/{{ site.data.conference.scaladays-brand }}" alt=""></a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+	<div class="offcanvas offcanvas-end text-bg-primary" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+		<div class="offcanvas-header">
+			<a class="navbar-brand" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}/{{ site.data.conference.scaladays-brand }}" alt=""></a>
+				<button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+		</div>
+		<div class="offcanvas-body">
+			<ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold">
+				{% for item in site.data.nav.2025 %}
+				{% if item.nav == 'nav' %}
+				{% if item.wip == true %}
+				<li class="nav-item me-lg-4">
+					<a data-bs-toggle="modal" data-bs-target="#wip-modal" class="nav-link" href="{{ item.url | relative_url }}">{{item.title}}</a>
+				</li>
+				{% else %}
+				<li class="nav-item me-lg-4">
+					<a class="nav-link" href="{{ item.url | relative_url }}">{{item.title}}</a>
+				</li>
+				{% endif %}
+				{% endif %}
+				{% endfor %}
+			</ul>
+		</div>
+		</div>
+	</div>
+</nav>
+

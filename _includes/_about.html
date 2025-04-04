@@ -1,0 +1,22 @@
+<section id="home-about" class="py-2 py-md-5 my-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 pe-0 pe-lg-5">
+                <span class="text-primary text-uppercase fw-bold mb-2 d-inline-block">{{site.data.conference.about-subtitle}}</span>
+                <h2 class="mb-4">{{ site.data.conference.about-title}}</h2>
+                <p class="lead">{{ site.data.conference.about-description | markdownify }}</p>
+            </div>
+            <div class="col-lg-6">
+                <div class="row d-flex h-100 align-content-around">
+                    {% for item in site.data.conference.about %}
+                    <div class="col-md-6 text-center mt-4 mt-lg-0">
+                        <img src="{{ site.baseurl }}/{{item.icon}}" alt="{{item.title}}" height="64" width="64">
+                        <h4 class="my-3">{{item.title}}</h4>
+                        <p>{{item.description}}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
