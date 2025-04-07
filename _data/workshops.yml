@@ -4,39 +4,31 @@ zainab:
   about: Zainab is a functional polyglot and educator. As well as all things functional, she's interested in the art of reasoning through concurrent systems.
   image: /img/assets/workshops/ZainabAli.jpg
   linkedin: "https://www.linkedin.com/in/zainab-ali-fp/"
-  twitter: 
   github: "https://www.github.com/zainab-ali"
 
 noel:
   name: "Noel Welsh"
   position: Inner Product
-  about: I’m a Scala consultant at Inner Product and Underscore. I like helping teams succeed with Scala, and creating libraries in Scala that allow people to get stuff done with a minimum of effort. I’ve written a few books on Scala: Scala with Cats, Essential Scala, and Creative Scala.
+  about: "I'm a Scala consultant at Inner Product and Underscore. I like helping teams succeed with Scala, and creating libraries in Scala that allow people to get stuff done with a minimum of effort. I've written a few books on Scala: Scala with Cats, Essential Scala, and Creative Scala."
   image: img/assets/madrid/speakers/NoelWelshSq.png
   linkedin: "https://www.linkedin.com/in/noel-welsh-a71658/"
-  twitter: 
   github: "https://github.com/noelwelsh/"
 
 daniel:
   name: "Daniel Ciocirlan"
   position: Rock the JVM
-  about: I am the founder of Rock the JVM, a learning platform for everything in the Scala ecosystem, which now contains more than 20 course and 250+ hours of video material on Scala, functional programming, all major Scala libraries, as well as comprehensive courses on Apache Spark and Apache Flink.
-
-I’ve taught more than 80000 developers so far, and trained high-performing teams at some of the most renowned companies in the world (e.g. Adobe, Apple, Microsoft, ING and others).
-
-I’ve also taught more than 30000 kids to code (not Scala… yet).
-
-I have a Master’s Degree in Computer Science and I wrote my Bachelor and Master theses on Quantum Computation. Before starting to learn programming, I won medals at international Physics competitions.
+  about: "I am the founder of Rock the JVM, a learning platform for everything in the Scala ecosystem, which now contains more than 20 course and 250+ hours of video material on Scala, functional programming, all major Scala libraries, as well as comprehensive courses on Apache Spark and Apache Flink.
+    I've taught more than 80000 developers so far, and trained high-performing teams at some of the most renowned companies in the world (e.g. Adobe, Apple, Microsoft, ING and others).
+    I've also taught more than 30000 kids to code (not Scala… yet).
+    I have a Master's Degree in Computer Science and I wrote my Bachelor and Master theses on Quantum Computation. Before starting to learn programming, I won medals at international Physics competitions."
   image: /img/assets/madrid/speakers/DanielCiocirlanSq.png
   linkedin: "http://linkedin.com/company/rockthejvm"
-  twitter: 
   github: "https://github.com/rockthejvm"
 
 david:
   name: "David Amancio Gil Méndez"
   position: Xebia
-  about: I am a passionate advocate of simple, vanilla Scala and I study and teach it in my free time. As a Data Engineer, I have been building Streaming and Batch systems for 5 years. Before joining the Data world, I used to work as a market analyst in Spain and as an international trade advisor in Canada.
+  about: "I am a passionate advocate of simple, vanilla Scala and I study and teach it in my free time. As a Data Engineer, I have been building Streaming and Batch systems for 5 years. Before joining the Data world, I used to work as a market analyst in Spain and as an international trade advisor in Canada."
   image: /img/assets/madrid/speakers/DavidAmancioGilMendezSq.png
   linkedin: "https://www.linkedin.com/in/davidgilmendez"
-  twitter: 
   github: "https://github.com/dagmendez"
-
