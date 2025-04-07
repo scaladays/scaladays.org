@@ -16,7 +16,7 @@ In this workshop, you'll use functional streams to explore the challenges of inc
 
 Equipped with functional streams in fs2, you'll discover that designing incremental processes can be easy, enjoyable, and deeply empowering.
 
-{: .mt-4}
+
 ### Target Audience
 
 - Scala developers at all levels (junior, mid-level and senior) and data engineers
@@ -24,17 +24,17 @@ Equipped with functional streams in fs2, you'll discover that designing incremen
 - Developers working on incremental pipelines or event driven architectures 
 - Technical decision makers who wish to know the differences between streaming technologies, such as fs2, reactive streams, Flink and Kafka
 
-{: .mt-4}
+
 ### Prerequisites
 
 You'll benefit from having some functional Scala knowledge already (Scala 2 or 3), such as working with map and flatMap on lists. Absolutely no knowledge of stream processing or fs2 is needed.
 
-{: .mt-4}
+
 ### Requirements
 
 You’ll need a laptop with an IDE setup for basic Scala projects.
 
-{: .mt-4}
+
 ### Agenda
 
 ##### Part 1: Introduction
