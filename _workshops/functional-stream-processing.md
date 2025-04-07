@@ -1,7 +1,7 @@
 ---
 workshop-id: processing
 title: Functional Stream Processing
-trainer: Zainab Ali
+trainer: zainab
 level: Intermediate 
 order: 1
 ---
