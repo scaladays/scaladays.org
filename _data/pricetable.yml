@@ -8,9 +8,25 @@ pricetable-subtitle-workshops: Pricetable
 pricetable-title-workshops: Workshops
 pricetable-description-workshops: |
   {: .lead}
-  All workshops are **2-day (16 hour)** courses and will be offered on August 18 and 19. Each workshop will conclude before the opening keynote on Auguat 19th. All workshops require a minimum of 9 participants to run. <br><br> <b>All workshop attendees will receive a certificate of completion following the end of the conference.</b> 
-
-  table
+  All workshops are **2-day (16 hour)** courses and will be offered on August 18 and 19. Each workshop will conclude before the opening keynote on Auguat 19th. All workshops require a minimum of 9 participants to run. <br><br> 
+  <b>All workshop attendees will receive a certificate of completion following the end of the conference.</b> <br><br>
+  <table>
+  <tbody>
+  <tr>
+  <td>Functional Stream Processing</td>
+  <td>Functional Programming Strategies</td>
+  <td>Real-World Zio</td>
+  <td>Domain Driven Design in Scala 3</td>
+  </tr>
+  <tr>
+  <td>Zainab Ali</td>
+  <td>Noel Welsh</td>
+  <td>Daniel Ciocirlan</td>
+  <td>David Amancio Gil Méndez</td>
+  </tr>
+  </tbody>
+  </table> 
+  <br> Stay Tuned! More information about each workshop will be published soon.
 
 
 pricetable:
