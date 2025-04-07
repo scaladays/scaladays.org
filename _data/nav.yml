@@ -11,6 +11,11 @@
     nav: nav
     wip: false
 
+  - title: Workshops
+    url: /workshops
+    nav: nav
+    wip: false
+
   - title: Venue
     url: /the-venue
     nav: nav

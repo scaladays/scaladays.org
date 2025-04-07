@@ -1,71 +1,34 @@
-juanma:
-  name: "Juan Manuel Serrano"
-  position: University Rey Juan Carlos & Habla Computing
-  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Maecenas eget condimentum velit.
-  image: /img/assets/workshops/juan-manuel-serrano.jpg"
-  linkedin: "https://www.linkedin.com/in/jserranohidalgo/"
-  twitter: "http://twitter.com/juanshac"
-  github: "https://www.github.com/jserranohidalgo"
+zainab:
+  name: "Zainab Ali"
+  position: Dusk Impression
+  about: Zainab is a functional polyglot and educator. As well as all things functional, she's interested in the art of reasoning through concurrent systems.
+  image: /img/assets/workshops/ZainabAli.jpg
+  linkedin: "https://www.linkedin.com/in/zainab-ali-fp/"
+  github: "https://www.github.com/zainab-ali"
 
-ignacio:
-  name: "Ignacio Navarro"
-  position: Xebia Functional
-  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Maecenas eget condimentum velit.
-  image: /img/assets/workshops/ignacio-navarro.jpeg"
-  linkedin: "https://www.linkedin.com/in/ignacio-navarro-7332835/"
-  twitter: 
-  github: 
+noel:
+  name: "Noel Welsh"
+  position: Inner Product
+  about: "I'm a Scala consultant at Inner Product and Underscore. I like helping teams succeed with Scala, and creating libraries in Scala that allow people to get stuff done with a minimum of effort. I've written a few books on Scala: Scala with Cats, Essential Scala, and Creative Scala."
+  image: img/assets/madrid/speakers/NoelWelshSq.png
+  linkedin: "https://www.linkedin.com/in/noel-welsh-a71658/"
+  github: "https://github.com/noelwelsh/"
 
-fede:
-  name: "Fede Fernández"
-  position: Xebia Functional
-  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Maecenas eget condimentum velit.
-  image: /img/assets/madrid/speakers/FedeFernandezSq.png"
-  linkedin: "https://www.linkedin.com/in/ffbeltran/"
-  twitter: "https://twitter.com/fede_fdz"
-  github: "https://github.com/fedefernandez"
+daniel:
+  name: "Daniel Ciocirlan"
+  position: Rock the JVM
+  about: "I am the founder of Rock the JVM, a learning platform for everything in the Scala ecosystem, which now contains more than 20 course and 250+ hours of video material on Scala, functional programming, all major Scala libraries, as well as comprehensive courses on Apache Spark and Apache Flink.
+    I've taught more than 80000 developers so far, and trained high-performing teams at some of the most renowned companies in the world (e.g. Adobe, Apple, Microsoft, ING and others).
+    I've also taught more than 30000 kids to code (not Scala… yet).
+    I have a Master's Degree in Computer Science and I wrote my Bachelor and Master theses on Quantum Computation. Before starting to learn programming, I won medals at international Physics competitions."
+  image: /img/assets/madrid/speakers/DanielCiocirlanSq.png
+  linkedin: "http://linkedin.com/company/rockthejvm"
+  github: "https://github.com/rockthejvm"
 
-jack:
-  name: "Jack Viers"
-  position: Xebia Functional
-  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Maecenas eget condimentum velit.
-  image: /img/assets/workshops/jack-viers.jpg"
-  linkedin: "https://www.linkedin.com/in/jack-viers-0764b1b/"
-  twitter: "https://twitter.com/jackcviers"
-  github: "https://www.github.com/jackcviers"
-
-rafa:
-  name: "Rafa Paradela"
-  position: Xebia Functional
-  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Maecenas eget condimentum velit.
-  image: /img/assets/workshops/rafa-paradela.jpg"
-  linkedin: "https://www.linkedin.com/in/rafaparadela/"
-  twitter: "https://twitter.com/rafaparadela"
-  github: "https://github.com/rafaparadela"
-
-eric:
-  name: "Eric Loots"
-  position: LunaTech
-  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Maecenas eget condimentum velit.
-  image: /img/assets/workshops/eric-loots.jpg"
-  linkedin: "https://www.linkedin.com/in/eric-loots-7ba8b6/"
-  twitter: 
-  github: "https://github.com/eloots"
-
-adrien:
-  name: "Adrien Piquerez"
-  position: Scala Center
-  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Maecenas eget condimentum velit.
-  image: /img/assets/workshops/adrien-piquerez.jpg"
-  linkedin: "https://www.linkedin.com/in/adrien-piquerez-22b478177/"
-  twitter: "https://twitter.com/adrienpi2"
-  github: "https://github.com/adpi2"
-
-trevor:
-  name: "Trevor Burton-McCreadie"
-  position: LunaTech
-  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Maecenas eget condimentum velit.
-  image: /img/assets/workshops/trevor.jpg"
-  linkedin: "https://www.linkedin.com/in/trevorburton/"
-  twitter:
-  github: "https://github.com/thinkmorestupidless"
+david:
+  name: "David Amancio Gil Méndez"
+  position: Xebia
+  about: "I am a passionate advocate of simple, vanilla Scala and I study and teach it in my free time. As a Data Engineer, I have been building Streaming and Batch systems for 5 years. Before joining the Data world, I used to work as a market analyst in Spain and as an international trade advisor in Canada."
+  image: /img/assets/madrid/speakers/DavidAmancioGilMendezSq.png
+  linkedin: "https://www.linkedin.com/in/davidgilmendez"
+  github: "https://github.com/dagmendez"
