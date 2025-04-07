@@ -1,4 +1,4 @@
-pricetable-subtitle: Pricetable - Super Early Bird tickets are now on sale until April 4th. 
+pricetable-subtitle: Pricetable - Early Bird tickets are now on sale until May 26th. 
 pricetable-title: Scala Days 2025
 pricetable-description: |
   {: .lead}
@@ -8,13 +8,15 @@ pricetable-subtitle-workshops: Pricetable
 pricetable-title-workshops: Workshops
 pricetable-description-workshops: |
   {: .lead}
-  All workshops are **2-day (16 hour)** courses and will be offered on August 18 and 19. Each workshop will take place from 9:00 am to 5:00 pm. All workshops require a minimum of 9 participants to run.
+  All workshops are **2-day (16 hour)** courses and will be offered on August 18 and 19. Each workshop will conclude before the opening keynote on Auguat 19th. All workshops require a minimum of 9 participants to run. <br><br> <b>All workshop attendees will receive a certificate of completion following the end of the conference.</b> 
+
+  table
 
 
 pricetable:
   - title: Conference
     state: active
-    price: CHF 750
+    price: CHF 850
     description: |
       {: .list-unstyled}
       - Access to all scheduled sessions
@@ -27,7 +29,7 @@ pricetable:
   
   - title: Workshop
     state: active
-    price: CHF 600
+    price: CHF 700
     description: |
       {: .list-unstyled}
       - Intimate classroom setting
@@ -39,7 +41,7 @@ pricetable:
 
   - title: Bundle
     state: active
-    price: CHF 1200
+    price: CHF 1395
     description:description: |
       {: .list-unstyled}
       - Includes the content of Conference and Workshop tickets
@@ -60,7 +62,7 @@ pricetable:
 
   - title: One-Day Conference
     state: active
-    price: Email for more information
+    price: CHF 560
     description: |
       {: .list-unstyled}
       - Access to all scheduled sessions
@@ -80,7 +82,7 @@ pricetable-workshops:
     workshop-id: workshop
 
     state: active
-    price1: CHF 600
+    price1: CHF 700
     description: |
       {: .list-unstyled}
       - Intimate classroom setting
