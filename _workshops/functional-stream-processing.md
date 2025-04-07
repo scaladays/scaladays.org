@@ -38,27 +38,27 @@ You’ll need a laptop with an IDE setup for basic Scala projects.
 ### Agenda
 
 ##### Part 1: Introduction
-- <i>What is functional stream processing?:</i> We’ll explore areas where stream processing is typically used, and compare it to conventional processing.
-- <i>Designing incremental pipelines:</i> We’ll learn how to chain operations to compose larger pipelines.
-- <i>Reasoning about stream processing:</i> We’ll learn to think of streams as iterative programs, develop a mental model of their execution, and use that to predict their output.
-- <i>Combining and splitting streams:</i> We’ll explore the different methods of combining functional streams and explore what it means to split them.
+- *What is functional stream processing?:* We’ll explore areas where stream processing is typically used, and compare it to conventional processing.
+- *Designing incremental pipelines:* We’ll learn how to chain operations to compose larger pipelines.
+- *Reasoning about stream processing:* We’ll learn to think of streams as iterative programs, develop a mental model of their execution, and use that to predict their output.
+- *Combining and splitting streams:* We’ll explore the different methods of combining functional streams and explore what it means to split them.
 
 ##### Part 2: Handling Side Effects
-- <i>Working with cats-effect IO:</i> We’ll take a brief tour of cats-effect IO and its suspension of side effects.
-- <i>Working with effectful streams:</i> We’ll see how IO lets us write many more practical stream programs.
-- <i>Error propagation, recovery and retries:</i> We’ll learn how to recover from errors in an incremental process.
-- <i>Bracketing with streams:</i> We’ll learn how to encode traditional try-catch-finally logic in an incremental process.
-- <i>Performance optimization:</i> We’ll see how to detect performance problems in streams and address them with chunking.
+- *Working with cats-effect IO:* We’ll take a brief tour of cats-effect IO and its suspension of side effects.
+- *Working with effectful streams:* We’ll see how IO lets us write many more practical stream programs.
+- *Error propagation, recovery and retries:* We’ll learn how to recover from errors in an incremental process.
+- *Bracketing with streams:* We’ll learn how to encode traditional try-catch-finally logic in an incremental process.
+- *Performance optimization:* We’ll see how to detect performance problems in streams and address them with chunking.
 
 ##### Part 3: Concurrent Systems
-- <i>Concurrency and parallelism:</i> We’ll learn how to use streams to write safe, simple concurrent processes.
-- <i>Managing concurrent state:</i> We’ll learn how to cleanly share state across concurrent streams.
+- *Concurrency and parallelism:* We’ll learn how to use streams to write safe, simple concurrent processes.
+- *Managing concurrent state:* We’ll learn how to cleanly share state across concurrent streams.
 
 ##### Part 4: Streams at Scale
-- <i>Scaling challenges in event-driven systems:</i> We’ll explore the impact of load in incremental pipelines and the phenomena of backpressure.
-- <i>Designing simple, reliable systems with functional streams:</i> We’ll analyse the differences between pull and push systems, and of functional streams and reactive systems, and see how functional streams greatly simplify system design.
-- <i>Handling backpressure with queues:</i> We’ll use different types of queues to ensure predictable behaviour under load.
-- <i>Interoperating with the imperative world:</i> We’ll explore methods for dealing with push systems, callbacks and other runtimes. 
+- *Scaling challenges in event-driven systems:* We’ll explore the impact of load in incremental pipelines and the phenomena of backpressure.
+- *Designing simple, reliable systems with functional streams:* We’ll analyse the differences between pull and push systems, and of functional streams and reactive systems, and see how functional streams greatly simplify system design.
+- *Handling backpressure with queues:* We’ll use different types of queues to ensure predictable behaviour under load.
+- *Interoperating with the imperative world:* We’ll explore methods for dealing with push systems, callbacks and other runtimes. 
 
 ##### Part 5: Application
 We’ll use everything we’ve learned to create an interactive game. We’ll write an event-based stream for receiving user input, have a publisher-subscriber model for handling input and updating game state, and a separate concurrent render loop for displaying state to the screen. We’ll then enhance it with error handling, metrics, and logging, as we would any production-ready application.
