@@ -18,20 +18,20 @@ The workshop has two primary goals:
 
 This workshop is about the big picture; it is focused on the design or architecture of code, and the implementation of these designs. So, for example, we won't talk about details such as how you might connect to a database in Scala, but discussing the overall design and implementation of a library for database interaction is definitely on topic. It's for people who see software libraries as force multipliers, and who want to build libraries that are more productive, flexible, and enjoyable to use. 
 
-{: .mt-4}
+
 ### Target Audience 
 
 Developers who want to make themselves or their team more productive by building powerful abstractions, and developers who want a deep understanding of the concepts behind Scala and how to use them effectively.
 
-{: .mt-4}
+
 ### Prerequisites
 You should have a solid grasp of Scala, though not necessarily the more esoteric areas like the details of how givens / implicits work. This workshop will use Scala 3, though almost everything can be translated to Scala 2 with a little effort.
 
-{: .mt-4}
+
 ### Requirements
 Laptop with Scala and development environment installed.
 
-{: .mt-4}
+
 ### Agenda
 
 #### Foundations
