@@ -17,12 +17,14 @@ pricetable-description-workshops: |
   <td>Functional Programming Strategies</td>
   <td>Real-World Zio</td>
   <td>Domain Driven Design in Scala 3</td>
+  <td>Scala, Productivity, and AI</td>
   </tr>
   <tr>
   <td>Zainab Ali</td>
   <td>Noel Welsh</td>
   <td>Daniel Ciocirlan</td>
   <td>David Amancio Gil Méndez</td>
+  <td>Krzysztof Borowski</td>
   </tr>
   </tbody>
   </table> 
