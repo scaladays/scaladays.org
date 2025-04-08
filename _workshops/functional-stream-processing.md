@@ -2,7 +2,7 @@
 workshop-id: processing
 title: Functional Stream Processing
 trainer: zainab
-level: Intermediate 
+level: All 
 order: 1
 ---
 
