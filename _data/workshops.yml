@@ -32,3 +32,12 @@ david:
   image: /img/assets/workshops/DavidGil.jpg
   linkedin: "https://www.linkedin.com/in/davidgilmendez"
   github: "https://github.com/dagmendez"
+
+krzysztof:
+  name: "Krzysztof Borowski"
+  position: VirtusLab
+  about: 
+  image: 
+  linkedin: "https://www.linkedin.com/in/liosedhel/"
+  github: 
+
