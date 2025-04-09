@@ -15,7 +15,7 @@
         <div class="card mb-4 border h-100 box-active">
           <div class="card-header py-3">
             <img class="mb-2" src="{{ site.baseurl }}/img/assets/icon-workshops.svg" alt="">
-            <div class="fw-bold fs-5">{{item.title | markdownify}}</div>
+            <div class="fw-bold fs-5 mb-0">{{item.title | markdownify}}</div>
           </div>
           <div class="card-body d-flex flex-column justify-content-between">
             <div>
@@ -26,6 +26,8 @@
                 {% endif %}
               </h4>
               <div class="description-ticket">{{item.description | markdownify }}</div>
+              {% assign trainer = site.data.workshops[item.workshop-id] %}
+              <!--<div class="description-ticket">{{trainer.about | markdownify }}</div>-->
             </div>
             <div>
              

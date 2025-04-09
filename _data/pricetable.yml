@@ -8,27 +8,12 @@ pricetable-subtitle-workshops: Pricetable
 pricetable-title-workshops: Workshops
 pricetable-description-workshops: |
   {: .lead}
-  All workshops are <b>2-day</b> courses and will be offered on August 18 and 19. Each workshop will conclude before the opening keynote on Auguat 19th. All workshops require a minimum of 9 participants to run. <br><br> 
-  <b>All workshop attendees will receive a certificate of completion following the end of the conference.</b> <br><br>
-  <table>
-  <tbody>
-  <tr>
-  <td>Functional Stream Processing</td>
-  <td>Functional Programming Strategies</td>
-  <td>Real-World Zio</td>
-  <td>Domain Driven Design in Scala 3</td>
-  <td>Scala, Productivity, and AI</td>
-  </tr>
-  <tr>
-  <td>Zainab Ali</td>
-  <td>Noel Welsh</td>
-  <td>Daniel Ciocirlan</td>
-  <td>David Amancio Gil Méndez</td>
-  <td>Krzysztof Borowski</td>
-  </tr>
-  </tbody>
-  </table> 
-  <br> Stay Tuned! More information about each workshop will be published soon.
+  All workshops are **2-day** courses and will be offered on **August 18 and 19**. Each workshop will conclude before the opening keynote on August 19th. All workshops require a minimum of 9 participants to run. <br><br> 
+  **All workshop attendees will receive a certificate of completion following the end of the conference.** 
+  
+  
+  {: .lead}
+  Stay Tuned! More information about each workshop will be published soon.
 
 
 pricetable:
@@ -93,19 +78,43 @@ pricetable:
 
 
 pricetable-workshops:
-  - title: |
-      {: .mb-0}
-      Workshop ticket
-
-    workshop-id: workshop
-
+  - title: Functional Stream Processing
+    workshop-id: zainab
     state: active
     price1: CHF 700
-    description: |
-      {: .list-unstyled}
-      - Intimate classroom setting
-      - Expert instruction
-      - Lunch and snacks
+    description: "Led by Zainab Ali"
+    date: Including VAT
+    cta: Register now
+    cta-url: https://register.event-works.com/lausanne/Scaladays2025/e/lk/k/
+  - title: Functional Programming Strategies
+    workshop-id: noel
+    state: active
+    price1: CHF 700
+    description: "Led by Noel Welsh"
+    date: Including VAT
+    cta: Register now
+    cta-url: https://register.event-works.com/lausanne/Scaladays2025/e/lk/k/
+  - title: Real-World Zio
+    workshop-id: daniel
+    state: active
+    price1: CHF 700
+    description: "Led by Daniel Ciocirlan"
+    date: Including VAT
+    cta: Register now
+    cta-url: https://register.event-works.com/lausanne/Scaladays2025/e/lk/k/
+  - title: Domain Driven Design in Scala 3
+    workshop-id: david
+    state: active
+    price1: CHF 700
+    description: "Led by David Amancio Gil Méndez"
+    date: Including VAT
+    cta: Register now
+    cta-url: https://register.event-works.com/lausanne/Scaladays2025/e/lk/k/
+  - title: Scala, Productivity, and AI
+    workshop-id: krzysztof
+    state: active
+    price1: CHF 700
+    description: "Led by Krzysztof Borowski"
     date: Including VAT
     cta: Register now
     cta-url: https://register.event-works.com/lausanne/Scaladays2025/e/lk/k/
