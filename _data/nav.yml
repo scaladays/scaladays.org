@@ -27,12 +27,18 @@
     wip: true
 
 workshops:
-  - title: Embedding of Domain-Specific Languages in Scala
+  - title: Functional Stream Processing
     url: /workshop/1/
 
-  - title: Online multiplayer game
+  - title: Functional Programming Strategies
     url: /workshop/2/
 
-  - title: Moving from Scala 2 to Scala 3
+  - title: Real-World ZIO
     url: /workshop/3/
+    
+  - title: Domain Driven Design in Scala 3
+    url: /workshop/4/
+    
+  - title: Scala, Productivity, and AI
+    url: /workshop/5/
 

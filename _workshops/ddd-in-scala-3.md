@@ -2,7 +2,7 @@
 workshop-id: ddd
 title: Domain Driven Design in Scala 3
 trainer: david
-level: Intermediate 
+level: Beginner 
 order: 4
 ---
 
