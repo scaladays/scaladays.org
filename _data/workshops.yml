@@ -36,8 +36,8 @@ david:
 krzysztof:
   name: "Krzysztof Borowski"
   position: VirtusLab
-  about: 
-  image: 
+  about: "Krzysztof Borowski is a Principal Software Engineer at VirtusLab and holds a Ph.D. in computer science. As both a researcher and hands-on practitioner, he focuses on designing simple, elegant, and scalable solutions that effectively meet business requirements."
+  image: /img/assets/workshops/KrzysztofBorowski.jpg
   linkedin: "https://www.linkedin.com/in/liosedhel/"
-  github: 
+  github: "https://github.com/liosedhel"
 
