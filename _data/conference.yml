@@ -230,13 +230,19 @@ tickets:
     description: Conference tickets give access to all scheduled sessions including lunch, coffee breaks, the welcome reception, and the community party. During your registration process, we ask you kindly to let us know if you will participate in surrounding social events, it helps us place orders and avoid wasting food. <br><br> Exclusive and discounted tickets are available per demand for sponsors, group (5+) tickets, and awarded members. Please email info@scaladays.org for assistance. <br><br> Students can directly buy discounted tickets by choosing “Student - Conference” on the registration page, a valid student ID is required. <br><br> We also encourage individuals who have limited education budgets or otherwise are self-funded, joining from lower income countries, to reach out to the organizers, info@scaladays.org.
   - icon: img/assets/icon-airport.svg
     title: Visa/Invitation Letter
-    description: An invitation letter for your visa application procedure is available after completing the registration process.
+    description: 
+      An invitation letter for your visa application procedure is available after completing the registration process.
+      If you need an invitation letter for your visa application procedure, please check the corresponding box during registration or contact dafonseca@lausanne-tourisme.ch. 
   - icon: img/assets/icon-airport.svg
     title: Accompanying Persons
-    description: An accompanying person is an adult who travels with a conference attendee for the occasion but does not participate in the conference sessions or workshops. To ensure they too have fun, the Scala Days conference organizers are offering a special “Accompanying Person” ticket, which grants access to the welcome reception, community party, and lunches at the conference venue during the event. Additionally, the ticket includes a curated daytime program featuring activities such as a guided tour of Lausanne and a chocolate tasting experience. The cost for an accompanying person is CHF 400 and can be added to your booking during the registration process.
+    description: 
+      An accompanying person is an adult who travels with a conference attendee for the occasion but does not participate in the conference sessions or workshops. To ensure they too have fun, the Scala Days conference organizers are offering a special “Accompanying Person” ticket, which grants access to the welcome reception, community party, and lunches at the conference venue during the event. 
+      Additionally, the ticket includes a curated daytime program featuring activities such as a guided tour of Lausanne and a chocolate tasting experience. The cost for an accompanying person is CHF 400 and can be added to your booking during the registration process.
   - icon: img/assets/icon-airport.svg
     title: Daycare
-    description: If you are attending with a child (or children), daycare on site will be available and can be added to your booking during the registration process.
+    description: 
+      If you are attending with a child (or children), daycare on site will be available and can be added to your booking during the registration process.
+      If you are registering more than 2 children, please contact dafonseca@lausanne-tourisme.ch
   - icon: img/assets/icon-about-location.svg
     title: Post-conference site-seeing
     description: Lausanne Tourisme is here to organise a fantastic wine tasting tour in the UNESCO World Heritage site of Lavaux near Lausanne, Friday 22nd August. This tour costs 55 CHF per person, and includes train ticket, guided tour, visit of a local winery with wine tasting. Places are limited and will be allocated on a first-come, first-served basis. 
