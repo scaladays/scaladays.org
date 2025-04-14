@@ -114,12 +114,3 @@ pricetable-workshops:
     date: Including VAT
     cta: Register now
     cta-url: https://register.event-works.com/lausanne/Scaladays2025/e/lk/k/
-  - title: Scala, Productivity, and AI
-    workshop-id: krzysztof
-    state: active
-    price1: CHF 700
-    price2: CHF 1395
-    description: "Led by Krzysztof Borowski"
-    date: Including VAT
-    cta: Register now
-    cta-url: https://register.event-works.com/lausanne/Scaladays2025/e/lk/k/
