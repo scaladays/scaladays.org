@@ -23,10 +23,6 @@ Daniel is the founder of Rock the JVM, a learning platform for everything in the
 ![David headshot](/img/assets/workshops/DavidGil.jpg)  
 David is a passionate advocate of simple, vanilla Scala and he studies and teaches it in his free time. As a Data Engineer, he has been building Streaming and Batch systems for 5 years. Before joining the Data world, he worked as a market analyst in Spain and as an international trade advisor in Canada.
 
-**Krzysztof Borowski** is teaching the “Scala, Productivity, and AI” workshop.  
-![Krzysztof headshot](/img/assets/workshops/KrzysztofBorowski.jpg)  
-Krzysztof is a Principal Software Engineer at VirtusLab and holds a Ph.D. in computer science. As both a researcher and hands-on practitioner, he focuses on designing simple, elegant, and scalable solutions that effectively meet business requirements.
-
 **Noel Welsh** is teaching the “Functional Programming Strategies” workshop.  
 ![Noel headshot](/img/assets/workshops/NoelWelsh.jpg)  
 Noel is a Scala consultant at Inner Product and Underscore. He likes helping teams succeed with Scala, and creating libraries in Scala that allow people to get stuff done with a minimum of effort. He has written a few books on Scala: Scala with Cats, Essential Scala, and Creative Scala.
