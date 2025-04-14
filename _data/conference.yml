@@ -122,7 +122,7 @@ footer-social:
     socialUrl: https://discord.com/invite/scala
 
   - socialIcon: img/assets/icon-linkedin-white.svg
-    socialUrl: https://www.linkedin.com/company/scala-center
+    socialUrl: https://www.linkedin.com/company/scaladays
 
   - socialIcon: img/assets/icon-youtube.svg
     socialUrl: https://www.youtube.com/c/ScalaDaysConferences
