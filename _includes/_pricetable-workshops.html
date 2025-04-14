@@ -20,19 +20,61 @@
           <div class="card-body d-flex flex-column justify-content-between">
             <div>
               <h4 class="fs-3 fw-bold border-bottom pb-4">
-                {{item.price1}}
+                <span class="fs-5 fw-normal text-muted">workshop:</span> {{ item.price1 }}
+                <br><span style="display:inline-block; margin-top: 0.2rem;"></span>
                 {% if item.price2 %}
-                / {{item.price2}}
+                <br><span class="fs-5 fw-normal text-muted">bundle:</span> {{ item.price2 }}
                 {% endif %}
               </h4>
-              <div class="description-ticket">{{item.description | markdownify }}</div>
+              
+
               {% assign trainer = site.data.workshops[item.workshop-id] %}
+            <!-- Trainer info -->
+            <div class="trainer-info text-center mt-3">
+              <!-- Center and crop trainer’s photo to be a square -->
+              <div class="trainer-img-wrapper mb-3 d-flex justify-content-center">
+                <img 
+                  class="trainer-img"
+                  src="{{ site.baseurl }}{{ trainer.image }}"
+                  alt="Trainer: {{ trainer.name }}"
+                  style="
+                    width: 200px; 
+                    height: 200px; 
+                    object-fit: cover; 
+                    border-radius: 50%;
+                  "
+                />
+              </div>
+
+              <div class="trainer-name fw-bold">{{ trainer.name }}</div>
+              <div class="trainer-position text-muted mb-2">{{ trainer.position }}</div>
+              <div class="trainer-about mb-3">{{ trainer.about | markdownify }}</div>
+
+              <!-- Icons linking to LinkedIn and GitHub -->
+              <div class="trainer-links d-flex justify-content-center gap-2">
+                <a href="{{ trainer.linkedin }}" target="_blank" rel="noopener">
+                  <img 
+                    src="{{ site.baseurl }}/img/assets/icon-linkedin.svg" 
+                    alt="LinkedIn" 
+                    style="height: 24px;"
+                  >
+                </a>
+                <a href="{{ trainer.github }}" target="_blank" rel="noopener">
+                  <img 
+                    src="{{ site.baseurl }}/img/assets/icon-github.svg" 
+                    alt="GitHub" 
+                    style="height: 24px;"
+                  >
+                </a>
+              </div>
+            </div>
               <!--<div class="description-ticket">{{trainer.about | markdownify }}</div>-->
             </div>
             <div>
-             
+
               {% if item.cta-url %}
-              <a href="{{item.cta-url}}" class="w-100 btn btn-lg btn-primary" target="_blank" rel="noopener noreferrer">{{item.cta}}</a>
+              <a href="{{item.cta-url}}" class="w-100 btn btn-lg btn-primary" target="_blank"
+                rel="noopener noreferrer">{{item.cta}}</a>
               {% endif %}
             </div>
           </div>
