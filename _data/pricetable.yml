@@ -82,6 +82,7 @@ pricetable-workshops:
     workshop-id: zainab
     state: active
     price1: CHF 700
+    price2: CHF 1395
     description: "Led by Zainab Ali"
     date: Including VAT
     cta: Register now
@@ -90,6 +91,7 @@ pricetable-workshops:
     workshop-id: noel
     state: active
     price1: CHF 700
+    price2: CHF 1395
     description: "Led by Noel Welsh"
     date: Including VAT
     cta: Register now
@@ -98,6 +100,7 @@ pricetable-workshops:
     workshop-id: daniel
     state: active
     price1: CHF 700
+    price2: CHF 1395
     description: "Led by Daniel Ciocirlan"
     date: Including VAT
     cta: Register now
@@ -106,6 +109,7 @@ pricetable-workshops:
     workshop-id: david
     state: active
     price1: CHF 700
+    price2: CHF 1395
     description: "Led by David Amancio Gil Méndez"
     date: Including VAT
     cta: Register now
@@ -114,6 +118,7 @@ pricetable-workshops:
     workshop-id: krzysztof
     state: active
     price1: CHF 700
+    price2: CHF 1395
     description: "Led by Krzysztof Borowski"
     date: Including VAT
     cta: Register now
