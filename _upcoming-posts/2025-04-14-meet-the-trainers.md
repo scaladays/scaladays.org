@@ -28,7 +28,7 @@ David is a passionate advocate of simple, vanilla Scala and he studies and teach
 Noel is a Scala consultant at Inner Product and Underscore. He likes helping teams succeed with Scala, and creating libraries in Scala that allow people to get stuff done with a minimum of effort. He has written a few books on Scala: Scala with Cats, Essential Scala, and Creative Scala.
 
 **Zainab Ali** is teaching the “Functional Stream Processes” workshop.  
-![Zainab headshot](/img/assets/workshops/ZainabAli.jpg)  
+![Zainab headshot](/img/assets/team/ZainabAli.jpg)  
 Zainab is a functional polyglot and educator. As well as all things functional, she’s interested in the art of reasoning through concurrent systems.
 
 Subscribe and follow Scala Days on social media to hear the latest conference updates when they happen!  
