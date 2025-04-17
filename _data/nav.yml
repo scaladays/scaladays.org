@@ -26,6 +26,11 @@
     nav: nav
     wip: false
     
+  - title: Blog
+    url: /blog
+    nav: nav
+    wip: false
+    
   - title: Schedule
     url: /schedule
     nav: nav
@@ -44,6 +49,4 @@ workshops:
   - title: Domain Driven Design in Scala 3
     url: /workshop/4/
     
-  - title: Scala, Productivity, and AI
-    url: /workshop/5/
 
