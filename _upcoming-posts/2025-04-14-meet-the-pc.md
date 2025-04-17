@@ -24,21 +24,21 @@ Darja is the Executive Director of the Scala Center. She has been in the role of
 
 ### Adriaan Moors
 
-![Adriaan headshot](/img/assets/team/AdriaanMoors.jpeg)  
+![Adriaan headshot](/img/assets/team/AdriaanMoors.jpg)  
 
 Adriaan is a former Scala 2 compiler lead, cursing higher-kinded types since 2007. Now spends most of his working hours writing the simplest Scala (3) he can think of.
 
 
 ### Professor Dr. Andrei Kucharavy
 
-![Andrei headshot](/img/assets/team/AndreiKucharavy.JPG)  
+![Andrei headshot](/img/assets/team/AndreiKucharavy.jpg)  
 
 Prof. Dr. Andrei is Assistant Professor at the Informatics Institute of HEVS, co-director of the HES-SO Gen Learning Center and Swiss Cyber Defence Campus Distinguished Post-Doctoral Fellow, specializing in the security of Generative ML, notably generated code security.
 
 
 ### Dimi Racordon
 
-![Dimi headshot](/img/assets/team/DimiRacordon.jpeg)  
+![Dimi headshot](/img/assets/team/DimiRacordon.jpg)  
 
 Dimi is a researcher at EPFL in Switzerland. She got her Ph.D. in computer science at the University of Geneva. She worked on model checking and developed efficient data structures to generate and explore large state spaces. Dimi likes generic programming, because it looks like math, and low-level programming languages, because she loves wasting time on premature optimization.
 
@@ -59,19 +59,21 @@ Martin is a professor at EPFL in Lausanne, Switzerland. He is best known as the 
 
 ### Raúl Raja
 
+![Raul headshot](/img/assets/team/RaulRaja.jpg)  
+
 Raúl is the CTO and Co-founder of Predictable Machines.
 
 
 ### Seth Tisue
 
-![Seth headshot](/img/assets/team/SethTisue.JPG)  
+![Seth headshot](/img/assets/team/SethTisue.jpg)  
 
 Seth has been active in Scala since 2008 in roles including user, contributor, meetup and conference organizer, speaker, podcaster, moderator, and more. He currently serves on the Scala Core Team as “Community Advocate”.
 
 
 ### Zainab Ali  
 
-![Zainab headshot](/img/assets/workshops/ZainabAli.jpg)
+![Zainab headshot](/img/assets/team/ZainabAli.jpg)
 
 Zainab is a functional polyglot and educator. As well as all things functional, she’s interested in the art of reasoning through concurrent systems.
 
