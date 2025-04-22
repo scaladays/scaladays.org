@@ -13,7 +13,8 @@ sass:
     style: compressed
 
 plugins:
-  - "jekyll-github-metadata"
+  - jekyll-github-metadata
+  - jekyll-hostname
 
 collections:
   talks-2025:
