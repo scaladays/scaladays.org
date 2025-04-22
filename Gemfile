@@ -1,11 +1,12 @@
 source "https://rubygems.org"
 
 gem 'bootstrap', '~> 5.3.3'
-gem "github-pages", group: :jekyll_plugins
+gem "jekyll", group: :jekyll_plugins
 group :jekyll_plugins do
   gem "jekyll-github-metadata"
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-hostname"
+  gem "kramdown-parser-gfm"
   gem "webrick"
 end
 
