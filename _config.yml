@@ -3,7 +3,6 @@ name: Scala Days
 description: The premier Scala conference returns in 2025
 author: 
 keywords: scala, scala center
-url: "" 
 baseurl: ""
 email: "info@scaladays.org"
 twitter_username: "@scaladays"
@@ -12,7 +11,9 @@ social_image: "/img/social-card.png"
 sass:
     sass_dir: _sass
     style: compressed
-    
+
+plugins:
+  - "jekyll-github-metadata"
 
 collections:
   talks-2025:
