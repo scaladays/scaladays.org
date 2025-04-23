@@ -21,8 +21,13 @@ jobs:
           bundler-cache: true
           cache-version: 0
       - name: Setup GitHub Pages
+        id: pages
         uses: actions/configure-pages@v5
       - name: Build Website with Jekyll
-        uses: actions/jekyll-build-pages@v1
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+          OCTOKIT_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAGES_REPO_NWO: ${{ github.repository }}
       - name: Upload Website to GitHub Artifacts
         uses: actions/upload-pages-artifact@v3
