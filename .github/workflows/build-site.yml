@@ -27,5 +27,6 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+          OCTOKIT_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Upload Website to GitHub Artifacts
         uses: actions/upload-pages-artifact@v3
