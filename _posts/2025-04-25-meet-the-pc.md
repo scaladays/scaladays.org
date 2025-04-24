@@ -2,8 +2,8 @@
 title: Meet the Program Committee
 layout: post-detail
 tag: Event
-image: img/background-2025.jpg
-header: img/background-2025.jpg
+image: assets/img/2025/meet-the-pc.png
+header: assets/img/2025/meet-the-pc.png
 permalink: /blog/:title/
 description: Get to know the Scala Days Program Committee Members who are helping to shape this year's conference.
 ---
