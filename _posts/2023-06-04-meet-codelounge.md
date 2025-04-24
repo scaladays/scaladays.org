@@ -1,7 +1,7 @@
 ---
 title: Meet the Sponsor, Codelounge
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/meet-codelounge-post.png
 header: img/blog/meet-codelounge-banner.png
 permalink: /blog/:title/
