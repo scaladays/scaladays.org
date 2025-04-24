@@ -78,6 +78,9 @@ Seth has been active in Scala since 2008 in roles including user, contributor, m
 Zainab is a functional programming polyglot, educator and the author of Functional Stream Processing in Scala. She is a Scala ambassador, a community representative for the Scala Center, the organizer of the London Scala User Group and frequent OSS contributor.
 
 
+
+
+
 Visit [www.scaladays.org](https://www.scaladays.org) to purchase your tickets and learn more about this year's conference.  
 
 For the latest conference details, subscribe to the Scala Days mailing list on our website and follow us on your preferred social media channels.
