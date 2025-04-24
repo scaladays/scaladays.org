@@ -1,7 +1,7 @@
 ---
 title: Scala Days Madrid Tickets On Sale Now!
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/scala-days-madrid-tickets.png
 header: img/blog/scala-days-madrid-tickets-post.png
 permalink: /blog/:title/
