@@ -1,7 +1,7 @@
 ---
 title: Sponsorship Opportunities in 2023
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/sponsorship-opportunities.png
 header: img/blog/sponsorship-opportunities-post.png
 permalink: /blog/:title/
