@@ -1,7 +1,7 @@
 ---
 title: Scala Bridge in Madrid 
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/scala-bridge-post.png
 header: img/blog/scala-bridge-banner.png
 permalink: /blog/:title/
