@@ -16,6 +16,7 @@ plugins:
   - jekyll-github-metadata
   - jekyll-hostname
   - jekyll-feed
+  - jekyll-sitemap
 
 collections:
   talks-2025:
