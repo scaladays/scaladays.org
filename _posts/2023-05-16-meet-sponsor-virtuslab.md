@@ -1,7 +1,7 @@
 ---
 title: Meet the Sponsor, VirtusLab
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/meet-virtuslab-post.png
 header: img/blog/meet-virtuslab-banner.png
 permalink: /blog/:title/
