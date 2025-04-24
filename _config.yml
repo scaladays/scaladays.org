@@ -38,3 +38,5 @@ defaults:
     values:
       layout: "workshops-detail"
 
+include:
+  - .well-known
