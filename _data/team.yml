@@ -52,7 +52,7 @@ members:
     github: "https://github.com/SethTisue"
   - name: "Zainab Ali"
     position: "Pure Async"
-    about: "Zainab is a functional polyglot and educator. As well as all things functional, she's interested in the art of reasoning through concurrent systems."
+    about: "Zainab is a functional programming polyglot, educator and the author of Functional Stream Processing in Scala. She is a Scala ambassador, a community representative for the Scala Center, the organizer of the London Scala User Group and frequent OSS contributor."
     image: "/img/assets/team/ZainabAli.jpg"
     linkedin: "https://www.linkedin.com/in/zainab-ali-fp/"
     github: "https://www.github.com/zainab-ali"
