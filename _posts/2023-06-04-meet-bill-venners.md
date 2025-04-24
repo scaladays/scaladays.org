@@ -1,7 +1,7 @@
 ---
 title: Meet the Speaker, Bill Venners
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/meet-bill-venners-post.png
 header: img/blog/meet-bill-venners-banner.png
 permalink: /blog/:title/
