@@ -5,5 +5,3 @@ _site/
 .DS_Store
 /vendor/bundle
 .bundle/config
-Gemfile.lock
-
