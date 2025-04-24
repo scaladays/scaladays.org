@@ -1,7 +1,7 @@
 ---
 title: Meet the Sponsor, Lunatech
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/meet-lunatech-post.png
 header: img/blog/meet-lunatech-banner.png
 permalink: /blog/:title/
