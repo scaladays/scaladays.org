@@ -2,8 +2,8 @@
 title: Meet the Trainers
 layout: post-detail
 tag: Event
-image: img/background-2025.jpg
-header: img/background-2025.jpg
+image: assets/img/2025/meet-the-trainers.png
+header: assets/img/2025/meet-the-trainers.png
 permalink: /blog/:title/
 description: Scala Days is excited to host this year’s workshop options, led by a truly fantastic lineup of trainers!
 ---
@@ -11,7 +11,7 @@ description: Scala Days is excited to host this year’s workshop options, led b
 
 Scala Days is excited to host this year’s workshop options, led by a truly fantastic lineup of trainers!
 
-We have five incredible workshops and multiple ticket options to choose from. This year you will find a BUNDLE ticket option available for purchase. The bundle ticket includes a conference ticket and a workshop ticket, while saving you a little money on both! The bundle not only gives full access to the conference and community events within the event, but also allows you to choose the workshop you’re most interested in attending.
+We have four incredible workshops and multiple ticket options to choose from. This year you will find a BUNDLE ticket option available for purchase. The bundle ticket includes a conference ticket and a workshop ticket, while saving you a little money on both! The bundle not only gives full access to the conference and community events within the event, but also allows you to choose the workshop you’re most interested in attending.
 
 Follow along below to learn who is teaching each workshop, and a little bit about them:
 
