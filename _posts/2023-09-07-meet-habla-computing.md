@@ -1,7 +1,7 @@
 ---
 title: Meet the Sponsor, Habla Computing
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/meet-habla-post.png
 header: img/blog/meet-habla-banner.png
 permalink: /blog/:title/
