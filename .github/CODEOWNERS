@@ -1,0 +1,4 @@
+.github/CODEOWNERS       @scaladays/admins
+
+.well-known/security.txt @scaladays/security
+.well-known/proto-did    @scaladays/admins
