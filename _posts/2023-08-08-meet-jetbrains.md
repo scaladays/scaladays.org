@@ -1,7 +1,7 @@
 ---
 title: Meet the Sponsor, JetBrains
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/meet-jetbrains-post.png
 header: img/blog/meet-jetbrains-banner.png
 permalink: /blog/:title/

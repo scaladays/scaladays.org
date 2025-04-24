@@ -1,7 +1,7 @@
 ---
 title: Ticket Changes for Scala Days
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/ticket-changes-post.png
 header: img/blog/ticket-changes.png
 permalink: /blog/:title/

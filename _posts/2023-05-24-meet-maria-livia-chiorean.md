@@ -1,7 +1,7 @@
 ---
 title: Meet the Speaker, Maria Livia Chiorean
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/meet-maria-chiorean-post.png
 header: img/blog/meet-maria-chiorean-banner.png
 permalink: /blog/:title/

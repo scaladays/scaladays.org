@@ -1,7 +1,7 @@
 ---
 title: Meet the Sponsor, ScalaJobs
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/meet-scalajobs-post.png
 header: img/blog/meet-scalajobs-banner.png
 permalink: /blog/:title/

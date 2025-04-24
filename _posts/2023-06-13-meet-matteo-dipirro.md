@@ -1,7 +1,7 @@
 ---
 title: Meet the Speaker, Matteo Di Pirro
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/meet-matteo-dipirro-post.png
 header: img/blog/meet- matteo-dipirro-banner.png
 permalink: /blog/:title/

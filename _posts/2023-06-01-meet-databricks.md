@@ -1,7 +1,7 @@
 ---
 title: Meet the Sponsor, Databricks
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/meet-databricks-post.png
 header: img/blog/meet-databricks-banner.png
 permalink: /blog/:title/

@@ -1,7 +1,7 @@
 ---
 title: Meet the Speaker, Michael Perucca
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/meet-michael-perucca-post.png
 header: img/blog/meet-michael-perucca-banner.png
 permalink: /blog/:title/

@@ -1,7 +1,7 @@
 ---
 title: Meet the Program Committee
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/meet-the-program-committee.png
 header: img/blog/meet-the-program-committee-post.png
 permalink: /blog/:title/

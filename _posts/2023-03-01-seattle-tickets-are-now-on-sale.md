@@ -1,7 +1,7 @@
 ---
 title: Seattle Tickets are now on Sale
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/seattle-tickets-are-now-on-sale.png
 header: img/blog/seattle-tickets-are-now-on-sale-post.png
 permalink: /blog/:title/

@@ -1,7 +1,7 @@
 ---
 title: Meet the Speaker, Adam Warski
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/meet-adam-warski-post.png
 header: img/blog/meet-adam-warski-banner.png
 permalink: /blog/:title/

@@ -1,7 +1,7 @@
 ---
 title: Meet the Sponsor, Expedia
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/meet-expedia-post.png
 header: img/blog/meet-expedia-banner.png
 permalink: /blog/:title/

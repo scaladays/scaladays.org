@@ -1,7 +1,7 @@
 ---
 title: Meet the Speaker, Anthony Cros
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/meet-anthony-cros-post.png
 header: img/blog/meet-anthony-cros-banner.png
 permalink: /blog/:title/

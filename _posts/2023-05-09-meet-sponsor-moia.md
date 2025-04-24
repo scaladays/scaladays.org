@@ -1,7 +1,7 @@
 ---
 title: Meet the Sponsor, MOIA
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/meet-moia-post.png
 header: img/blog/meet-moia-banner.png
 permalink: /blog/:title/

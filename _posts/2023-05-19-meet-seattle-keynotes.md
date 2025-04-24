@@ -1,7 +1,7 @@
 ---
 title: Meet Seattle’s Keynote Speakers
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/meet-seattle-keynotes-post.png
 header: img/blog/meet-seattle-keynotes-banner.png
 permalink: /blog/:title/

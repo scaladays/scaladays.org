@@ -1,7 +1,7 @@
 ---
 title: Special LLM and AI Meetup at Scala Days
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/databricks-meetup-post.png
 header: img/blog/databricks-meetup-banner.png
 permalink: /blog/:title/
