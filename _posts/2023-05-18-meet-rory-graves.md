@@ -1,7 +1,7 @@
 ---
 title: Meet the Speaker, Rory Graves
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/meet-rory-graves-post.png
 header: img/blog/meet-rory-graves-banner.png
 permalink: /blog/:title/
