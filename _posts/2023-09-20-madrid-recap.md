@@ -1,7 +1,7 @@
 ---
 title: A Recap of Scala Days Madrid
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/madrid-recap-post.png
 header: img/blog/madrid-recap-banner.png
 permalink: /blog/:title/
