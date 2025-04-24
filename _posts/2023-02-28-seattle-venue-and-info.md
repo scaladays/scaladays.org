@@ -1,7 +1,7 @@
 ---
 title: Scala Days Seattle Venue and Information
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/scala-days-venue-seattle.png
 header: img/blog/scala-days-venue-seattle-post.png
 permalink: /blog/:title/
