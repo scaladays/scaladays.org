@@ -1,7 +1,7 @@
 ---
 title: Meet the Sponsor, Signify Technology
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/meet-signify-post.png
 header: img/blog/meet-signify-banner.png
 permalink: /blog/:title/
