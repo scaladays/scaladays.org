@@ -1,7 +1,7 @@
 ---
 title: Meet the Scala Center
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/meet-scalacenter-post.png
 header: img/blog/meet-scalacenter-banner.png
 permalink: /blog/:title/
