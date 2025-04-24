@@ -1,7 +1,7 @@
 ---
 title: Meet the Trainers
 layout: post-detail
-tag: Event
+tag: 2025
 image: assets/img/2025/meet-the-trainers.png
 header: assets/img/2025/meet-the-trainers.png
 permalink: /blog/:title/
