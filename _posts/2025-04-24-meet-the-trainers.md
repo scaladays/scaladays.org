@@ -19,25 +19,25 @@ Follow along below to learn who is teaching each workshop, and a little bit abou
 
 
 **Daniel Ciocirlan** is teaching the “Real-World ZIO” workshop.  
-![Daniel headshot](/img/assets/workshops/DanielCiocirlan.png)  
+![Daniel headshot](/assets/img/2025/workshops-trainers/daniel-ciocirlan.png)  
 Daniel is the founder of Rock the JVM, a learning platform for everything in the Scala ecosystem. Daniel has a Master’s Degree in Computer Science and wrote his Bachelor and Master theses on Quantum Computation. Before starting to learn programming, he won medals at international Physics competitions.
 
 
 
 **David Amancio Gil Méndez** is teaching the “Domain Driven Design in Scala 3” workshop.  
-![David headshot](/img/assets/workshops/DavidGil.jpg)  
+![David headshot](/assets/img/2025/workshops-trainers/david-gil.jpg)  
 David is a passionate advocate of simple, vanilla Scala and he studies and teaches it in his free time. As a Data Engineer, he has been building Streaming and Batch systems for 5 years. Before joining the Data world, he worked as a market analyst in Spain and as an international trade advisor in Canada.
 
 
 
 **Noel Welsh** is teaching the “Functional Programming Strategies” workshop.  
-![Noel headshot](/img/assets/workshops/NoelWelsh.jpg)  
+![Noel headshot](/assets/img/2025/workshops-trainers/noel-welsh.jpg)  
 Noel is a Scala consultant at Inner Product and Underscore. He likes helping teams succeed with Scala, and creating libraries in Scala that allow people to get stuff done with a minimum of effort. He has written a few books on Scala: Scala with Cats, Essential Scala, and Creative Scala.
 
 
 
 **Zainab Ali** is teaching the “Functional Stream Processes” workshop.  
-![Zainab headshot](/img/assets/team/ZainabAli.jpg)  
+![Zainab headshot](/assets/img/2025/workshops-trainers/zainab-ali.jpg)   
 Zainab is a functional programming polyglot, educator and the author of Functional Stream Processing in Scala. She is a Scala ambassador, a community representative for the Scala Center, the organizer of the London Scala User Group and frequent OSS contributor.
 
 
