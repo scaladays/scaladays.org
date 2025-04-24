@@ -1,7 +1,7 @@
 ---
 title: Meet Silver Sponsor, Kalix
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/meet-kalix-post.png
 header: img/blog/meet-kalix-banner.png
 permalink: /blog/:title/
