@@ -1,7 +1,7 @@
 ---
 title: Scala Days Diversity Scholarship Applications
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/diversity-scholarship-application.png
 header: img/blog/diversity-scholarship-application-post.png
 permalink: /blog/:title/
