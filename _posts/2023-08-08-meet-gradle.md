@@ -1,7 +1,7 @@
 ---
 title: Meet the Sponsor, Gradle
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/meet-gradle-post.png
 header: img/blog/meet-gradle-banner.png
 permalink: /blog/:title/
