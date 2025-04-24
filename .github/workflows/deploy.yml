@@ -1,8 +1,15 @@
 name: Deploy Webite to GitHub Pages
 
 on:
+  # Deploy each time something changes in `main`
   push:
     branches: ["main"]
+  # Deploy everytday at 01:00 to account for time dependent changes
+  schedule:
+    - cron: '0 1 * * *'
+  # Deploy manually when necessary
+  workflow_dispatch:
+
 permissions:
   contents: read
   pages: write
