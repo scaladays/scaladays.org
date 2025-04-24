@@ -1,7 +1,7 @@
 ---
 title: Meet the Speaker, Pathikrit Bhowmick
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/meet-pathikrit-bhowmick-post.png
 header: img/blog/meet-pathikrit-bhowmick-banner.png
 permalink: /blog/:title/
