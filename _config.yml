@@ -26,6 +26,9 @@ collections:
     permalink: /workshops/:title
     sort_by: order
 
+links:
+  code-of-conduct: https://scala-lang.org/conduct/
+
 defaults:
   - scope:
       path: ""
