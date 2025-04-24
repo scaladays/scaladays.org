@@ -1,7 +1,7 @@
 ---
 title: Scala Days Madrid Venue and Information 
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/madrid-venue-info-post.png
 header: img/blog/madrid-venue-info.png
 permalink: /blog/:title/
