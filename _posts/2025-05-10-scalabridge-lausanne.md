@@ -21,14 +21,14 @@ The hosts of this ScalaBridge edition are Amy Lee and Monica McGuigan.
 
 **Amy Lee**
 
-![Amy headshot](assets/img/blog/amy-lee.jpg)
+![Amy headshot](/assets/img/2025/scala-bridge/amy-lee.jpg)
 
 Amy Lee is a Scala developer who transitioned into tech from a philosophy background. She started in tech support at an EV charging startup, learning Scala on the job and moving into engineering. Now, she works on a convertible bonds trading application as a front office developer. She is currently enjoying getting involved with the Scala community in London and organising Women in Scala.
 
 
 **Monica McGuigan**
 
-![Monica headshot](img/assets/madrid/speakers/MonicaMcGuiganSq.png)
+![Monica headshot](/assets/img/2025/scala-bridge/monica-mcguigan.png)
 
 Monica is a Scala developer at JP Morgan, working in a team who aims to improve understanding of the banks' data and data models. She began her programming journey using C#, then onto a mixture C++, JavaScript and TypeScript throughout her undergraduate Physics degree. Monica is also passionate about encouraging those who do not have a Computer Science background into software development roles, as she has been able to apply her transferable problem-solving skills from a scientific discipline to programming and is really enjoying it!
 
@@ -36,8 +36,8 @@ Monica is a Scala developer at JP Morgan, working in a team who aims to improve 
 
 If you want to attend, secure your spot today by following the registration link in the button below. Anyone registering as a mentor will get a follow-up email before the event with further information.
 
+<div class="d-flex justify-content-center align-items-center">
+  <a class="btn btn-primary btn-lg fw-bold my-4" href="https://forms.gle/FEVkQnRNB6r17TFN9">Register today!</a>
+</div>
 
-<a class="btn btn-primary btn-lg fw-bold mt-4" href="https://forms.gle/FEVkQnRNB6r17TFN9">Register today!</a>
-
-
-Should you have any questions or concerns, please email info@scaladays.org 
+Should you have any questions or concerns, please email [info@scaladays.org](mailto:info@scaladays.org)

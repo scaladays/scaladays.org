@@ -19,8 +19,9 @@ In order to become a volunteer, please fill out the form linked below. Each appl
 
 The application will close on **Wednesday, June 25 at 23:59 GMT**. 
 
+<div class="d-flex justify-content-center align-items-center">
+  <a class="btn btn-primary btn-lg fw-bold my-4" href="https://forms.gle/kThYakstdWTCx99M9">Apply to Volunteer</a>
+</div>
 
-<a class="btn btn-primary btn-lg fw-bold mt-4" href="https://forms.gle/ZzdqpVU74PXNASQ36">Apply to Volunteer</a>
 
-
-If you have any questions or concerns about the application process, please email info@scaladays.org 
+If you have any questions or concerns about the application process, please email [info@scaladays.org](mailto:info@scaladays.org)
