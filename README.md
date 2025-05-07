@@ -34,7 +34,6 @@ Besides the main index, there are some other basic paths in the site:
 - `/blog/[item]` (`/_layouts/post-detail.html`)
 - `/workshops` (`/workshops-list.html`)
 - `/workshops/[item]` (`/_layouts/workshops-detail.html`)
-- `/code-of-conduct/` (`/conduct.md`)
 
 ## Installation
 

@@ -15,16 +15,16 @@ sass:
 plugins:
   - jekyll-github-metadata
   - jekyll-hostname
+  - jekyll-feed
+  - jekyll-sitemap
 
 collections:
-  talks-2025:
+  editions:
     output: true
-    permalink: /2025/:title
-    sort_by: time
-  workshops:
-    output: true
-    permalink: /workshops/:title
-    sort_by: order
+    permalink: /editions/:path
+
+links:
+  code-of-conduct: https://scala-lang.org/conduct/
 
 defaults:
   - scope:
@@ -38,3 +38,5 @@ defaults:
     values:
       layout: "workshops-detail"
 
+include:
+  - .well-known

@@ -192,27 +192,27 @@
     left: 0;
 
 		&.home {
-			background: url("../img/assets/background-2025.jpg") no-repeat center center;
+			background: url("../../img/assets/background-2025.jpg") no-repeat center center;
 			background-size: cover;
 		}
 
     &.the-venue {
-        background: url("../img/assets/hero-background-the-venue.jpg") no-repeat center center;
+        background: url("../../img/assets/hero-background-the-venue.jpg") no-repeat center center;
         background-size: cover;
     }
 
     &.sponsor {
-        background: url("../img/assets/hero-background-sponsor.jpg") no-repeat center center;
+        background: url("../../img/assets/hero-background-sponsor.jpg") no-repeat center center;
         background-size: cover;
     }
 
     &.tickets {
-        background: url("../img/assets/madrid/feature-lausanne-03.png") no-repeat center center;
+        background: url("../../img/assets/madrid/feature-lausanne-03.png") no-repeat center center;
         background-size: cover;
     }
 
     &.workshops {
-        background: url("../img/assets/hero-background-workshops.jpg") no-repeat center center;
+        background: url("../../img/assets/hero-background-workshops.jpg") no-repeat center center;
         background-size: cover;
     }
 }
@@ -239,7 +239,7 @@
 }
 
 #countdown-clock-2025 {
-    background: url("../img/assets/scala-logo-large.svg") no-repeat center center $secondary;
+    background: url("../../img/assets/scala-logo-large.svg") no-repeat center center $secondary;
 }
 
 // Features
