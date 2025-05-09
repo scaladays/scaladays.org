@@ -14,14 +14,10 @@ We’ve met each of the Scala Days workshop trainers, but here’s some more inf
 
 #### Real-World ZIO by Daniel Ciocirlan
 
-![Real-World ZIO](/assets/img/blog/SD25-real-world-zio.png)
-
 Just as Scala has transformed the way we build applications with functional programming, ZIO makes it easy to build provably correct systems and APIs to connect to them. With a focus on functional Scala and a real world application, this workshop is a practical way to learn full stack Scala 3 with ZIO and related libraries.
 
 
 #### Domain Driven Design in Scala 3 by David Amancio Gil Méndez
-
-![DDD in Scala 3](/assets/img/blog/SD25-ddd-scala3.png)
 
 One of the shortcomings of Domain Driven Design (DDD) is that it can be a lengthy process to define the bounded contexts (BCs) properly, and subsequently to transcribe the BCs into a code and to introduce them in your codebase.
 
@@ -40,8 +36,6 @@ By the end of the workshop, you will have a full stack app with DDD implementati
 
 #### Functional Programming Strategies by Noel Welsh
 
-![Functional Programming Strategies](/assets/img/blog/SD25-functional-prog-strategies.png)
-
 This workshop presents a toolkit of concepts and coding practices, which I call programming strategies, developed through my fifteen years of Scala experience. The workshop approaches programming primarily through a functional programming lens, emphasizing designs that enhance reasoning and composition, while leveraging Scala's object-oriented features where appropriate.
 
 The workshop has two primary goals:
@@ -53,8 +47,6 @@ This workshop is about the big picture; it is focused on the design or architect
 
 #### Functional Stream Processing by Zainab Ali
 
-![Functional Stream Processing](/assets/img/blog/SD25-functional-stream-processes.png)
-
 This workshop is a practical deep-dive into building reliable incremental processes with Scala 3 and fs2.
 
 Modern business applications are moving towards incremental processing. We design real time data pipelines, event-driven architectures, reactive systems, and use stream-based I/O with databases, files and websockets. Just as functional programming has transformed the way we build applications, functional stream processing has enabled us to write simple, safe, scalable incremental processes.
@@ -65,8 +57,6 @@ Equipped with functional streams in fs2, you'll discover that designing incremen
 
 
 #### Efficient Programming in Scala with Friendly Agents by Tomasz Godzik and Łukasz Biały
-
-![Efficient Programming in Scala with Friendly Agents](/assets/img/blog/SD25-efficient-programming-with-friendly-agents.png)
 
 The AI landscape is changing rapidly and there are always new tools on the horizon, but how can you actually use them to boost your efficiency in Scala? We'll go over the possible tools that you can use, how they were made AI friendly and how you can squeeze the most out of it.
 
