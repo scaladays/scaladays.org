@@ -30,5 +30,20 @@ david:
   linkedin: "https://www.linkedin.com/in/davidgilmendez"
   github: "https://github.com/dagmendez"
 
+lucasz:
+  name: "Łukasz Biały"
+  position: VirtusLab
+  about: 
+  image: "/assets/img/2025/workshops-trainers/lukasz-bialy.jpg"
+  linkedin: "https://www.linkedin.com/in/łukasz-biały-5b667472/"
+  github: 
+
+tomasz:
+  name: "Tomasz Godzik"
+  position: VirtusLab
+  about: "Tomasz has worked with multiple programming language tools through the years trying to provide a pleasant environment for other developers to interact with. Team lead of ScalaCLI and Metals teams at VirtusLab."
+  image: "/assets/img/2025/workshops-trainers/tomasz-godzik.png"
+  linkedin: "https://www.linkedin.com/in/tomasz-godzik-53300782/"
+  github: "https://github.com/tgodzik"
 
 
