@@ -1,7 +1,7 @@
 ---
 title: A Recap of Scala Days Seattle
 layout: post-detail
-tag: Event
+tag: 2023
 image: img/blog/seattle-recap-post.png
 header: img/blog/seattle-recap-banner.png
 permalink: /blog/:title/

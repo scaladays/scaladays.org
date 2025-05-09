@@ -1,0 +1,8 @@
+---
+layout: none
+---
+
+Contact: mailto:security@scala-lang.org
+Expires: 2026-04-01T00:00:00.000Z
+Preferred-Languages: en
+Canonical: {{ site.url }}/.well-known/security.txt
