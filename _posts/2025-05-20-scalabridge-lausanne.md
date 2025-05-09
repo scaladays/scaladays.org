@@ -5,7 +5,7 @@ tag: 2025
 image: assets/img/blog/SD25-scala-bridge.png
 header: assets/img/blog/SD25-scala-bridge.png
 permalink: /blog/:title/
-description: ScalaBridge will take place in Lausanne on August 19th!
+description: ScalaBridge will take place in Lausanne on August 19th! Learn more about the event.
 ---
 {: .mt-5}
 
