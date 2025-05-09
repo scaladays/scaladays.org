@@ -28,7 +28,7 @@ Amy Lee is a Scala developer who transitioned into tech from a philosophy backgr
 
 **Monica McGuigan**
 
-![Monica headshot](/assets/img/2025/scala-bridge/monica-mcguigan.png)
+![Monica headshot](/assets/img/2025/scala-bridge/monica-mcguigan.jpg)
 
 Monica is a Scala developer at Depop, a platform for buying and selling secondhand fashion with a focus on sustainability and style. As a Scala Ambassador, she actively supports the community by speaking at conferences such as Scala Days and Lambda World, where she shares her journey learning Scala and functional programming. She also mentors newcomers to the language, helping others build confidence and skills. In addition, Monica helps organize the London Scala Users' Group, which hosts regular talks and hack nights to foster learning and collaboration among Scala enthusiasts.
 
