@@ -1,0 +1,123 @@
+$newsletter-radius: .75rem !default;
+$newsletter-shadow: 0 4px 12px rgba($black, .08);
+
+.newsletter {
+  font-family: 'Inter', sans-serif;
+  background: $white;
+  border-radius: $newsletter-radius;
+  padding: 2rem;
+  max-width: 420px;
+  margin: 2rem auto;
+  text-align: center;
+  box-shadow: $newsletter-shadow;
+  position: relative; // for the round button
+}
+
+.newsletter p {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: $gray-900;
+  margin-bottom: 1rem;
+}
+
+// Mailchimp form ---------------------------------
+#mc_embed_signup {
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+    align-items: stretch;
+  }
+}
+
+.mc-field-group {
+  position: relative;
+  flex: 1;
+
+  input[type='email'] {
+    width: 100%;
+    padding: .75rem 1rem;
+    font-size: 1rem;
+    border: 2px solid lighten($gray-900, 70%);
+    border-radius: $newsletter-radius;
+    transition: border-color 250ms ease, box-shadow 250ms ease;
+
+    &::placeholder {
+      color: lighten($gray-900, 50%);
+    }
+
+    &:focus {
+      border-color: $primary;
+      box-shadow: 0 0 0 3px rgba($primary, .2);
+      outline: none;
+    }
+  }
+}
+
+#mc-embedded-subscribe {
+  align-self: center;
+  background: darken($primary, 6%);
+  border: none;
+  padding: .75rem 1.5rem;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: $white;
+  border-radius: $newsletter-radius;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 250ms ease, transform 250ms ease;
+
+  &::after {
+    content: '➜';
+  }
+
+  &:hover,
+  &:focus {
+    background: darken($primary, 13%);
+    transform: translateY(-2px);
+  }
+}
+
+// Response messages
+#mce-error-response {
+  color: #d93025;
+  font-size: .875rem;
+  margin-top: .5rem;
+}
+
+#mce-success-response {
+  color: #188038;
+  font-size: .875rem;
+  margin-top: .5rem;
+}
+
+// Hide honeypot field
+[aria-hidden="true"] {
+  display: none !important;
+}
+
+// Responsive tweaks --------------------------------
+@media (min-width: 480px) {
+  #mc_embed_signup {
+    form {
+      flex-direction: row;
+    }
+
+    #mc_embed_signup_scroll {
+      display: flex;
+      gap: .5rem;
+      width: 100%;
+    }
+  }
+
+  .mc-field-group input[type='email'] {
+    border-radius: $newsletter-radius 0 0 $newsletter-radius;
+  }
+
+  #mc-embedded-subscribe {
+    border-radius: 0 $newsletter-radius $newsletter-radius 0;
+    margin-left: 0;
+  }
+}
