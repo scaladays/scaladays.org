@@ -60,7 +60,9 @@ Equipped with functional streams in fs2, you'll discover that designing incremen
 
 The AI landscape is changing rapidly and there are always new tools on the horizon, but how can you actually use them to boost your efficiency in Scala? We'll go over the possible tools that you can use, how they were made AI friendly and how you can squeeze the most out of it.
 
+Will touch on subjects such as MCP, agents, scripting, migration, refactoring and how best to work with AI tools. Join Tomasz Godzik and Łukasz Biały to boost your effectiveness to the next level.
 
+---
 
 
 Each workshop takes place on August 18th and 19th in Lausanne. Upon completion workshop participants will also receive a certificate.
