@@ -115,7 +115,7 @@ pricetable-workshops:
     cta: Register now
     cta-url: https://register.event-works.com/lausanne/Scaladays2025/e/lk/k/
  - title: Effective Programming in Scala with Friendly Agents
-    workshop-id: tomasz, lukasz
+    workshop-id: virtuslab
     state: active
     price1: CHF 700
     price2: CHF 1395
