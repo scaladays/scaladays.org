@@ -119,7 +119,7 @@ pricetable-workshops:
     state: active
     price1: CHF 700
     price2: CHF 1395
-    description: "Led by Tomasz Godzik and Łukasz	Biały"
+    description: "Led by Tomasz Godzik and Łukasz Biały"
     date: Including VAT
     cta: Register now
     cta-url: https://register.event-works.com/lausanne/Scaladays2025/e/lk/k/
