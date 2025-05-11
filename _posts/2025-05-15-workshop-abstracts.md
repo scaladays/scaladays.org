@@ -70,7 +70,7 @@ Each workshop takes place on August 18th and 19th in Lausanne. Upon completion w
 Grab your ticket today before the Early Bird sale ends on May 26th!
 
 <div class="d-flex justify-content-center align-items-center">
-  <a class="btn btn-primary btn-lg fw-bold my-4" href="/workshops">View Ticket Options and Register</a>
+  <a class="btn btn-primary btn-lg fw-bold my-4" href="https://register.event-works.com/lausanne/Scaladays2025/e/lk/k/">View Ticket Options and Register</a>
 </div>
 
 Still need help deciding which workshop or ticket option to choose? 
