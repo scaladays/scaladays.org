@@ -42,6 +42,15 @@ Zainab is a functional programming polyglot, educator and the author of Function
 
 
 
+**Tomasz Godzik and Łukasz Biały** are teaching the “Efficient Programming in Scala with Friendly Agents” workshop.  
+![Tomasz headshot](/assets/img/2025/workshops-trainers/tomasz-godzik.png)   
+![Łukasz headshot](/assets/img/2025/workshops-trainers/lukasz-bialy.jpg)   
+Tomasz has worked with multiple programming language tools through the years trying to provide a productive environment for other developers to interact with. Currently, team lead of Scala Open Source team at VirtusLab.
+
+Łukasz is a polyglot full-stack developer and functional programming enthusiast. Scala Developer Advocate @ VirtusLab. Values quality over quantity. Permanent learner with a severe information dependency problem. Enjoys conversations about philosophy and all things related to mind's inner workings. Loves mountains, biking and hiking.
+
+
+
 Subscribe and follow Scala Days on social media to hear the latest conference updates when they happen!  
 
 Don’t forget to grab your <a href="https://scaladays.org/tickets">tickets</a> today, the **Early Bird sale ends on May 26**!
