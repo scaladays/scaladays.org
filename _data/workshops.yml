@@ -33,25 +33,25 @@ david:
 lucasz:
   name: "Łukasz Biały"
   position: VirtusLab
-  about: 
+  about: "Polyglot full-stack developer and functional programming enthusiast. Scala Developer Advocate @ VirtusLab. Values quality over quantity. Permanent learner with a severe information dependency problem. Enjoys conversations about philosophy and all things related to mind's inner workings. Loves mountains, biking and hiking."
   image: "/assets/img/2025/workshops-trainers/lukasz-bialy.jpg"
   linkedin: "https://www.linkedin.com/in/łukasz-biały-5b667472/"
-  github: 
+  github: "https://github.com/lbialy"
 
 tomasz:
   name: "Tomasz Godzik"
   position: VirtusLab
-  about: "Tomasz has worked with multiple programming language tools through the years trying to provide a pleasant environment for other developers to interact with. Team lead of ScalaCLI and Metals teams at VirtusLab."
-  image: "/assets/img/2025/workshops-trainers/tomasz-godzik.png"
+  about: "Tomasz has worked with multiple programming language tools through the years trying to provide a productive environment for other developers to interact with. Currently, team lead of Scala Open Source team at VirtusLab."
+  image: "/assets/img/2025/workshops-trainers/tomasz-godzik.jpg"
   linkedin: "https://www.linkedin.com/in/tomasz-godzik-53300782/"
   github: "https://github.com/tgodzik"
 
 virtuslab:
   name: "Tomasz Godzik and Łukasz Biały"
   position: VirtusLab
-  about: 
+  about: "Tomasz has worked with multiple programming language tools through the years trying to provide a productive environment for other developers to interact with. Currently, team lead of Scala Open Source team at VirtusLab. Polyglot full-stack developer and functional programming enthusiast. Scala Developer Advocate @ VirtusLab. Values quality over quantity. Permanent learner with a severe information dependency problem. Enjoys conversations about philosophy and all things related to mind's inner workings. Loves mountains, biking and hiking."
   image: "/assets/img/2025/workshops-trainers/tomasz-lukasz.jpg"
   linkedin: "https://www.linkedin.com/company/virtuslab/"
-  github: 
+  github: "https://github.com/virtuslab"
 
 
