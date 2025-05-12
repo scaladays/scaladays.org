@@ -50,6 +50,7 @@ Tomasz has worked with multiple programming language tools through the years try
 Łukasz is a polyglot full-stack developer and functional programming enthusiast. Scala Developer Advocate @ VirtusLab. Values quality over quantity. Permanent learner with a severe information dependency problem. Enjoys conversations about philosophy and all things related to mind's inner workings. Loves mountains, biking and hiking.
 
 
+---
 
 Subscribe and follow Scala Days on social media to hear the latest conference updates when they happen!  
 
