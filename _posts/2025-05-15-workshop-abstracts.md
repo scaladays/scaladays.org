@@ -12,15 +12,12 @@ description: Take a look at MORE workshop details and book your ticket today bef
 We’ve met each of the Scala Days workshop trainers, but here’s some more information on what each workshop will actually include! Continue reading below to review the abstracts to each workshop. 
 
 
-#### Real-World ZIO by Daniel Ciocirlan
-
-![Real-World ZIO](/assets/img/blog/SD25-real-world-zio.png)
+### Real-World ZIO by Daniel Ciocirlan
 
 Just as Scala has transformed the way we build applications with functional programming, ZIO makes it easy to build provably correct systems and APIs to connect to them. With a focus on functional Scala and a real world application, this workshop is a practical way to learn full stack Scala 3 with ZIO and related libraries.
 
-#### Domain Driven Design in Scala 3 by David Amancio Gil Méndez
 
-![DDD in Scala 3](/assets/img/blog/SD25-ddd-scala3.png)
+### Domain Driven Design in Scala 3 by David Amancio Gil Méndez
 
 One of the shortcomings of Domain Driven Design (DDD) is that it can be a lengthy process to define the bounded contexts (BCs) properly, and subsequently to transcribe the BCs into a code and to introduce them in your codebase.
 
@@ -36,9 +33,8 @@ You will learn:
 
 By the end of the workshop, you will have a full stack app with DDD implementations, ready for review.
 
-#### Functional Programming Strategies by Noel Welsh
 
-![Functional Programming Strategies](/assets/img/blog/SD25-functional-prog-strategies.png)
+### Functional Programming Strategies by Noel Welsh
 
 This workshop presents a toolkit of concepts and coding practices, which I call programming strategies, developed through my fifteen years of Scala experience. The workshop approaches programming primarily through a functional programming lens, emphasizing designs that enhance reasoning and composition, while leveraging Scala's object-oriented features where appropriate.
 
@@ -48,9 +44,8 @@ To show how we translate these concepts into Scala code, providing a systematic 
 
 This workshop is about the big picture; it is focused on the design or architecture of code, and the implementation of these designs. So, for example, we won't talk about details such as how you might connect to a database in Scala, but discussing the overall design and implementation of a library for database interaction is definitely on topic. It's for people who see software libraries as force multipliers, and who want to build libraries that are more productive, flexible, and enjoyable to use.
 
-#### Functional Stream Processing by Zainab Ali
 
-![Functional Stream Processing](/assets/img/blog/SD25-functional-stream-processes.png)
+### Functional Stream Processing by Zainab Ali
 
 This workshop is a practical deep-dive into building reliable incremental processes with Scala 3 and fs2.
 
@@ -61,13 +56,21 @@ In this workshop, you'll use functional streams to explore the challenges of inc
 Equipped with functional streams in fs2, you'll discover that designing incremental processes can be easy, enjoyable, and deeply empowering.
 
 
+### Efficient Programming in Scala with Friendly Agents by Tomasz Godzik and Łukasz Biały
+
+The AI landscape is changing rapidly and there are always new tools on the horizon, but how can you actually use them to boost your efficiency in Scala? We'll go over the possible tools that you can use, how they were made AI friendly and how you can squeeze the most out of it.
+
+Will touch on subjects such as MCP, agents, scripting, migration, refactoring and how best to work with AI tools. Join Tomasz Godzik and Łukasz Biały to boost your effectiveness to the next level.
+
+---
+
 
 Each workshop takes place on August 18th and 19th in Lausanne. Upon completion workshop participants will also receive a certificate.
 
-Grab your ticket today before the Early Bird sale ends!
+Grab your ticket today before the Early Bird sale ends on May 26th!
 
 <div class="d-flex justify-content-center align-items-center">
-  <a class="btn btn-primary btn-lg fw-bold my-4" href="/workshops">View Ticket Options and Register</a>
+  <a class="btn btn-primary btn-lg fw-bold my-4" href="https://register.event-works.com/lausanne/Scaladays2025/e/lk/k/">View Ticket Options and Register</a>
 </div>
 
 Still need help deciding which workshop or ticket option to choose? 

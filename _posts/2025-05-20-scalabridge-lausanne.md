@@ -5,7 +5,7 @@ tag: 2025
 image: assets/img/blog/SD25-scala-bridge.png
 header: assets/img/blog/SD25-scala-bridge.png
 permalink: /blog/:title/
-description: ScalaBridge will take place in Lausanne on August 19th!
+description: ScalaBridge will take place in Lausanne on August 19th! Learn more about the event.
 ---
 {: .mt-5}
 
@@ -28,16 +28,18 @@ Amy Lee is a Scala developer who transitioned into tech from a philosophy backgr
 
 **Monica McGuigan**
 
-![Monica headshot](/assets/img/2025/scala-bridge/monica-mcguigan.png)
+![Monica headshot](/assets/img/2025/scala-bridge/monica-mcguigan.jpg)
 
-Monica is a Scala developer at JP Morgan, working in a team who aims to improve understanding of the banks' data and data models. She began her programming journey using C#, then onto a mixture C++, JavaScript and TypeScript throughout her undergraduate Physics degree. Monica is also passionate about encouraging those who do not have a Computer Science background into software development roles, as she has been able to apply her transferable problem-solving skills from a scientific discipline to programming and is really enjoying it!
+Monica is a Scala developer at Depop, a platform for buying and selling secondhand fashion with a focus on sustainability and style. As a Scala Ambassador, she actively supports the community by speaking at conferences such as Scala Days and Lambda World, where she shares her journey learning Scala and functional programming. She also mentors newcomers to the language, helping others build confidence and skills. In addition, Monica helps organize the London Scala Users' Group, which hosts regular talks and hack nights to foster learning and collaboration among Scala enthusiasts.
 
 
 
 If you want to attend, secure your spot today by following the registration link in the button below. Anyone registering as a mentor will get a follow-up email before the event with further information.
 
+
 <div class="d-flex justify-content-center align-items-center">
   <a class="btn btn-primary btn-lg fw-bold my-4" href="https://forms.gle/FEVkQnRNB6r17TFN9">Register today!</a>
 </div>
+
 
 Should you have any questions or concerns, please email [info@scaladays.org](mailto:info@scaladays.org)
