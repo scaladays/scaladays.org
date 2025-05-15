@@ -2,8 +2,8 @@
 title: Meet the Trainers
 layout: post-detail
 tag: 2025
-image: assets/img/2025/meet-the-trainers.png
-header: assets/img/2025/meet-the-trainers.png
+image: assets/img/blog/SD25-meet-the-trainers.jpeg
+header: assets/img/blog/SD25-meet-the-trainers.jpeg
 permalink: /blog/:title/
 description: Scala Days is excited to host this year’s workshop options, led by a truly fantastic lineup of trainers!
 ---
