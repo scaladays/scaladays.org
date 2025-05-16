@@ -2,8 +2,8 @@
 title: Call for Volunteers
 layout: post-detail
 tag: 2025
-image: assets/img/blog/SD25-call-volunteers.png
-header: assets/img/blog/SD25-call-volunteers.png
+image: assets/img/blog/SD25-call-volunteers.jpg
+header: assets/img/blog/SD25-call-volunteers.jpg
 permalink: /blog/:title/
 description: Join the Scala Days 2025 team as a Volunteer! The Call for Volunteers is now open...
 ---
