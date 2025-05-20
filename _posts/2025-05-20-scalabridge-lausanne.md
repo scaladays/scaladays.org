@@ -38,7 +38,7 @@ If you want to attend, secure your spot today by following the registration link
 
 
 <div class="d-flex justify-content-center align-items-center">
-  <a class="btn btn-primary btn-lg fw-bold my-4" href="https://forms.gle/FEVkQnRNB6r17TFN9">Register today!</a>
+  <a class="btn btn-primary btn-lg fw-bold my-4" href="https://forms.gle/1Pqf3f9r5SJiSWwU7">Register today!</a>
 </div>
 
 
