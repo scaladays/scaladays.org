@@ -560,9 +560,9 @@ speakers:
   image: assets/img/2025/speakers/arman-bilge.jpg
   about: ''
   talk: a-typelevel-retrospective
-  linkedin: ''
-  twitter: ''
-  github: ''
+  # # linkedin: ''
+  # # twitter: ''
+  # # github: ''
 - name: Kannupriya Kalra
   position: Scala Center
   image: assets/img/2025/speakers/kannupriya-kalra.jpg
@@ -584,9 +584,9 @@ speakers:
 
     Learn more about her on LinkedIn: https://www.linkedin.com/in/kannupriyakalra/'
   talk: scala-meets-genai-build-the
-  linkedin: ''
-  twitter: KannupriyaKalra
-  github: ''
+  # linkedin: ''
+  twitter: https://x.com/KannupriyaKalra
+  # github: ''
 - name: Szymon Rodziewicz
   position: ''
   image: assets/img/2025/speakers/szymon-rodziewicz.jpg
@@ -597,7 +597,7 @@ speakers:
     Lambda Days, Scala Days, Scalar conference, and others.
   talk: painting-with-functions-scala
   linkedin: https://www.linkedin.com/in/szymon-r-04951895/
-  twitter: ''
+  # # twitter: ''
   github: https://github.com/szymon-rd
 - name: Zainab Ali
   position: Pure Async
@@ -612,7 +612,7 @@ speakers:
     '
   talk: taking-the-plunge-a-deep
   linkedin: https://www.linkedin.com/in/zainab-ali-78809b7b/
-  twitter: ''
+  # # twitter: ''
   github: https://github.com/zainab-ali
 - name: Krzysztof Romanowski
   position: VirtusLab
@@ -629,9 +629,9 @@ speakers:
 
     '
   talk: scala-productivity-and-ai
-  linkedin: ''
-  twitter: RomanowskiKr
-  github: ''
+  # linkedin: ''
+  twitter: https://x.com/RomanowskiKr
+  # github: ''
 - name: Tomas Mikula
   position: ''
   image: assets/img/2025/speakers/tomas-mikula.jpg
@@ -639,7 +639,7 @@ speakers:
     DSLs, trying to do my bit on improving programming for everyone. '
   talk: just-import-n-go-spec-first
   linkedin: https://www.linkedin.com/in/tomasmikula/
-  twitter: tomas_mikula
+  twitter: https://x.com/tomas_mikula
   github: https://github.com/TomasMikula
 - name: Jan-Pieter van den Heuvel
   position: Piozum (Self-employed) / DHL Parcel (Freelance)
@@ -654,7 +654,7 @@ speakers:
     of Machine Learning.
   talk: level-up-become-a-compiler
   linkedin: https://www.linkedin.com/in/janpietervandenheuvel
-  twitter: piozum
+  twitter: https://x.com/piozum
   github: https://github.com/jan-pieter
 - name: Noel Welsh
   position: Inner Product
@@ -666,7 +666,7 @@ speakers:
     book, Functional Programming Strategies, is out soon!
   talk: routing-http-requests-with-scala
   linkedin: https://www.linkedin.com/in/noel-welsh-a71658/
-  twitter: noelwelsh
+  twitter: https://x.com/noelwelsh
   github: https://github.com/noelwelsh/
 - name: Magda Stożek
   position: SoftwareMill
@@ -681,9 +681,9 @@ speakers:
     \ speaker at meetups and conferences. \nIn her free time, she enjoys biking, gardening,\
     \ and reading long books."
   talk: say-goodbye-to-implicits
-  linkedin: ''
-  twitter: magdastozek
-  github: ''
+  # linkedin: ''
+  twitter: https://x.com/magdastozek
+  # github: ''
 - name: Antonio Jimenez
   position: ''
   image: assets/img/2025/speakers/antonio-jimenez.jpg
@@ -694,9 +694,9 @@ speakers:
     \ on Cats Effect's new I/O integrated runtime leveraging io_uring. Today, I remain\
     \ actively involved in the project as a co-mentor."
   talk: exploring-cats-effect-s-new-integrated
-  linkedin: ''
-  twitter: ''
-  github: ''
+  # linkedin: ''
+  # twitter: ''
+  # github: ''
 - name: Jamie Thompson
   position: Mibex Software GmbH
   image: assets/img/2025/speakers/jamie-thompson.jpg
@@ -704,9 +704,9 @@ speakers:
     on simplifying API design but maintaining type safety. My focus is shifting towards
     improving developer productivity and the developer experience.
   talk: effective-match-types
-  linkedin: ''
-  twitter: bishabosha
-  github: ''
+  # linkedin: ''
+  twitter: https://x.com/bishabosha
+  # github: ''
 - name: Bendix Sältz
   position: MOIA
   image: assets/img/2025/speakers/bendix-saltz.jpg
@@ -715,9 +715,9 @@ speakers:
     proud father of a three year old and board member of a German NGO advocating for
     digital rights.
   talk: grpc-apis-for-autonomous-driving
-  linkedin: ''
-  twitter: ''
-  github: ''
+  # linkedin: ''
+  # twitter: ''
+  # github: ''
 - name: Thanh Le
   position: lichess.org / Recorded Future
   image: assets/img/2025/speakers/thanh-le.jpg
@@ -728,9 +728,9 @@ speakers:
     type-safe applications and has a keen interest in exploring the latest advancements
     in Scala 3.
   talk: rethinking-monad-transformers-a-submarine
-  linkedin: ''
-  twitter: lenguyenthanh
-  github: ''
+  # linkedin: ''
+  twitter: https://x.com/lenguyenthanh
+  # github: ''
 - name: Bill Venners
   position: Artima, Inc.
   image: assets/img/2025/speakers/bill-venners.jpg
@@ -741,9 +741,9 @@ speakers:
 
     '
   talk: thinking-in-scala-3-types
-  linkedin: ''
-  twitter: bvenners
-  github: ''
+  # linkedin: ''
+  twitter: https://x.com/bvenners
+  # github: ''
 - name: Lars Hupel
   position: Giesecke+Devrient
   image: assets/img/2025/speakers/lars-hupel.jpg
@@ -755,9 +755,9 @@ speakers:
 
     '
   talk: how-to-write-correct-scala
-  linkedin: ''
-  twitter: ''
-  github: ''
+  # linkedin: ''
+  # twitter: ''
+  # github: ''
 - name: Tomasz Godzik
   position: VirtusLab
   image: assets/img/2025/speakers/tomasz-godzik.jpg
@@ -765,9 +765,9 @@ speakers:
     trying to provide a productive environment for other developers to interact with.
     Currently, team lead of Scala Open Source team at VirtusLab.
   talk: unleashing-the-full-potential-of
-  linkedin: ''
-  twitter: TomekGodzik
-  github: ''
+  # linkedin: ''
+  twitter: https://x.com/TomekGodzik
+  # github: ''
 - name: Joan Goyeau
   position: Netflix
   image: assets/img/2025/speakers/joan-goyeau.jpg
@@ -779,9 +779,9 @@ speakers:
     He is often contributing to Scala related open source projects like Mill, Kubernetes
     Client, Avro4s, Cats...'
   talk: designing-the-library-powering-netflix-s
-  linkedin: ''
-  twitter: joang38
-  github: ''
+  # linkedin: ''
+  twitter: https://x.com/joang38
+  # github: ''
 - name: Michał Pawlik & Jakob Koslowski
   position: ''
   image: assets/img/2025/speakers/michal-pawlik.jpg
@@ -791,18 +791,18 @@ speakers:
     When I''m not diving into code, you''ll find me contributing to open-source projects
     or preparing another conference talk.'
   talk: are-you-tall-enough-for
-  linkedin: ''
-  twitter: michal.pawlik.dev (bluesky, not twitter)
-  github: ''
+  # linkedin: ''
+  twitter: https://x.com/michal.pawlik.dev
+  # github: ''
 - name: Adrien Piquerez
   position: Scala Center
   image: assets/img/2025/speakers/adrien-piquerez.jpg
   about: I am a compiler engineer at Digital Asset and former member of the Scala
     Center. I contributed to Scala 3, sbt and the Scala debugger.
   talk: coding-the-game-of-unspoken
-  linkedin: ''
-  twitter: ''
-  github: ''
+  # linkedin: ''
+  # twitter: ''
+  # github: ''
 - name: Olga Chuchuk
   position: NuMind
   image: assets/img/2025/speakers/olga-chuchuk.jpg
@@ -819,9 +819,9 @@ speakers:
     code from day one. This experience has deepened my appreciation for the coherence
     and accessibility of the Scala ecosystem.'
   talk: the-power-of-full-stack-scala
-  linkedin: ''
-  twitter: ''
-  github: ''
+  # linkedin: ''
+  # twitter: ''
+  # github: ''
 - name: Priyanka Bose
   position: SiriusXM
   image: assets/img/2025/speakers/priyanka-bose.jpg
@@ -842,9 +842,9 @@ speakers:
     \ coding, cueing up a playlist, or plotting my next band set — ideally all at\
     \ once."
   talk: from-paradigms-to-percussion-a
-  linkedin: ''
-  twitter: ''
-  github: ''
+  # linkedin: ''
+  # twitter: ''
+  # github: ''
 - name: Johanna Odersky
   position: Tiko
   image: assets/img/2025/speakers/johanna-odersky.jpg
@@ -855,9 +855,9 @@ speakers:
     of Code 2024 under the Scala Center. I enjoy art, music, maths, coding and everything
     in between.
   talk: scala-sound-and-structure-composing
-  linkedin: ''
-  twitter: ''
-  github: ''
+  # linkedin: ''
+  # twitter: ''
+  # github: ''
 - name: Jonas Spenger
   position: KTH Royal Institute of Technology
   image: assets/img/2025/speakers/jonas-spenger.jpg
@@ -865,7 +865,7 @@ speakers:
     working on distributed systems and programming languages.
   talk: simple-and-safe-serialization-pickling-of
   linkedin: https://www.linkedin.com/in/jonasspenger
-  twitter: JonasSpenger
+  twitter: https://x.com/JonasSpenger
   github: https://github.com/jonasspenger
 - name: Riccardo Cardin
   position: ''
@@ -875,9 +875,9 @@ speakers:
     experience in computer programming. In my spare time, I'm a gym rat at my home
     gym, practicing karate.
   talk: yo-dawg-heard-you-want
-  linkedin: ''
-  twitter: riccardo_cardin
-  github: ''
+  # linkedin: ''
+  twitter: https://x.com/riccardo_cardin
+  # github: ''
 - name: Piotr Chabelski
   position: VirtusLab
   image: assets/img/2025/speakers/piotr-chabelski.jpg
@@ -885,9 +885,9 @@ speakers:
     \ the Product Manager on the Scala 3 compiler team and a maintainer of Scala CLI,\
     \ the official language runner. \n"
   talk: reach-for-the-unlimited-power
-  linkedin: ''
-  twitter: ''
-  github: ''
+  # linkedin: ''
+  # twitter: ''
+  # github: ''
 - name: Maciej Gorywoda
   position: JetBrains
   image: assets/img/2025/speakers/maciej-gorywoda.jpg
@@ -898,7 +898,7 @@ speakers:
     features of IntelliJ Idea with the Scala  Plugin. In 2024, I became a Scala Ambassador.
   talk: ai-assistance-for-scala-developers
   linkedin: https://www.linkedin.com/in/mgorywoda/
-  twitter: makingthematrix
+  twitter: https://x.com/makingthematrix
   github: https://github.com/makingthematrix
 - name: Anton Sviridov
   position: ''
@@ -911,18 +911,18 @@ speakers:
     \ sn-vcpkg, lots of templates and starter projects) that help push multi-platform\
     \ Scala forward."
   talk: tree-sitting-will-continue-until
-  linkedin: ''
-  twitter: velvetbaldmime
-  github: ''
+  # linkedin: ''
+  twitter: https://x.com/velvetbaldmime
+  # github: ''
 - name: Mateusz Kubuszok
   position: ''
   image: assets/img/2025/speakers/mateusz-kubuszok.jpg
   about: Scala developer for 10 years, Chimney co-maintainer for 8. Blogged at Kubuszok.com,
     wrote http://leanpub.com/scala-jvm-book.
   talk: can-we-have-the-standard
-  linkedin: ''
-  twitter: MateuszKubuszok
-  github: ''
+  # linkedin: ''
+  twitter: https://x.com/MateuszKubuszok
+  # github: ''
 - name: Rikito Taniguchi
   position: VirtusLab
   image: assets/img/2025/speakers/rikito-taniguchi.jpg
@@ -933,9 +933,9 @@ speakers:
     Beyond his technical work, Rikito is also a community builder, actively organizing
     local Scala meetups in Japan.'
   talk: bringing-scala-to-server-side-wasm
-  linkedin: ''
-  twitter: tanishiking25
-  github: ''
+  # linkedin: ''
+  twitter: https://x.com/tanishiking25
+  # github: ''
 - name: Jonas Chapuis
   position: Terasol
   image: assets/img/2025/speakers/jonas-chapuis.jpg
@@ -954,9 +954,9 @@ speakers:
     I have also done some teaching at the HEIG-VD engineering school and I sometimes\
     \ speak at local conferences and meetups."
   talk: full-stack-scala
-  linkedin: ''
-  twitter: JonasChapuis
-  github: ''
+  # linkedin: ''
+  twitter: https://x.com/JonasChapuis
+  # github: ''
 - name: Sébastien Doeraene
   position: EPFL, Scala Center
   image: assets/img/2025/speakers/sebastien-doeraene.jpg
@@ -970,7 +970,7 @@ speakers:
     or composes for or conducts said choirs.
   talk: compiling-scala-js-to-webassembly
   linkedin: null
-  twitter: sjrdoeraene
+  twitter: https://x.com/sjrdoeraene
   github: https://github.com/sjrd
 - name: Christian Hollinger
   position: ngrok
@@ -984,9 +984,9 @@ speakers:
     I don''t, I can either be found tinkering with my [home servers](https://chollinger.com/blog/2025/01/my-2025-homelab-updates-quadrupling-capacity/)
     or somewhere in the woods of North Georgia.'
   talk: using-scala-in-a-go-first
-  linkedin: ''
-  twitter: chollinger93
-  github: ''
+  # linkedin: ''
+  twitter: https://x.com/chollinger93
+  # github: ''
 - name: Will Binzi
   position: ''
   image: assets/img/2025/speakers/will-binzi.jpg
@@ -997,9 +997,9 @@ speakers:
 
     I didn''t, but I had a blast anyway.'
   talk: scala-and-arpeggio-audio-processing
-  linkedin: ''
-  twitter: ''
-  github: ''
+  # linkedin: ''
+  # twitter: ''
+  # github: ''
 - name: Oron Port
   position: DFiant
   image: assets/img/2025/speakers/oron-port.jpg
@@ -1008,9 +1008,9 @@ speakers:
     shift-left software to streamline logic chip design and verification processes,
     significantly reducing complexity, time, and cost of chip development. '
   talk: scala-chip-design-from-z1r0
-  linkedin: ''
-  twitter: soronpo
-  github: ''
+  # linkedin: ''
+  twitter: https://x.com/soronpo
+  # github: ''
 - name: Adam Warski
   position: SoftwareMill
   image: assets/img/2025/speakers/adam-warski.jpg
@@ -1025,7 +1025,7 @@ speakers:
     I gain usually end up with a blog (https://warski.org/articles).'
   talk: a-tour-of-ox-1-0
   linkedin: https://www.linkedin.com/in/adamwarski/
-  twitter: adamwarski
+  twitter: https://x.com/adamwarski
   github: https://github.com/adamw
 - name: Li Haoyi
   position: ''
@@ -1036,27 +1036,27 @@ speakers:
     and has used it professionally to build cloud infrastructure, distributed backend
     systems, programming languages, high-performance web applications, and much more.
   talk: easy-scala-builds-with-the
-  linkedin: ''
-  twitter: li_haoyi
-  github: ''
+  # linkedin: ''
+  twitter: https://x.com/li_haoyi
+  # github: ''
 - name: Martin Duhem
   position: Gradle, Inc.
   image: assets/img/2025/speakers/martin_duhem.jpeg
   about: Martin is a software engineer at Gradle where he works on accelerating your
     sbt builds.
   talk: exploring-build-caching-a-practical
-  linkedin: ''
-  twitter: mnduhem
-  github: ''
+  # linkedin: ''
+  twitter: https://x.com/mnduhem
+  # github: ''
 - name: Eugene Yokota
   position: Netflix
   image: assets/img/2025/speakers/eugene_yokota.jpg
   about: Eugene is a maintainer of sbt, and an engineer at Netflix. He enjoys long
     walks looking for Döner kebab, and functional programming.
   talk: sbt-2-0-go-big
-  linkedin: ''
-  twitter: eed3si9n
-  github: ''
+  # linkedin: ''
+  twitter: https://x.com/eed3si9n
+  # github: ''
 - name: Daniel Ciocîrlan
   position: Rock the JVM
   image: assets/img/2025/speakers/daniel-ciocirlan.png
@@ -1069,9 +1069,9 @@ speakers:
     of tutorials, 25.000 subscribers and 1.5 million views. I have also taught more
     than 30.000 kids to code (not in Scala, yet…)
   talk: a-new-scala-ethos
-  linkedin: ''
-  twitter: rockthejvm
-  github: ''
+  # linkedin: ''
+  twitter: https://x.com/rockthejvm
+  # github: ''
 - name: Oliver Bračevac
   position: ''
   image: assets/img/2025/speakers/oliver-bracevac.jpg
@@ -1083,9 +1083,9 @@ speakers:
     LMS, high-performance symbolic execution engines, and worked on cutting-edge compilers
     for Rust-like languages as part of DARPA-funded research at Galois Inc.
   talk: capture-checking-a-new-approach
-  linkedin: ''
-  twitter: ''
-  github: ''
+  # linkedin: ''
+  # twitter: ''
+  # github: ''
 - name: 'Cao Nguyen Pham
 
     '
@@ -1098,9 +1098,9 @@ speakers:
     effect systems and how to integrate the two using capabilities and capture-checking.
     I currently maintain the experimental asynchronous programming library Gears.'
   talk: the-first-steps-towards-practical
-  linkedin: ''
-  twitter: ''
-  github: ''
+  # linkedin: ''
+  # twitter: ''
+  # github: ''
 - name: Wojciech Mazur
   position: ''
   image: assets/img/2025/speakers/wojciech-mazur.jpg
@@ -1112,7 +1112,7 @@ speakers:
     and other mainstream languages.
   talk: from-imports-to-targets-bazel
   linkedin: https://www.linkedin.com/in/wojciech-mazur-3970a8121/
-  twitter: ''
+  # twitter: ''
   github: https://github.com/WojciechMazur
 - name: Dimi Racordon
   position: ''
@@ -1123,9 +1123,9 @@ speakers:
     generic programming, because it looks like math, and low-level programming languages,
     because she loves wasting time on premature optimization.
   talk: what-scala-can-learn-from
-  linkedin: ''
-  twitter: ''
-  github: ''
+  # linkedin: ''
+  # twitter: ''
+  # github: ''
 - name: Andrei Kucharavy
   position: ''
   image: assets/img/2025/speakers/andrei-kucharavy.jpg
@@ -1133,7 +1133,7 @@ speakers:
     LLMs security since 2022.
   talk: safe-coding-with-llms-verifiable
   linkedin: https://www.linkedin.com/in/andrei-kucharavy/
-  twitter: ''
+  # twitter: ''
   github: https://github.com/chiffa
 - name: Kacper Korban
   position: ''
@@ -1143,9 +1143,9 @@ speakers:
     EPFL LAMP’s Scala 3 research and compiler team. I also contributed to some Scala
     libraries and tools e.g. Scaladoc, quicklens, Inkuire
   talk: on-track-with-tracked
-  linkedin: ''
-  twitter: ''
-  github: ''
+  # linkedin: ''
+  # twitter: ''
+  # github: ''
 - name: Anna Herlihy
   position: ''
   image: assets/img/2025/speakers/anna-herlihy.jpg
@@ -1154,6 +1154,6 @@ speakers:
     queries, logic programming, and recursive query optimization. I love hiking, road
     biking, climbing, and am most happy when I can do my work outdoors.
   talk: macro-free-type-safe-database-queries-in
-  linkedin: ''
-  twitter: ''
-  github: ''
+  # linkedin: ''
+  # twitter: ''
+  # github: ''
