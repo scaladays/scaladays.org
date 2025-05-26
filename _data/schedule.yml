@@ -562,7 +562,7 @@ speakers:
   talk: a-typelevel-retrospective
   # # linkedin: ''
   # # twitter: ''
-  # # github: ''
+  github: https://github.com/armanbilge
 - name: Kannupriya Kalra
   position: Scala Center
   image: assets/img/2025/speakers/kannupriya-kalra.jpg
@@ -586,7 +586,7 @@ speakers:
   talk: scala-meets-genai-build-the
   # linkedin: ''
   twitter: https://x.com/KannupriyaKalra
-  # github: ''
+  github: https://github.com/kannupriyakalra
 - name: Szymon Rodziewicz
   position: ''
   image: assets/img/2025/speakers/szymon-rodziewicz.jpg
@@ -631,7 +631,7 @@ speakers:
   talk: scala-productivity-and-ai
   # linkedin: ''
   twitter: https://x.com/RomanowskiKr
-  # github: ''
+  github: https://github.com/romanowski
 - name: Tomas Mikula
   position: ''
   image: assets/img/2025/speakers/tomas-mikula.jpg
@@ -683,7 +683,7 @@ speakers:
   talk: say-goodbye-to-implicits
   # linkedin: ''
   twitter: https://x.com/magdastozek
-  # github: ''
+  github: https://github.com/magdzikk
 - name: Antonio Jimenez
   position: ''
   image: assets/img/2025/speakers/antonio-jimenez.jpg
@@ -696,7 +696,7 @@ speakers:
   talk: exploring-cats-effect-s-new-integrated
   # linkedin: ''
   # twitter: ''
-  # github: ''
+  github: https://github.com/antoniojimeneznieto
 - name: Jamie Thompson
   position: Mibex Software GmbH
   image: assets/img/2025/speakers/jamie-thompson.jpg
@@ -706,7 +706,7 @@ speakers:
   talk: effective-match-types
   # linkedin: ''
   twitter: https://x.com/bishabosha
-  # github: ''
+  github: https://github.com/bishabosha
 - name: Bendix Sältz
   position: MOIA
   image: assets/img/2025/speakers/bendix-saltz.jpg
@@ -717,7 +717,7 @@ speakers:
   talk: grpc-apis-for-autonomous-driving
   # linkedin: ''
   # twitter: ''
-  # github: ''
+  github: https://github.com/saeltz
 - name: Thanh Le
   position: lichess.org / Recorded Future
   image: assets/img/2025/speakers/thanh-le.jpg
@@ -730,7 +730,7 @@ speakers:
   talk: rethinking-monad-transformers-a-submarine
   # linkedin: ''
   twitter: https://x.com/lenguyenthanh
-  # github: ''
+  github: https://github.com/lenguyenthanh
 - name: Bill Venners
   position: Artima, Inc.
   image: assets/img/2025/speakers/bill-venners.jpg
@@ -743,7 +743,7 @@ speakers:
   talk: thinking-in-scala-3-types
   # linkedin: ''
   twitter: https://x.com/bvenners
-  # github: ''
+  github: https://github.com/bvenners
 - name: Lars Hupel
   position: Giesecke+Devrient
   image: assets/img/2025/speakers/lars-hupel.jpg
@@ -757,7 +757,7 @@ speakers:
   talk: how-to-write-correct-scala
   # linkedin: ''
   # twitter: ''
-  # github: ''
+  github: https://github.com/larsrh
 - name: Tomasz Godzik
   position: VirtusLab
   image: assets/img/2025/speakers/tomasz-godzik.jpg
@@ -767,7 +767,7 @@ speakers:
   talk: unleashing-the-full-potential-of
   # linkedin: ''
   twitter: https://x.com/TomekGodzik
-  # github: ''
+  github: https://github.com/tgodzik
 - name: Joan Goyeau
   position: Netflix
   image: assets/img/2025/speakers/joan-goyeau.jpg
@@ -781,7 +781,7 @@ speakers:
   talk: designing-the-library-powering-netflix-s
   # linkedin: ''
   twitter: https://x.com/joang38
-  # github: ''
+  github: https://github.com/joan38
 - name: Michał Pawlik & Jakob Koslowski
   position: ''
   image: assets/img/2025/speakers/michal-pawlik.jpg
@@ -793,7 +793,7 @@ speakers:
   talk: are-you-tall-enough-for
   # linkedin: ''
   twitter: https://x.com/michal.pawlik.dev
-  # github: ''
+  github: https://github.com/majk-p
 - name: Adrien Piquerez
   position: Scala Center
   image: assets/img/2025/speakers/adrien-piquerez.jpg
@@ -802,7 +802,7 @@ speakers:
   talk: coding-the-game-of-unspoken
   # linkedin: ''
   # twitter: ''
-  # github: ''
+  github: https://github.com/adpi2
 - name: Olga Chuchuk
   position: NuMind
   image: assets/img/2025/speakers/olga-chuchuk.jpg
@@ -821,7 +821,7 @@ speakers:
   talk: the-power-of-full-stack-scala
   # linkedin: ''
   # twitter: ''
-  # github: ''
+  github: https://github.com/olya-chuchuk
 - name: Priyanka Bose
   position: SiriusXM
   image: assets/img/2025/speakers/priyanka-bose.jpg
@@ -844,7 +844,7 @@ speakers:
   talk: from-paradigms-to-percussion-a
   # linkedin: ''
   # twitter: ''
-  # github: ''
+  github: https://github.com/PriyankaBose
 - name: Johanna Odersky
   position: Tiko
   image: assets/img/2025/speakers/johanna-odersky.jpg
@@ -857,7 +857,7 @@ speakers:
   talk: scala-sound-and-structure-composing
   # linkedin: ''
   # twitter: ''
-  # github: ''
+  github: https://github.com/ikukojohanna
 - name: Jonas Spenger
   position: KTH Royal Institute of Technology
   image: assets/img/2025/speakers/jonas-spenger.jpg
@@ -877,7 +877,7 @@ speakers:
   talk: yo-dawg-heard-you-want
   # linkedin: ''
   twitter: https://x.com/riccardo_cardin
-  # github: ''
+  github: https://github.com/rcardin
 - name: Piotr Chabelski
   position: VirtusLab
   image: assets/img/2025/speakers/piotr-chabelski.jpg
@@ -887,7 +887,7 @@ speakers:
   talk: reach-for-the-unlimited-power
   # linkedin: ''
   # twitter: ''
-  # github: ''
+  github: https://github.com/Gedochao
 - name: Maciej Gorywoda
   position: JetBrains
   image: assets/img/2025/speakers/maciej-gorywoda.jpg
@@ -935,7 +935,7 @@ speakers:
   talk: bringing-scala-to-server-side-wasm
   # linkedin: ''
   twitter: https://x.com/tanishiking25
-  # github: ''
+  github: https://github.com/tanishiking
 - name: Jonas Chapuis
   position: Terasol
   image: assets/img/2025/speakers/jonas-chapuis.jpg
@@ -956,7 +956,7 @@ speakers:
   talk: full-stack-scala
   # linkedin: ''
   twitter: https://x.com/JonasChapuis
-  # github: ''
+  github: https://github.com/jchapuis
 - name: Sébastien Doeraene
   position: EPFL, Scala Center
   image: assets/img/2025/speakers/sebastien-doeraene.jpg
@@ -986,7 +986,7 @@ speakers:
   talk: using-scala-in-a-go-first
   # linkedin: ''
   twitter: https://x.com/chollinger93
-  # github: ''
+  github: https://github.com/chollinger93
 - name: Will Binzi
   position: ''
   image: assets/img/2025/speakers/will-binzi.jpg
@@ -1010,7 +1010,7 @@ speakers:
   talk: scala-chip-design-from-z1r0
   # linkedin: ''
   twitter: https://x.com/soronpo
-  # github: ''
+  github: https://github.com/soronpo
 - name: Adam Warski
   position: SoftwareMill
   image: assets/img/2025/speakers/adam-warski.jpg
@@ -1038,7 +1038,7 @@ speakers:
   talk: easy-scala-builds-with-the
   # linkedin: ''
   twitter: https://x.com/li_haoyi
-  # github: ''
+  github: https://github.com/lihaoyi
 - name: Martin Duhem
   position: Gradle, Inc.
   image: assets/img/2025/speakers/martin_duhem.jpeg
@@ -1085,7 +1085,7 @@ speakers:
   talk: capture-checking-a-new-approach
   # linkedin: ''
   # twitter: ''
-  # github: ''
+  github: https://github.com/bracevac
 - name: 'Cao Nguyen Pham
 
     '
@@ -1100,7 +1100,7 @@ speakers:
   talk: the-first-steps-towards-practical
   # linkedin: ''
   # twitter: ''
-  # github: ''
+  github: https://github.com/nvcnvn
 - name: Wojciech Mazur
   position: ''
   image: assets/img/2025/speakers/wojciech-mazur.jpg
