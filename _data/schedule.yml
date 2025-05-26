@@ -68,6 +68,61 @@ talks-2025:
     special: lunch
     url: ""
 
+  - title: Registration
+    day: day2
+    stage: stage1
+    time: 08:00 - 09:00
+    speaker: ""
+    special: registration
+    url: ""
+  - title: ""
+    day: day2
+    stage: stage2
+    time: 08:00 - 09:00
+    speaker: ""
+    special: blank
+    url: ""
+  - title: ""
+    day: day2
+    stage: stage3
+    time: 08:00 - 09:00
+    speaker: ""
+    special: blank
+    url: ""
+  - title: ""
+    day: day2
+    stage: stage4
+    time: 08:00 - 09:00
+    speaker: ""
+    special: blank
+    url: ""
+  - title: Keynote
+    day: day2
+    stage: stage1
+    time: 09:00 - 10:00
+    speaker: ""
+    url: ""
+  - title: ""
+    day: day2
+    stage: stage2
+    time: 09:00 - 10:00
+    speaker: ""
+    special: blank
+    url: ""
+  - title: ""
+    day: day2
+    stage: stage3
+    time: 09:00 - 10:00
+    speaker: ""
+    special: blank
+    url: ""
+  - title: ""
+    day: day2
+    stage: stage4
+    time: 09:00 - 10:00
+    speaker: ""
+    special: blank
+    url: ""
   - title: A New Scala Ethos
     day: day2
     stage: stage1
@@ -140,12 +195,47 @@ talks-2025:
     time: 11:50 - 12:30
     speaker: Anton Sviridov
     url: /editions/2025/talks/tree-sitting-will-continue-until
-  - title: Effective Match Types
+  - title: Lunch
+    day: day2
+    stage: stage1
+    time: 12:30 - 14:30
+    speaker: ""
+    special: lunch
+    url: ""
+  - title: Lunch
+    day: day2
+    stage: stage2
+    time: 12:30 - 14:30
+    speaker: ""
+    special: lunch
+    url: ""
+  - title: Lunch
     day: day2
     stage: stage3
-    time: 17:00 - 17:40
+    time: 12:30 - 14:30
+    speaker: ""
+    special: lunch
+    url: ""
+  - title: Lunch
+    day: day2
+    stage: stage4
+    time: 12:30 - 14:30
+    speaker: ""
+    special: lunch
+    url: ""
+  - title: Effective Match Types
+    day: day2
+    stage: stage1
+    time: 14:30 - 15:10
     speaker: Jamie Thompson
     url: /editions/2025/talks/effective-match-types
+  - title: Blank
+    day: day2
+    stage: stage2
+    time: 14:30 - 15:10
+    speaker: ""
+    special: blank
+    url: ""
   - title: Thinking in Scala 3 Types
     day: day2
     stage: stage3
@@ -852,7 +942,7 @@ speakers:
   github: ''
 - name: Daniel Ciocîrlan
   position: Rock the JVM
-  image: assets/img/2025/speakers/daniel-cioc-rlan.jpg
+  image: assets/img/2025/speakers/daniel-ciocirlan.png
   about: I am a software engineer and founder of Rock the JVM, an online learning
     platform dedicated to Scala, big data and functional programming on the JVM. As
     of March 2025, I have taught Scala and all major tools in the ecosystem to 100000+
