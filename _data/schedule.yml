@@ -913,7 +913,7 @@ speakers:
   talk: tree-sitting-will-continue-until
   # linkedin: ''
   twitter: https://x.com/velvetbaldmime
-  # github: ''
+  github: https://github.com/keynmol
 - name: Mateusz Kubuszok
   position: ''
   image: assets/img/2025/speakers/mateusz-kubuszok.jpg
@@ -922,7 +922,7 @@ speakers:
   talk: can-we-have-the-standard
   # linkedin: ''
   twitter: https://x.com/MateuszKubuszok
-  # github: ''
+  github: https://github.com/MateuszKubuszok
 - name: Rikito Taniguchi
   position: VirtusLab
   image: assets/img/2025/speakers/rikito-taniguchi.jpg
@@ -1047,7 +1047,7 @@ speakers:
   talk: exploring-build-caching-a-practical
   # linkedin: ''
   twitter: https://x.com/mnduhem
-  # github: ''
+  github: https://github.com/Duhemm
 - name: Eugene Yokota
   position: Netflix
   image: assets/img/2025/speakers/eugene_yokota.jpg
@@ -1056,7 +1056,7 @@ speakers:
   talk: sbt-2-0-go-big
   # linkedin: ''
   twitter: https://x.com/eed3si9n
-  # github: ''
+  github: https://github.com/eed3si9n
 - name: Daniel Ciocîrlan
   position: Rock the JVM
   image: assets/img/2025/speakers/daniel-ciocirlan.png
@@ -1071,7 +1071,7 @@ speakers:
   talk: a-new-scala-ethos
   # linkedin: ''
   twitter: https://x.com/rockthejvm
-  # github: ''
+  github: https://github.com/daniel-ciocirlan
 - name: Oliver Bračevac
   position: ''
   image: assets/img/2025/speakers/oliver-bracevac.jpg
@@ -1125,7 +1125,7 @@ speakers:
   talk: what-scala-can-learn-from
   # linkedin: ''
   # twitter: ''
-  # github: ''
+  github: https://github.com/kyouko-taiga
 - name: Andrei Kucharavy
   position: ''
   image: assets/img/2025/speakers/andrei-kucharavy.jpg
@@ -1145,7 +1145,7 @@ speakers:
   talk: on-track-with-tracked
   # linkedin: ''
   # twitter: ''
-  # github: ''
+  github: https://github.com/KacperFKorban
 - name: Anna Herlihy
   position: ''
   image: assets/img/2025/speakers/anna-herlihy.jpg
@@ -1156,4 +1156,4 @@ speakers:
   talk: macro-free-type-safe-database-queries-in
   # linkedin: ''
   # twitter: ''
-  # github: ''
+  github: https://github.com/aherlihy
