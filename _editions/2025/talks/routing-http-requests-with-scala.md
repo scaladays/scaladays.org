@@ -1,8 +1,8 @@
 ---
 title: "Routing Http Requests with Scala 3"
-day: TODO
-stage: TODO
-time: TODO
+day: day2
+stage: stage1
+time: 16:10 - 16:50
 speaker: Noel Welsh
 ---
 
@@ -17,4 +17,3 @@ Doing requires some interesting design decisions. We'll discuss FP versus OO rep
 finite state machine builders (which are a lot simpler than this name implies!), using Scala 3's tuple types for greater type safety and convenience, and designing for dot-driven development. Along the way I'll discuss other routing libraries that made different decisions, to help illustrate the design space and the tradeoffs that can be made.
 
 Did I succeed? Well, you can decide. Either way, I think the journey is interesting and you should learn something you can apply to your own coding.
-    

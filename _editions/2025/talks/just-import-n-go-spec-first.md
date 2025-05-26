@@ -1,8 +1,8 @@
 ---
 title: "Just Import 'N' Go: Spec-first APIs without codegen"
-day: TODO
-stage: TODO
-time: TODO
+day: day2
+stage: stage4
+time: 14:30 - 15:10
 speaker: Tomas Mikula
 ---
 
@@ -15,4 +15,3 @@ In this talk, I'm going to present [JING](https://github.com/TomasMikula/jing), 
  - In the first, beginner friendly part, I will show how JING dramatically lowers the barrier to spec-first development against Web APIs and how it facilitates explorative, type-driven programming without unnecessary complexity.
  - Then, I will give a brief peek under the hood and talk about implementation techniques and design decisions.
  - Finally, I'm going to ponder other areas where the JING approach can be applied to unlock a simpler, more productive future.
-    

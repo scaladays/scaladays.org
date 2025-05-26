@@ -1,8 +1,8 @@
 ---
 title: "Scala and Arpeggio: Audio processing with Scala Native and FS2"
-day: TODO
-stage: TODO
-time: TODO
+day: day3
+stage: stage1
+time: 14:50 - 15:30
 speaker: Will Binzi
 ---
 
@@ -13,4 +13,3 @@ Few sounds are as iconic as that of an electric guitar played through an overdri
 But what if we tried? Could we recreate these effects using functional Scala? As it turns out, we have a lot of very nice tools to work with.
 
 Take a tour of Arpeggio with me: a guitar pedalboard built with FS2.
-    

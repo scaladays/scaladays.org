@@ -1,8 +1,8 @@
 ---
 title: "gRPC APIs for Autonomous Driving from Design to Implementation in Scala"
-day: TODO
-stage: TODO
-time: TODO
+day: day2
+stage: stage2
+time: 10:10 - 10:50
 speaker: Bendix Sältz
 ---
 
@@ -20,4 +20,3 @@ We look at the implementation in Scala (_of course_) and face hurdles with AWS l
 ## Talk's Topic
 
 Experience report, talking about industrial adoption of Scala backing public APIs of the mobility tech provider MOIA.
-    

@@ -1,8 +1,8 @@
 ---
 title: "Using Scala in a Go-First Company"
-day: TODO
-stage: TODO
-time: TODO
+day: day3
+stage: stage2
+time: 17:00 - 17:40
 speaker: Christian Hollinger
 ---
 
@@ -19,4 +19,3 @@ In this talk, I'll go over the details of **why we chose Scala 3 instead of go, 
 And, perhaps more importantly: **How we ensure the project remains maintainable for people who aren't Scala experts**. We'll touch on writing maintainable, pragmatic Scala code, integrating Scala into go-focused developer tooling (CLI tools, CI/CD, testing, observability & more), as well as the long-term impact on hiring and tech debt.
 
 And, of course, answer the question: Would we make that choice again?
-    

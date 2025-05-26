@@ -1,8 +1,8 @@
 ---
 title: "The power of full-stack Scala: lessons learnt from building an ML platform"
-day: TODO
-stage: TODO
-time: TODO
+day: day2
+stage: stage2
+time: 11:50 - 12:30
 speaker: Olga Chuchuk
 ---
 
@@ -20,4 +20,3 @@ We’ll talk about:
 - And most importantly, how this stack empowered our small team to move fast.
 
 If you're curious about full-stack development in Scala, or want inspiration for building real-world ML platforms, we’ll show you what’s possible when the whole stack speaks the same language.
-    

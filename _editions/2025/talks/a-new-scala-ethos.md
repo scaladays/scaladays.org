@@ -1,8 +1,8 @@
 ---
 title: "A New Scala Ethos"
-day: TODO
-stage: TODO
-time: TODO
+day: day2
+stage: stage1
+time: 10:10 - 10:50
 speaker: Daniel Ciocîrlan
 ---
 
@@ -17,4 +17,3 @@ In this talk, we will argue that Scala needs and deserves a new philosophy, cent
 - good habits
 
 The ethos of Scala will directly imply how Scala evolves, what its priorities are, and most importantly, who it is for -- and therefore will determine its chance to become the mainstream language it was meant to be.
-    

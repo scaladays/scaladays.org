@@ -1,8 +1,8 @@
 ---
 title: "Unleashing the Full Potential of Metals"
-day: TODO
-stage: TODO
-time: TODO
+day: day3
+stage: stage3
+time: 11:50 - 12:30
 speaker: Tomasz Godzik
 ---
 
@@ -13,4 +13,3 @@ But we don’t want to only get focused on the problems and issues! We’ll also
 After this session I would like everyone to be able to work more efficiently with Metals or at least be more conscious of where the roadblocks lie.
 
 
-    

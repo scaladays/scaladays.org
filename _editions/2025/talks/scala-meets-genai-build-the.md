@@ -1,8 +1,8 @@
 ---
 title: "Scala Meets GenAI: Build the Cool Stuff with LLM4S"
-day: TODO
-stage: TODO
-time: TODO
+day: day3
+stage: stage1
+time: 16:10 - 16:50
 speaker: Kannupriya Kalra
 ---
 
@@ -37,4 +37,3 @@ Content generation for blogs, reports, and marketing
 Scalable GenAI-powered backend services in pure Scala
 
 Whether you're building tools for developers, enterprises, or creative applications, this talk will show you how to harness the full power of GenAI in the coolest language: Scala.
-    

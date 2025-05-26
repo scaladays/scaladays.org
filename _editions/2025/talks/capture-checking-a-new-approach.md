@@ -1,8 +1,8 @@
 ---
 title: "Capture Checking: A New Approach to Effect Safety in Scala"
-day: TODO
-stage: TODO
-time: TODO
+day: day2
+stage: stage3
+time: 10:10 - 10:50
 speaker: Oliver Bračevac
 ---
 
@@ -13,4 +13,3 @@ This talk introduces the core ideas behind Capture Checking, how it fits into Sc
 We’ll also talk about where things stand today: what’s implemented, what’s experimental, and what open questions remain. The goal is to give you a clear, realistic picture of Capture Checking as it exists now – its motivations, its mechanics, and its potential.
 
 Whether you’re new to capabilities or wondering how effect tracking will evolve in Scala, this is your starting point.
-    

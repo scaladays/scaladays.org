@@ -1,8 +1,8 @@
 ---
 title: "Full-stack scala"
-day: TODO
-stage: TODO
-time: TODO
+day: day3
+stage: stage2
+time: 10:10 - 10:50
 speaker: Jonas Chapuis
 ---
 
@@ -14,4 +14,3 @@ Scala 3 is a fantastic language. While it may not be mainstream, it’s a hidden
 * Infrastructure: Finally, Besom and Pulumi let us close the loop—writing infrastructure as code, in Scala. Domains, certificates, networks, load balancers, databases, containers—you name it, we configure it with full expressive power and strong typing.
 
 Scala’s type system and expressiveness are liberating. They let us build and maintain complex systems solo or in small teams—without sacrificing correctness or velocity.
-    

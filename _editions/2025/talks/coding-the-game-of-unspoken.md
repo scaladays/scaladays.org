@@ -1,8 +1,8 @@
 ---
 title: "Coding the game of unspoken rules in Scala 3"
-day: TODO
-stage: TODO
-time: TODO
+day: day2
+stage: stage2
+time: 15:20 - 16:00
 speaker: Adrien Piquerez
 ---
 
@@ -24,4 +24,3 @@ Along the way, we’ll raise bigger questions:
 - How do we lower the barrier to entry while preserving the expressive power of the language?
 
 Whether you're into Scala programming, online games, or coding experiment —  this talk is for you.
-    

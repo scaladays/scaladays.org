@@ -1,8 +1,8 @@
 ---
 title: "Can we have the Standard Library for Macros?"
-day: TODO
-stage: TODO
-time: TODO
+day: day3
+stage: stage1
+time: 11:50 - 12:30
 speaker: Mateusz Kubuszok
 ---
 
@@ -17,4 +17,3 @@ At this point, you might reconsider using macros: maybe generate some files as m
 But it doesn't have to be this way. We can have a ***standard library* for macros** that makes simple things simple, and hard things (at least) possible. And we can design it in such a way, that most of the code could be *shared between Scala 2 and 3*.
 
 And this talk will show you how.
-    

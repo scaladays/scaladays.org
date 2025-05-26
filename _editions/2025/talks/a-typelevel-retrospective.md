@@ -1,8 +1,8 @@
 ---
 title: "A Typelevel retrospective"
-day: TODO
-stage: TODO
-time: TODO
+day: day2
+stage: stage4
+time: 15:20 - 16:00
 speaker: Arman Bilge
 ---
 
@@ -12,4 +12,3 @@ A few of the stories I look forward to sharing are:
 - How sbt-typelevel and the Typelevel affiliate program have enabled a community ecosystem of cross-platform libraries to blossom and flourish.
 - How supporting Scala.js and Scala Native in Cats Effect inspired us to design a novel, high-performance asynchronous runtime for the JVM.
 - How scala-cli, Typelevel Toolkit, and a Google Summer of Code student reduced the learning curve for getting started with the Typelevel stack.
-    

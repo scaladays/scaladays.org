@@ -1,8 +1,8 @@
 ---
 title: "Level Up: Become a Compiler Engineer (and a Better Programmer)"
-day: TODO
-stage: TODO
-time: TODO
+day: day3
+stage: stage4
+time: 10:10 - 10:50
 speaker: Jan-Pieter van den Heuvel
 ---
 
@@ -18,4 +18,3 @@ You’ll learn:
 * A potential improvement for the Scala compiler
 
 Whether you’re curious about compiler internals or looking to contribute, this talk will give you a roadmap and the motivation to get started.
-    
