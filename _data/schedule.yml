@@ -33,27 +33,27 @@ talks-2025:
     stage: stage1
     time: 09:00 - 13:00
     speaker: ""
-    # url: ""
+    url: "/workshops"
   - title: Lunch
     day: day1
     stage: stage1
     time: 13:00 - 14:00
     speaker: ""
     special: lunch
-    # url: ""
+    url: ""
   - title: Workshops
     day: day1
     stage: stage1
     time: 14:00 - 17:00
     speaker: ""
-    # url: ""
+    url: "/workshops"
   - title: Registration
     day: day1
     stage: stage1
     time: 16:00 - 17:30
     special: registration
     speaker: ""
-    # url: ""
+    url: ""
   - title: Keynote
     day: day1
     stage: stage1
@@ -66,7 +66,7 @@ talks-2025:
     time: 18:30 - 21:00
     speaker: ""
     special: lunch
-    # url: ""
+    url: ""
 
   - title: A New Scala Ethos
     day: day2
