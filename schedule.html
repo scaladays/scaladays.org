@@ -35,7 +35,7 @@ permalink: schedule
                 <h3 class="d-flex align-items-center mt-4 mb-5 text-uppercase fs-5">
                 <img class="icon-stage" src="{{ site.baseurl }}/img/assets/icon-stage.svg" alt="">{{ stage.title}}
                 </h3>
-                {% assign talks = site.talks-2025 | where_exp: "talk", "talk.day == day.id and talk.stage contains stage.id" | sort: "time" %}
+                {% assign talks = site.data.talks-2025 | where_exp: "talk", "talk.day == day.id and talk.stage contains stage.id" | sort: "time" %}
                 {% for talk in talks %}
                 {% if talk.special %}
                 <div class="break d-block text-decoration-none {% if talk.special == 'blank' %} opacity-0 {% endif %} ">
