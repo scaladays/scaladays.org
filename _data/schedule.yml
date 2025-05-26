@@ -670,7 +670,7 @@ speakers:
   github: https://github.com/noelwelsh/
 - name: Magda Stożek
   position: SoftwareMill
-  image: assets/img/2025/speakers/magda-sto-ek.jpg
+  image: assets/img/2025/speakers/magda-stozek.jpg
   about: "Magda is a senior Scala developer at SoftwareMill. She's a fan of strongly-typed\
     \ languages and enjoys trying to find \"the right way\" of doing things.\n\nBeing\
     \ a passionate foreign languages learner, she wanted to become a translator. The\
@@ -709,7 +709,7 @@ speakers:
   github: ''
 - name: Bendix Sältz
   position: MOIA
-  image: assets/img/2025/speakers/bendix-s-ltz.jpg
+  image: assets/img/2025/speakers/bendix-saltz.jpg
   about: I'm a staff software engineer at MOIA, working on public APIs and backend
     system architecture with a passion for coding Scala. In my private life I'm a
     proud father of a three year old and board member of a German NGO advocating for
@@ -784,7 +784,7 @@ speakers:
   github: ''
 - name: Michał Pawlik & Jakob Koslowski
   position: ''
-  image: assets/img/2025/speakers/micha-pawlik-jakob-koslowski.jpg
+  image: assets/img/2025/speakers/michal-pawlik.jpg
   about: 'Breaker of things, finder of bugs, and escape room fugitive. I''m a Scala
     enthusiast who shares insights at blog.michal.pawlik.dev.
 
@@ -959,7 +959,7 @@ speakers:
   github: ''
 - name: Sébastien Doeraene
   position: EPFL, Scala Center
-  image: assets/img/2025/speakers/s-bastien-doeraene.jpg
+  image: assets/img/2025/speakers/sebastien-doeraene.jpg
   about: Sébastien Doeraene is a compiler/runtime systems hacker and a Scala enthusiast.
     Best known as the author of [Scala.js](https://www.scala-js.org/), he is now an
     engineer at the [Scala Center](https://scala.epfl.ch/) and part-time lecturer
@@ -1029,7 +1029,7 @@ speakers:
   github: https://github.com/adamw
 - name: Li Haoyi
   position: ''
-  image: assets/img/2025/speakers/li-haoyi.jpg
+  image: assets/img/2025/speakers/haoyi-li.jpg
   about: Li Haoyi graduated from MIT, has built infrastructure for high-growth companies
     like Dropbox and Databricks, and has been a major contributor to the open source
     community with over 10,000 stars on Github. Haoyi has deep experience in the JVM
@@ -1041,7 +1041,7 @@ speakers:
   github: ''
 - name: Martin Duhem
   position: Gradle, Inc.
-  image: assets/img/2025/speakers/martin-duhem.jpg
+  image: assets/img/2025/speakers/martin_duhem.jpeg
   about: Martin is a software engineer at Gradle where he works on accelerating your
     sbt builds.
   talk: exploring-build-caching-a-practical
@@ -1050,7 +1050,7 @@ speakers:
   github: ''
 - name: Eugene Yokota
   position: Netflix
-  image: assets/img/2025/speakers/eugene-yokota.jpg
+  image: assets/img/2025/speakers/eugene_yokota.jpg
   about: Eugene is a maintainer of sbt, and an engineer at Netflix. He enjoys long
     walks looking for Döner kebab, and functional programming.
   talk: sbt-2-0-go-big
@@ -1074,7 +1074,7 @@ speakers:
   github: ''
 - name: Oliver Bračevac
   position: ''
-  image: assets/img/2025/speakers/oliver-bra-evac.jpg
+  image: assets/img/2025/speakers/oliver-bracevac.jpg
   about: Oliver is a member of the Scala compiler team at EPFL’s LAMP group, where
     he leads compiler development and works closely with Martin Odersky on the design
     and implementation of new language features. He is currently focused on Capture
