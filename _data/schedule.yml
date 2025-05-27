@@ -243,6 +243,7 @@ talks-2025:
     stage: stage3
     time: 14:30 - 15:10
     speaker: Bill Venners
+    speaker2: Eugene Flesselle
     url: /editions/2025/talks/thinking-in-scala-3-types
   - title: 'Just Import ''N'' Go: Spec-first APIs without codegen'
     day: day2
@@ -440,6 +441,7 @@ talks-2025:
     stage: stage1
     time: 17:00 - 17:40
     speaker: Dimi Racordon
+    speaker2: Eugene Flesselle
     url: /editions/2025/talks/what-scala-can-learn-from
   - title: Using Scala in a Go-First Company
     day: day3
@@ -1198,7 +1200,7 @@ speakers:
   position: ''
   image: assets/img/2025/speakers/frank-sommers.jpg
   about: ''
-  talk: ''
+  talk: thinking-in-scala-3-types
   # linkedin: ''
   # twitter: ''
   # github: ''
