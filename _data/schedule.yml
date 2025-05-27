@@ -417,6 +417,7 @@ talks-2025:
     stage: stage1
     time: 16:10 - 16:50
     speaker: Kannupriya Kalra
+    speaker2: Rory Graves
     url: /editions/2025/talks/scala-meets-genai-build-the
   - title: 'From Imports to Targets: Bazel on Autopilot with Scala Gazelle'
     day: day3
@@ -1209,7 +1210,7 @@ speakers:
   position: ''
   image: assets/img/2025/speakers/rory-graves.jpg
   about: ''
-  talk: ''
+  talk: scala-meets-genai-build-the
   linkedin: https://www.linkedin.com/in/roryjgraves/
   twitter: https://x.com/a_dev_musing
   # github: ''
