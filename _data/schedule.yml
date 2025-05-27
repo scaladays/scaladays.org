@@ -182,6 +182,7 @@ talks-2025:
     stage: stage2
     time: 11:50 - 12:30
     speaker: Olga Chuchuk
+    speaker2: François Laroche
     url: /editions/2025/talks/the-power-of-full-stack-scala
   - title: 'Rethinking Monad Transformers: A Submarine way for Error Handling'
     day: day2
@@ -1175,3 +1176,57 @@ speakers:
   twitter: https://x.com/kubukoz
   github: https://github.com/kubukoz
   mastodon: https://mstdn.party/@kubukoz
+
+- name: François Laroche
+  position: ''
+  image: assets/img/2025/speakers/francois-laroche.jpg
+  about: ''
+  talk: the-power-of-full-stack
+  linkedin: https://www.linkedin.com/in/françois-laroche-28406132/
+  mastodon: https://social.laroche.dev/@francois
+
+- name: Eugene Flesselle
+  position: ''
+  image: assets/img/2025/speakers/eugene-flesselle.jpg
+  about: ''
+  talk: ''
+  # linkedin: ''
+  # twitter: ''
+  # github: ''
+
+- name: Frank Sommers
+  position: ''
+  image: assets/img/2025/speakers/frank-sommers.jpg
+  about: ''
+  talk: ''
+  # linkedin: ''
+  # twitter: ''
+  # github: ''
+
+- name: Rory Graves
+  position: ''
+  image: assets/img/2025/speakers/rory-graves.jpg
+  about: ''
+  talk: ''
+  linkedin: https://www.linkedin.com/in/roryjgraves/
+  twitter: https://x.com/a_dev_musing
+  # github: ''
+
+- name: Benoît Fouré
+  position: ''
+  image: assets/img/2025/speakers/benoit-foure.jpg
+  about: ''
+  talk: ''
+  linkedin: https://www.linkedin.com/in/benoît-fouré-9402154a/
+  # twitter: ''
+  # github: ''
+
+- name: Philipp Haller
+  position: ''
+  image: assets/img/2025/speakers/philipp-haller.jpg
+  about: ''
+  talk: ''
+  linkedin: https://www.linkedin.com/in/hallerp
+  twitter: https://x.com/philippkhaller
+  # github: ''
+  bluesky: https://bsky.app/profile/hallerp.bsky.social

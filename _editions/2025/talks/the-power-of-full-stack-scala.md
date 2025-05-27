@@ -4,6 +4,7 @@ day: day2
 stage: stage2
 time: 11:50 - 12:30
 speaker: Olga Chuchuk
+speaker2: François Laroche
 ---
 
 At **NuMind**, we build machine learning tools for information extraction using custom-trained language models. But we’re not here to talk about the models—we’re here to talk about the ***full-stack Scala platform*** that makes working with those models possible.
@@ -16,7 +17,7 @@ We’ll talk about:
 
 - Why we chose Scala for full-stack development
 - The architectural patterns that worked for us (and the ones that didn’t)
-- The challenges we faced 
+- The challenges we faced
 - And most importantly, how this stack empowered our small team to move fast.
 
 If you're curious about full-stack development in Scala, or want inspiration for building real-world ML platforms, we’ll show you what’s possible when the whole stack speaks the same language.
