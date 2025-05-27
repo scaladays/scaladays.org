@@ -262,6 +262,7 @@ talks-2025:
     stage: stage2
     time: 15:20 - 16:00
     speaker: Adrien Piquerez
+    speaker2: Benoît Fouré
     url: /editions/2025/talks/coding-the-game-of-unspoken
   - title: 'AI Assistance for Scala Developers: What JetBrains Brings to the Table'
     day: day2
@@ -1219,7 +1220,7 @@ speakers:
   position: ''
   image: assets/img/2025/speakers/benoit-foure.jpg
   about: ''
-  talk: ''
+  talk: coding-the-game-of-unspoken
   linkedin: https://www.linkedin.com/in/benoît-fouré-9402154a/
   # twitter: ''
   # github: ''
