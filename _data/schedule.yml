@@ -146,6 +146,7 @@ talks-2025:
     stage: stage4
     time: 10:10 - 10:50
     speaker: Jonas Spenger
+    speaker2: Philipp Haller
     url: /editions/2025/talks/simple-and-safe-serialization-pickling-of
   - title: 'Taking the plunge: a deep dive into streaming with fs2'
     day: day2
@@ -1229,7 +1230,7 @@ speakers:
   position: ''
   image: assets/img/2025/speakers/philipp-haller.jpg
   about: ''
-  talk: ''
+  talk: simple-and-safe-serialization-pickling-of
   linkedin: https://www.linkedin.com/in/hallerp
   twitter: https://x.com/philippkhaller
   # github: ''
