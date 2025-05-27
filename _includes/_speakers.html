@@ -43,6 +43,12 @@
                                     src="{{ site.baseurl }}/img/assets/icon-github.svg" alt=""></a>
                         </li>
                         {% endif %}
+                        {% if speaker.mastodon != null %}
+                        <li class="me-2">
+                            <a href="{{ speaker.mastodon }}" target="_blank" rel="noopener noreferrer"><img class="icon-social"
+                                    src="{{ site.baseurl }}/img/assets/icon-mastodon-light.svg" alt=""></a>
+                        </li>
+                        {% endif %}
                     </ul>
                 </div>
             </div>
