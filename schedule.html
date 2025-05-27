@@ -25,6 +25,9 @@ permalink: schedule
     </div>
     <div class="row">
       <div class="col-12">
+        <div class="alert alert-info text-center" role="alert">
+          <small><i class="bi bi-info-circle me-2"></i>Please note that the schedule is subject to change. We recommend checking back regularly for updates.</small>
+        </div>
         <div class="tab-content" id="nav-tabContent">
           {% for day in site.data.schedule.days %}
           <div class="tab-pane fade {% if forloop.first %} show active {% endif %}" id="{{day.id}}" role="tabpanel" aria-labelledby="{{day.id}}-list">
@@ -69,6 +72,13 @@ permalink: schedule
           </div>
           {% endfor %}
         </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-7 mx-auto">
+        <div class="d-flex justify-content-center align-items-center">
+          <a class="btn btn-primary btn-lg px-4 gap-3" href="https://register.event-works.com/lausanne/Scaladays2025/e/lk/k/" target="_blank" rel="noopener noreferrer">Buy Ticket Now</a>
         </div>
       </div>
     </div>

@@ -4,6 +4,7 @@ day: day3
 stage: stage1
 time: 16:10 - 16:50
 speaker: Kannupriya Kalra
+speaker2: Rory Graves
 ---
 
 Talk Description:

@@ -3,7 +3,8 @@ title: "Are You Tall Enough for This Ride? Real-world Challenges in Code Generat
 day: day2
 stage: stage2
 time: 16:10 - 16:50
-speaker: Michał Pawlik & Jakob Koslowski
+speaker: Michał Pawlik
+speaker2: Jakub Kozłowski
 ---
 
 He just released a patch release in smithy4s. Little did he know, a “simple bugfix” would turn into a compilation error for several dozen developers, faster than he could say "binary compatibility."

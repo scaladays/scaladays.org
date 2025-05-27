@@ -4,6 +4,7 @@ day: day2
 stage: stage2
 time: 15:20 - 16:00
 speaker: Adrien Piquerez
+speaker2: Benoît Fouré
 ---
 
 What does it take to create a game where the rules are unknown, constantly evolving, and authored by the players themselves? Inspired by the chaotic and creative card game Mao, we've built a multiplayer, browser-based game entirely in Scala 3:  backend, frontend, and user API. Players don’t just play the game, they program the rules in real-time.
