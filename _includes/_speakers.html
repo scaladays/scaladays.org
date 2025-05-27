@@ -20,7 +20,7 @@
 
                     <h5>{{ speaker.name }}</h5>
                     <p>{{ speaker.position }}</p>
-                    {% assign talk = site.data.schedule.talks-2025 | where: "speaker", speaker.name | first %}
+                    {% assign talk = site.data.schedule.talks-2025 | where_exp: "talk", "talk.url contains speaker.talk" | first %}
                     <a href="{{ talk.url | relative_url}}" class="d-block mb-4">{{ talk.title }} </a>
                     <ul class="d-flex list-unstyled">
                         {% if speaker.linkedin != null %}
