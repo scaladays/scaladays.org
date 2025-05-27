@@ -6,7 +6,7 @@
                 <h2 class="mb-4">{{ site.data.conference.speakers-title }}</h2>
                 <p class="lead">{{ site.data.conference.speakers-description }}</p>
             </div>
-          
+
         </div>
         <div class="row">
             {% for speaker in site.data.schedule.speakers %}
@@ -19,7 +19,7 @@
 
                     <h5>{{ speaker.name }}</h5>
                     <p>{{ speaker.position }}</p>
-                    {% assign talk = site.talks-2025 | find: "slug", speaker.talk %}
+                    {% assign talk = site.data.schedule.talks-2025 | where: "speaker", speaker.name | first %}
                     <a href="{{ talk.url | relative_url}}" class="d-block mb-4">{{ talk.title }} </a>
                     <ul class="d-flex list-unstyled">
                         {% if speaker.linkedin != null %}

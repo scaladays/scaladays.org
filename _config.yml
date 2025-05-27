@@ -28,13 +28,11 @@ links:
 
 defaults:
   - scope:
-      path: ""
-      type: "talks-2025"
+      path: "_editions/2025/talks/"
     values:
       layout: "schedule-detail"
   - scope:
-      path: ""
-      type: "workshops"
+      path: "_editions/2025/workshops/"
     values:
       layout: "workshops-detail"
 

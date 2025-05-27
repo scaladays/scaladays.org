@@ -2,8 +2,8 @@
 title: Meet the Trainers
 layout: post-detail
 tag: 2025
-image: assets/img/2025/meet-the-trainers.png
-header: assets/img/2025/meet-the-trainers.png
+image: assets/img/blog/SD25-meet-the-trainers.jpeg
+header: assets/img/blog/SD25-meet-the-trainers.jpeg
 permalink: /blog/:title/
 description: Scala Days is excited to host this year’s workshop options, led by a truly fantastic lineup of trainers!
 ---
@@ -41,6 +41,16 @@ Noel is a Scala consultant at Inner Product and Underscore. He likes helping tea
 Zainab is a functional programming polyglot, educator and the author of Functional Stream Processing in Scala. She is a Scala ambassador, a community representative for the Scala Center, the organizer of the London Scala User Group and frequent OSS contributor.
 
 
+
+**Tomasz Godzik and Łukasz Biały** are teaching the “Efficient Programming in Scala with Friendly Agents” workshop.  
+![Tomasz headshot](/assets/img/2025/workshops-trainers/tomasz-godzik.png) 
+Tomasz has worked with multiple programming language tools through the years trying to provide a productive environment for other developers to interact with. Currently, team lead of Scala Open Source team at VirtusLab.
+
+![Łukasz headshot](/assets/img/2025/workshops-trainers/lukasz-bialy.jpg)  
+Łukasz is a polyglot full-stack developer and functional programming enthusiast. Scala Developer Advocate @ VirtusLab. Values quality over quantity. Permanent learner with a severe information dependency problem. Enjoys conversations about philosophy and all things related to mind's inner workings. Loves mountains, biking and hiking.
+
+
+---
 
 Subscribe and follow Scala Days on social media to hear the latest conference updates when they happen!  
 

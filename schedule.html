@@ -21,7 +21,7 @@ permalink: schedule
           {% endfor %}
         </div>
       </div>
-  
+
     </div>
     <div class="row">
       <div class="col-12">
@@ -35,7 +35,7 @@ permalink: schedule
                 <h3 class="d-flex align-items-center mt-4 mb-5 text-uppercase fs-5">
                 <img class="icon-stage" src="{{ site.baseurl }}/img/assets/icon-stage.svg" alt="">{{ stage.title}}
                 </h3>
-                {% assign talks = site.talks-2025 | where_exp: "talk", "talk.day == day.id and talk.stage contains stage.id" | sort: "time" %}
+                {% assign talks = site.data.schedule.talks-2025 | where_exp: "talk", "talk.day == day.id and talk.stage contains stage.id" | sort: "time" %}
                 {% for talk in talks %}
                 {% if talk.special %}
                 <div class="break d-block text-decoration-none {% if talk.special == 'blank' %} opacity-0 {% endif %} ">
@@ -44,7 +44,7 @@ permalink: schedule
                   {% endif %}
                   <div class="d-flex align-items-center">
                     <img class="icon-time-slot" width="32" height="32" src="{{ site.baseurl }}/img/assets/icon-{{ talk.special }}.svg" alt="{{ talk.special }}">
-                    <h5 class="talk-title mb-0 ms-3">{{ talk.title }}</h5> 
+                    <h5 class="talk-title mb-0 ms-3">{{ talk.title }}</h5>
                   </div>
                   {% if talk.info %}
                   <p class="mt-3 mb-0">{{ talk.info }}</p>
