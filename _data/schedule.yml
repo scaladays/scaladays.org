@@ -283,7 +283,8 @@ talks-2025:
     day: day2
     stage: stage2
     time: 16:10 - 16:50
-    speaker: Michał Pawlik & Jakob Koslowski
+    speaker: Michał Pawlik
+    speaker2: Jakub Kozłowski
     url: /editions/2025/talks/are-you-tall-enough-for
   - title: 'Exploring Build Caching: A Practical Overview'
     day: day2
@@ -790,7 +791,7 @@ speakers:
   # linkedin: ''
   twitter: https://x.com/joang38
   github: https://github.com/joan38
-- name: Michał Pawlik & Jakob Koslowski
+- name: Michał Pawlik
   position: ''
   image: assets/img/2025/speakers/michal-pawlik.jpg
   about: 'Breaker of things, finder of bugs, and escape room fugitive. I''m a Scala
@@ -1165,3 +1166,12 @@ speakers:
   # linkedin: ''
   # twitter: ''
   github: https://github.com/aherlihy
+- name: Jakub Kozłowski
+  position: ''
+  image: assets/img/2025/speakers/jakub-kozlowski.jpg
+  about: ''
+  talk: are-you-tall-enough-for
+  linkedin: https://www.linkedin.com/in/kubukoz
+  twitter: https://x.com/kubukoz
+  github: https://github.com/kubukoz
+  mastodon: https://mstdn.party/@kubukoz
