@@ -17,7 +17,7 @@
                 <div class="item-team">
                     <div class="image-avatar mb-3">
                         <div class="image-gradient"></div>
-                        <img class="img-fluid mb-" src="{{ speaker.image | relative_url}}" alt="">
+                        <img class="img-fluid mb-" src="{% if speaker.image %}{{ speaker.image | relative_url}}{% else %}{{ site.baseurl }}/img/assets/avatar.svg{% endif %}" alt="">
                     </div>
 
                     <h5>{{ speaker.name }}</h5>

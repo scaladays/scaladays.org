@@ -572,7 +572,6 @@ talks-2025:
 speakers:
 - name: Arman Bilge
   position: Typelevel
-  image: assets/img/2025/speakers/arman-bilge.jpg
   about: ''
   talk: a-typelevel-retrospective
   # # linkedin: ''
@@ -1163,7 +1162,6 @@ speakers:
   github: https://github.com/KacperFKorban
 - name: Anna Herlihy
   position: ''
-  image: assets/img/2025/speakers/anna-herlihy.jpg
   about: I’m a fourth-year PhD student at EPFL doing research in the overlap between
     programming languages and databases. I’m super excited about language integrated
     queries, logic programming, and recursive query optimization. I love hiking, road
@@ -1192,7 +1190,6 @@ speakers:
 
 - name: Eugene Flesselle
   position: ''
-  image: assets/img/2025/speakers/eugene-flesselle.jpg
   about: ''
   talk: what-scala-can-learn-from
   # linkedin: ''
@@ -1219,7 +1216,6 @@ speakers:
 
 - name: Benoît Fouré
   position: ''
-  image: assets/img/2025/speakers/benoit-foure.jpg
   about: ''
   talk: coding-the-game-of-unspoken
   linkedin: https://www.linkedin.com/in/benoît-fouré-9402154a/
