@@ -9,7 +9,8 @@
 
         </div>
         <div class="row">
-            {% for speaker in site.data.schedule.speakers %}
+            {% assign sorted_speakers = site.data.schedule.speakers | sort: "name" %}
+            {% for speaker in sorted_speakers %}
             <div class="col-md-6 col-lg-3 mb-5 aos-animate" data-aos="fade-in">
                 <div class="item-team">
                     <div class="image-avatar mb-3">
