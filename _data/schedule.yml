@@ -244,7 +244,7 @@ talks-2025:
     stage: stage3
     time: 14:30 - 15:10
     speaker: Bill Venners
-    speaker2: Eugene Flesselle
+    speaker2: Frank Sommers
     url: /editions/2025/talks/thinking-in-scala-3-types
   - title: 'Just Import ''N'' Go: Spec-first APIs without codegen'
     day: day2
