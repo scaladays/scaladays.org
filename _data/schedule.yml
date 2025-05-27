@@ -223,12 +223,13 @@ talks-2025:
     speaker: ""
     special: lunch
     url: ""
-  - title: Effective Match Types
+  - title: Blank
     day: day2
     stage: stage1
     time: 14:30 - 15:10
-    speaker: Jamie Thompson
-    url: /editions/2025/talks/effective-match-types
+    speaker: ""
+    special: blank
+    url: ""
   - title: Blank
     day: day2
     stage: stage2
@@ -303,6 +304,13 @@ talks-2025:
     time: 17:00 - 17:40
     speaker: Priyanka Bose
     url: /editions/2025/talks/from-paradigms-to-percussion-a
+  - title: Effective Match Types
+    day: day2
+    stage: stage3
+    time: 17:00 - 17:40
+    speaker: Jamie Thompson
+    url: /editions/2025/talks/effective-match-types
+
 
   - title: 'Safe Coding with LLMs: Verifiable Scala Silver Bullet ?'
     day: day3
