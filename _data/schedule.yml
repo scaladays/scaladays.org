@@ -1234,7 +1234,7 @@ speakers:
 - name: Ralf Jung
   position: Keynote Speaker
   image: assets/img/2025/speakers/ralf-jung.jpg
-  about: 'Ralf Jung is an Assistant Professor of Computer Science at ETH Zurich, where he leads the Programming Language Foundations Lab within the Institute for Programming Languages and Systems. His research focuses on formal methods for programming languages, particularly Rust and the Iris framework for concurrent separation logic. Jung's work aims to provide rigorous mathematical foundations to ensure software reliability and security. He has made significant contributions to Rust's formal verification, including the development of the RustBelt project and the Miri tool for detecting undefined behavior in unsafe Rust code. His efforts have been recognized with several awards, such as the ACM SIGPLAN Most Influential POPL Paper Award in 2025 for his work on Iris.'
+  about: "Ralf Jung is an Assistant Professor of Computer Science at ETH Zurich, where he leads the Programming Language Foundations Lab within the Institute for Programming Languages and Systems. His research focuses on formal methods for programming languages, particularly Rust and the Iris framework for concurrent separation logic. Jung's work aims to provide rigorous mathematical foundations to ensure software reliability and security. He has made significant contributions to Rust's formal verification, including the development of the RustBelt project and the Miri tool for detecting undefined behavior in unsafe Rust code. His efforts have been recognized with several awards, such as the ACM SIGPLAN Most Influential POPL Paper Award in 2025 for his work on Iris."
   talk: minirust-a-core-language-for-specifying-rust
 
 - name: Evan Czaplicki
