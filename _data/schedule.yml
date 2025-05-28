@@ -1157,3 +1157,14 @@ speakers:
   # linkedin: ''
   # twitter: ''
   github: https://github.com/aherlihy
+- name: Ralf Jung
+  position: Keynote Speaker
+  image: assets/img/2025/speakers/ralf-jung.jpg
+  about: ''
+  talk: minirust-a-core-language-for-specifying-rust
+
+- name: Evan Czaplicki
+  position: Keynote Speaker
+  image: assets/img/2025/speakers/evan_czaplicki.jpg
+  about: "Evan Czaplicki is the creator of the Elm programming language. He lives in Denmark, and is currently developing a compiler to bring the benefits of Elm to databases. Evan is a functional programmer at heart with the broad goal to provide the tools and learning resources to make functional languages common in industry."
+  talk: on-productivity-languages-like-elm-and-scala
