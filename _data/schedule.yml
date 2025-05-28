@@ -1,16 +1,21 @@
 days:
-  - id: day1
+  - id: day0
     title: Day 1
+    date: Aug 18th
+    stages: [stage1]
+
+  - id: day1
+    title: Day 2
     date: Aug 19th
     stages: [stage1]
 
   - id: day2
-    title: Day 2
+    title: Day 3
     date: Aug 20th
     stages: [stage1, stage2, stage3, stage4]
 
   - id: day3
-    title: Day 3
+    title: Day 4
     date: Aug 21st
     stages: [stage1, stage2, stage3, stage4]
 
@@ -28,6 +33,26 @@ stages:
     title: Stage 4
 
 talks-2025:
+  - title: Workshops
+    day: day0
+    stage: stage1
+    time: 09:00 - 13:00
+    speaker: ""
+    url: "/workshops"
+  - title: Lunch
+    day: day0
+    stage: stage1
+    time: 13:00 - 14:00
+    speaker: ""
+    special: lunch
+    url: ""
+  - title: Workshops
+    day: day0
+    stage: stage1
+    time: 14:00 - 17:00
+    speaker: ""
+    url: "/workshops"
+
   - title: Workshops
     day: day1
     stage: stage1
@@ -50,20 +75,20 @@ talks-2025:
   - title: Registration
     day: day1
     stage: stage1
-    time: 16:00 - 17:30
+    time: 16:00 - 17:00
     special: registration
     speaker: ""
     url: ""
   - title: Keynote
     day: day1
     stage: stage1
-    time: 17:30 - 18:30
+    time: 17:00 - 18:00
     speaker: Martin Odersky
     url: ""
   - title: Welcome Reception
     day: day1
     stage: stage1
-    time: 18:30 - 21:00
+    time: 18:00 - 21:00
     speaker: ""
     special: lunch
     url: ""
@@ -100,7 +125,7 @@ talks-2025:
     day: day2
     stage: stage1
     time: 09:00 - 10:00
-    speaker: ""
+    speaker: Evan Czaplicki
     url: ""
   - title: ""
     day: day2
@@ -225,19 +250,19 @@ talks-2025:
     speaker: ""
     special: lunch
     url: ""
-  - title: Blank
+  - title: To be confirmed
     day: day2
     stage: stage1
     time: 14:30 - 15:10
     speaker: ""
-    special: blank
+    # special: blank
     url: ""
-  - title: Blank
+  - title: To be confirmed
     day: day2
     stage: stage2
     time: 14:30 - 15:10
     speaker: ""
-    special: blank
+    # special: blank
     url: ""
   - title: Thinking in Scala 3 Types
     day: day2
@@ -296,6 +321,14 @@ talks-2025:
     time: 16:10 - 16:50
     speaker: Martin Duhem
     url: /editions/2025/talks/exploring-build-caching-a-practical
+  - day: day2
+    stage: stage4
+    time: 16:10 - 16:50
+    title: To be confirmed
+  - day: day2
+    stage: stage4
+    time: 17:00 - 17:40
+    title: To be confirmed
   - title: Designing the library powering Netflix's QoE with Scala 3
     day: day2
     stage: stage1
@@ -361,10 +394,15 @@ talks-2025:
     url: /editions/2025/talks/on-track-with-tracked
   - title: Can we have the Standard Library for Macros?
     day: day3
-    stage: stage1
+    stage: stage4
     time: 11:50 - 12:30
     speaker: Mateusz Kubuszok
     url: /editions/2025/talks/can-we-have-the-standard
+  - title: To be confirmed
+    day: day3
+    stage: stage1
+    time: 11:50 - 12:30
+    speaker: ""
   - title: Bringing Scala to Server-Side Wasm with WASI & Component Model
     day: day3
     stage: stage2
@@ -401,13 +439,6 @@ talks-2025:
     time: 14:50 - 15:30
     speaker: Magda Stożek
     url: /editions/2025/talks/say-goodbye-to-implicits
-  - title: Blank
-    day: day3
-    stage: stage4
-    time: 14:00 - 14:40
-    speaker: ""
-    special: blank
-    url: ""
   - title: Macro-Free Type-Safe Database Queries in Scala
     day: day3
     stage: stage4
@@ -458,6 +489,10 @@ talks-2025:
     time: 17:00 - 17:40
     speaker: Li Haoyi
     url: /editions/2025/talks/easy-scala-builds-with-the
+  - title: To be confirmed
+    day: day3
+    stage: stage4
+    time: 17:00 - 17:40
 
   - title: Registration
     day: day3
@@ -491,7 +526,7 @@ talks-2025:
     day: day3
     stage: stage1
     time: 09:00 - 10:00
-    speaker: ""
+    speaker: Ralf Jung
     url: ""
   - title: ""
     day: day3
