@@ -7,6 +7,8 @@
     {% assign stage = site.data.schedule.stages | find: "id", page.stage  %}
     {% assign speaker = site.data.schedule.speakers | find: "name", page.speaker %}
     {% assign speaker2 = site.data.schedule.speakers | find: "name", page.speaker2 %}
+    {% assign speaker3 = site.data.schedule.speakers | find: "name", page.speaker3 %}
+    {% assign speaker4 = site.data.schedule.speakers | find: "name", page.speaker4 %}
 
     {% include _nav-solid.html %}
 
@@ -65,7 +67,7 @@
             </div>
             {% endif %}
             {% if speaker2 %}
-           
+
             <div class="row mt-4 pt-4">
                 <div class="col-md-2">
                     <img class="img-fluid" src="{{ speaker2.image | relative_url}}" alt="">
@@ -94,6 +96,64 @@
                 </div>
             </div>
             {% endif %}
+            {% if speaker3 %}
+            <div class="row mt-4 pt-4">
+                <div class="col-md-2">
+                    <img class="img-fluid" src="{{ speaker3.image | relative_url}}" alt="">
+                </div>
+                <div class="col-md-10 ps-lg-4">
+                    <h4>{{ speaker3.name }}</h4>
+                    <p class="fs-6 my-3">{{ speaker3.position }}</p>
+                    <small class="d-block mb-4">{{ speaker3.about | markdownify }}</small>
+                    <ul class="d-flex list-unstyled">
+                        {% if speaker3.linkedin != null %}
+                        <li class="me-2">
+                            <a href="{{ speaker3.linkedin }}" target="_blank" rel="noopener noreferrer"><img class="icon-social" src="{{ site.baseurl }}/img/assets/icon-linkedin.svg" alt=""></a>
+                        </li>
+                        {% endif %}
+                        {% if speaker3.twitter != null %}
+                        <li class="me-2">
+                            <a href="{{ speaker3.twitter }}" target="_blank" rel="noopener noreferrer"><img class="icon-social" src="{{ site.baseurl }}/img/assets/icon-twitter-red.svg" alt=""></a>
+                        </li>
+                        {% endif %}
+                        {% if speaker3.github != null %}
+                        <li class="me-2">
+                            <a href="{{ speaker3.github }}" target="_blank" rel="noopener noreferrer"><img class="icon-social" src="{{ site.baseurl }}/img/assets/icon-github.svg" alt=""></a>
+                        </li>
+                        {% endif %}
+                    </ul>
+                </div>
+            </div>
+            {% endif %}
+            {% if speaker4 %}
+            <div class="row mt-4 pt-4">
+                <div class="col-md-2">
+                    <img class="img-fluid" src="{{ speaker4.image | relative_url}}" alt="">
+                </div>
+                <div class="col-md-10 ps-lg-4">
+                    <h4>{{ speaker4.name }}</h4>
+                    <p class="fs-6 my-3">{{ speaker4.position }}</p>
+                    <small class="d-block mb-4">{{ speaker4.about | markdownify }}</small>
+                    <ul class="d-flex list-unstyled">
+                        {% if speaker4.linkedin != null %}
+                        <li class="me-2">
+                            <a href="{{ speaker4.linkedin }}" target="_blank" rel="noopener noreferrer"><img class="icon-social" src="{{ site.baseurl }}/img/assets/icon-linkedin.svg" alt=""></a>
+                        </li>
+                        {% endif %}
+                        {% if speaker4.twitter != null %}
+                        <li class="me-2">
+                            <a href="{{ speaker4.twitter }}" target="_blank" rel="noopener noreferrer"><img class="icon-social" src="{{ site.baseurl }}/img/assets/icon-twitter-red.svg" alt=""></a>
+                        </li>
+                        {% endif %}
+                        {% if speaker4.github != null %}
+                        <li class="me-2">
+                            <a href="{{ speaker4.github }}" target="_blank" rel="noopener noreferrer"><img class="icon-social" src="{{ site.baseurl }}/img/assets/icon-github.svg" alt=""></a>
+                        </li>
+                        {% endif %}
+                    </ul>
+                </div>
+            </div>
+            {% endif %}
         </div>
          <div class="row pt-3">
             <div class="col-md-6">
@@ -108,7 +168,7 @@
                 {% endif %}
                 {% endfor %}
             </div>
-         </div> 
+         </div>
     </div>
     {% include _footer.html %}
     {% include _js-site.html %}

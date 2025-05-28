@@ -1,586 +1,1290 @@
 days:
-  - id: day1
+  - id: day0
     title: Day 1
+    date: Aug 18th
+    stages: [stage1]
+
+  - id: day1
+    title: Day 2
     date: Aug 19th
     stages: [stage1]
 
   - id: day2
-    title: Day 2
-    date: Aug 20th
-    stages: [stage1, stage2, stage3]
-  
-  - id: day3
     title: Day 3
+    date: Aug 20th
+    stages: [stage1, stage2, stage3, stage4]
+
+  - id: day3
+    title: Day 4
     date: Aug 21st
-    stages: [stage1, stage2, stage3]
+    stages: [stage1, stage2, stage3, stage4]
 
 stages:
   - id: stage1
-    title: Stage 1 (Name 1)
+    title: Stage 1
 
   - id: stage2
-    title: Stage 2 (Name 2)
+    title: Stage 2
 
   - id: stage3
-    title: Stage 3 (Name 3)
+    title: Stage 3
 
+  - id: stage4
+    title: Stage 4
+
+talks-2025:
+  - title: Workshops
+    day: day0
+    stage: stage1
+    time: 09:00 - 13:00
+    speaker: ""
+    url: "/workshops"
+  - title: Lunch
+    day: day0
+    stage: stage1
+    time: 13:00 - 14:00
+    speaker: ""
+    special: lunch
+    url: ""
+  - title: Workshops
+    day: day0
+    stage: stage1
+    time: 14:00 - 17:00
+    speaker: ""
+    url: "/workshops"
+
+  - title: Workshops
+    day: day1
+    stage: stage1
+    time: 09:00 - 13:00
+    speaker: ""
+    url: "/workshops"
+  - title: Lunch
+    day: day1
+    stage: stage1
+    time: 13:00 - 14:00
+    speaker: ""
+    special: lunch
+    url: ""
+  - title: Workshops
+    day: day1
+    stage: stage1
+    time: 14:00 - 17:00
+    speaker: ""
+    url: "/workshops"
+  - title: Registration
+    day: day1
+    stage: stage1
+    time: 16:00 - 17:00
+    special: registration
+    speaker: ""
+    url: ""
+  - title: Keynote
+    day: day1
+    stage: stage1
+    time: 17:00 - 18:00
+    speaker: Martin Odersky
+    url: ""
+  - title: Welcome Reception
+    day: day1
+    stage: stage1
+    time: 18:00 - 21:00
+    speaker: ""
+    special: lunch
+    url: ""
+
+  - title: Registration
+    day: day2
+    stage: stage1
+    time: 08:00 - 09:00
+    speaker: ""
+    special: registration
+    url: ""
+  - title: ""
+    day: day2
+    stage: stage2
+    time: 08:00 - 09:00
+    speaker: ""
+    special: blank
+    url: ""
+  - title: ""
+    day: day2
+    stage: stage3
+    time: 08:00 - 09:00
+    speaker: ""
+    special: blank
+    url: ""
+  - title: ""
+    day: day2
+    stage: stage4
+    time: 08:00 - 09:00
+    speaker: ""
+    special: blank
+    url: ""
+  - title: Keynote
+    day: day2
+    stage: stage1
+    time: 09:00 - 10:00
+    speaker: Evan Czaplicki
+    url: ""
+  - title: ""
+    day: day2
+    stage: stage2
+    time: 09:00 - 10:00
+    speaker: ""
+    special: blank
+    url: ""
+  - title: ""
+    day: day2
+    stage: stage3
+    time: 09:00 - 10:00
+    speaker: ""
+    special: blank
+    url: ""
+  - title: ""
+    day: day2
+    stage: stage4
+    time: 09:00 - 10:00
+    speaker: ""
+    special: blank
+    url: ""
+  - title: A New Scala Ethos
+    day: day2
+    stage: stage1
+    time: 10:10 - 10:50
+    speaker: Daniel Ciocîrlan
+    url: /editions/2025/talks/a-new-scala-ethos
+  - title: gRPC APIs for Autonomous Driving from Design to Implementation in Scala
+    day: day2
+    stage: stage2
+    time: 10:10 - 10:50
+    speaker: Bendix Sältz
+    url: /editions/2025/talks/grpc-apis-for-autonomous-driving
+  - title: 'Capture Checking: A New Approach to Effect Safety in Scala'
+    day: day2
+    stage: stage3
+    time: 10:10 - 10:50
+    speaker: Oliver Bračevac
+    url: /editions/2025/talks/capture-checking-a-new-approach
+  - title: Simple and safe serialization/pickling of closures in Scala 3
+    day: day2
+    stage: stage4
+    time: 10:10 - 10:50
+    speaker: Jonas Spenger
+    speaker2: Philipp Haller
+    url: /editions/2025/talks/simple-and-safe-serialization-pickling-of
+  - title: 'Taking the plunge: a deep dive into streaming with fs2'
+    day: day2
+    stage: stage1
+    time: 11:00 - 11:40
+    speaker: Zainab Ali
+    url: /editions/2025/talks/taking-the-plunge-a-deep
+  - title: Scala Chip Design from Z1R0 to H1R0
+    day: day2
+    stage: stage2
+    time: 11:00 - 11:40
+    speaker: Oron Port
+    url: /editions/2025/talks/scala-chip-design-from-z1r0
+  - title: 'The first steps towards practical capture checking '
+    day: day2
+    stage: stage3
+    time: 11:00 - 11:40
+    speaker: 'Cao Nguyen Pham'
+    url: /editions/2025/talks/the-first-steps-towards-practical
+  - title: Yo Dawg, Heard You Want To FlatMap Your Direct-Style
+    day: day2
+    stage: stage4
+    time: 11:00 - 11:40
+    speaker: Riccardo Cardin
+    url: /editions/2025/talks/yo-dawg-heard-you-want
+  - title: 'A Tour of Ox 1.0: Direct-Style Concurrency and Resiliency'
+    day: day2
+    stage: stage1
+    time: 11:50 - 12:30
+    speaker: Adam Warski
+    url: /editions/2025/talks/a-tour-of-ox-1-0
+  - title: 'The power of full-stack Scala: lessons learnt from building an ML platform'
+    day: day2
+    stage: stage2
+    time: 11:50 - 12:30
+    speaker: Olga Chuchuk
+    speaker2: François Laroche
+    url: /editions/2025/talks/the-power-of-full-stack-scala
+  - title: 'Rethinking Monad Transformers: A Submarine way for Error Handling'
+    day: day2
+    stage: stage3
+    time: 11:50 - 12:30
+    speaker: Thanh Le
+    url: /editions/2025/talks/rethinking-monad-transformers-a-submarine
+  - title: Tree Sitting will continue until Scala highlighting improves
+    day: day2
+    stage: stage4
+    time: 11:50 - 12:30
+    speaker: Anton Sviridov
+    url: /editions/2025/talks/tree-sitting-will-continue-until
+  - title: Lunch
+    day: day2
+    stage: stage1
+    time: 12:30 - 14:30
+    speaker: ""
+    special: lunch
+    url: ""
+  - title: Lunch
+    day: day2
+    stage: stage2
+    time: 12:30 - 14:30
+    speaker: ""
+    special: lunch
+    url: ""
+  - title: Lunch
+    day: day2
+    stage: stage3
+    time: 12:30 - 14:30
+    speaker: ""
+    special: lunch
+    url: ""
+  - title: Lunch
+    day: day2
+    stage: stage4
+    time: 12:30 - 14:30
+    speaker: ""
+    special: lunch
+    url: ""
+  - title: To be confirmed
+    day: day2
+    stage: stage1
+    time: 14:30 - 15:10
+    speaker: ""
+    # special: blank
+    url: ""
+  - title: To be confirmed
+    day: day2
+    stage: stage2
+    time: 14:30 - 15:10
+    speaker: ""
+    # special: blank
+    url: ""
+  - title: Thinking in Scala 3 Types
+    day: day2
+    stage: stage3
+    time: 14:30 - 15:10
+    speaker: Bill Venners
+    speaker2: Frank Sommers
+    url: /editions/2025/talks/thinking-in-scala-3-types
+  - title: 'Just Import ''N'' Go: Spec-first APIs without codegen'
+    day: day2
+    stage: stage4
+    time: 14:30 - 15:10
+    speaker: Tomas Mikula
+    url: /editions/2025/talks/just-import-n-go-spec-first
+  - title: 'Scala, Sound, and Structure: Composing Music through Functional Programming'
+    day: day2
+    stage: stage1
+    time: 15:20 - 16:00
+    speaker: Johanna Odersky
+    url: /editions/2025/talks/scala-sound-and-structure-composing
+  - title: Coding the game of unspoken rules in Scala 3
+    day: day2
+    stage: stage2
+    time: 15:20 - 16:00
+    speaker: Adrien Piquerez
+    speaker2: Benoît Fouré
+    url: /editions/2025/talks/coding-the-game-of-unspoken
+  - title: 'AI Assistance for Scala Developers: What JetBrains Brings to the Table'
+    day: day2
+    stage: stage3
+    time: 15:20 - 16:00
+    speaker: Maciej Gorywoda
+    url: /editions/2025/talks/ai-assistance-for-scala-developers
+  - title: A Typelevel retrospective
+    day: day2
+    stage: stage4
+    time: 15:20 - 16:00
+    speaker: Arman Bilge
+    url: /editions/2025/talks/a-typelevel-retrospective
+  - title: Routing Http Requests with Scala 3
+    day: day2
+    stage: stage1
+    time: 16:10 - 16:50
+    speaker: Noel Welsh
+    url: /editions/2025/talks/routing-http-requests-with-scala
+  - title: Are You Tall Enough for This Ride? Real-world Challenges in Code Generation
+    day: day2
+    stage: stage2
+    time: 16:10 - 16:50
+    speaker: Michał Pawlik
+    speaker2: Jakub Kozłowski
+    url: /editions/2025/talks/are-you-tall-enough-for
+  - title: 'Exploring Build Caching: A Practical Overview'
+    day: day2
+    stage: stage3
+    time: 16:10 - 16:50
+    speaker: Martin Duhem
+    url: /editions/2025/talks/exploring-build-caching-a-practical
+  - day: day2
+    stage: stage4
+    time: 16:10 - 16:50
+    title: To be confirmed
+  - day: day2
+    stage: stage4
+    time: 17:00 - 17:40
+    title: To be confirmed
+  - title: Designing the library powering Netflix's QoE with Scala 3
+    day: day2
+    stage: stage1
+    time: 17:00 - 17:40
+    speaker: Joan Goyeau
+    url: /editions/2025/talks/designing-the-library-powering-netflix-s
+  - title: 'From Paradigms to Percussion: A Beginner’s parallel Journey (and struggles)
+      with Scala and Drums'
+    day: day2
+    stage: stage2
+    time: 17:00 - 17:40
+    speaker: Priyanka Bose
+    url: /editions/2025/talks/from-paradigms-to-percussion-a
+  - title: Effective Match Types
+    day: day2
+    stage: stage3
+    time: 17:00 - 17:40
+    speaker: Jamie Thompson
+    url: /editions/2025/talks/effective-match-types
+
+
+  - title: 'Safe Coding with LLMs: Verifiable Scala Silver Bullet ?'
+    day: day3
+    stage: stage1
+    time: 10:10 - 10:50
+    speaker: Andrei Kucharavy
+    url: /editions/2025/talks/safe-coding-with-llms-verifiable
+  - title: Full-stack scala
+    day: day3
+    stage: stage2
+    time: 10:10 - 10:50
+    speaker: Jonas Chapuis
+    url: /editions/2025/talks/full-stack-scala
+  - title: Painting with functions - Scala on GPUs
+    day: day3
+    stage: stage3
+    time: 10:10 - 10:50
+    speaker: Szymon Rodziewicz
+    url: /editions/2025/talks/painting-with-functions-scala
+  - title: 'Level Up: Become a Compiler Engineer (and a Better Programmer)'
+    day: day3
+    stage: stage4
+    time: 10:10 - 10:50
+    speaker: Jan-Pieter van den Heuvel
+    url: /editions/2025/talks/level-up-become-a-compiler
+  - title: Compiling Scala.js to WebAssembly
+    day: day3
+    stage: stage1
+    time: 11:00 - 11:40
+    speaker: Sébastien Doeraene
+    url: /editions/2025/talks/compiling-scala-js-to-webassembly
+  - title: Scala, Productivity, and AI
+    day: day3
+    stage: stage2
+    time: 11:00 - 11:40
+    speaker: Krzysztof Romanowski
+    url: /editions/2025/talks/scala-productivity-and-ai
+  - title: On track with tracked
+    day: day3
+    stage: stage3
+    time: 11:00 - 11:40
+    speaker: Kacper Korban
+    url: /editions/2025/talks/on-track-with-tracked
+  - title: Can we have the Standard Library for Macros?
+    day: day3
+    stage: stage4
+    time: 11:50 - 12:30
+    speaker: Mateusz Kubuszok
+    url: /editions/2025/talks/can-we-have-the-standard
+  - title: To be confirmed
+    day: day3
+    stage: stage1
+    time: 11:50 - 12:30
+    speaker: ""
+  - title: Bringing Scala to Server-Side Wasm with WASI & Component Model
+    day: day3
+    stage: stage2
+    time: 11:50 - 12:30
+    speaker: Rikito Taniguchi
+    url: /editions/2025/talks/bringing-scala-to-server-side-wasm
+  - title: Unleashing the Full Potential of Metals
+    day: day3
+    stage: stage3
+    time: 11:50 - 12:30
+    speaker: Tomasz Godzik
+    url: /editions/2025/talks/unleashing-the-full-potential-of
+  - title: 'Exploring Cats Effect’s New Integrated I/O Runtime: Async I/O with io_uring'
+    day: day3
+    stage: stage4
+    time: 11:50 - 12:30
+    speaker: Antonio Jimenez
+    url: /editions/2025/talks/exploring-cats-effect-s-new-integrated
+  - title: 'Scala and Arpeggio: Audio processing with Scala Native and FS2'
+    day: day3
+    stage: stage1
+    time: 14:50 - 15:30
+    speaker: Will Binzi
+    url: /editions/2025/talks/scala-and-arpeggio-audio-processing
+  - title: Reach for the unlimited --power of Scala CLI
+    day: day3
+    stage: stage2
+    time: 14:50 - 15:30
+    speaker: Piotr Chabelski
+    url: /editions/2025/talks/reach-for-the-unlimited-power
+  - title: Say goodbye to implicits - contextual abstractions in Scala 3
+    day: day3
+    stage: stage3
+    time: 14:50 - 15:30
+    speaker: Magda Stożek
+    url: /editions/2025/talks/say-goodbye-to-implicits
+  - title: Macro-Free Type-Safe Database Queries in Scala
+    day: day3
+    stage: stage4
+    time: 14:50 - 15:30
+    speaker: Anna Herlihy
+    url: /editions/2025/talks/macro-free-type-safe-database-queries-in
+  - title: 'Scala Meets GenAI: Build the Cool Stuff with LLM4S'
+    day: day3
+    stage: stage1
+    time: 16:10 - 16:50
+    speaker: Kannupriya Kalra
+    speaker2: Rory Graves
+    url: /editions/2025/talks/scala-meets-genai-build-the
+  - title: 'From Imports to Targets: Bazel on Autopilot with Scala Gazelle'
+    day: day3
+    stage: stage2
+    time: 16:10 - 16:50
+    speaker: Wojciech Mazur
+    url: /editions/2025/talks/from-imports-to-targets-bazel
+  - title: 'sbt 2.0: go big'
+    day: day3
+    stage: stage3
+    time: 16:10 - 16:50
+    speaker: Eugene Yokota
+    url: /editions/2025/talks/sbt-2-0-go-big
+  - title: How to write correct Scala programs
+    day: day3
+    stage: stage4
+    time: 16:10 - 16:50
+    speaker: Lars Hupel
+    url: /editions/2025/talks/how-to-write-correct-scala
+  - title: What Scala can learn from Rust, Swift, and C++
+    day: day3
+    stage: stage1
+    time: 17:00 - 17:40
+    speaker: Dimi Racordon
+    speaker2: Eugene Flesselle
+    url: /editions/2025/talks/what-scala-can-learn-from
+  - title: Using Scala in a Go-First Company
+    day: day3
+    stage: stage2
+    time: 17:00 - 17:40
+    speaker: Christian Hollinger
+    url: /editions/2025/talks/using-scala-in-a-go-first
+  - title: Easy Scala Builds with the Mill Build Tool
+    day: day3
+    stage: stage3
+    time: 17:00 - 17:40
+    speaker: Li Haoyi
+    url: /editions/2025/talks/easy-scala-builds-with-the
+  - title: To be confirmed
+    day: day3
+    stage: stage4
+    time: 17:00 - 17:40
+
+  - title: Registration
+    day: day3
+    stage: stage1
+    time: 08:00 - 09:00
+    speaker: ""
+    special: registration
+    url: ""
+  - title: ""
+    day: day3
+    stage: stage2
+    time: 08:00 - 09:00
+    speaker: ""
+    special: blank
+    url: ""
+  - title: ""
+    day: day3
+    stage: stage3
+    time: 08:00 - 09:00
+    speaker: ""
+    special: blank
+    url: ""
+  - title: ""
+    day: day3
+    stage: stage4
+    time: 08:00 - 09:00
+    speaker: ""
+    special: blank
+    url: ""
+  - title: Keynote
+    day: day3
+    stage: stage1
+    time: 09:00 - 10:00
+    speaker: Ralf Jung
+    url: ""
+  - title: ""
+    day: day3
+    stage: stage2
+    time: 09:00 - 10:00
+    speaker: ""
+    special: blank
+    url: ""
+  - title: ""
+    day: day3
+    stage: stage3
+    time: 09:00 - 10:00
+    speaker: ""
+    special: blank
+    url: ""
+  - title: ""
+    day: day3
+    stage: stage4
+    time: 09:00 - 10:00
+    speaker: ""
+    special: blank
+    url: ""
+  - title: "Panel: Functional Programming And the Real World"
+    day: day3
+    stage: stage1
+    time: 14:00 - 14:40
+    speaker: Dimi Racordon
+    speaker2: Evan Czaplicki
+    speaker3: Martin Odersky
+    speaker4: Ralf Jung
+    url: /editions/2025/talks/panel-functional-programming-and-the-real-world
+  - title: ""
+    day: day3
+    stage: stage2
+    time: 14:00 - 14:40
+    speaker: ""
+    special: blank
+    url: ""
+  - title: ""
+    day: day3
+    stage: stage3
+    time: 14:00 - 14:40
+    speaker: ""
+    special: blank
+    url: ""
+  - title: ""
+    day: day3
+    stage: stage4
+    time: 14:00 - 14:40
+    speaker: ""
+    special: blank
+    url: ""
+  - title: Closing Panel
+    day: day3
+    stage: stage1
+    time: 18:00 - 19:00
+    speaker: ""
+    url: ""
+  - title: ""
+    day: day3
+    stage: stage2
+    time: 18:00 - 19:00
+    speaker: ""
+    special: blank
+    url: ""
+  - title: ""
+    day: day3
+    stage: stage3
+    time: 18:00 - 19:00
+    speaker: ""
+    special: blank
+    url: ""
+  - title: ""
+    day: day3
+    stage: stage4
+    time: 18:00 - 19:00
+    speaker: ""
+    special: blank
+    url: ""
 
 speakers:
-  - name: Adam Warski
-    position: SoftwareMill
-    image: /img/assets/madrid/speakers/AdamWarskiSq.png
-    about: |
-        I am one of the co-founders of SoftwareMill, where I code mainly using Scala and other interesting technologies.
-        I am involved in open-source projects, such as sttp, tapir, Quicklens, ElasticMQ and others.
-        I have been a speaker at major conferences, such as JavaOne, LambdaConf, Devoxx and ScalaDays.
-
-        Apart from writing closed- and open-source software, in my free time I try to read the Internet on
-        various (functional) programming-related subjects.
-        Any ideas or insights usually [end up with a blog](https://softwaremill.com/blog){:target="_blank" rel="noopener noreferrer"}.
-    talk: concurrency-in-scala
-    linkedin: "https://www.linkedin.com/in/adamwarski/"
-    twitter: "https://twitter.com/adamwarski"
-    github: "https://github.com/adamw"
-
-  - name: Andrei Kucharavy
-    position: HES-SO Valais/Wallis
-    image: /img/assets/madrid/speakers/AndreiKucharavySq.png
-    about: |
-        Andrei Kucharavy is an Ecole Polytechnique engineer, Systems Biology PhD, ex-post-doc in distributed computing lab at EPFL, and Swiss Cyber-Defence Campus Distinguished Fellow.
-        He did research software development for the last 10 years, organized and taught introductory classes in scientific computing; data, software and ML carpentry; and  Python. He is currently co-leading the Gen Learning Center at HES-SO Valais-Wallis.
-    talk: keynote-andrei-kucharavy
-    linkedin: "https://www.linkedin.com/in/andrei-kucharavy/"
-    twitter: "https://twitter.com/andrei_chiffa"
-    github: "https://github.com/chiffa"
-
-  - name: Chris Kipp
-    position: Lunatech
-    image: /img/assets/madrid/speakers/ChrisKippSq.png
-    about: |
-      Chris Kipp is a Software Engineer at [Lunatech](https://www.lunatech.com/){:target="_blank" rel="noopener noreferrer"}.
-      He's an avid fan of NeoVim, simple tech, and enjoys working on tooling. He's an active contributor and
-      maintainer of multiple popular tools in the Scala ecosystem.
-    talk: intro-generative-art-scala
-    linkedin: "https://www.linkedin.com/in/chris-kipp-bba3a55a/"
-    twitter: "https://twitter.com/ckipp01"
-    github: "https://github.com/ckipp01" 
-
-  - name: Daniel Ciocirlan
-    position: Rock the JVM
-    image: /img/assets/madrid/speakers/DanielCiocirlanSq.png
-    about: |
-      I am the founder of Rock the JVM, a learning platform for everything in the Scala ecosystem, which now contains
-      more than 20 course and 250+ hours of video material on Scala, functional programming, all major Scala
-      libraries, as well as comprehensive courses on Apache Spark and Apache Flink.
-
-      I've taught more than 80000 developers so far, and trained high-performing teams at some of the most renowned
-      companies in the world (e.g. Adobe, Apple, Microsoft, ING and others).
-
-      I've also taught more than 30000 kids to code (not Scala... yet).
-
-      I have a Master's Degree in Computer Science and I wrote my Bachelor and Master theses on Quantum Computation.
-      Before starting to learn programming, I won medals at international Physics competitions.
-    talk: lessons-from-teaching-scala-to-80000-people
-    linkedin: "http://linkedin.com/company/rockthejvm"
-    twitter: "https://twitter.com/rockthejvm"
-    github: "https://github.com/rockthejvm"
-
-  - name: Daniela Sfregola
-    position: Morgan Stanley
-    image: /img/assets/madrid/speakers/DanielaSfregolaSq.png
-    about: |
-      Daniela is a Vice President in Morgan Stanley working on the Optimus Cirrus platform. She has 10+ years of experience in Software Engineering and she is the author of the book "Get Programming With Scala", published by Manning.
-    talk: keynote3
-    linkedin: "https://uk.linkedin.com/in/danielasfregola"
-    twitter: "https://twitter.com/DanielaSfregola"
-    github:
-
-  - name: Darja Jovanovic
-    position: EPFL, Scala Center
-    image: /img/assets/madrid/speakers/DarjaJovanovicSq.png
-    about: |
-      The Scala Center executive director, who is recognizable mostly for leading SIP 2 and forming SIP 3, coordinating Scala 3 release, creating purposeful community events, and ensuring wide support for Scala Center's mission “For open source. For education.” In short, Darja is a Scala community enthusiast who’s committed to getting things done!
-    talk: scala-center
-    linkedin: "https://www.linkedin.com/in/darjajovanovic"
-    twitter: "https://twitter.com/darjutak"
-    github: "https://github.com/scalacenter"
-
-  - name: David Amancio Gil Méndez
-    position: Xebia Functional
-    image: /img/assets/madrid/speakers/DavidAmancioGilMendezSq.png
-    about: |
-      I am a passionate advocate of simple, vanilla Scala and I study and teach it in my free time. As a Data Engineer, I have been building Streaming and Batch systems for 5 years. Before joining the Data world, I used to work as a market analyst in Spain and as an international trade advisor in Canada. 
-    talk: diamond-architecture-on-scala-3
-    linkedin: "https://www.linkedin.com/in/davidgilmendez"
-    twitter: 
-    github: "https://github.com/dagmendez" 
-
-  - name: Emiliano Martinez Sanchez
-    position: BBVA
-    image: /img/assets/madrid/speakers/EmilianoMartinezSanchezSq.png
-    about: |
-      I am currently member of the innovation department of BBVA's engineering division focused in AI projects and
-      an advocate of the Scala adoption for the machine learning departments. I have been working with Scala since
-      2013 in different companies writing some posts like
-      [this](https://www.bbva.com/en/akka-actors-evolution-type-safe-distributed-computations){:target="_blank" rel="noopener noreferrer"}
-      and some conferences in
-      [finance summits](https://www.re-work.co/events/deep-learning-in-finance-summit-london-2019/schedule#day_2){:target="_blank" rel="noopener noreferrer"}.
-    talk: scala-and-spark-in-the-new-deep-learning-era
-    linkedin: "https://www.linkedin.com/in/ems2015/"
-    twitter: 
-    github: "https://github.com/emartinezs44" 
-
-  - name: Eric Loots
-    position: Lunatech Labs
-    image: /img/assets/madrid/speakers/EricLootsSq.png
-    about: |
-      At one point in his life, Eric considered a career as a ski professional. Physics decided otherwise and he ended up in
-      the software industry instead. Today, Eric is CTO at Lunatech Belgium and the creator of the CMT and the Akka Cluster
-      on Raspberry-Pi project which has become quite popular and has helped many to understand Akka Clustering in an
-      enjoyable and playful way.
-      
-      Eric has been a speaker at conferences such as Reactive Summit, Devoxx Belgium, and Scala Days.
-    talk: introducing-course-management-tools-2-0-building-and-maintaining-courses-made-easy
-    linkedin: "https://www.linkedin.com/in/eric-loots-7ba8b6/"
-    twitter: "https://mastodon-belgium.be/@ericloots"
-    github: "https://github.com/eloots" 
-
-  - name: Fede Fernández
-    position: Xebia Functional
-    image: /img/assets/madrid/speakers/FedeFernandezSq.png
-    about: |
-      Engineering Director @ Xebia Functional
-
-      Besides family, I usually spend time learning FP, playing board games, and watching the NBA.
-    talk: improve-your-tests-with-property-state-machine-tests
-    linkedin: "https://www.linkedin.com/in/ffbeltran/"
-    twitter: "https://twitter.com/fede_fdz"
-    github: "https://github.com/fedefernandez" 
-
-  - name: Guillaume Martres
-    position: EPFL
-    image: /img/assets/seattle/GuillaumeMartresSq.png
-    about: |
-      Freshly graduated from a PhD at EPFL where I worked on the Scala 3 language and its implementation.
-      Now at the Scala Center on a mission to make Scala 3 even better!
-    talk: polymorphic-function-types-in-scala-3
-    linkedin: "https://www.linkedin.com/in/guillaume-martres"
-    twitter: 
-    github: "https://github.com/smarter/"
-
-  - name: Haoyi Li
-    position: 
-    image: /img/assets/seattle/LiHaoyiSq.png
-    about: |
-      Haoyi graduated from MIT with a degree in Computer Science and Engineering, and since then has been a
-      major contributor to the Scala community. His open source projects have over 10,000 stars on Github,
-      and are downloaded over 7,000,000 times a month. Haoyi has used Scala professionally to build distributed
-      backend systems, programming languages, high-performance web applications, and much more.
-    talk: deep-dive-into-mill-scala-build-tool
-    linkedin: "https://www.linkedin.com/in/haoyi-li-3b3291182/"
-    twitter: "https://twitter.com/li_haoyi"
-    github: "https://github.com/lihaoyi"
-
-  - name: Iulian Dragos
-    position: Gradle Inc.
-    image: /img/assets/madrid/speakers/IulianDragosSq.png
-    about: |
-      Iulian has been involved in the Scala community in various capacities since 2004. His work is part of
-      the Scala compiler, the (now defunct) Scala IDE for Eclipse and started the first Scala language server for VS Code.
-
-      In 2016 he founded Triplequote, that created the first commercial, parallel, Scala compiler, used by companies like
-      Atlassian, Coursera and Databricks. After Gradle Inc acquired Triplequote, Iulian joined their newly founded Scala team,
-      working on various acceleration technologies for Scala teams.
-    talk: x-ray-your-build-build-events-build-scans-and-caching-explained
-    linkedin: "https://www.linkedin.com/in/iuliandragos/"
-    twitter: "https://twitter.com/jaguarul"
-    github: "https://github.com/dragos" 
-
-  - name: Jan-Pieter van den Heuvel
-    position: Piozum / DHL Parcel
-    image: /img/assets/madrid/speakers/JanPieterSq.png
-    about: |
-      When he was 15 years old Jan-Pieter started his own software company. Eager to learn more, after high school he
-      started with the Computing Science track at Utrecht University in the Netherlands.
-
-      Jan-Pieter earned a Master's degree in Applied Computing Science with his thesis on improving the scheduling at
-      a public transport company. After that he worked for several start-ups and large corporations as a full-stack developer.
-
-      Currently Jan-Pieter works as a Freelance Lead Machine Learning Engineer at DHL Parcel in the Netherlands where he turns
-      ideas into successful applications of Machine Learning.
-    talk: saving-christmas-using-scala
-    linkedin: "https://www.linkedin.com/in/janpietervandenheuvel"
-    twitter: 
-    github: "https://github.com/jan-pieter" 
-
-  - name: Jonas Spenger
-    position: KTH Royal Institute of Technology / RISE Research Institutes of Sweden
-    image: /img/assets/madrid/speakers/JonasSpengerSq.png
-    about: |
-      Jonas Spenger is a PhD Student at KTH Royal Institute of Technology / RISE Research Institutes of
-      Sweden in Stockholm, Sweden. His main interests are the design and implementation of distributed systems.
-      He is one of the core members of the Portals Project. Previously, Jonas worked on various research projects in
-      the Berlin area, where he also received his BSc and MSc in computer science at HU Berlin.
-    talk: crossing-the-boundaries-of-stateful-streaming-and-actors-using-serverless-portals
-    linkedin: "https://www.linkedin.com/in/jonasspenger"
-    twitter: "https://twitter.com/JonasSpenger"
-    github: "https://github.com/jonasspenger" 
-
-  - name: Julien Truffaut
-    position: ScalaJobs.com
-    image: /img/assets/madrid/speakers/JulienTruffautSq.png
-    about: |
-      I am a backend engineer with more than 10 years of experience from start-ups to tech giants like Amazon.
-
-      I love teaching the practical side of functional programming in Scala. I created my own online course at
-      FP-Tower which is used by many companies to train junior and mid-level Scala developers.
-
-      I am also the author of the popular open-source library Monocle, an optics library that helps functional
-      Scala developers easily traverse, transform, and access deeply nested data structures.
-    talk: resource-management-made-easy-introducing-resource-from-cats-effect-library
-    linkedin: "https://www.linkedin.com/in/julientruffaut/"
-    twitter: "https://twitter.com/JulienTruffaut"
-    github: "https://github.com/julien-truffaut"
-
-  - name: Maciej Gorywoda
-    position: JetBrains
-    image: /img/assets/madrid/speakers/MaciejGorywodaSq.png
-    about: |
-      I'm working in the Scala plugin team at JetBrains, in Berlin. My hobby projects involve making
-      Android apps and educational YouTube videos. Here to convince you that you don't need Category Theory.
-    talk: the-state-of-the-plugin-2023
-    linkedin: "https://www.linkedin.com/in/mgorywoda/"
-    twitter: "https://twitter.com/makingthematrix"
-    github: "https://github.com/makingthematrix"
-
-  - name: Marcin Wadoń
-    position: Evojam
-    image: /img/assets/madrid/speakers/MarcinWadonSq.png
-    about: |
-      These days, Marcin is a software architect and core-protocol engineer on an distributed ledger protocol
-      supporting 80K+ transactions per second. He is skilled at communicating technical concepts to a diverse
-      audience, including C-level executives and a community of over 10,000 people. Recent live streaming revealing
-      technical details of his work was viewed by over 4,500 people. To tackle the challenges of the project,
-      he has had to delve into the mysteries of quantum physics. And if that wasn't enough, he's also a fan of category
-      theory and functional programming, a math lover, and a problem-solving machine. He's so much in it that while
-      deciphering the FEDA book written by Gabriel Volpe got actively involved in bufixing examples and discussions.
-      
-      In short, Marcin is a master of many trades who loves nothing more than a good challenge.
-      You should dare to test him live.
-    talk: the-good-the-bad-and-the-ugly-a-journey-from-this-synchronized-to-asynchronous-code
-    linkedin: "https://www.linkedin.com/in/marcin-wado%C5%84-2a29ba78/"
-    twitter: "https://twitter.com/WadonMarcin"
-    github: "https://github.com/marcinwadon"
-
-  - name: Martin Kučera
-    position: 
-    image: /img/assets/madrid/speakers/MartinKuceraSq.png
-    about: |
-      Besides Scala and other cool programming languages, I also have a strong passion for databases and data processing.
-      I earned my bachelor's degree in computer science at CTU Prague and my master's at ETH Zurich.
-      I had the incredible opportunity to complete my master's thesis at EPFL under the guidance of Martin Odersky.
-      This collaboration led to the development of Tyqu, a type-safe database access Scala library.
-
-      In addition to my academic pursuits, I have also gained valuable experience as a backend web developer at manGoweb,
-      and I have worked on a distributed graph processing system at Oracle Labs.
-
-      I am excited to be part of Scala Days Madrid. I look forward to demonstrating Tyqu and sharing my experience with
-      applying new Scala 3 features such as structural refinements, match types, and macros in a novel database library.
-    talk: tyqu-typesafe-sql-queries-in-scala
-    linkedin: "https://www.linkedin.com/in/kuceramartin/"
-    twitter: 
-    github: "https://github.com/KuceraMartin"
-
-  - name: Martin Odersky
-    position: EPFL, Scala Center
-    image: /img/assets/madrid/speakers/MartinOderskySq.png
-    about: |
-      Martin Odersky is a professor at EPFL in Lausanne, Switzerland. He is best known as the creator of the Scala programming language. Prior to that, he made several contributions to the development of Java. He created the Pizza and GJ languages, designed the original version of generics for Java, and wrote the javac reference compiler.
-
-      More generally, Martin is interested in programming languages and methods, in particular how object-oriented and functional programming can be made to work seamlessly together. He believes is that the two paradigms are two sides of the same coin and should be unified as much as possible. He was named an ACM fellow for his achievements in this area.
-    talk: keynote-martin-odersky
-    linkedin: "https://www.linkedin.com/in/odersky/"
-    twitter: "https://twitter.com/odersky"
-    github: "https://github.com/odersky"
-
-  - name: Matteo Di Pirro
-    position: Kynetics
-    image: /img/assets/madrid/speakers/MatteoDiPirroSq.png
-    about: |
-      Fascinated by computer science since his childhood, Matteo is an enthusiastic software engineer who specialized in
-      the theory of programming languages and type safety. Since the first time he learned about type systems, he has been
-      applying them to craft safe- and secure-by-construction software.
-
-      At Kynetics he takes part in the design and development of embedded as well as distributed applications, aiming at
-      implementing complex systems in a simple and maintainable way. He firmly believes that use cases strongly affect the
-      architecture of the software. Hence, he enjoys learning and experimenting with new technologies and languages, looking
-      for effective ways to employ them.
-    talk: running-docker-based-integration-tests-in-scala-a-case-study
-    linkedin: "https://www.linkedin.com/in/matteo-di-pirro/"
-    twitter: 
-    github: "https://github.com/mdipirro"
-
-  - name: Mirco Dotta
-    position: Gradle Inc.
-    image: /img/assets/madrid/speakers/MircoDottaSq.png
-    about: |
-      Mirco Dotta is an Engineering leader at Gradle Inc., pursuing the mission of transforming how software is built and shipped.
-      
-      Mirco has contributed to various Scala projects and libraries, including the Scala compiler and the Play Framework. He is also the author of MiMa (the Migration Manager), a popular tool for managing Scala binary incompatibilities. In 2016 Mirco co-founded Triplequote, the company behind the Hydra parallel Scala compiler acquired by Gradle Inc.
-    talk: x-ray-your-build-build-events-build-scans-and-caching-explained
-    linkedin: "https://www.linkedin.com/in/mircodotta/"
-    twitter: "https://twitter.com/mircodotta"
-    github: "https://github.com/dotta" 
-
-  - name: Monica McGuigan
-    position: JP Morgan
-    image: /img/assets/madrid/speakers/MonicaMcGuiganSq.png
-    about: |
-      Monica is a junior Scala developer at JP Morgan, working in a team who aims to improve understanding
-      of the banks' data and data models.
-
-      She began her programming journey using C#, then onto a mixture C++, JavaScript and TypeScript throughout
-      her undergraduate Physics degree. After graduating, she started in a .
-      Monica is also passionate about encouraging those who do not have a Computer Science background into software
-      development roles, as she has been able to apply her transferable problem-solving skills from a scientific discipline
-      to programming and is really enjoying it!
-    talk: my-first-year-in-scala
-    linkedin: "https://www.linkedin.com/in/monica-mcguigan"
-    twitter: 
-    github: 
-
-  - name: Mushtaq Ahmed
-    position: Thoughtworks
-    image: /img/assets/madrid/speakers/MushtaqAhmedSq.png
-    about: |
-      Working with ThoughtWorks. Doing Scala since 2010.
-      
-      Attended the very first ScalaDays in Lausanne!
-      
-      Leading the software team for TMT (Thirty Meter Telescope). Understands the reactive programming model really well.
-    talk: diy-actors-using-project-loom
-    linkedin: "https://www.linkedin.com/in/mushtaq-ah/"
-    twitter: "https://twitter.com/mushtaqA"
-    github: "https://github.com/mushtaq"
-
-  - name: Nicolas Rinaudo
-    position: J.P. Morgan
-    image: /img/assets/madrid/speakers/NicolasRinaudoSq.png
-    about: |
-      Nicolas writes code for JPMorgan, where we use Scala to make some very complicated things seem very simple.
-
-      After too many years as a Java programmer and a thankfully brief stint in marketing, Nicolas discovered
-      Functional Programming through Scala and fell in love. Since then, he's made it his mission to learn and explain
-      the scary bits, by focusing on practical applications.
-
-      Nicolas is also the author and sole maintainer of a few useful OSS libraries,
-      such as [kantan.csv](https://nrinaudo.github.io/kantan.csv/){:target="_blank" rel="noopener noreferrer"}.
-    talk: when-is-an-adt-not-an-adt
-    linkedin: 
-    twitter: "https://twitter.com/NicolasRinaudo"
-    github: "https://github.com/nrinaudo"
-
-  - name: Nicolas Stucki
-    position: LAMP/EPFL
-    image: /img/assets/madrid/speakers/NicolasStuckiSq.png
-    about: |
-      Core contributor to Scala 3 language design and implementation. Designed and implemented the Scala 3 metaprogramming framework.
-    talk: implementing-a-macro
-    linkedin: "https://www.linkedin.com/in/nicolas-stucki/"
-    twitter: "https://twitter.com/stucki153"
-    github: "https://github.com/nicolasstucki" 
-
-  - name: Noel Welsh
-    position: Inner Product
-    image: /img/assets/madrid/speakers/NoelWelshSq.png
-    about: |
-      I'm a Scala consultant at Inner Product and Underscore. I like helping teams succeed with Scala,
-      and creating libraries in Scala that allow people to get stuff done with a minimum of effort.
-      I've written a few books on Scala: Scala with Cats, Essential Scala, and Creative Scala.
-    talk: simple-and-speedy-uis-in-scala-3
-    linkedin: "https://www.linkedin.com/in/noel-welsh-a71658/"
-    twitter: "https://twitter.com/noelwelsh"
-    github: "https://github.com/noelwelsh/" 
-
-  - name: Olivier Mélois
-    position: 
-    image: /img/assets/madrid/speakers/OlivierMeloisSq.png
-    about: |
-      My name is Olivier, I am from France, where I work full-time remote as a software engineer. I may be addicted to cheese. 
-
-      I have been using Scala as my main language for nearly a decade now. I am an open-source contributor and
-      maintainer, and I put an incredible amount of work into saving myself (and others) the hassle of repetitive tasks.
-      To that end, I tend to write scary code. 
-
-      When I'm away from the computer, I'm most likely spending time helping my partner with her invisible illness,
-      or caring for our army of animals (who are certainly plotting against us, especially the cats). 
-
-      I am a conflicted person and despite working in tech, I dream of living in a world where it'd be possible
-      to work half-time in software and half-time doing manual labour.
-    talk: introduction-to-smithy-smithy4s
-    linkedin: 
-    twitter: 
-    github: "https://github.com/baccata" 
-
-  - name: Pathikrit Bhowmick
-    position: 
-    image: /img/assets/madrid/speakers/PathikritBhowmickSq.png
-    about: |
-      Pathikrit serves as the Director of Engineering at Coatue Management, a hedge-fund located in NYC.
-      He has been a member of the Scala Platform Process and has been writing Scala for 5+ years.
-      Pathikrit has authored some popularly used Scala libraries like better-files and metarest.
-
-      He has been a speaker at numerous Scala conferences including Scala Days and SBTB. Pathikrit is
-      passionate about bringing functional programming paradigms to domains such as machine learning and databases.
-    talk: full-stack-scala-web-application
-    linkedin: "https://www.linkedin.com/in/pathikritbhowmick/"
-    twitter: "https://twitter.com/pathikrit_wrick"
-    github: "https://github.com/pathikrit" 
-
-  - name: Paul Matthews
-    position: ClearScore
-    image: /img/assets/madrid/speakers/PaulMatthewsSq.png
-    about: |
-      I'm currently a backend Scala developer at ClearScore with a focus on functional programming and with
-      backend and frontend experience using Java, Typescript, Angular, React/React-Native, Linux, AWS Cloud, Terraform, IaC.
-
-      I completed a BSc in Computer Science at the Uni of Hertfordshire in 2020 with first class honours and
-      prior to this have a background in the music industry as a signed recording artist, record producer and
-      audio engineer with credits including number 1 chart positions and platinum and gold sales.
-
-      My final university dissertation project was a data mining driven hit song prediction application which,
-      after years as a musician, I undertook to ultimately prove that music is magical and you can't predict a hit song.
-      The data collected however suggested differently and the final application was able to successfully classify
-      some hit songs with a classification rate of 65% using a model trained on 80 one-hit wonders and their 80
-      accompanying follow-up commercial disappointments. I'm happy to discuss this at length anytime.
-
-      [Wikipedia](https://en.wikipedia.org/wiki/Paul_Matthews_(musician)){:target="_blank" rel="noopener noreferrer"}
-    talk: sounds-of-structure-music-modelling-with-adts
-    linkedin: "https://www.linkedin.com/in/matthews-paul/"
-    twitter: 
-    github: "https://github.com/paulclearscore" 
-
-  - name: Rafał Piotrowski
-    position: Iterators
-    image: /img/assets/madrid/speakers/RafalPSq.png
-    about: |
-      Software developer focused on functional programming in Scala with broad experience with back-end systems for web applications.
-    talk: load-testing-made-easy-with-gatling
-    linkedin: "https://linkedin.com/in/rafalpiotrowski"
-    twitter: "https://twitter.com/r_piotrow"
-    github: "https://github.com/rpiotrow" 
-
-  - name: Roksolana Diachuk
-    position: Captify
-    image: /img/assets/madrid/speakers/RoksolanaDiachukSq.png
-    about: |
-      Roksolana works as an Engineering manager at Captify based in Kyiv, Ukraine. She is passionate about Big Data,
-      Scala, and Kubernetes and always loves learning something new.
-      Roksolana is one of the Women Who Code Kyiv and Women in ML/DS Kyiv leads.
-    talk: productionizing-big-data-stories-from-the-trenches
-    linkedin: "https://www.linkedin.com/in/roksolanadiachuk/"
-    twitter: "https://twitter.com/dead_flowers22"
-    github: "https://github.com/roksolana-d"
-
-  - name: Sébastien Doeraene
-    position: Scala Center, EPFL
-    image: /img/assets/madrid/speakers/SebastienDoeraeneSq.png
-    about: |
-      Sébastien Doeraene is a compiler/runtime systems hacker and a Scala enthusiast.
-      Best known as the author of [Scala.js](https://www.scala-js.org/){:target="_blank" rel="noopener noreferrer"},
-      he is now an engineer at the [Scala Center](https://scala.epfl.ch/){:target="_blank" rel="noopener noreferrer"}
-      and part-time lecturer at EPFL. He holds a PhD from EPFL, having worked under the supervision of Prof. Martin Odersky,
-      and a master's degree in computer science engineering from Universit√© catholique de Louvain in Belgium.
-      When he is not busy coding, he sings in choirs and a cappella groups such as the
-      [Ensemble Vocal √âvoh√©](http://www.ensemble-vocal-evohe.com/){:target="_blank" rel="noopener noreferrer"},
-      or composes for or conducts said choirs.
-    talk: 10-years-of-scalajs
-    linkedin: 
-    twitter: "https://twitter.com/sjrdoeraene"
-    github: "https://github.com/sjrd"
-
-  - name: Sören Brunk
-    position: USU
-    image: /img/assets/madrid/speakers/SorenBrunkSq.png
-    about: |
-      Sören is a software engineer at USU AI Services, who's been working on machine learning projects since 2011.
-
-      His current work involves building deep learning based systems that transform highly domain-specific text
-      into more structured representations. He's a contributor to a number of open-source projects and the author
-      of [Storch](https://storch.dev){:target="_blank" rel="noopener noreferrer"}.
-    talk: storch-gpu-accelerated-deep-learning-for-scala-3
-    linkedin: "https://www.linkedin.com/in/soeren-brunk"
-    twitter: "https://twitter.com/soebrunk"
-    github: "https://github.com/sbrunk" 
-
-  - name: Szymon Rodziewicz
-    position: VirtusLab
-    image: /img/assets/seattle/SzymonRodziewiczSq.png
-    about: |
-      Szymon works at the Scala 3 Compiler Team at VirtusLab, Scala Center, and EPFL.
-      He leads the Scala Toolkit project and regularly contributes to the Scala 3 compiler and Scala documentation.
-      His interest lies in making programming languages accessible and comfortable to work with.
-      The organizer of the Krakow Scala User Group.
-    talk: batteries-included-scala-with-scala-toolkit
-    linkedin: "https://www.linkedin.com/in/szymon-r-04951895/"
-    twitter: "https://twitter.com/SimonrDev"
-    github: "https://github.com/szymon-rd" 
-
-  - name: Tomas Mikula
-    position: 
-    image: /img/assets/madrid/speakers/TomasMikulaSq.png
-    about: |
-      Software developer interested in functional programming, metaprogramming,
-      DSLs, trying to do my bit on improving programming for everyone.
-    talk: when-your-dsl-needs-to-support-user-defined-functions
-    linkedin: "https://www.linkedin.com/in/tomasmikula/"
-    twitter: "https://twitter.com/tomas_mikula"
-    github: "https://github.com/TomasMikula" 
-
-  - name: Trevor Burton-McCreadie
-    position: Lunatech Labs
-    image: /img/assets/workshops/trevor.jpg
-    about: |
-      After a failed bid at rock stardom Trevor eventually found a way to get paid for writing software with Macromedia Flash. After twenty years and dabbling with Python, Ruby, Objective-C and C# he now works almost exclusively on the JVM. Trevor has spoken at several Flash conferences back in the day and, more recently, at many internal conferences during his time working as a Solutions Architect for Lightbend promoting the Reactive Principles and the Akka Platform. 
-      
-      As a software engineer at Lunatech, Trevor provides expert advice on Akka, Scala and software development in general as a member of teams working directly with clients as well as internal projects. He also enjoys his role as mentor guiding some of Lunatech's junior engineers.
-    talk: introducing-course-management-tools-2-0-building-and-maintaining-courses-made-easy
-    linkedin: "https://www.linkedin.com/in/trevorburton/"
-    twitter: 
-    github: "https://github.com/thinkmorestupidless" 
-
-  - name: Valerie Saunders-Duncan
-    position: Morgan Stanley
-    image: /img/assets/madrid/speakers/ValerieSaunders-DuncanSq.png
-    about: |
-      Valerie is a Vice President at Morgan Stanley where she is a tooling developer on the Optimus Cirrus project, a Scala & Java platform used by other developers to write highly performant and parallelizable applications. She works on streamlining the code contribution process including the IDE, build tool, testing, and code review. She is also leading the open-sourcing process for the platform.
-    talk: keynote3
-    linkedin: "https://uk.linkedin.com/in/valeriesd"
-    twitter: 
-    github: 
-
-  - name: Wojciech Mazur
-    position: VirtusLab
-    image: /img/assets/madrid/speakers/WojciechMazurSq.png
-    about: |
-      I'm a Scala Compiler Engineer at VirtusLab with more than 6 years of experience in Scala.
-      In my team, I'm mostly specializing in Scala Native - an ahead-of-time compiler and native
-      runtime for Scala. I'm also the main maintainer of that project.
-      
-      My biggest achievement was recently adding multithreading support to this support. For the last 3 years,
-      I was mainly involved in multiple OSS initiatives, after a few years of being involved in commercial projects.
-    talk: explaining-different-coroutine-flavours-using-scala-native
-    linkedin: "https://www.linkedin.com/in/wojciech-mazur-3970a8121/"
-    twitter: "https://twitter.com/WojciechM_dev"
-    github: "https://github.com/WojciechMazur"
-
-  - name: Zainab Ali
-    position: Dusk Impression
-    image: /img/assets/seattle/ZainabAliSq.png
-    about: |
-      Zainab is a functional polyglot and organizer of the London Scala User Group. As well as all things functional, she's interested in the art of reasoning through concurrent systems.
-    talk: panel
-    linkedin: "https://www.linkedin.com/in/zainab-ali-78809b7b/"
-    twitter: "https://twitter.com/_zainabali_"
-    github: "https://github.com/zainab-ali" 
-  
+- name: Arman Bilge
+  position: Typelevel
+  about: ''
+  talk: a-typelevel-retrospective
+  # # linkedin: ''
+  # # twitter: ''
+  github: https://github.com/armanbilge
+- name: Kannupriya Kalra
+  position: ''
+  image: assets/img/2025/speakers/kannupriya-kalra.jpg
+  about: 'Kannupriya Kalra is the org admin for the Google Summer of Code 2024 and
+    2025 programs with Scala Center, where she plays a key role in shaping the future
+    of Scala open-source contributions. As a mentor for both years, she has guided
+    projects such as Scaladex, Scala CLI, and LLM4S. In 2024, she represented Scala
+    Center at the Google Open Source Conference in Sunnyvale, California.
+
+    With a passion for knowledge sharing, Kannupriya has delivered talks in four countries,
+    inspiring developers globally. She is also the maintainer of LLM4S, a Scala-first
+    AI toolkit she co-created with Rory Graves.
+
+    With over 10 years of experience in functional programming, Kannupriya has worked
+    on scalable software solutions at Sky in London, focusing on backend development
+    with functional Scala. She has also contributed to various Scala projects in India,
+    specializing in data engineering, and has expertise in Scala, Akka, and big data
+    technologies.
+
+    Learn more about her on LinkedIn: https://www.linkedin.com/in/kannupriyakalra/'
+  talk: scala-meets-genai-build-the
+  # linkedin: ''
+  twitter: https://x.com/KannupriyaKalra
+  github: https://github.com/kannupriyakalra
+- name: Szymon Rodziewicz
+  position: ''
+  image: assets/img/2025/speakers/szymon-rodziewicz.jpg
+  about: Szymon is an engineer that is working on System-on-chip interconnects. At
+    the same time, he contributes to open source projects, such as the Scala compiler
+    and Cyfra. In the past, he was a member of the Scala compiler team, and he was
+    the organiser of Kraków Scala User Group. Past speaker at events that include
+    Lambda Days, Scala Days, Scalar conference, and others.
+  talk: painting-with-functions-scala
+  linkedin: https://www.linkedin.com/in/szymon-r-04951895/
+  # # twitter: ''
+  github: https://github.com/szymon-rd
+- name: Zainab Ali
+  position: Pure Async
+  image: assets/img/2025/speakers/zainab-ali.jpg
+  about: 'Zainab Ali is a functional programming trainer, open source contributor
+    and organizer of the London Scala User Group. For the past seven years, she’s
+    helped developers master the art of functional programming in Scala. The author
+    of [Functional Stream Processing in Scala](https://pureasync.gumroad.com/l/functional-stream-processing-in-scala),
+    she’s particularly interested in the art of reasoning through concurrent systems
+    and incremental processes.
+
+    '
+  talk: taking-the-plunge-a-deep
+  linkedin: https://www.linkedin.com/in/zainab-ali-78809b7b/
+  # # twitter: ''
+  github: https://github.com/zainab-ali
+- name: Krzysztof Romanowski
+  position: VirtusLab
+  image: assets/img/2025/speakers/krzysztof-romanowski.jpg
+  about: 'Krzysztof is Head of Scala & Tooling @ VirtusLab, where he manages teams
+    solving business problems with Scala, creating world-class developer''s tooling
+    (mainly focused on Bazel and IDEs), and maintaining core parts of the Scala ecosystem.
+    As a developer, Krzysztof specialized in Developer tooling for Scala, like Scala
+    CLI.
+
+
+    Krzysztof enjoys home automation as well as long-distance cycling trips.
+
+
+    '
+  talk: scala-productivity-and-ai
+  # linkedin: ''
+  twitter: https://x.com/RomanowskiKr
+  github: https://github.com/romanowski
+- name: Tomas Mikula
+  position: ''
+  image: assets/img/2025/speakers/tomas-mikula.jpg
+  about: 'Software developer interested in functional programming, metaprogramming,
+    DSLs, trying to do my bit on improving programming for everyone. '
+  talk: just-import-n-go-spec-first
+  linkedin: https://www.linkedin.com/in/tomasmikula/
+  twitter: https://x.com/tomas_mikula
+  github: https://github.com/TomasMikula
+- name: Jan-Pieter van den Heuvel
+  position: Piozum (Self-employed) / DHL Parcel (Freelance)
+  image: assets/img/2025/speakers/jan-pieter-van-den-heuvel.jpg
+  about: When I was 15 years old I started my own software company. Eager to learn
+    more, after high school I started with the Computing Science track at Utrecht
+    University in the Netherlands. I earned a Master's degree in Applied Computing
+    Science with my thesis on improving the scheduling at a public transport company.
+    After that I worked for several start-ups and large corporations as a full-stack
+    developer. Currently I am working as a Freelance Lead Machine Learning Engineer
+    at DHL Parcel in the Netherlands where I turn ideas into successful applications
+    of Machine Learning.
+  talk: level-up-become-a-compiler
+  linkedin: https://www.linkedin.com/in/janpietervandenheuvel
+  twitter: https://x.com/piozum
+  github: https://github.com/jan-pieter
+- name: Noel Welsh
+  position: Inner Product
+  image: assets/img/2025/speakers/noel-welsh.jpg
+  about: Noel is a developer, teacher, and author. He's worked with companies big
+    and small across Europe, the USA, and even once in Africa. He's the organizer
+    of ScalaBridge London, a diversity focused group helping people get better at
+    Scala. When he's not programming Scala he is probably writing about it. His next
+    book, Functional Programming Strategies, is out soon!
+  talk: routing-http-requests-with-scala
+  linkedin: https://www.linkedin.com/in/noel-welsh-a71658/
+  twitter: https://x.com/noelwelsh
+  github: https://github.com/noelwelsh/
+- name: Magda Stożek
+  position: SoftwareMill
+  image: assets/img/2025/speakers/magda-stozek.jpg
+  about: "Magda is a senior Scala developer at SoftwareMill. She's a fan of strongly-typed\
+    \ languages and enjoys trying to find \"the right way\" of doing things.\n\nBeing\
+    \ a passionate foreign languages learner, she wanted to become a translator. The\
+    \ nuances of interpretation help her today in translating the clients' and users'\
+    \ needs into code. She loves solving real-life problems, and creating features\
+    \ that bring value.\n\nMagda is an active contributor to SoftwareMill's organization\
+    \ and its unique culture. \nBeing a leader of Zielona Góra JUG, she's also a frequent\
+    \ speaker at meetups and conferences. \nIn her free time, she enjoys biking, gardening,\
+    \ and reading long books."
+  talk: say-goodbye-to-implicits
+  # linkedin: ''
+  twitter: https://x.com/magdastozek
+  github: https://github.com/magdzikk
+- name: Antonio Jimenez
+  position: ''
+  image: assets/img/2025/speakers/antonio-jimenez.jpg
+  about: "Hi, my name is Antonio. I'm originally from Spain and currently work full-time\
+    \ as software engineer using Scala in Switzerland. \n\nI've been using Scala for\
+    \ 5 years, ever since discovering the language during a functional programming\
+    \ course at EPFL. \n\nI participated in Google Summer of Code as a student, working\
+    \ on Cats Effect's new I/O integrated runtime leveraging io_uring. Today, I remain\
+    \ actively involved in the project as a co-mentor."
+  talk: exploring-cats-effect-s-new-integrated
+  # linkedin: ''
+  # twitter: ''
+  github: https://github.com/antoniojimeneznieto
+- name: Jamie Thompson
+  position: Mibex Software GmbH
+  image: assets/img/2025/speakers/jamie-thompson.jpg
+  about: Jamie is a compiler hacker and programming language enthusiast, with an eye
+    on simplifying API design but maintaining type safety. My focus is shifting towards
+    improving developer productivity and the developer experience.
+  talk: effective-match-types
+  # linkedin: ''
+  twitter: https://x.com/bishabosha
+  github: https://github.com/bishabosha
+- name: Bendix Sältz
+  position: MOIA
+  image: assets/img/2025/speakers/bendix-saltz.jpg
+  about: I'm a staff software engineer at MOIA, working on public APIs and backend
+    system architecture with a passion for coding Scala. In my private life I'm a
+    proud father of a three year old and board member of a German NGO advocating for
+    digital rights.
+  talk: grpc-apis-for-autonomous-driving
+  # linkedin: ''
+  # twitter: ''
+  github: https://github.com/saeltz
+- name: Thanh Le
+  position: lichess.org / Recorded Future
+  image: assets/img/2025/speakers/thanh-le.jpg
+  about: Thanh is a software developer based out of Gothenburg, Sweden. He is a functional
+    programming enthusiast and has been working with Scala for over 3 years. He is
+    a member of the Typelevel organization and a maintainer of lichess.org, a free
+    and open-source chess server. Thanh is passionate about building high-performance,
+    type-safe applications and has a keen interest in exploring the latest advancements
+    in Scala 3.
+  talk: rethinking-monad-transformers-a-submarine
+  # linkedin: ''
+  twitter: https://x.com/lenguyenthanh
+  github: https://github.com/lenguyenthanh
+- name: Bill Venners
+  position: Artima, Inc.
+  image: assets/img/2025/speakers/bill-venners.jpg
+  about: 'Bill Venners is president of Artima, Inc. He is the lead developer of the
+    ScalaTest and Scalactic open source libraries and coauthor of [Programming in
+    Scala, Fifth Edition](https://www.artima.com/shop/programming_in_scala_5ed) and
+    [Advanced Programming in Scala, Fifth Edition](https://www.artima.com/shop/advanced_programming_in_scala_5ed).
+
+    '
+  talk: thinking-in-scala-3-types
+  # linkedin: ''
+  twitter: https://x.com/bvenners
+  github: https://github.com/bvenners
+- name: Lars Hupel
+  position: Giesecke+Devrient
+  image: assets/img/2025/speakers/lars-hupel.jpg
+  about: 'Lars is an Evangelist at Giesecke+Devrient, a security technology company.
+    An engineer at heart, they are working to bring modern financial services to people.
+    Lars writes articles and talks about a multitude of topics. Previously, Lars was
+    a PhD student at TU München in the field of logic and verification. Their research
+    focus was on techniques for verified code generation from theorem provers.
+
+    '
+  talk: how-to-write-correct-scala
+  # linkedin: ''
+  # twitter: ''
+  github: https://github.com/larsrh
+- name: Tomasz Godzik
+  position: VirtusLab
+  image: assets/img/2025/speakers/tomasz-godzik.jpeg
+  about: Tomasz has worked with multiple programming language tools through the years
+    trying to provide a productive environment for other developers to interact with.
+    Currently, team lead of Scala Open Source team at VirtusLab.
+  talk: unleashing-the-full-potential-of
+  # linkedin: ''
+  twitter: https://x.com/TomekGodzik
+  github: https://github.com/tgodzik
+- name: Joan Goyeau
+  position: Netflix
+  image: assets/img/2025/speakers/joan-goyeau.jpg
+  about: 'Joan is a Playback Data Engineer at Netflix.
+
+    As a functional programming enthusiast, Scala is his weapon of choice due to its
+    grammatical simplicity combined with its powerful features.
+
+    He is often contributing to Scala related open source projects like Mill, Kubernetes
+    Client, Avro4s, Cats...'
+  talk: designing-the-library-powering-netflix-s
+  # linkedin: ''
+  twitter: https://x.com/joang38
+  github: https://github.com/joan38
+- name: Michał Pawlik
+  position: ''
+  image: assets/img/2025/speakers/michal-pawlik.jpg
+  about: 'Breaker of things, finder of bugs, and escape room fugitive. I''m a Scala
+    enthusiast who shares insights at blog.michal.pawlik.dev.
+
+    When I''m not diving into code, you''ll find me contributing to open-source projects
+    or preparing another conference talk.'
+  talk: are-you-tall-enough-for
+  # linkedin: ''
+  twitter: https://x.com/michal.pawlik.dev
+  github: https://github.com/majk-p
+- name: Adrien Piquerez
+  position: Scala Center
+  image: assets/img/2025/speakers/adrien-piquerez.jpeg
+  about: I am a compiler engineer at Digital Asset and former member of the Scala
+    Center. I contributed to Scala 3, sbt and the Scala debugger.
+  talk: coding-the-game-of-unspoken
+  # linkedin: ''
+  # twitter: ''
+  github: https://github.com/adpi2
+- name: Olga Chuchuk
+  position: NuMind
+  image: assets/img/2025/speakers/olga-chuchuk.jpg
+  about: 'I hold a PhD in Computer Science and began my career working on large-scale
+    data access optimization at CERN. Today, I’m part of the team at NuMind, where
+    we build tools for information extraction using custom-trained language models.
+    While my background is rooted in machine learning, I’m equally invested in building
+    the infrastructure that powers these systems in production.
+
+
+    At NuMind, I work daily on a full-stack platform built entirely in Scala—contributing
+    to backend architecture, data pipelines, and deployment workflows. Despite joining
+    the team with limited Scala experience, I was able to contribute meaningful backend
+    code from day one. This experience has deepened my appreciation for the coherence
+    and accessibility of the Scala ecosystem.'
+  talk: the-power-of-full-stack-scala
+  # linkedin: ''
+  # twitter: ''
+  github: https://github.com/olya-chuchuk
+- name: Priyanka Bose
+  position: SiriusXM
+  image: assets/img/2025/speakers/priyanka-bose.jpg
+  about: "Hi, I’m Priyanka Bose — software engineer by day, drummer by night, and\
+    \ a full-time pop culture enthusiast. I work at SiriusXM as a Software Engineer\
+    \ III on the API Tooling team, where I build platforms that make other developers'\
+    \ lives easier.\n\nI first joined SXM as a summer intern in 2024 after graduating\
+    \ from New York University with a Master's in Computer Engineering, then came\
+    \ on full-time in September — the very same day I picked up my first pair of drumsticks.\
+    \ Four months later, I was playing my first live band gig in NYC. \U0001F4A5\n\
+    \nOutside of tech, I’m obsessed with reading (82 books last year!), competitive\
+    \ pool (yes, I’ve won tournaments), and music (I never skip it — ever). My current\
+    \ fave? Dua Lipa, hands down. \n\nI’m deeply passionate about building a more\
+    \ inclusive tech industry. As a 2023 Quad Fellow, I care about the broader impact\
+    \ STEM can have on society — not just through innovation, but through equity.\
+    \ My long-term goal is to grow into a leadership role where I can actively champion\
+    \ and support women and other underrepresented communities in tech.\n\nCatch me\
+    \ coding, cueing up a playlist, or plotting my next band set — ideally all at\
+    \ once."
+  talk: from-paradigms-to-percussion-a
+  # linkedin: ''
+  # twitter: ''
+  github: https://github.com/PriyankaBose
+- name: Johanna Odersky
+  position: Tiko
+  image: assets/img/2025/speakers/johanna-odersky.jpg
+  about: I'm a junior Scala developer with a background in fine arts and music production.
+    I began exploring Scala in 2022 and quickly developed a strong affinity for its
+    expressive, functional side. As a contributor to the open-source Sounds of Scala
+    web audio library, I developed the sampler instrument as part of Google Summer
+    of Code 2024 under the Scala Center. I enjoy art, music, maths, coding and everything
+    in between.
+  talk: scala-sound-and-structure-composing
+  # linkedin: ''
+  # twitter: ''
+  github: https://github.com/ikukojohanna
+- name: Jonas Spenger
+  position: KTH Royal Institute of Technology
+  image: assets/img/2025/speakers/jonas-spenger.jpg
+  about: Jonas Spenger is a PhD student at KTH Royal Institute of Technology in Stockholm,
+    working on distributed systems and programming languages.
+  talk: simple-and-safe-serialization-pickling-of
+  linkedin: https://www.linkedin.com/in/jonasspenger
+  twitter: https://x.com/JonasSpenger
+  github: https://github.com/jonasspenger
+- name: Riccardo Cardin
+  position: ''
+  image: assets/img/2025/speakers/riccardo-cardin.jpg
+  about: I'm a passionate software engineer working on distributed systems. I've been
+    an enthusiastic Scala developer since 2013, and I love writing and sharing my
+    experience in computer programming. In my spare time, I'm a gym rat at my home
+    gym, practicing karate.
+  talk: yo-dawg-heard-you-want
+  # linkedin: ''
+  twitter: https://x.com/riccardo_cardin
+  github: https://github.com/rcardin
+- name: Piotr Chabelski
+  position: VirtusLab
+  image: assets/img/2025/speakers/piotr-chabelski.jpg
+  about: "Piotr is a Scala engineer passionate about all things tooling. He's also\
+    \ the Product Manager on the Scala 3 compiler team and a maintainer of Scala CLI,\
+    \ the official language runner. \n"
+  talk: reach-for-the-unlimited-power
+  # linkedin: ''
+  # twitter: ''
+  github: https://github.com/Gedochao
+- name: Maciej Gorywoda
+  position: JetBrains
+  image: assets/img/2025/speakers/maciej-gorywoda.jpg
+  about: I'm a Product Marketing Manager in the IntelliJ Scala team at JetBrains.
+    I graduated from Warsaw University of Technology in 2005 with an MSc in artificial
+    neural networks. I worked as a video game AI expert, a web  tools and Android
+    developer, and since two years ago a person who writes and talks publicly about
+    features of IntelliJ Idea with the Scala  Plugin. In 2024, I became a Scala Ambassador.
+  talk: ai-assistance-for-scala-developers
+  linkedin: https://www.linkedin.com/in/mgorywoda/
+  twitter: https://x.com/makingthematrix
+  github: https://github.com/makingthematrix
+- name: Anton Sviridov
+  position: ''
+  image: assets/img/2025/speakers/anton-sviridov.jpg
+  about: "I am a Staff Software Engineer, have used Scala for 10 years, both professionally\
+    \ and as a hobbyist. \nI'm active in the Scala open source community, especially\
+    \ in Scala Native part, but I contribute across the board (scalameta projects,\
+    \ coursier, scala-cli, sbt plugins, etc.).\n\nThrough my blog and socials I advertise\
+    \ and explore the areas of Scala I find exciting, and I build public tooling (sn-bindgen,\
+    \ sn-vcpkg, lots of templates and starter projects) that help push multi-platform\
+    \ Scala forward."
+  talk: tree-sitting-will-continue-until
+  # linkedin: ''
+  twitter: https://x.com/velvetbaldmime
+  github: https://github.com/keynmol
+- name: Mateusz Kubuszok
+  position: ''
+  image: assets/img/2025/speakers/mateusz-kubuszok.jpg
+  about: Scala developer for 10 years, Chimney co-maintainer for 8. Blogged at Kubuszok.com,
+    wrote http://leanpub.com/scala-jvm-book.
+  talk: can-we-have-the-standard
+  # linkedin: ''
+  twitter: https://x.com/MateuszKubuszok
+  github: https://github.com/MateuszKubuszok
+- name: Rikito Taniguchi
+  position: VirtusLab
+  image: assets/img/2025/speakers/rikito-taniguchi.jpg
+  about: 'Rikito is a Scala Compiler Engineer at VirtusLab, currently focused on bringing
+    WebAssembly backend support to Scala.js. A long-time contributor to the Scala
+    tooling ecosystem.
+
+    Beyond his technical work, Rikito is also a community builder, actively organizing
+    local Scala meetups in Japan.'
+  talk: bringing-scala-to-server-side-wasm
+  # linkedin: ''
+  twitter: https://x.com/tanishiking25
+  github: https://github.com/tanishiking
+- name: Jonas Chapuis
+  position: Terasol
+  image: assets/img/2025/speakers/jonas-chapuis.jpg
+  about: "Software engineer with a particular interest in functional programming and\
+    \ distributed systems.\nI have recently embarked on an exciting journey to create\
+    \ a geospatial decision-support system for urban renaturation to help cities combat\
+    \ heat and floods!\nAt Bestmile and then ZF (after acquisition) I helped to build\
+    \ a Scala-based micro-services system for vehicle fleet orchestration i.e. matching\
+    \ passenger demands to transportation means and pooling as much as possible through\
+    \ advanced optimization algorithms.\nPreviously I was employee number 10 at Nexthink\
+    \ where I made important contributions to its revolutionary software for user-centric\
+    \ enterprise IT, which has now grown to a billion-dollar worth business. \nBefore\
+    \ Nexthink, I had created an application for computer-aided surgery which was\
+    \ used at several hospitals, for which I earned my Ph.D. at the University of\
+    \ Bern in 2006. I am also an EPFL graduate, where I earned my M.Sc. in 2001.\n\
+    I have also done some teaching at the HEIG-VD engineering school and I sometimes\
+    \ speak at local conferences and meetups."
+  talk: full-stack-scala
+  # linkedin: ''
+  twitter: https://x.com/JonasChapuis
+  github: https://github.com/jchapuis
+- name: Sébastien Doeraene
+  position: EPFL, Scala Center
+  image: assets/img/2025/speakers/sebastien-doeraene.png
+  about: Sébastien Doeraene is a compiler/runtime systems hacker and a Scala enthusiast.
+    Best known as the author of [Scala.js](https://www.scala-js.org/), he is now an
+    engineer at the [Scala Center](https://scala.epfl.ch/) and part-time lecturer
+    at EPFL. He holds a PhD from EPFL, having worked under the supervision of Prof.
+    Martin Odersky, and a master's degree in computer science engineering from Université
+    catholique de Louvain in Belgium. When he is not busy coding, he sings in choirs
+    and a cappella groups such as the [Ensemble Vocal Évohé](http://www.ensemble-vocal-evohe.com/),
+    or composes for or conducts said choirs.
+  talk: compiling-scala-js-to-webassembly
+  linkedin: null
+  twitter: https://x.com/sjrdoeraene
+  github: https://github.com/sjrd
+- name: Christian Hollinger
+  position: ngrok
+  image: assets/img/2025/speakers/christian-hollinger.jpg
+  about: 'I''ve been in the Software & Data world for practically my entire career.
+    I started out with Scala using Spark and discovered the joys of functional programming
+    by being throw in the deep end of a project using Tagless Final.
+
+
+    I run the data platform at ngrok, where we try to make networking simpler. When
+    I don''t, I can either be found tinkering with my [home servers](https://chollinger.com/blog/2025/01/my-2025-homelab-updates-quadrupling-capacity/)
+    or somewhere in the woods of North Georgia.'
+  talk: using-scala-in-a-go-first
+  # linkedin: ''
+  twitter: https://x.com/chollinger93
+  github: https://github.com/chollinger93
+- name: Will Binzi
+  position: ''
+  image: assets/img/2025/speakers/will-binzi.jpg
+  about: 'I''m a Software Engineer with a background in Mathematics. I started writing
+    Scala in 2019, hoping to use some of the exciting category theory I learned in
+    my university degree.
+
+
+    I didn''t, but I had a blast anyway.'
+  talk: scala-and-arpeggio-audio-processing
+  # linkedin: ''
+  # twitter: ''
+  # github: ''
+- name: Oron Port
+  position: DFiant
+  image: assets/img/2025/speakers/oron-port.jpg
+  about: 'I''m the CEO and co-founder of DFiant, an Electronic Design Automation (EDA)
+    startup that emerged from the Cornell Tech Runway Program. The company is developing
+    shift-left software to streamline logic chip design and verification processes,
+    significantly reducing complexity, time, and cost of chip development. '
+  talk: scala-chip-design-from-z1r0
+  # linkedin: ''
+  twitter: https://x.com/soronpo
+  github: https://github.com/soronpo
+- name: Adam Warski
+  position: SoftwareMill
+  image: assets/img/2025/speakers/adam-warski.jpg
+  about: 'I am one of the co-founders of SoftwareMill, where I primarily code using
+    Java, Scala, and other interesting technologies. I am actively involved in open-source
+    projects, such as Ox, Tapir, sttp, Quicklens, ElasticMQ, and others. I have also
+    been a speaker at major conferences, including JavaOne, Devoxx, GeeCON and ScalaDays.
+
+
+    In addition to writing closed- and open-source software, I spend my free time
+    exploring various (functional) programming-related subjects. Any ideas or insights
+    I gain usually end up with a blog (https://warski.org/articles).'
+  talk: a-tour-of-ox-1-0
+  linkedin: https://www.linkedin.com/in/adamwarski/
+  twitter: https://x.com/adamwarski
+  github: https://github.com/adamw
+- name: Li Haoyi
+  position: ''
+  image: assets/img/2025/speakers/haoyi-li.jpg
+  about: Li Haoyi graduated from MIT, has built infrastructure for high-growth companies
+    like Dropbox and Databricks, and has been a major contributor to the open source
+    community with over 10,000 stars on Github. Haoyi has deep experience in the JVM
+    and has used it professionally to build cloud infrastructure, distributed backend
+    systems, programming languages, high-performance web applications, and much more.
+  talk: easy-scala-builds-with-the
+  # linkedin: ''
+  twitter: https://x.com/li_haoyi
+  github: https://github.com/lihaoyi
+- name: Martin Duhem
+  position: Gradle, Inc.
+  image: assets/img/2025/speakers/martin_duhem.jpeg
+  about: Martin is a software engineer at Gradle where he works on accelerating your
+    sbt builds.
+  talk: exploring-build-caching-a-practical
+  # linkedin: ''
+  twitter: https://x.com/mnduhem
+  github: https://github.com/Duhemm
+- name: Eugene Yokota
+  position: Netflix
+  image: assets/img/2025/speakers/eugene_yokota.jpg
+  about: Eugene is a maintainer of sbt, and an engineer at Netflix. He enjoys long
+    walks looking for Döner kebab, and functional programming.
+  talk: sbt-2-0-go-big
+  # linkedin: ''
+  twitter: https://x.com/eed3si9n
+  github: https://github.com/eed3si9n
+- name: Daniel Ciocîrlan
+  position: Rock the JVM
+  image: assets/img/2025/speakers/daniel-ciocirlan.png
+  about: I am a software engineer and founder of Rock the JVM, an online learning
+    platform dedicated to Scala, big data and functional programming on the JVM. As
+    of March 2025, I have taught Scala and all major tools in the ecosystem to 100000+
+    students all over the world and have held live training sessions for some of the
+    top companies in the industry, including Adobe, Apple, Microsoft, Intuit and many
+    others. The Rock the JVM YouTube channel has also gathered more than 100 hours
+    of tutorials, 25.000 subscribers and 1.5 million views. I have also taught more
+    than 30.000 kids to code (not in Scala, yet…)
+  talk: a-new-scala-ethos
+  # linkedin: ''
+  twitter: https://x.com/rockthejvm
+  github: https://github.com/daniel-ciocirlan
+- name: Oliver Bračevac
+  position: ''
+  image: assets/img/2025/speakers/oliver-bracevac.jpg
+  about: Oliver is a member of the Scala compiler team at EPFL’s LAMP group, where
+    he leads compiler development and works closely with Martin Odersky on the design
+    and implementation of new language features. He is currently focused on Capture
+    Checking. Oliver has a background in programming languages and formal methods.
+    In addition to foundational work on types and effects, he has contributed to Scala
+    LMS, high-performance symbolic execution engines, and worked on cutting-edge compilers
+    for Rust-like languages as part of DARPA-funded research at Galois Inc.
+  talk: capture-checking-a-new-approach
+  # linkedin: ''
+  # twitter: ''
+  github: https://github.com/bracevac
+- name: 'Cao Nguyen Pham
+
+    '
+  position: ''
+  image: assets/img/2025/speakers/cao-nguyen-pham.jpg
+  about: 'I am a current PhD student under the supervision of Prof. Martin Odersky,
+    at LAMP, EPFL. My current interests are on the practical side of capture checking:
+    integration into Scala, backwards compatibility, maintaining a capture-checked
+    version of the Scala API. I am also interested in asynchronous programming patterns,
+    effect systems and how to integrate the two using capabilities and capture-checking.
+    I currently maintain the experimental asynchronous programming library Gears.'
+  talk: the-first-steps-towards-practical
+  # linkedin: ''
+  # twitter: ''
+  github: https://github.com/nvcnvn
+- name: Wojciech Mazur
+  position: ''
+  image: assets/img/2025/speakers/wojciech-mazur.jpg
+  about: I’m a Scala compiler & tooling engineer at VirtusLab in Kraków, where I hack
+    on the Scala 3 compiler and builds developer tools for large code‑bases. I serve
+    on the official Scala Core Team as the Scala Native representative and release
+    officer. I also maintain both Scala Native and the Scala 3 Open Community Build.  My
+    recent focus is on build automation including the Gazelle extension for Scala
+    and other mainstream languages.
+  talk: from-imports-to-targets-bazel
+  linkedin: https://www.linkedin.com/in/wojciech-mazur-3970a8121/
+  # twitter: ''
+  github: https://github.com/WojciechMazur
+- name: Dimi Racordon
+  position: ''
+  image: assets/img/2025/speakers/dimi-racordon.jpg
+  about: Dimi is a researcher at EPFL in Switzerland. She got her Ph.D. in computer
+    science at the University of Geneva. She worked on model checking and developed
+    efficient data structures to generate and explore large state spaces. Dimi likes
+    generic programming, because it looks like math, and low-level programming languages,
+    because she loves wasting time on premature optimization.
+  talk: what-scala-can-learn-from
+  # linkedin: ''
+  # twitter: ''
+  github: https://github.com/kyouko-taiga
+- name: Andrei Kucharavy
+  position: ''
+  image: assets/img/2025/speakers/andrei-kucharavy.jpg
+  about: Defenses against GenAI-mediated threats to cybersecurity since 2020; coding
+    LLMs security since 2022.
+  talk: safe-coding-with-llms-verifiable
+  linkedin: https://www.linkedin.com/in/andrei-kucharavy/
+  # twitter: ''
+  github: https://github.com/chiffa
+- name: Kacper Korban
+  position: ''
+  image: assets/img/2025/speakers/kacper-korban.jpg
+  about: I’m a first-year PhD student at EPFL. I have worked on many things Scala;
+    this includes being part of the Scala 3 compiler team at VirtusLab, as well as
+    EPFL LAMP’s Scala 3 research and compiler team. I also contributed to some Scala
+    libraries and tools e.g. Scaladoc, quicklens, Inkuire
+  talk: on-track-with-tracked
+  # linkedin: ''
+  # twitter: ''
+  github: https://github.com/KacperFKorban
+- name: Anna Herlihy
+  position: ''
+  about: I’m a fourth-year PhD student at EPFL doing research in the overlap between
+    programming languages and databases. I’m super excited about language integrated
+    queries, logic programming, and recursive query optimization. I love hiking, road
+    biking, climbing, and am most happy when I can do my work outdoors.
+  talk: macro-free-type-safe-database-queries-in
+  # linkedin: ''
+  # twitter: ''
+  github: https://github.com/aherlihy
+- name: Jakub Kozłowski
+  position: ''
+  image: assets/img/2025/speakers/jakub-kozlowski.jpg
+  about: ''
+  talk: are-you-tall-enough-for
+  linkedin: https://www.linkedin.com/in/kubukoz
+  twitter: https://x.com/kubukoz
+  github: https://github.com/kubukoz
+  mastodon: https://mstdn.party/@kubukoz
+
+- name: François Laroche
+  position: ''
+  image: assets/img/2025/speakers/francois-laroche.jpg
+  about: ''
+  talk: the-power-of-full-stack
+  linkedin: https://www.linkedin.com/in/françois-laroche-28406132/
+  mastodon: https://social.laroche.dev/@francois
+
+- name: Eugene Flesselle
+  position: ''
+  about: ''
+  talk: what-scala-can-learn-from
+  # linkedin: ''
+  # twitter: ''
+  # github: ''
+
+- name: Frank Sommers
+  position: ''
+  image: assets/img/2025/speakers/frank-sommers.jpg
+  about: ''
+  talk: thinking-in-scala-3-types
+  # linkedin: ''
+  # twitter: ''
+  # github: ''
+
+- name: Rory Graves
+  position: ''
+  image: assets/img/2025/speakers/rory-graves.jpg
+  about: ''
+  talk: scala-meets-genai-build-the
+  linkedin: https://www.linkedin.com/in/roryjgraves/
+  twitter: https://x.com/a_dev_musing
+  # github: ''
+
+- name: Benoît Fouré
+  position: ''
+  about: ''
+  talk: coding-the-game-of-unspoken
+  linkedin: https://www.linkedin.com/in/benoît-fouré-9402154a/
+  # twitter: ''
+  # github: ''
+
+- name: Philipp Haller
+  position: ''
+  image: assets/img/2025/speakers/philipp-haller.jpg
+  about: ''
+  talk: simple-and-safe-serialization-pickling-of
+  linkedin: https://www.linkedin.com/in/hallerp
+  twitter: https://x.com/philippkhaller
+  # github: ''
+  bluesky: https://bsky.app/profile/hallerp.bsky.social
+- name: Ralf Jung
+  position: Keynote Speaker
+  image: assets/img/2025/speakers/ralf-jung.jpg
+  about: "Ralf Jung is an Assistant Professor of Computer Science at ETH Zurich, where he leads the Programming Language Foundations Lab within the Institute for Programming Languages and Systems. His research focuses on formal methods for programming languages, particularly Rust and the Iris framework for concurrent separation logic. Jung's work aims to provide rigorous mathematical foundations to ensure software reliability and security. He has made significant contributions to Rust's formal verification, including the development of the RustBelt project and the Miri tool for detecting undefined behavior in unsafe Rust code. His efforts have been recognized with several awards, such as the ACM SIGPLAN Most Influential POPL Paper Award in 2025 for his work on Iris."
+  talk: minirust-a-core-language-for-specifying-rust
+
+- name: Evan Czaplicki
+  position: Keynote Speaker
+  image: assets/img/2025/speakers/evan_czaplicki.jpg
+  about: "Evan is the creator of the Elm programming language. He is currently focused on bringing the benefits of type functional programming to databases, with the longer-term goal of developing Elm in a sustainable and healthy way. He has been developing compilers and servers in Haskell for nearly 15 years, and has significant expertise in using low-level techniques to get the best possible performance out of Haskell programs."
+  talk: on-productivity-languages-like-elm-and-scala
+
+- name: Martin Odersky
+  position: Keynote Speaker
+  image: assets/img/2025/speakers/martin-odersky.jpeg
+  about: "Martin Odersky is the creator of the Scala programming language and a professor at EPFL in Lausanne, Switzerland. He is also the founder and chairman of the Scala Center. His research interests include programming languages, type systems, and compiler technology. At EPFL, he leads the Programming Methods Laboratory, where he implements the cutting-edge research ideas into the Scala programming language."
+  talk: keynote-martin-odersky
+  github: https://github.com/odersky
+

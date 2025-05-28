@@ -5,3 +5,7 @@ _site/
 .DS_Store
 /vendor/bundle
 .bundle/config
+
+_data_ingress/data/
+_data_ingress/dest/
+_data_ingress/logs/
