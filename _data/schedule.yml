@@ -146,6 +146,7 @@ talks-2025:
     stage: stage4
     time: 10:10 - 10:50
     speaker: Jonas Spenger
+    speaker2: Philipp Haller
     url: /editions/2025/talks/simple-and-safe-serialization-pickling-of
   - title: 'Taking the plunge: a deep dive into streaming with fs2'
     day: day2
@@ -182,6 +183,7 @@ talks-2025:
     stage: stage2
     time: 11:50 - 12:30
     speaker: Olga Chuchuk
+    speaker2: François Laroche
     url: /editions/2025/talks/the-power-of-full-stack-scala
   - title: 'Rethinking Monad Transformers: A Submarine way for Error Handling'
     day: day2
@@ -223,12 +225,13 @@ talks-2025:
     speaker: ""
     special: lunch
     url: ""
-  - title: Effective Match Types
+  - title: Blank
     day: day2
     stage: stage1
     time: 14:30 - 15:10
-    speaker: Jamie Thompson
-    url: /editions/2025/talks/effective-match-types
+    speaker: ""
+    special: blank
+    url: ""
   - title: Blank
     day: day2
     stage: stage2
@@ -241,6 +244,7 @@ talks-2025:
     stage: stage3
     time: 14:30 - 15:10
     speaker: Bill Venners
+    speaker2: Frank Sommers
     url: /editions/2025/talks/thinking-in-scala-3-types
   - title: 'Just Import ''N'' Go: Spec-first APIs without codegen'
     day: day2
@@ -259,6 +263,7 @@ talks-2025:
     stage: stage2
     time: 15:20 - 16:00
     speaker: Adrien Piquerez
+    speaker2: Benoît Fouré
     url: /editions/2025/talks/coding-the-game-of-unspoken
   - title: 'AI Assistance for Scala Developers: What JetBrains Brings to the Table'
     day: day2
@@ -282,7 +287,8 @@ talks-2025:
     day: day2
     stage: stage2
     time: 16:10 - 16:50
-    speaker: Michał Pawlik & Jakob Koslowski
+    speaker: Michał Pawlik
+    speaker2: Jakub Kozłowski
     url: /editions/2025/talks/are-you-tall-enough-for
   - title: 'Exploring Build Caching: A Practical Overview'
     day: day2
@@ -303,6 +309,13 @@ talks-2025:
     time: 17:00 - 17:40
     speaker: Priyanka Bose
     url: /editions/2025/talks/from-paradigms-to-percussion-a
+  - title: Effective Match Types
+    day: day2
+    stage: stage3
+    time: 17:00 - 17:40
+    speaker: Jamie Thompson
+    url: /editions/2025/talks/effective-match-types
+
 
   - title: 'Safe Coding with LLMs: Verifiable Scala Silver Bullet ?'
     day: day3
@@ -406,6 +419,7 @@ talks-2025:
     stage: stage1
     time: 16:10 - 16:50
     speaker: Kannupriya Kalra
+    speaker2: Rory Graves
     url: /editions/2025/talks/scala-meets-genai-build-the
   - title: 'From Imports to Targets: Bazel on Autopilot with Scala Gazelle'
     day: day3
@@ -430,6 +444,7 @@ talks-2025:
     stage: stage1
     time: 17:00 - 17:40
     speaker: Dimi Racordon
+    speaker2: Eugene Flesselle
     url: /editions/2025/talks/what-scala-can-learn-from
   - title: Using Scala in a Go-First Company
     day: day3
@@ -557,14 +572,13 @@ talks-2025:
 speakers:
 - name: Arman Bilge
   position: Typelevel
-  image: assets/img/2025/speakers/arman-bilge.jpg
   about: ''
   talk: a-typelevel-retrospective
   # # linkedin: ''
   # # twitter: ''
   github: https://github.com/armanbilge
 - name: Kannupriya Kalra
-  position: Scala Center
+  position: ''
   image: assets/img/2025/speakers/kannupriya-kalra.jpg
   about: 'Kannupriya Kalra is the org admin for the Google Summer of Code 2024 and
     2025 programs with Scala Center, where she plays a key role in shaping the future
@@ -760,7 +774,7 @@ speakers:
   github: https://github.com/larsrh
 - name: Tomasz Godzik
   position: VirtusLab
-  image: assets/img/2025/speakers/tomasz-godzik.jpg
+  image: assets/img/2025/speakers/tomasz-godzik.jpeg
   about: Tomasz has worked with multiple programming language tools through the years
     trying to provide a productive environment for other developers to interact with.
     Currently, team lead of Scala Open Source team at VirtusLab.
@@ -782,7 +796,7 @@ speakers:
   # linkedin: ''
   twitter: https://x.com/joang38
   github: https://github.com/joan38
-- name: Michał Pawlik & Jakob Koslowski
+- name: Michał Pawlik
   position: ''
   image: assets/img/2025/speakers/michal-pawlik.jpg
   about: 'Breaker of things, finder of bugs, and escape room fugitive. I''m a Scala
@@ -796,7 +810,7 @@ speakers:
   github: https://github.com/majk-p
 - name: Adrien Piquerez
   position: Scala Center
-  image: assets/img/2025/speakers/adrien-piquerez.jpg
+  image: assets/img/2025/speakers/adrien-piquerez.jpeg
   about: I am a compiler engineer at Digital Asset and former member of the Scala
     Center. I contributed to Scala 3, sbt and the Scala debugger.
   talk: coding-the-game-of-unspoken
@@ -959,7 +973,7 @@ speakers:
   github: https://github.com/jchapuis
 - name: Sébastien Doeraene
   position: EPFL, Scala Center
-  image: assets/img/2025/speakers/sebastien-doeraene.jpg
+  image: assets/img/2025/speakers/sebastien-doeraene.png
   about: Sébastien Doeraene is a compiler/runtime systems hacker and a Scala enthusiast.
     Best known as the author of [Scala.js](https://www.scala-js.org/), he is now an
     engineer at the [Scala Center](https://scala.epfl.ch/) and part-time lecturer
@@ -1148,7 +1162,6 @@ speakers:
   github: https://github.com/KacperFKorban
 - name: Anna Herlihy
   position: ''
-  image: assets/img/2025/speakers/anna-herlihy.jpg
   about: I’m a fourth-year PhD student at EPFL doing research in the overlap between
     programming languages and databases. I’m super excited about language integrated
     queries, logic programming, and recursive query optimization. I love hiking, road
@@ -1157,6 +1170,67 @@ speakers:
   # linkedin: ''
   # twitter: ''
   github: https://github.com/aherlihy
+- name: Jakub Kozłowski
+  position: ''
+  image: assets/img/2025/speakers/jakub-kozlowski.jpg
+  about: ''
+  talk: are-you-tall-enough-for
+  linkedin: https://www.linkedin.com/in/kubukoz
+  twitter: https://x.com/kubukoz
+  github: https://github.com/kubukoz
+  mastodon: https://mstdn.party/@kubukoz
+
+- name: François Laroche
+  position: ''
+  image: assets/img/2025/speakers/francois-laroche.jpg
+  about: ''
+  talk: the-power-of-full-stack
+  linkedin: https://www.linkedin.com/in/françois-laroche-28406132/
+  mastodon: https://social.laroche.dev/@francois
+
+- name: Eugene Flesselle
+  position: ''
+  about: ''
+  talk: what-scala-can-learn-from
+  # linkedin: ''
+  # twitter: ''
+  # github: ''
+
+- name: Frank Sommers
+  position: ''
+  image: assets/img/2025/speakers/frank-sommers.jpg
+  about: ''
+  talk: thinking-in-scala-3-types
+  # linkedin: ''
+  # twitter: ''
+  # github: ''
+
+- name: Rory Graves
+  position: ''
+  image: assets/img/2025/speakers/rory-graves.jpg
+  about: ''
+  talk: scala-meets-genai-build-the
+  linkedin: https://www.linkedin.com/in/roryjgraves/
+  twitter: https://x.com/a_dev_musing
+  # github: ''
+
+- name: Benoît Fouré
+  position: ''
+  about: ''
+  talk: coding-the-game-of-unspoken
+  linkedin: https://www.linkedin.com/in/benoît-fouré-9402154a/
+  # twitter: ''
+  # github: ''
+
+- name: Philipp Haller
+  position: ''
+  image: assets/img/2025/speakers/philipp-haller.jpg
+  about: ''
+  talk: simple-and-safe-serialization-pickling-of
+  linkedin: https://www.linkedin.com/in/hallerp
+  twitter: https://x.com/philippkhaller
+  # github: ''
+  bluesky: https://bsky.app/profile/hallerp.bsky.social
 - name: Ralf Jung
   position: Keynote Speaker
   image: assets/img/2025/speakers/ralf-jung.jpg

@@ -4,6 +4,7 @@ day: day2
 stage: stage4
 time: 10:10 - 10:50
 speaker: Jonas Spenger
+speaker2: Philipp Haller
 ---
 
 More and more use cases in parallel and distributed programming are testing the limits of closures. Serializing/pickling closures/functions is incredibly powerful, but full of issues. Using the JVM’s built-in serializer may result in strange outcomes and runtime-errors during deserialization. For example, one may *accidentally* serialize the JUnit testing framework when serializing a lambda in a test case by capturing the outer testing class. Other existing libraries come with their own imperfections.

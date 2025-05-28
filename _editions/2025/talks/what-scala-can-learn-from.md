@@ -4,6 +4,7 @@ day: day3
 stage: stage1
 time: 17:00 - 17:40
 speaker: Dimi Racordon
+speaker2: Eugene Flesselle
 ---
 
 This talk will explore two areas where minor improvements could have a huge impact on Scala’s usability.
