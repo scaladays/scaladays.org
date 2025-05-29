@@ -2,7 +2,7 @@
 title: "Can we have the Standard Library for Macros?"
 day: day3
 stage: stage1
-time: 11:50 - 12:30
+time: 11:00 - 11:40
 speaker: Mateusz Kubuszok
 ---
 
