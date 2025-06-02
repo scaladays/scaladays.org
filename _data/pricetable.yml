@@ -1,4 +1,4 @@
-pricetable-subtitle: Pricetable - Early Bird tickets are now on sale until May 26th. 
+pricetable-subtitle: Pricetable - Standard tickets are now on sale until August 12th.
 pricetable-title: Scala Days 2025
 pricetable-description: |
   {: .lead}
@@ -8,10 +8,10 @@ pricetable-subtitle-workshops: Pricetable
 pricetable-title-workshops: Workshops
 pricetable-description-workshops: |
   {: .lead}
-  All workshops are **2-day** courses and will be offered on **August 18 and 19**. Each workshop will conclude before the opening keynote on August 19th. All workshops require a minimum of 9 participants to run. <br><br> 
-  **All workshop attendees will receive a certificate of completion following the end of the conference.** 
-  
-  
+  All workshops are **2-day** courses and will be offered on **August 18 and 19**. Each workshop will conclude before the opening keynote on August 19th. All workshops require a minimum of 9 participants to run. <br><br>
+  **All workshop attendees will receive a certificate of completion following the end of the conference.**
+
+
   {: .lead}
   Stay Tuned! More information about each workshop will be published soon.
 
@@ -29,7 +29,7 @@ pricetable:
     date: Including VAT
     cta: Register now
     cta-url: https://register.event-works.com/lausanne/Scaladays2025/e/lk/k/
-  
+
   - title: Workshop
     state: active
     price: CHF 700
@@ -81,8 +81,8 @@ pricetable-workshops:
   - title: Functional Stream Processing
     workshop-id: zainab
     state: active
-    price1: CHF 700
-    price2: CHF 1395
+    price1: CHF 800
+    price2: CHF 1490
     description: "Led by Zainab Ali"
     date: Including VAT
     cta: Register now
@@ -90,8 +90,8 @@ pricetable-workshops:
   - title: Functional Programming Strategies
     workshop-id: noel
     state: active
-    price1: CHF 700
-    price2: CHF 1395
+    price1: CHF 800
+    price2: CHF 1490
     description: "Led by Noel Welsh"
     date: Including VAT
     cta: Register now
@@ -99,8 +99,8 @@ pricetable-workshops:
   - title: Real-World Zio
     workshop-id: daniel
     state: active
-    price1: CHF 700
-    price2: CHF 1395
+    price1: CHF 800
+    price2: CHF 1490
     description: "Led by Daniel Ciocirlan"
     date: Including VAT
     cta: Register now
@@ -108,8 +108,8 @@ pricetable-workshops:
   - title: Domain Driven Design in Scala 3
     workshop-id: david
     state: active
-    price1: CHF 700
-    price2: CHF 1395
+    price1: CHF 800
+    price2: CHF 1490
     description: "Led by David Amancio Gil Méndez"
     date: Including VAT
     cta: Register now
@@ -117,8 +117,8 @@ pricetable-workshops:
   - title: Effective Programming in Scala with Friendly Agents
     workshop-id: virtuslab
     state: active
-    price1: CHF 700
-    price2: CHF 1395
+    price1: CHF 800
+    price2: CHF 1490
     description: "Led by Tomasz Godzik and Łukasz Biały"
     date: Including VAT
     cta: Register now
