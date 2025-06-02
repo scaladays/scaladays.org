@@ -85,8 +85,8 @@ pricetable-workshops:
     price2: CHF 1490
     description: "Led by Zainab Ali"
     date: Including VAT
-    cta: Register now
-    cta-url: https://register.event-works.com/lausanne/Scaladays2025/e/lk/k/
+    cta: Learn More
+    cta-url: /editions/2025/workshops/functional-stream-processing/
   - title: Functional Programming Strategies
     workshop-id: noel
     state: active
@@ -94,8 +94,8 @@ pricetable-workshops:
     price2: CHF 1490
     description: "Led by Noel Welsh"
     date: Including VAT
-    cta: Register now
-    cta-url: https://register.event-works.com/lausanne/Scaladays2025/e/lk/k/
+    cta: Learn More
+    cta-url: /editions/2025/workshops/functional-programming-strategies/
   - title: Real-World Zio
     workshop-id: daniel
     state: active
@@ -103,8 +103,8 @@ pricetable-workshops:
     price2: CHF 1490
     description: "Led by Daniel Ciocirlan"
     date: Including VAT
-    cta: Register now
-    cta-url: https://register.event-works.com/lausanne/Scaladays2025/e/lk/k/
+    cta: Learn More
+    cta-url: /editions/2025/workshops/real-world-zio/
   - title: Domain Driven Design in Scala 3
     workshop-id: david
     state: active
@@ -112,8 +112,8 @@ pricetable-workshops:
     price2: CHF 1490
     description: "Led by David Amancio Gil Méndez"
     date: Including VAT
-    cta: Register now
-    cta-url: https://register.event-works.com/lausanne/Scaladays2025/e/lk/k/
+    cta: Learn More
+    cta-url: /editions/2025/workshops/ddd-in-scala-3/
   - title: Effective Programming in Scala with Friendly Agents
     workshop-id: virtuslab
     state: active
@@ -121,5 +121,5 @@ pricetable-workshops:
     price2: CHF 1490
     description: "Led by Tomasz Godzik and Łukasz Biały"
     date: Including VAT
-    cta: Register now
-    cta-url: https://register.event-works.com/lausanne/Scaladays2025/e/lk/k/
+    cta: Learn More
+    cta-url: /editions/2025/workshops/efficient-programming-in-scala-with-friendly-agents/
