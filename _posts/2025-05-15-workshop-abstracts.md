@@ -9,7 +9,7 @@ description: Take a look at MORE workshop details and book your ticket today bef
 ---
 {: .mt-5}
 
-We’ve met each of the Scala Days workshop trainers, but here’s some more information on what each workshop will actually include! Continue reading below to review the abstracts to each workshop. 
+We’ve met each of the Scala Days workshop trainers, but here’s some more information on what each workshop will actually include! Continue reading below to review the abstracts to each workshop.
 
 
 ### Real-World ZIO by Daniel Ciocirlan
@@ -77,11 +77,11 @@ Will touch on subjects such as MCP, agents, scripting, migration, refactoring an
 
 Each workshop takes place on August 18th and 19th in Lausanne. Upon completion workshop participants will also receive a certificate.
 
-Grab your ticket today before the Early Bird sale ends on May 26th!
+Grab your ticket today before the Standard ticket sale ends on August 12th!
 
 <div class="d-flex justify-content-center align-items-center">
   <a class="btn btn-primary btn-lg fw-bold my-4" href="https://register.event-works.com/lausanne/Scaladays2025/e/lk/k/">View Ticket Options and Register</a>
 </div>
 
-Still need help deciding which workshop or ticket option to choose? 
-Contact us at [info@scaladays.org](mailto:info@scaladays.org), we’ll do our best to answer your questions and welcome you this August. 
+Still need help deciding which workshop or ticket option to choose?
+Contact us at [info@scaladays.org](mailto:info@scaladays.org), we’ll do our best to answer your questions and welcome you this August.
