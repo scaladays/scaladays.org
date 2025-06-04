@@ -11,8 +11,18 @@
     nav: nav
     wip: false
 
+  - title: Schedule
+    url: /schedule
+    nav: nav
+    wip: false
+
   - title: Workshops
     url: /workshops
+    nav: nav
+    wip: false
+
+  - title: Speakers
+    url: /speakers
     nav: nav
     wip: false
 
@@ -28,16 +38,6 @@
 
   - title: Blog
     url: /blog
-    nav: nav
-    wip: false
-
-  - title: Schedule
-    url: /schedule
-    nav: nav
-    wip: false
-
-  - title: Speakers
-    url: /speakers
     nav: nav
     wip: false
 
