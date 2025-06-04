@@ -1211,7 +1211,7 @@ speakers:
 - name: Jakub Kozłowski
   position: ''
   image: assets/img/2025/speakers/jakub-kozlowski.jpg
-  about: ''
+  about: 'Experienced Scala developer, avid Functional Programming fan, open-source contributor and maintainer, small-time YouTuber. Likes to mess with the unfamiliar, and find weird combinations of tech.'
   talk: are-you-tall-enough-for
   linkedin: https://www.linkedin.com/in/kubukoz
   twitter: https://x.com/kubukoz
