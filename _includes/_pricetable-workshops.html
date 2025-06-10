@@ -8,6 +8,9 @@
         <h2 class="mb-4">{{site.data.pricetable.pricetable-title-workshops }}</h2>
         <div>{{site.data.pricetable.pricetable-description-workshops | markdownify }}</div>
       </div>
+      <div class="col-md-4 d-flex align-items-center justify-content-end">
+        <a class="btn btn-primary btn-lg px-4 gap-3" href="https://register.event-works.com/lausanne/Scaladays2025/e/lk/k/" target="_blank" rel="noopener noreferrer">Buy Ticket Now</a>
+      </div>
     </div>
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 text-center aos-animate" data-aos="fade-in">
       {% for item in site.data.pricetable.pricetable-workshops %}
@@ -26,20 +29,20 @@
                 <br><span class="fs-5 fw-normal text-muted">bundle:</span> {{ item.price2 }}
                 {% endif %}
               </h4>
-              
+
 
               {% assign trainer = site.data.workshops[item.workshop-id] %}
             <!-- Trainer info -->
             <div class="trainer-info text-center mt-3">
               <div class="trainer-img-wrapper mb-3 d-flex justify-content-center">
-                <img 
+                <img
                   class="trainer-img"
                   src="{{ site.baseurl }}{{ trainer.image }}"
                   alt="Trainer: {{ trainer.name }}"
                   style="
-                    width: 200px; 
-                    height: 200px; 
-                    object-fit: cover; 
+                    width: 200px;
+                    height: 200px;
+                    object-fit: cover;
                     border-radius: 50%;
                   "
                 />
@@ -52,16 +55,16 @@
               <!-- Icons linking to LinkedIn and GitHub -->
               <div class="trainer-links d-flex justify-content-center gap-2">
                 <a href="{{ trainer.linkedin }}" target="_blank" rel="noopener">
-                  <img 
-                    src="{{ site.baseurl }}/img/assets/icon-linkedin.svg" 
-                    alt="LinkedIn" 
+                  <img
+                    src="{{ site.baseurl }}/img/assets/icon-linkedin.svg"
+                    alt="LinkedIn"
                     style="height: 24px;"
                   >
                 </a>
                 <a href="{{ trainer.github }}" target="_blank" rel="noopener">
-                  <img 
-                    src="{{ site.baseurl }}/img/assets/icon-github.svg" 
-                    alt="GitHub" 
+                  <img
+                    src="{{ site.baseurl }}/img/assets/icon-github.svg"
+                    alt="GitHub"
                     style="height: 24px;"
                   >
                 </a>
@@ -80,6 +83,13 @@
         </div>
       </div>
       {% endfor %}
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-7 mx-auto">
+        <div class="d-flex justify-content-center align-items-center">
+          <a class="btn btn-primary btn-lg px-4 gap-3" href="https://register.event-works.com/lausanne/Scaladays2025/e/lk/k/" target="_blank" rel="noopener noreferrer">Buy Ticket Now</a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
