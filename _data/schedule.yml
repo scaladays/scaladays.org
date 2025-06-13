@@ -31,13 +31,13 @@ stages:
   - id: room5
     title: Room 5
   - id: stage1
-    title: Stage 1
+    title: Panorama
   - id: stage2
-    title: Stage 2
+    title: Industry
   - id: stage3
-    title: Stage 3
+    title: Developer Experience
   - id: stage4
-    title: Stage 4
+    title: Creative and Mix
 
 talks-2025:
   # Workshops - day 0 and 1
