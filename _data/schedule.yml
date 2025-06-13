@@ -2,12 +2,12 @@ days:
   - id: day0
     title: Day 1
     date: Aug 18th
-    stages: [stage1]
+    stages: [room1, room2, room3, room4, room5]
 
   - id: day1
     title: Day 2
     date: Aug 19th
-    stages: [stage1]
+    stages: [room1, room2, room3, room4, room5]
 
   - id: day2
     title: Day 3
@@ -20,79 +20,327 @@ days:
     stages: [stage1, stage2, stage3, stage4]
 
 stages:
+  - id: room1
+    title: Room 1
+  - id: room2
+    title: Room 2
+  - id: room3
+    title: Room 3
+  - id: room4
+    title: Room 4
+  - id: room5
+    title: Room 5
   - id: stage1
-    title: Stage 1
-
+    title: Panorama
   - id: stage2
-    title: Stage 2
-
+    title: Industry
   - id: stage3
-    title: Stage 3
-
+    title: Developer Experience
   - id: stage4
-    title: Stage 4
+    title: Creative and Mix
 
 talks-2025:
-  - title: Workshops
-    day: day0
-    stage: stage1
-    time: 09:00 - 13:00
-    speaker: ""
-    url: "/workshops"
-  - title: Lunch
-    day: day0
-    stage: stage1
-    time: 13:00 - 14:00
-    speaker: ""
-    special: lunch
-    url: ""
-  - title: Workshops
-    day: day0
-    stage: stage1
-    time: 14:00 - 17:00
-    speaker: ""
-    url: "/workshops"
+  # Workshops - day 0 and 1
 
-  - title: Workshops
-    day: day1
-    stage: stage1
+  # Domain Driven Design in Scala 3
+  - title: Domain Driven Design in Scala 3
+    day: day0
+    stage: room4
     time: 09:00 - 13:00
-    speaker: ""
-    url: "/workshops"
-  - title: Lunch
+    speaker: David Amancio Gil Méndez
+    url: "/editions/2025/workshops/ddd-in-scala-3"
+  - title: Domain Driven Design in Scala 3
+    day: day0
+    stage: room4
+    time: 14:00 - 17:00
+    speaker: David Amancio Gil Méndez
+    url: "/editions/2025/workshops/ddd-in-scala-3"
+  - title: Domain Driven Design in Scala 3
     day: day1
-    stage: stage1
+    stage: room4
+    time: 09:00 - 13:00
+    speaker: David Amancio Gil Méndez
+    url: "/editions/2025/workshops/ddd-in-scala-3"
+  - title: Domain Driven Design in Scala 3
+    day: day1
+    stage: room4
+    time: 14:00 - 17:00
+    speaker: David Amancio Gil Méndez
+    url: "/editions/2025/workshops/ddd-in-scala-3"
+
+  # Efficient Programming in Scala with Friendly Agents
+  - title: Efficient Programming in Scala with Friendly Agents
+    day: day0
+    stage: room5
+    time: 09:00 - 13:00
+    speaker: Tomasz Godzik, Łukasz Biały
+    url: "/editions/2025/workshops/efficient-programming-in-scala-with-friendly-agents"
+  - title: Efficient Programming in Scala with Friendly Agents
+    day: day0
+    stage: room5
+    time: 14:00 - 17:00
+    speaker: Tomasz Godzik, Łukasz Biały
+    url: "/editions/2025/workshops/efficient-programming-in-scala-with-friendly-agents"
+  - title: Efficient Programming in Scala with Friendly Agents
+    day: day1
+    stage: room5
+    time: 09:00 - 13:00
+    speaker: Tomasz Godzik, Łukasz Biały
+    url: "/editions/2025/workshops/efficient-programming-in-scala-with-friendly-agents"
+  - title: Efficient Programming in Scala with Friendly Agents
+    day: day1
+    stage: room5
+    time: 14:00 - 17:00
+    speaker: Tomasz Godzik, Łukasz Biały
+    url: "/editions/2025/workshops/efficient-programming-in-scala-with-friendly-agents"
+
+  # Functional Programming Strategies
+  - title: Functional Programming Strategies
+    day: day0
+    stage: room2
+    time: 09:00 - 13:00
+    speaker: Noel Welsh
+    url: "/editions/2025/workshops/functional-programming-strategies"
+  - title: Functional Programming Strategies
+    day: day0
+    stage: room2
+    time: 14:00 - 17:00
+    speaker: Noel Welsh
+    url: "/editions/2025/workshops/functional-programming-strategies"
+  - title: Functional Programming Strategies
+    day: day1
+    stage: room2
+    time: 09:00 - 13:00
+    speaker: Noel Welsh
+    url: "/editions/2025/workshops/functional-programming-strategies"
+  - title: Functional Programming Strategies
+    day: day1
+    stage: room2
+    time: 14:00 - 17:00
+    speaker: Noel Welsh
+    url: "/editions/2025/workshops/functional-programming-strategies"
+
+  # Functional Stream Processing
+  - title: Functional Stream Processing
+    day: day0
+    stage: room1
+    time: 09:00 - 13:00
+    speaker: Zainab Ali
+    url: "/editions/2025/workshops/functional-stream-processing"
+  - title: Functional Stream Processing
+    day: day0
+    stage: room1
+    time: 14:00 - 17:00
+    speaker: Zainab Ali
+    url: "/editions/2025/workshops/functional-stream-processing"
+  - title: Functional Stream Processing
+    day: day1
+    stage: room1
+    time: 09:00 - 13:00
+    speaker: Zainab Ali
+    url: "/editions/2025/workshops/functional-stream-processing"
+  - title: Functional Stream Processing
+    day: day1
+    stage: room1
+    time: 14:00 - 17:00
+    speaker: Zainab Ali
+    url: "/editions/2025/workshops/functional-stream-processing"
+
+  # Real-World ZIO
+  - title: Real-World ZIO
+    day: day0
+    stage: room3
+    time: 09:00 - 13:00
+    speaker: Daniel Ciocirlan
+    url: "/editions/2025/workshops/real-world-zio"
+  - title: Real-World ZIO
+    day: day0
+    stage: room3
+    time: 14:00 - 17:00
+    speaker: Daniel Ciocirlan
+    url: "/editions/2025/workshops/real-world-zio"
+  - title: Real-World ZIO
+    day: day1
+    stage: room3
+    time: 09:00 - 13:00
+    speaker: Daniel Ciocirlan
+    url: "/editions/2025/workshops/real-world-zio"
+  - title: Real-World ZIO
+    day: day1
+    stage: room3
+    time: 14:00 - 17:00
+    speaker: Daniel Ciocirlan
+    url: "/editions/2025/workshops/real-world-zio"
+
+  # Lunch
+  - title: Lunch
+    day: day0
+    stage: room1
     time: 13:00 - 14:00
     speaker: ""
     special: lunch
     url: ""
-  - title: Workshops
-    day: day1
-    stage: stage1
-    time: 14:00 - 17:00
+  - title: Lunch
+    day: day0
+    stage: room2
+    time: 13:00 - 14:00
     speaker: ""
-    url: "/workshops"
+    special: lunch
+    url: ""
+  - title: Lunch
+    day: day0
+    stage: room3
+    time: 13:00 - 14:00
+    speaker: ""
+    special: lunch
+    url: ""
+  - title: Lunch
+    day: day0
+    stage: room4
+    time: 13:00 - 14:00
+    speaker: ""
+    special: lunch
+    url: ""
+  - title: Lunch
+    day: day0
+    stage: room5
+    time: 13:00 - 14:00
+    speaker: ""
+    special: lunch
+    url: ""
+  - title: Lunch
+    day: day1
+    stage: room1
+    time: 13:00 - 14:00
+    speaker: ""
+    special: lunch
+    url: ""
+  - title: Lunch
+    day: day1
+    stage: room2
+    time: 13:00 - 14:00
+    speaker: ""
+    special: lunch
+    url: ""
+  - title: Lunch
+    day: day1
+    stage: room3
+    time: 13:00 - 14:00
+    speaker: ""
+    special: lunch
+    url: ""
+  - title: Lunch
+    day: day1
+    stage: room4
+    time: 13:00 - 14:00
+    speaker: ""
+    special: lunch
+    url: ""
+  - title: Lunch
+    day: day1
+    stage: room5
+    time: 13:00 - 14:00
+    speaker: ""
+    special: lunch
+    url: ""
+
+  # Registration, keynote, welcome reception
   - title: Registration
     day: day1
-    stage: stage1
+    stage: room1
     time: 16:00 - 17:00
-    special: registration
     speaker: ""
+    special: registration
     url: ""
+  - title: Registration
+    day: day1
+    stage: room2
+    time: 16:00 - 17:00
+    speaker: ""
+    special: registration
+    url: ""
+  - title: Registration
+    day: day1
+    stage: room3
+    time: 16:00 - 17:00
+    speaker: ""
+    special: registration
+    url: ""
+  - title: Registration
+    day: day1
+    stage: room4
+    time: 16:00 - 17:00
+    speaker: ""
+    special: registration
+    url: ""
+  - title: Registration
+    day: day1
+    stage: room5
+    time: 16:00 - 17:00
+    speaker: ""
+    special: registration
+    url: ""
+
   - title: Keynote
     day: day1
-    stage: stage1
+    stage: room1
     time: 17:00 - 18:00
     speaker: Martin Odersky
     url: ""
+  - special: blank
+    day: day1
+    stage: room2
+    time: 17:00 - 18:00
+  - special: blank
+    day: day1
+    stage: room3
+    time: 17:00 - 18:00
+  - special: blank
+    day: day1
+    stage: room4
+    time: 17:00 - 18:00
+  - special: blank
+    day: day1
+    stage: room5
+    time: 17:00 - 18:00
+
   - title: Welcome Reception
     day: day1
-    stage: stage1
+    stage: room1
+    time: 18:00 - 21:00
+    speaker: ""
+    special: lunch
+    url: ""
+  - title: Welcome Reception
+    day: day1
+    stage: room2
+    time: 18:00 - 21:00
+    speaker: ""
+    special: lunch
+    url: ""
+  - title: Welcome Reception
+    day: day1
+    stage: room3
+    time: 18:00 - 21:00
+    speaker: ""
+    special: lunch
+    url: ""
+  - title: Welcome Reception
+    day: day1
+    stage: room4
+    time: 18:00 - 21:00
+    speaker: ""
+    special: lunch
+    url: ""
+  - title: Welcome Reception
+    day: day1
+    stage: room5
     time: 18:00 - 21:00
     speaker: ""
     special: lunch
     url: ""
 
+  # Subsequent days
   - title: Registration
     day: day2
     stage: stage1
@@ -335,8 +583,8 @@ talks-2025:
     time: 17:00 - 17:40
     speaker: Joan Goyeau
     url: /editions/2025/talks/designing-the-library-powering-netflix-s
-  - title: 'From Paradigms to Percussion: A Beginner’s parallel Journey (and struggles)
-      with Scala and Drums'
+  - title: "From Paradigms to Percussion: A Beginner's parallel Journey (and struggles)
+      with Scala and Drums"
     day: day2
     stage: stage2
     time: 17:00 - 17:40
@@ -415,7 +663,7 @@ talks-2025:
     time: 11:50 - 12:30
     speaker: Tomasz Godzik
     url: /editions/2025/talks/unleashing-the-full-potential-of
-  - title: 'Exploring Cats Effect’s New Integrated I/O Runtime: Async I/O with io_uring'
+  - title: "Exploring Cats Effect's New Integrated I/O Runtime: Async I/O with io_uring"
     day: day3
     stage: stage4
     time: 11:50 - 12:30
@@ -916,9 +1164,8 @@ speakers:
   about: Jonas Spenger is a PhD student at KTH Royal Institute of Technology in Stockholm,
     working on distributed systems and programming languages.
   talk: simple-and-safe-serialization-pickling-of
-  linkedin: https://www.linkedin.com/in/jonasspenger
   twitter: https://x.com/JonasSpenger
-  github: https://github.com/jonasspenger
+  github: https://github.com/jspenger
 - name: Riccardo Cardin
   position: ''
   image: assets/img/2025/speakers/riccardo-cardin.jpg
