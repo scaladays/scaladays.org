@@ -1164,9 +1164,8 @@ speakers:
   about: Jonas Spenger is a PhD student at KTH Royal Institute of Technology in Stockholm,
     working on distributed systems and programming languages.
   talk: simple-and-safe-serialization-pickling-of
-  linkedin: https://www.linkedin.com/in/jonasspenger
   twitter: https://x.com/JonasSpenger
-  github: https://github.com/jonasspenger
+  github: https://github.com/jspenger
 - name: Riccardo Cardin
   position: ''
   image: assets/img/2025/speakers/riccardo-cardin.jpg
