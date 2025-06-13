@@ -11,8 +11,18 @@
     nav: nav
     wip: false
 
+  - title: Schedule
+    url: /schedule
+    nav: nav
+    wip: false
+
   - title: Workshops
     url: /workshops
+    nav: nav
+    wip: false
+
+  - title: Speakers
+    url: /speakers
     nav: nav
     wip: false
 
@@ -25,16 +35,11 @@
     url: /the-venue
     nav: nav
     wip: false
-    
+
   - title: Blog
     url: /blog
     nav: nav
     wip: false
-    
-  - title: Schedule
-    url: /schedule
-    nav: nav
-    wip: true
 
 workshops:
   - title: Functional Stream Processing
@@ -45,8 +50,8 @@ workshops:
 
   - title: Real-World ZIO
     url: /workshop/3/
-    
+
   - title: Domain Driven Design in Scala 3
     url: /workshop/4/
-    
+
 

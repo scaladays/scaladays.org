@@ -1,25 +1,28 @@
 <section id="speakers" class="pt-2">
     <div class="container py-0 py-lg-5">
-        <div class="row mb-5">
-            <div class="col-md-6">
+        <div class="row mb-5 align-items-center">
+            <div class="col-md-8">
                 <span class="text-primary text-uppercase fw-bold mb-2 d-inline-block">{{ site.data.conference.speakers-subtitle }}</span>
                 <h2 class="mb-4">{{ site.data.conference.speakers-title }}</h2>
                 <p class="lead">{{ site.data.conference.speakers-description }}</p>
             </div>
-          
+            <div class="col-md-4">
+                {% include _buy-ticket-button.html alignment="end" %}
+            </div>
         </div>
         <div class="row">
-            {% for speaker in site.data.schedule.speakers %}
+            {% assign sorted_speakers = site.data.schedule.speakers | sort: "name" %}
+            {% for speaker in sorted_speakers %}
             <div class="col-md-6 col-lg-3 mb-5 aos-animate" data-aos="fade-in">
                 <div class="item-team">
                     <div class="image-avatar mb-3">
                         <div class="image-gradient"></div>
-                        <img class="img-fluid mb-" src="{{ speaker.image | relative_url}}" alt="">
+                        <img class="img-fluid mb-" src="{% if speaker.image %}{{ speaker.image | relative_url}}{% else %}{{ site.baseurl }}/img/assets/avatar.svg{% endif %}" alt="">
                     </div>
 
                     <h5>{{ speaker.name }}</h5>
                     <p>{{ speaker.position }}</p>
-                    {% assign talk = site.talks-2025 | find: "slug", speaker.talk %}
+                    {% assign talk = site.data.schedule.talks-2025 | where_exp: "talk", "talk.url contains speaker.talk" | first %}
                     <a href="{{ talk.url | relative_url}}" class="d-block mb-4">{{ talk.title }} </a>
                     <ul class="d-flex list-unstyled">
                         {% if speaker.linkedin != null %}
@@ -40,10 +43,21 @@
                                     src="{{ site.baseurl }}/img/assets/icon-github.svg" alt=""></a>
                         </li>
                         {% endif %}
+                        {% if speaker.mastodon != null %}
+                        <li class="me-2">
+                            <a href="{{ speaker.mastodon }}" target="_blank" rel="noopener noreferrer"><img class="icon-social"
+                                    src="{{ site.baseurl }}/img/assets/icon-mastodon-light.svg" alt=""></a>
+                        </li>
+                        {% endif %}
                     </ul>
                 </div>
             </div>
             {% endfor %}
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-7 mx-auto">
+                {% include _buy-ticket-button.html %}
+            </div>
         </div>
     </div>
 </section>
