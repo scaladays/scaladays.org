@@ -32,12 +32,16 @@ stages:
     title: Room 5
   - id: stage1
     title: Panorama
+    description: "This track is set to showcase each corner of the Scala ecosystem - from language features, tooling innovation, discussing the future of the community and language, to creative talks and more. This is a great track for newcomers who want to gain an insight into where they can head out next, for seasoned conference-goers to get an overview of where Scala is headed, and everyone in between."
   - id: stage2
     title: Industry
+    description: "This track is curated to highlight the real-world case studies and best practices from companies around the world. You’ll hear straight-up stories from teams who run Scala at scale—what saved them time, where they hit snags, and the real impact on performance and ROI. Whether you’re bootstrapping a startup with an aim to scale fast, a CTO evaluating tools, an architect planning a new project, or a maintainer of a large codebase, these talks will give you the practical insight you need."
   - id: stage3
     title: Developer Experience
+    description: "This track offers an in-depth overview of the tooling innovation, language features and programming tips-and-tricks. Hear from your Scala peers all about the real-world techniques and insights or from tooling developers on how to help enhance your favorite tools and much more. This track is ideal for anyone who wants to get more done in less time, or for those simply curious about what's new and cool!"
   - id: stage4
     title: Creative and Mix
+    description: "Join this track to explore further industry case studies, tooling talks, and let yourself be surprised by all the ways Scala can be fun besides coding for work."
 
 talks-2025:
   # Workshops - day 0 and 1
