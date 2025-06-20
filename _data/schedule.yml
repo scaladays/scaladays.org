@@ -576,7 +576,9 @@ talks-2025:
   - day: day2
     stage: stage4
     time: 16:10 - 16:50
-    title: To be confirmed
+    title: Domain modeling for event-sourced data
+    speaker: César Enrique Ramírez
+    url: /editions/2025/talks/domain-modeling-event-sourced
   - day: day2
     stage: stage4
     time: 17:00 - 17:40
@@ -1539,3 +1541,10 @@ speakers:
   talk: keynote-martin-odersky
   github: https://github.com/odersky
 
+- name: César Enrique Ramírez
+  position: Xebia
+  image: https://avatars.githubusercontent.com/u/6431935?v=4
+  about:  "I'm a Staff Software Engineer at Xebia with over a decade of experience in software development. I've been working with Scala since 2014 and have a strong passion for functional programming. I enjoy applying Scala's powerful abstractions to build clean, maintainable, and scalable systems. Outside of work, you'll usually find me rock climbing or riding motorcycles—both help me recharge and stay focused."
+  talk:
+  linkedin: https://www.linkedin.com/in/cesar-a-enrique/
+  github: https://github.com/caenrique
