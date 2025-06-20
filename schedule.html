@@ -39,7 +39,12 @@ permalink: schedule
               {% assign stage = site.data.schedule.stages | find: "id", stageId %}
               <div class="col-lg-{{ 12 | divided_by: day.stages.size }} mt-5">
                 <h3 class="d-flex align-items-center mt-4 mb-5 text-uppercase fs-5">
-                <img class="icon-stage" src="{{ site.baseurl }}/img/assets/icon-stage.svg" alt="">{{ stage.title}}
+                <img class="icon-stage" src="{{ site.baseurl }}/img/assets/icon-stage.svg" alt="">
+                {% if stage.description %}
+                  <span class="stage-title-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="{{ stage.description }}">{{ stage.title }}</span>
+                {% else %}
+                  {{ stage.title }}
+                {% endif %}
                 </h3>
                 {% assign talks = site.data.schedule.talks-2025 | where_exp: "talk", "talk.day == day.id and talk.stage contains stage.id" | sort: "time" %}
                 {% for talk in talks %}

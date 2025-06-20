@@ -40,3 +40,11 @@ if (document.getElementById("countdown-clock-2025")) {
   countdownCalc(deadline2025, "2025");
   var x = setInterval(() => countdownCalc(deadline2025, "2025"), 60000);
 }
+
+// Initialize tooltips for stage descriptions
+document.addEventListener('DOMContentLoaded', function() {
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl);
+  });
+});
