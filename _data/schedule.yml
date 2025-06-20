@@ -412,10 +412,16 @@ talks-2025:
     time: 10:10 - 10:50
     speaker: Bendix Sältz
     url: /editions/2025/talks/grpc-apis-for-autonomous-driving
-  - title: 'Capture Checking: A New Approach to Effect Safety in Scala'
+  - title: 'Live coding capture checking extensions'
     day: day2
     stage: stage3
     time: 10:10 - 10:50
+    speaker: Nicolas Rinaudo
+    url: /editions/2025/talks/live-coding-capture-checking-extensions
+  - title: 'Capture Checking: A New Approach to Effect Safety in Scala'
+    day: day2
+    stage: stage3
+    time: 11:00 - 11:40
     speaker: Oliver Bračevac
     url: /editions/2025/talks/capture-checking-a-new-approach
   - title: Simple and safe serialization/pickling of closures in Scala 3
@@ -440,7 +446,7 @@ talks-2025:
   - title: 'The first steps towards practical capture checking '
     day: day2
     stage: stage3
-    time: 11:00 - 11:40
+    time: 11:50 - 12:30
     speaker: 'Cao Nguyen Pham'
     url: /editions/2025/talks/the-first-steps-towards-practical
   - title: Yo Dawg, Heard You Want To FlatMap Your Direct-Style
@@ -462,12 +468,6 @@ talks-2025:
     speaker: Olga Chuchuk
     speaker2: François Laroche
     url: /editions/2025/talks/the-power-of-full-stack-scala
-  - title: 'Rethinking Monad Transformers: A Submarine way for Error Handling'
-    day: day2
-    stage: stage3
-    time: 11:50 - 12:30
-    speaker: Thanh Le
-    url: /editions/2025/talks/rethinking-monad-transformers-a-submarine
   - title: Tree Sitting will continue until Scala highlighting improves
     day: day2
     stage: stage4
@@ -573,7 +573,8 @@ talks-2025:
     time: 16:10 - 16:50
     speaker: Martin Duhem
     url: /editions/2025/talks/exploring-build-caching-a-practical
-  - day: day2
+  - title: 'Rethinking Monad Transformers: A Submarine way for Error Handling'
+    day: day2
     stage: stage4
     time: 16:10 - 16:50
     title: Domain modeling for event-sourced data
@@ -582,7 +583,9 @@ talks-2025:
   - day: day2
     stage: stage4
     time: 17:00 - 17:40
-    title: To be confirmed
+    title: "Rethinking Monad Transformers: A Submarine way for Error Handling"
+    speaker: Thanh Le
+    url: /editions/2025/talks/rethinking-monad-transformers-a-submarine
   - title: Designing the library powering Netflix's QoE with Scala 3
     day: day2
     stage: stage1
@@ -1548,3 +1551,15 @@ speakers:
   talk:
   linkedin: https://www.linkedin.com/in/cesar-a-enrique/
   github: https://github.com/caenrique
+- name: Nicolas Rinaudo
+  position: 'JPMorgan'
+  about: "Nicolas writes code for JPMorgan, where we use Scala to make some very complicated things seem very simple.
+
+After too many years as a Java programmer and a thankfully brief stint in marketing, Nicolas discovered Functional Programming through Scala and fell in love. Since then, he's made it his mission to learn and explain the scary bits, by focusing on practical applications.
+
+Nicolas is also the author and sole maintainer of a few useful OSS libraries, such as kantan.csv - https://nrinaudo.github.io/kantan.csv/."
+  talk: live-coding-capture-checking-extensions
+  linkedin: https://www.linkedin.com/in/nicolasrinaudo/
+  twitter: https://x.com/nicolasrinaudo
+  github: https://github.com/nrinaudo
+
