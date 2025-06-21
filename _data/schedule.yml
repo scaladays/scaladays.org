@@ -412,12 +412,12 @@ talks-2025:
     time: 10:10 - 10:50
     speaker: Bendix Sältz
     url: /editions/2025/talks/grpc-apis-for-autonomous-driving
-  - title: 'Live coding capture checking extensions'
+  - title: 'Hands-On Capture Checking'
     day: day2
     stage: stage3
     time: 10:10 - 10:50
     speaker: Nicolas Rinaudo
-    url: /editions/2025/talks/live-coding-capture-checking-extensions
+    url: /editions/2025/talks/hands-on-capture-checking
   - title: 'Capture Checking: A New Approach to Effect Safety in Scala'
     day: day2
     stage: stage3
@@ -1558,7 +1558,7 @@ speakers:
 After too many years as a Java programmer and a thankfully brief stint in marketing, Nicolas discovered Functional Programming through Scala and fell in love. Since then, he's made it his mission to learn and explain the scary bits, by focusing on practical applications.
 
 Nicolas is also the author and sole maintainer of a few useful OSS libraries, such as kantan.csv - https://nrinaudo.github.io/kantan.csv/."
-  talk: live-coding-capture-checking-extensions
+  talk: hands-on-capture-checking
   linkedin: https://www.linkedin.com/in/nicolasrinaudo/
   twitter: https://x.com/nicolasrinaudo
   github: https://github.com/nrinaudo
