@@ -1410,7 +1410,7 @@ speakers:
   # twitter: ''
   github: https://github.com/nvcnvn
 - name: Wojciech Mazur
-  position: ''
+  position: VirtusLab
   image: assets/img/2025/speakers/wojciech-mazur.jpg
   about: I’m a Scala compiler & tooling engineer at VirtusLab in Kraków, where I hack
     on the Scala 3 compiler and builds developer tools for large code‑bases. I serve
@@ -1420,7 +1420,7 @@ speakers:
     and other mainstream languages.
   talk: from-imports-to-targets-bazel
   linkedin: https://www.linkedin.com/in/wojciech-mazur-3970a8121/
-  # twitter: ''
+  twitter: https://x.com/WojciechM_dev
   github: https://github.com/WojciechMazur
 - name: Dimi Racordon
   position: ''
