@@ -412,7 +412,7 @@ talks-2025:
     time: 10:10 - 10:50
     speaker: Bendix Sältz
     url: /editions/2025/talks/grpc-apis-for-autonomous-driving
-  - title: 'Hands-On Capture Checking'
+  - title: 'Hands-On Capture Checking (with Martin Odersky)'
     day: day2
     stage: stage3
     time: 10:10 - 10:50
