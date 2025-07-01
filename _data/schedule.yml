@@ -1394,9 +1394,7 @@ speakers:
   # linkedin: ''
   # twitter: ''
   github: https://github.com/bracevac
-- name: 'Cao Nguyen Pham
-
-    '
+- name: Cao Nguyen Pham
   position: ''
   image: assets/img/2025/speakers/cao-nguyen-pham.jpg
   about: 'I am a current PhD student under the supervision of Prof. Martin Odersky,
