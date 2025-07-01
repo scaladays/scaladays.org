@@ -2,7 +2,7 @@
 title: "The first steps towards practical capture checking "
 day: day2
 stage: stage3
-time: 11:00 - 11:40
+time: 11:50 - 12:30
 speaker: Cao Nguyen Pham
 
 ---

@@ -1,8 +1,8 @@
 ---
 title: "Rethinking Monad Transformers: A Submarine way for Error Handling"
 day: day2
-stage: stage3
-time: 11:50 - 12:30
+stage: stage4
+time: 17:00 - 17:40
 speaker: Thanh Le
 ---
 

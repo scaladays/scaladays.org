@@ -573,11 +573,10 @@ talks-2025:
     time: 16:10 - 16:50
     speaker: Martin Duhem
     url: /editions/2025/talks/exploring-build-caching-a-practical
-  - title: 'Rethinking Monad Transformers: A Submarine way for Error Handling'
+  - title: Domain modeling for event-sourced data
     day: day2
     stage: stage4
     time: 16:10 - 16:50
-    title: Domain modeling for event-sourced data
     speaker: César Enrique Ramírez
     url: /editions/2025/talks/domain-modeling-event-sourced
   - day: day2
