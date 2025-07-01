@@ -2,7 +2,7 @@
 title: "Capture Checking: A New Approach to Effect Safety in Scala"
 day: day2
 stage: stage3
-time: 10:10 - 10:50
+time: 11:00 - 11:40
 speaker: Oliver Bračevac
 ---
 
