@@ -13,7 +13,7 @@
 
 
 
-/* 
+/*
 .site-nav-home {
     .navbar-nav {
         .nav-item {
@@ -468,7 +468,7 @@ th {
 }
 
 .item-schedule {
-    height: 12rem;
+    height: 14rem;
     transition: box-shadow linear 166ms;
     //@extend .border-top;
 
@@ -496,7 +496,7 @@ th {
 }
 
 .talk-title {
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 4;
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -506,7 +506,7 @@ th {
     @extend .p-4;
     @extend .bg-secondary;
     color: $white;
-    height: 12rem;
+    height: 14rem;
 }
 
 // Sponsors
@@ -517,7 +517,7 @@ th {
         //opacity: 0.7;
         transition: all linear 166ms;
         bottom: 0;
-        
+
     }
 
     &:hover {
