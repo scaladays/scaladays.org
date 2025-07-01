@@ -417,7 +417,7 @@ talks-2025:
     stage: stage3
     time: 10:10 - 10:50
     speaker: Nicolas Rinaudo
-    url: /editions/2025/talks/hands-on-capture-checking
+    # url: /editions/2025/talks/hands-on-capture-checking
   - title: 'Capture Checking: A New Approach to Effect Safety in Scala'
     day: day2
     stage: stage3
