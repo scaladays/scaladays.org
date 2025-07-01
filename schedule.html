@@ -38,7 +38,7 @@ permalink: schedule
               {% for stageId in day.stages %}
               {% assign stage = site.data.schedule.stages | find: "id", stageId %}
               <div class="col-lg-{{ 12 | divided_by: day.stages.size }} mt-5">
-                <h3 class="d-flex align-items-center mt-4 mb-5 text-uppercase fs-5">
+                <h3 class="d-flex align-items-center mt-4 mb-5 text-uppercase fs-5 overflow-hidden" style="min-height:3.5rem;">
                 <img class="icon-stage" src="{{ site.baseurl }}/img/assets/icon-stage.svg" alt="">
                 {% if stage.description %}
                   <span class="stage-title-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="{{ stage.description }}">{{ stage.title }}</span>
