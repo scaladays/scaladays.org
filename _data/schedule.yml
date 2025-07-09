@@ -889,10 +889,8 @@ speakers:
     with functional Scala. She has also contributed to various Scala projects in India,
     specializing in data engineering, and has expertise in Scala, Akka, and big data
     technologies.
-
-    Learn more about her on LinkedIn: https://www.linkedin.com/in/kannupriyakalra/'
   talk: scala-meets-genai-build-the
-  # linkedin: ''
+  linkedin: https://www.linkedin.com/in/kannupriyakalra/
   twitter: https://x.com/KannupriyaKalra
   github: https://github.com/kannupriyakalra
 - name: Szymon Rodziewicz
