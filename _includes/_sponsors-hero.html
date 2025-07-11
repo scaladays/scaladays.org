@@ -3,22 +3,32 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h3 class="text-white mb-4">Our Sponsors</h3>
-        <p class="text-white-50 mb-5">Thank you to our amazing sponsors for supporting Scala Days 2025</p>
+        <h3 class="mb-4">Brought to you by our sponsors</h3>
       </div>
     </div>
 
     <div class="row justify-content-center">
       <div class="col-12">
-        <div class="sponsors-grid">
-          {% for s in site.data.sponsors.sponsors %}
-            <div class="sponsor-item">
-              <a href="{{ s.url }}" target="_blank" rel="noopener noreferrer" class="sponsor-link">
-                <img src="{{ site.baseurl }}/{{ s.logo }}" alt="{{ s.title }}" class="sponsor-logo">
-              </a>
+        {% for type in site.data.sponsors.sponsorship-types %}
+          {% assign type_sponsors = site.data.sponsors.sponsors | where: "type", type.title %}
+          {% if type_sponsors.size > 0 %}
+            <div class="sponsor-type-section mb-5">
+              <div class="sponsor-type-header text-center mb-4">
+                <img src="{{ site.baseurl }}/{{ type.icon }}" alt="{{ type.title }}" class="sponsor-type-icon me-3">
+                <h4 class="d-inline">{{ type.title }}</h4>
+              </div>
+              <div class="sponsors-grid">
+                {% for sponsor in type_sponsors %}
+                  <div class="sponsor-item">
+                    <a href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer" class="sponsor-link">
+                      <img src="{{ site.baseurl }}/{{ sponsor.logo }}" alt="{{ sponsor.title }}" class="sponsor-logo">
+                    </a>
+                  </div>
+                {% endfor %}
+              </div>
             </div>
-          {% endfor %}
-        </div>
+          {% endif %}
+        {% endfor %}
       </div>
     </div>
   </div>

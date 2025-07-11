@@ -2,10 +2,26 @@
 # ----------------------------------------------------------------------------------------------------------
 # ----------------------------------------------------------------------------------------------------------
 
+sponsorship-types:
+  - title: Platinum
+    icon: img/assets/icon-platinum.svg
+  - title: Gold
+    icon: img/assets/icon-gold.svg
+
 sponsors:
+  - title: VirtusLab
+    type: Platinum
+    logo: assets/img/2025/sponsors/virtuslab.png
+    url: https://virtuslab.com
+
+  - title: Signify Technology
+    type: Platinum
+    logo: assets/img/2025/sponsors/signify.png
+    url: https://signify.com
+
   - title: Gradle
     type: Gold
-    logo: assets/img/2025/sponsors/gradle.svg
+    logo: assets/img/2025/sponsors/gradle.png
     url: https://gradle.org
 
   - title: JetBrains

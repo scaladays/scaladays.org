@@ -530,20 +530,7 @@ th {
 
 // Hero Sponsors Section
 .sponsors-hero {
-    background: linear-gradient(135deg, #1e3a8a 0%, #1e40af 100%);
     position: relative;
-
-    &::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: url("../img/assets/scala-background.svg") no-repeat center center;
-        background-size: cover;
-        opacity: 0.1;
-    }
 
     .container {
         position: relative;
@@ -552,17 +539,16 @@ th {
 }
 
 .sponsors-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    justify-items: center;
-    max-width: 1200px;
+    gap: 2rem;
     margin: 0 auto;
 
     @media (max-width: 768px) {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         gap: 1.5rem;
+        max-width: 600px;
     }
 }
 
@@ -594,7 +580,7 @@ th {
     max-height: 80px;
     width: auto;
     height: 80px;
-    filter: brightness(0) invert(1);
+    // filter: brightness(0);
     transition: filter 0.3s ease;
 
     @media (max-width: 768px) {
@@ -603,7 +589,36 @@ th {
     }
 
     &:hover {
-        filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
+        filter: drop-shadow(0 0 10px rgba(8, 131, 183, 0.3));
+    }
+}
+
+.sponsor-type-section {
+    margin-bottom: 3rem;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.sponsor-type-header {
+    margin-bottom: 2rem;
+
+    h4 {
+        font-weight: 600;
+        margin: 0;
+        color: #222;
+    }
+}
+
+.sponsor-type-icon {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+
+    @media (max-width: 768px) {
+        width: 28px;
+        height: 28px;
     }
 }
 
