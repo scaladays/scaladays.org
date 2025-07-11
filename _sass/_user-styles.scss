@@ -510,19 +510,23 @@ th {
 }
 
 // Sponsors
-
 .sponsor-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    transition: transform 0.3s ease, filter 0.3s ease;
+
     img {
         position: relative;
-        //opacity: 0.7;
         transition: all linear 166ms;
         bottom: 0;
-
     }
 
     &:hover {
+        transform: translateY(-5px);
+        filter: brightness(1.1);
         img {
-            //opacity: 1;
             bottom: 0.25rem;
         }
     }
@@ -552,19 +556,6 @@ th {
     }
 }
 
-.sponsor-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-    transition: transform 0.3s ease, filter 0.3s ease;
-
-    &:hover {
-        transform: translateY(-5px);
-        filter: brightness(1.1);
-    }
-}
-
 .sponsor-link {
     display: block;
     text-decoration: none;
@@ -580,7 +571,6 @@ th {
     max-height: 80px;
     width: auto;
     height: 80px;
-    // filter: brightness(0);
     transition: filter 0.3s ease;
 
     @media (max-width: 768px) {
@@ -643,4 +633,64 @@ th {
 
 .font-serif {
 	font-family: $font-family-serif;
+}
+
+// Sponsors Footer Section
+.sponsors-footer {
+    background: #e13c26;
+    color: #fff;
+    text-align: center;
+}
+
+.sponsors-footer-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: #fff;
+    opacity: 0.85;
+    letter-spacing: 0.02em;
+}
+
+.sponsors-footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.sponsor-footer-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1.5rem;
+    transition: transform 0.3s ease, filter 0.3s ease;
+
+    &:hover .sponsor-logo {
+        transform: translateY(-5px);
+        filter: brightness(0) invert(1) drop-shadow(0 0 3px #fff) !important;
+    }
+}
+
+.sponsor-logo {
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.sponsor-logo-big {
+    max-width: 180px;
+    max-height: 80px;
+    width: auto;
+    height: 80px;
+}
+
+.sponsor-logo-small {
+    max-width: 100px;
+    max-height: 40px;
+    width: auto;
+    height: 40px;
+}
+
+.sponsors-footer .sponsor-logo {
+    filter: brightness(0) invert(1) !important;
 }

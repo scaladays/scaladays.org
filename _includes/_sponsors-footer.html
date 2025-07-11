@@ -1,0 +1,34 @@
+<!-- Sponsors Footer Section -->
+<section class="sponsors-footer py-5">
+  <div class="container">
+    <div class="row justify-content-center mb-4">
+      <div class="col-12 text-center">
+        <div class="sponsors-footer-title">Brought to you by our sponsors</div>
+        <div class="sponsors-footer-row sponsors-footer-row-big">
+          {% assign big_sponsors = site.data.sponsors.sponsors | where: "type", "Platinum" | concat: (site.data.sponsors.sponsors | where: "type", "Gold") %}
+          {% for sponsor in big_sponsors %}
+            <span class="sponsor-footer-item">
+              <a href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer" class="sponsor-link">
+                <img src="{{ site.baseurl }}/{{ sponsor.logo }}" alt="{{ sponsor.title }}" class="sponsor-logo sponsor-logo-big">
+              </a>
+            </span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <div class="sponsors-footer-row sponsors-footer-row-small">
+          {% assign small_sponsors = site.data.sponsors.sponsors | where: "type", "Silver" | concat: (site.data.sponsors.sponsors | where: "type", "Bronze") | concat: (site.data.sponsors.sponsors | where: "type", "Media") %}
+          {% for sponsor in small_sponsors %}
+            <span class="sponsor-footer-item">
+              <a href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer" class="sponsor-link">
+                <img src="{{ site.baseurl }}/{{ sponsor.logo }}" alt="{{ sponsor.title }}" class="sponsor-logo sponsor-logo-small">
+              </a>
+            </span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
