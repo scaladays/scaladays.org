@@ -1,0 +1,25 @@
+<!-- Sponsors Section - Below Hero -->
+<section class="sponsors-hero py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h3 class="text-white mb-4">Our Sponsors</h3>
+        <p class="text-white-50 mb-5">Thank you to our amazing sponsors for supporting Scala Days 2025</p>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="sponsors-grid">
+          {% for s in site.data.sponsors.sponsors %}
+            <div class="sponsor-item">
+              <a href="{{ s.url }}" target="_blank" rel="noopener noreferrer" class="sponsor-link">
+                <img src="{{ site.baseurl }}/{{ s.logo }}" alt="{{ s.title }}" class="sponsor-logo">
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

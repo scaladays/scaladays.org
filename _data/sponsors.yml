@@ -1,0 +1,24 @@
+# Sponsors Data
+# ----------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------
+
+sponsors:
+  - title: Gradle
+    type: Gold
+    logo: assets/img/2025/sponsors/gradle.svg
+    url: https://gradle.org
+
+  - title: JetBrains
+    type: Gold
+    logo: assets/img/2025/sponsors/jetbrains.svg
+    url: https://jetbrains.com
+
+  - title: Scalac
+    type: Gold
+    logo: assets/img/2025/sponsors/scalac.svg
+    url: https://scalac.io
+
+  - title: Xebia
+    type: Gold
+    logo: assets/img/2025/sponsors/xebia.svg
+    url: https://xebia.com
