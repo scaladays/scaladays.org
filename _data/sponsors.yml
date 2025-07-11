@@ -17,12 +17,12 @@ sponsors:
   - title: Signify Technology
     type: Platinum
     logo: assets/img/2025/sponsors/signify.png
-    url: https://signify.com
+    url: https://www.signifytechnology.com/
 
   - title: Gradle
     type: Gold
     logo: assets/img/2025/sponsors/gradle.png
-    url: https://gradle.org
+    url: https://gradle.com/
 
   - title: JetBrains
     type: Gold
@@ -38,3 +38,8 @@ sponsors:
     type: Gold
     logo: assets/img/2025/sponsors/xebia.svg
     url: https://xebia.com
+
+  - title: Writer
+    type: Gold
+    logo: assets/img/2025/sponsors/writer.svg
+    url: https://writer.com
