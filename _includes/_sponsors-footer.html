@@ -5,7 +5,8 @@
       <div class="col-12 text-center">
         <div class="sponsors-footer-title">Brought to you by our sponsors</div>
         <div class="sponsors-footer-row sponsors-footer-row-big">
-          {% assign big_sponsors = site.data.sponsors.sponsors | where: "type", "Platinum" | concat: (site.data.sponsors.sponsors | where: "type", "Gold") %}
+          {% assign platinum_sponsors = site.data.sponsors.sponsors | where: "type", "Platinum" %}
+          {% assign big_sponsors = platinum_sponsors %}
           {% for sponsor in big_sponsors %}
             <span class="sponsor-footer-item">
               <a href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer" class="sponsor-link">
@@ -19,7 +20,11 @@
     <div class="row justify-content-center">
       <div class="col-12 text-center">
         <div class="sponsors-footer-row sponsors-footer-row-small">
-          {% assign small_sponsors = site.data.sponsors.sponsors | where: "type", "Silver" | concat: (site.data.sponsors.sponsors | where: "type", "Bronze") | concat: (site.data.sponsors.sponsors | where: "type", "Media") %}
+          {% assign gold_sponsors = site.data.sponsors.sponsors | where: "type", "Gold" %}
+          {% assign silver_sponsors = site.data.sponsors.sponsors | where: "type", "Silver" %}
+          {% assign bronze_sponsors = site.data.sponsors.sponsors | where: "type", "Bronze" %}
+          {% assign media_sponsors = site.data.sponsors.sponsors | where: "type", "Media" %}
+          {% assign small_sponsors = gold_sponsors | concat: silver_sponsors | concat: bronze_sponsors | concat: media_sponsors %}
           {% for sponsor in small_sponsors %}
             <span class="sponsor-footer-item">
               <a href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer" class="sponsor-link">
