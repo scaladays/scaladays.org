@@ -1,0 +1,45 @@
+# Sponsors Data
+# ----------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------
+
+sponsorship-types:
+  - title: Platinum
+    icon: img/assets/icon-platinum.svg
+  - title: Gold
+    icon: img/assets/icon-gold.svg
+
+sponsors:
+  - title: VirtusLab
+    type: Platinum
+    logo: assets/img/2025/sponsors/virtuslab.png
+    url: https://virtuslab.com
+
+  - title: Signify Technology
+    type: Platinum
+    logo: assets/img/2025/sponsors/signify.png
+    url: https://www.signifytechnology.com/
+
+  - title: Gradle
+    type: Gold
+    logo: assets/img/2025/sponsors/gradle.png
+    url: https://gradle.com/
+
+  - title: JetBrains
+    type: Gold
+    logo: assets/img/2025/sponsors/jetbrains.svg
+    url: https://jetbrains.com
+
+  - title: Scalac
+    type: Gold
+    logo: assets/img/2025/sponsors/scalac.svg
+    url: https://scalac.io
+
+  - title: Xebia
+    type: Gold
+    logo: assets/img/2025/sponsors/xebia.svg
+    url: https://xebia.com
+
+  - title: Writer
+    type: Gold
+    logo: assets/img/2025/sponsors/writer.svg
+    url: https://writer.com

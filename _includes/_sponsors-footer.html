@@ -1,0 +1,39 @@
+<!-- Sponsors Footer Section -->
+<section class="sponsors-footer py-5">
+  <div class="container">
+    <div class="row justify-content-center mb-4">
+      <div class="col-12 text-center">
+        <div class="sponsors-footer-title">Brought to you by our sponsors</div>
+        <div class="sponsors-footer-row sponsors-footer-row-big">
+          {% assign platinum_sponsors = site.data.sponsors.sponsors | where: "type", "Platinum" %}
+          {% assign big_sponsors = platinum_sponsors %}
+          {% for sponsor in big_sponsors %}
+            <span class="sponsor-footer-item">
+              <a href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer" class="sponsor-link">
+                <img src="{{ site.baseurl }}/{{ sponsor.logo }}" alt="{{ sponsor.title }}" class="sponsor-logo sponsor-logo-big">
+              </a>
+            </span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <div class="sponsors-footer-row sponsors-footer-row-small">
+          {% assign gold_sponsors = site.data.sponsors.sponsors | where: "type", "Gold" %}
+          {% assign silver_sponsors = site.data.sponsors.sponsors | where: "type", "Silver" %}
+          {% assign bronze_sponsors = site.data.sponsors.sponsors | where: "type", "Bronze" %}
+          {% assign media_sponsors = site.data.sponsors.sponsors | where: "type", "Media" %}
+          {% assign small_sponsors = gold_sponsors | concat: silver_sponsors | concat: bronze_sponsors | concat: media_sponsors %}
+          {% for sponsor in small_sponsors %}
+            <span class="sponsor-footer-item">
+              <a href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer" class="sponsor-link">
+                <img src="{{ site.baseurl }}/{{ sponsor.logo }}" alt="{{ sponsor.title }}" class="sponsor-logo sponsor-logo-small">
+              </a>
+            </span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

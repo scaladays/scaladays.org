@@ -510,21 +510,105 @@ th {
 }
 
 // Sponsors
-
 .sponsor-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    transition: transform 0.3s ease, filter 0.3s ease;
+
     img {
         position: relative;
-        //opacity: 0.7;
         transition: all linear 166ms;
         bottom: 0;
-
     }
 
     &:hover {
+        transform: translateY(-5px);
+        filter: brightness(1.1);
         img {
-            //opacity: 1;
             bottom: 0.25rem;
         }
+    }
+}
+
+// Hero Sponsors Section
+.sponsors-hero {
+    position: relative;
+
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+}
+
+.sponsors-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 auto;
+
+    @media (max-width: 768px) {
+        gap: 1.5rem;
+        max-width: 600px;
+    }
+}
+
+.sponsor-link {
+    display: block;
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.sponsor-logo {
+    max-width: 180px;
+    max-height: 80px;
+    width: auto;
+    height: 80px;
+    transition: filter 0.3s ease;
+
+    @media (max-width: 768px) {
+        max-width: 140px;
+        max-height: 60px;
+    }
+
+    &:hover {
+        filter: drop-shadow(0 0 10px rgba(8, 131, 183, 0.3));
+    }
+}
+
+.sponsor-type-section {
+    margin-bottom: 3rem;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.sponsor-type-header {
+    margin-bottom: 2rem;
+
+    h4 {
+        font-weight: 600;
+        margin: 0;
+        color: #222;
+    }
+}
+
+.sponsor-type-icon {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+
+    @media (max-width: 768px) {
+        width: 28px;
+        height: 28px;
     }
 }
 
@@ -549,4 +633,64 @@ th {
 
 .font-serif {
 	font-family: $font-family-serif;
+}
+
+// Sponsors Footer Section
+.sponsors-footer {
+    background: #e13c26;
+    color: #fff;
+    text-align: center;
+}
+
+.sponsors-footer-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: #fff;
+    opacity: 0.85;
+    letter-spacing: 0.02em;
+}
+
+.sponsors-footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.sponsor-footer-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1.5rem;
+    transition: transform 0.3s ease, filter 0.3s ease;
+
+    &:hover .sponsor-logo {
+        transform: translateY(-5px);
+        filter: brightness(0) invert(1) drop-shadow(0 0 3px #fff) !important;
+    }
+}
+
+.sponsor-logo {
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.sponsor-logo-big {
+    max-width: 180px;
+    max-height: 80px;
+    width: auto;
+    height: 80px;
+}
+
+.sponsor-logo-small {
+    max-width: 100px;
+    max-height: 40px;
+    width: auto;
+    height: 40px;
+}
+
+.sponsors-footer .sponsor-logo {
+    filter: brightness(0) invert(1) !important;
 }
