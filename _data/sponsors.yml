@@ -5,10 +5,10 @@
 sponsorship-types:
   - title: Platinum
     icon: img/assets/icon-platinum.svg
-    css-class: sponsor-logo-platinum
+    css-class: org-feature-logo-platinum
   - title: Gold
     icon: img/assets/icon-gold.svg
-    css-class: sponsor-logo-gold
+    css-class: org-feature-logo-gold
 
 sponsors:
   - title: VirtusLab

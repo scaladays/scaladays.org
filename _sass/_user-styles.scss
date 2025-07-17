@@ -201,7 +201,7 @@
         background-size: cover;
     }
 
-    &.sponsor {
+    &.org-feature {
         background: url("../../img/assets/hero-background-sponsor.jpg") no-repeat center center;
         background-size: cover;
     }
@@ -510,7 +510,7 @@ th {
 }
 
 // Sponsors
-.sponsor-item {
+.org-feature-item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -533,7 +533,7 @@ th {
 }
 
 // Hero Sponsors Section
-.sponsors-hero {
+.org-features-hero {
     position: relative;
 
     .container {
@@ -542,7 +542,7 @@ th {
     }
 }
 
-.sponsors-grid {
+.org-features-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -556,7 +556,7 @@ th {
     }
 }
 
-.sponsor-link {
+.org-feature-link {
     display: block;
     text-decoration: none;
     transition: all 0.3s ease;
@@ -566,7 +566,7 @@ th {
     }
 }
 
-.sponsor-logo {
+.org-feature-logo {
     max-width: 180px;
     max-height: 80px;
     width: auto;
@@ -582,7 +582,7 @@ th {
         filter: drop-shadow(0 0 10px rgba(8, 131, 183, 0.3));
     }
 
-    &.sponsor-logo-gold {
+    &.org-feature-logo-gold {
         max-width: 120px;
         max-height: 50px;
         width: auto;
@@ -590,7 +590,7 @@ th {
     }
 }
 
-.sponsor-type-section {
+.org-feature-type-section {
     margin-bottom: 3rem;
 
     &:last-child {
@@ -598,7 +598,7 @@ th {
     }
 }
 
-.sponsor-type-header {
+.org-feature-type-header {
     margin-bottom: 2rem;
 
     h4 {
@@ -608,7 +608,7 @@ th {
     }
 }
 
-.sponsor-type-icon {
+.org-feature-type-icon {
     width: 32px;
     height: 32px;
     vertical-align: middle;
@@ -643,13 +643,13 @@ th {
 }
 
 // Sponsors Footer Section
-.sponsors-footer {
+.org-features-footer {
     background: #e13c26;
     color: #fff;
     text-align: center;
 }
 
-.sponsors-footer-title {
+.org-features-footer-title {
     font-size: 1.25rem;
     font-weight: 500;
     margin-bottom: 2rem;
@@ -658,7 +658,7 @@ th {
     letter-spacing: 0.02em;
 }
 
-.sponsors-footer-row {
+.org-features-footer-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -667,37 +667,37 @@ th {
     margin-bottom: 1.5rem;
 }
 
-.sponsor-footer-item {
+.org-feature-footer-item {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 1.5rem;
     transition: transform 0.3s ease, filter 0.3s ease;
 
-    &:hover .sponsor-logo {
+    &:hover .org-feature-logo {
         transform: translateY(-5px);
         filter: brightness(0) invert(1) drop-shadow(0 0 3px #fff) !important;
     }
 }
 
-.sponsor-logo {
+.org-feature-logo {
     transition: filter 0.3s ease, transform 0.3s ease;
 }
 
-.sponsor-logo-big {
+.org-feature-logo-big {
     max-width: 180px;
     max-height: 80px;
     width: auto;
     height: 80px;
 }
 
-.sponsor-logo-small {
+.org-feature-logo-small {
     max-width: 100px;
     max-height: 40px;
     width: auto;
     height: 40px;
 }
 
-.sponsors-footer .sponsor-logo {
+.org-features-footer .org-feature-logo {
     filter: brightness(0) invert(1) !important;
 }

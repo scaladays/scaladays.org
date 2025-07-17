@@ -1,5 +1,5 @@
 <!-- Sponsors Section - Below Hero -->
-<section class="sponsors-hero py-5">
+<section class="org-features-hero py-5">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
@@ -12,16 +12,16 @@
         {% for type in site.data.sponsors.sponsorship-types %}
           {% assign type_sponsors = site.data.sponsors.sponsors | where: "type", type.title %}
           {% if type_sponsors.size > 0 %}
-            <div class="sponsor-type-section mb-5">
-              <div class="sponsor-type-header text-center mb-4">
-                <img src="{{ site.baseurl }}/{{ type.icon }}" alt="{{ type.title }}" class="sponsor-type-icon me-3">
+            <div class="org-feature-type-section mb-5">
+              <div class="org-feature-type-header text-center mb-4">
+                <img src="{{ site.baseurl }}/{{ type.icon }}" alt="{{ type.title }}" class="org-feature-type-icon me-3">
                 <h4 class="d-inline">{{ type.title }}</h4>
               </div>
-              <div class="sponsors-grid">
+              <div class="org-features-grid">
                 {% for sponsor in type_sponsors %}
-                  <div class="sponsor-item">
-                    <a href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer" class="sponsor-link">
-                      <img src="{{ site.baseurl }}/{{ sponsor.logo }}" alt="{{ sponsor.title }}" class="sponsor-logo {{ type.css-class }}">
+                  <div class="org-feature-item">
+                    <a href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer" class="org-feature-link">
+                      <img src="{{ site.baseurl }}/{{ sponsor.logo }}" alt="{{ sponsor.title }}" class="org-feature-logo {{ type.css-class }}">
                     </a>
                   </div>
                 {% endfor %}
