@@ -581,6 +581,13 @@ th {
     &:hover {
         filter: drop-shadow(0 0 10px rgba(8, 131, 183, 0.3));
     }
+
+    &.sponsor-logo-gold {
+        max-width: 120px;
+        max-height: 50px;
+        width: auto;
+        height: 50px;
+    }
 }
 
 .sponsor-type-section {
