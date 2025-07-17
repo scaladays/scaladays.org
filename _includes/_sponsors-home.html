@@ -1,4 +1,4 @@
-<section id="sponsors" class="pt-5">
+<section id="org-features" class="pt-5">
   <div class="container py-0 py-lg-5">
     <div class="row mb-5">
       <div class="col-md-6">
@@ -32,7 +32,7 @@
           {% for sponsor-item in sponsors-tier.sponsor-list %} {% if sponsors-tier.type
           == "Platinum" %}
           <div class="col-md-4 mb-4">
-            <a class="d-block sponsor-item" href="{{sponsor-item.url}}" target="_blank" rel="noopener noreferrer">
+            <a class="d-block org-feature-item" href="{{sponsor-item.url}}" target="_blank" rel="noopener noreferrer">
               <img
                 class="img-fluid w-100"
                 src="{{ site.baseurl }}/{{sponsor-item.logo}}"
@@ -42,7 +42,7 @@
           </div>
           {% endif %} {% if sponsors-tier.type == "Gold" %}
           <div class="col-6 col-md-3 mb-4">
-            <a class="d-block sponsor-item" href="{{sponsor-item.url}}" target="_blank" rel="noopener noreferrer">
+            <a class="d-block org-feature-item" href="{{sponsor-item.url}}" target="_blank" rel="noopener noreferrer">
               <img
                 class="img-fluid w-100"
                 src="{{ site.baseurl }}/{{sponsor-item.logo}}"
@@ -52,7 +52,7 @@
           </div>
           {% endif %} {% if sponsors-tier.type == "Silver" %}
           <div class="col-4 col-md-2 mb-4">
-            <a class="d-block sponsor-item" href="{{sponsor-item.url}}" target="_blank" rel="noopener noreferrer">
+            <a class="d-block org-feature-item" href="{{sponsor-item.url}}" target="_blank" rel="noopener noreferrer">
               <img
                 class="img-fluid w-100"
                 src="{{ site.baseurl }}/{{sponsor-item.logo}}"
@@ -62,7 +62,7 @@
           </div>
           {% endif %} {% if sponsors-tier.type == "Bronze" %}
           <div class="col-4 col-md-2 mb-4">
-            <a class="d-block sponsor-item" href="{{sponsor-item.url}}" target="_blank" rel="noopener noreferrer">
+            <a class="d-block org-feature-item" href="{{sponsor-item.url}}" target="_blank" rel="noopener noreferrer">
               <img
                 class="img-fluid w-100"
                 src="{{ site.baseurl }}/{{sponsor-item.logo}}"
@@ -72,7 +72,7 @@
           </div>
           {% endif %} {% if sponsors-tier.type == "Media" %}
           <div class="col-4 col-md-2 mb-4">
-            <a class="d-block sponsor-item" href="{{sponsor-item.url}}" target="_blank" rel="noopener noreferrer">
+            <a class="d-block org-feature-item" href="{{sponsor-item.url}}" target="_blank" rel="noopener noreferrer">
               <img
                 class="img-fluid w-100"
                 src="{{ site.baseurl }}/{{sponsor-item.logo}}"
