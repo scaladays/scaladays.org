@@ -21,7 +21,7 @@
                 {% for sponsor in type_sponsors %}
                   <div class="sponsor-item">
                     <a href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer" class="sponsor-link">
-                      <img src="{{ site.baseurl }}/{{ sponsor.logo }}" alt="{{ sponsor.title }}" class="sponsor-logo">
+                      <img src="{{ site.baseurl }}/{{ sponsor.logo }}" alt="{{ sponsor.title }}" class="sponsor-logo {{ type.css-class }}">
                     </a>
                   </div>
                 {% endfor %}
