@@ -570,23 +570,23 @@ talks-2025:
     url: /editions/2025/talks/effective-match-types
   - title: "Community Party"
     day: day2
-    time: 19:30 - 21:00
-    special: lunch
+    time: 19:30 - 22:30
+    special: community
     stage: stage1
   - title: "Community Party"
     day: day2
-    time: 19:30 - 21:00
-    special: lunch
+    time: 19:30 - 22:30
+    special: community
     stage: stage2
   - title: "Community Party"
     day: day2
-    time: 19:30 - 21:00
-    special: lunch
+    time: 19:30 - 22:30
+    special: community
     stage: stage3
   - title: "Community Party"
     day: day2
-    time: 19:30 - 21:00
-    special: lunch
+    time: 19:30 - 22:30
+    special: community
     stage: stage4
 
   - title: 'Safe Coding with LLMs: Verifiable Scala Silver Bullet ?'
