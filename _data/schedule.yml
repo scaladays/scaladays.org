@@ -568,7 +568,26 @@ talks-2025:
     time: 17:00 - 17:40
     speaker: Jamie Thompson
     url: /editions/2025/talks/effective-match-types
-
+  - title: "Community Party"
+    day: day2
+    time: 19:30 - 21:00
+    special: lunch
+    stage: stage1
+  - title: "Community Party"
+    day: day2
+    time: 19:30 - 21:00
+    special: lunch
+    stage: stage2
+  - title: "Community Party"
+    day: day2
+    time: 19:30 - 21:00
+    special: lunch
+    stage: stage3
+  - title: "Community Party"
+    day: day2
+    time: 19:30 - 21:00
+    special: lunch
+    stage: stage4
 
   - title: 'Safe Coding with LLMs: Verifiable Scala Silver Bullet ?'
     day: day3
