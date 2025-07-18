@@ -10,3 +10,7 @@ jobs:
   build:
     name: Website Build Validation
     uses: ./.github/workflows/build-site.yml
+  lint:
+    name : Website Linting Validation
+    needs: build
+    uses : ./.github/workflows/lint-site.yml
