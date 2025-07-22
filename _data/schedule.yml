@@ -849,6 +849,7 @@ talks-2025:
 speakers:
 - name: Arman Bilge
   position: Typelevel
+  image: assets/img/2025/speakers/arman-bilge.jpg
   about: ''
   talk: a-typelevel-retrospective
   # # linkedin: ''
