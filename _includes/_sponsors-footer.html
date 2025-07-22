@@ -4,7 +4,7 @@
     <div class="row justify-content-center mb-4">
       <div class="col-12 text-center">
         <div class="org-features-footer-title">Brought to you by our sponsors</div>
-        <div class="org-features-footer-row org-features-footer-row-big">
+        <div class="org-features-footer-row">
           {% assign platinum_sponsors = site.data.sponsors.sponsors | where: "type", "Platinum" %}
           {% assign big_sponsors = platinum_sponsors %}
           {% for sponsor in big_sponsors %}
@@ -19,12 +19,26 @@
     </div>
     <div class="row justify-content-center">
       <div class="col-12 text-center">
-        <div class="org-features-footer-row org-features-footer-row-small">
+        <div class="org-features-footer-row">
           {% assign gold_sponsors = site.data.sponsors.sponsors | where: "type", "Gold" %}
+          {% assign medium_sponsors = gold_sponsors %}
+          {% for sponsor in medium_sponsors %}
+            <span class="org-feature-footer-item">
+              <a href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer" class="org-feature-link">
+                <img src="{{ site.baseurl }}/{{ sponsor.logo }}" alt="{{ sponsor.title }}" class="org-feature-logo org-feature-logo-medium">
+              </a>
+            </span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <div class="org-features-footer-row">
           {% assign silver_sponsors = site.data.sponsors.sponsors | where: "type", "Silver" %}
           {% assign bronze_sponsors = site.data.sponsors.sponsors | where: "type", "Bronze" %}
           {% assign media_sponsors = site.data.sponsors.sponsors | where: "type", "Media" %}
-          {% assign small_sponsors = gold_sponsors | concat: silver_sponsors | concat: bronze_sponsors | concat: media_sponsors %}
+          {% assign small_sponsors = silver_sponsors | concat: bronze_sponsors | concat: media_sponsors %}
           {% for sponsor in small_sponsors %}
             <span class="org-feature-footer-item">
               <a href="{{ sponsor.url }}" target="_blank" rel="noopener noreferrer" class="org-feature-link">
