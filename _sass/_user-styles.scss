@@ -567,7 +567,7 @@ th {
 }
 
 .org-feature-logo {
-    max-width: 180px;
+    // max-width: 180px;
     max-height: 80px;
     width: auto;
     height: 80px;
@@ -583,10 +583,24 @@ th {
     }
 
     &.org-feature-logo-gold {
-        max-width: 120px;
+        // max-width: 120px;
         max-height: 50px;
         width: auto;
         height: 50px;
+    }
+
+    &.org-feature-logo-silver {
+        // max-width: 120px;
+        max-height: 50px;
+        width: auto;
+        height: 50px;
+    }
+
+    &.org-feature-logo-bronze {
+        // max-width: 100px;
+        max-height: 40px;
+        width: auto;
+        height: 40px;
     }
 }
 
