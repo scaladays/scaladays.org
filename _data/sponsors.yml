@@ -9,6 +9,12 @@ sponsorship-types:
   - title: Gold
     icon: img/assets/icon-gold.svg
     css-class: org-feature-logo-gold
+  - title: Silver
+    icon: img/assets/icon-silver.svg
+    css-class: org-feature-logo-silver
+  - title: Bronze
+    icon: img/assets/icon-bronze.svg
+    css-class: org-feature-logo-bronze
 
 sponsors:
   - title: VirtusLab
@@ -45,3 +51,59 @@ sponsors:
     type: Gold
     logo: assets/img/2025/sponsors/writer.svg
     url: https://writer.com
+
+  - title: Kpler
+    type: Silver
+    logo: assets/img/2025/sponsors/kpler.png
+    url: https://www.kpler.com/
+
+  # TODO: Pending logo
+  # - title: Scala Teams
+  #   type: Bronze
+  #   logo: # No logo available
+  #   url: https://scalateams.com/
+
+  - title: Mastercard
+    type: Bronze
+    logo: assets/img/2025/sponsors/mc_symbol.svg
+    url: https://www.mastercard.com/
+
+  - title: MOIA
+    type: Bronze
+    logo: assets/img/2025/sponsors/MOIA-logo-black.png
+    url: https://www.moia.io/en
+
+  - title: Les Toises
+    type: Bronze
+    logo: assets/img/2025/sponsors/les-toises.png
+    url: https://www.lestoises.ch/
+
+  - title: Rock the JVM
+    type: Bronze
+    logo: assets/img/2025/sponsors/rock-the-jvm.png
+    url: https://rockthejvm.com/
+
+  - title: Ngrok
+    type: Bronze
+    logo: assets/img/2025/sponsors/ngrok-coral.svg
+    url: https://ngrok.com/
+
+  - title: Youmoni
+    type: Bronze
+    logo: assets/img/2025/sponsors/youmoni.svg
+    url: https://youmoni.com/
+
+  - title: DFiant
+    type: Bronze
+    logo: assets/img/2025/sponsors/DFiant-LightBG.png
+    url: https://dfiant.works/
+
+  - title: Snowplow Analytics Ltd
+    type: Bronze
+    logo: assets/img/2025/sponsors/snowplow-logo.svg
+    url: https://snowplow.io/
+
+  - title: SoftwareMill
+    type: Bronze
+    logo: assets/img/2025/sponsors/softwaremill-logo.png
+    url: https://softwaremill.com/
