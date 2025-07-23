@@ -57,11 +57,10 @@ sponsors:
     logo: assets/img/2025/sponsors/kpler.png
     url: https://www.kpler.com/
 
-  # TODO: Pending logo
-  # - title: Scala Teams
-  #   type: Bronze
-  #   logo: # No logo available
-  #   url: https://scalateams.com/
+  - title: Scala Teams
+    type: Bronze
+    logo: assets/img/2025/sponsors/scalateams.png
+    url: https://scalateams.com/
 
   - title: Mastercard
     type: Bronze
@@ -107,3 +106,13 @@ sponsors:
     type: Bronze
     logo: assets/img/2025/sponsors/softwaremill-logo.png
     url: https://softwaremill.com/
+
+  - title: Tiko
+    type: Bronze
+    logo: assets/img/2025/sponsors/tiko.png
+    url: https://tiko.org/
+
+  - title: Recorded Future
+    type: Bronze
+    logo: assets/img/2025/sponsors/recorded-future.png
+    url: https://www.recordedfuture.com/
