@@ -41,6 +41,11 @@
     nav: nav
     wip: false
 
+  - title: Code of Conduct
+    url: /code-of-conduct.html
+    nav: nav
+    wip: false
+
 workshops:
   - title: Functional Stream Processing
     url: /workshop/1/

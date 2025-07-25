@@ -1,0 +1,98 @@
+---
+layout: conduct
+title: Code of Conduct
+---
+
+<style>
+  .coc-justify p, .coc-justify small, .coc-justify ul, .coc-justify ol, .coc-justify li {
+    text-align: justify;
+  }
+  .coc-justify h2 {
+    text-align: center;
+    margin-top: 1em;
+  }
+</style>
+<div class="coc-justify">
+
+<h1>Code of Conduct</h1>
+<p>Scala Days is governed by the <a href="https://www.scala-lang.org/conduct/">Scala Code of Conduct</a> and the <a href="https://www.epfl.ch/about/respect/">EPFL Code of Conduct</a>. We are committed to providing a safe, welcoming, and inclusive environment for all participants.</p>
+
+<h2>What to Report</h2>
+<p>This list is illustrative, not exhaustive. Any behavior that undermines safety, dignity or inclusion may be addressed under the Code of Conduct.</p>
+<ul>
+  <li>Violence or threats of violence (verbal or physical)</li>
+  <li>Sexist, racist, homophobic, transphobic, ableist, or otherwise discriminatory language</li>
+  <li>Personal insults, especially related to identity (e.g. gender, orientation, race, religion, disability)</li>
+  <li>Inappropriate or non-consensual physical contact</li>
+  <li>Unwanted sexual attention, jokes, or comments</li>
+  <li>Posting or displaying sexually explicit or violent material</li>
+  <li>Doxing (sharing personal or identifying information without consent)</li>
+  <li>Deliberate intimidation, stalking, or following</li>
+  <li>Repeated disruption of talks or group interactions</li>
+  <li>Encouraging or defending any of the above behaviors</li>
+</ul>
+<p>If you experience or witness any of the above, we encourage you to report it.</p>
+
+<h2>How to Report</h2>
+<p>
+  Here are the ways to report an incident:
+</p>
+<ul>
+  <li>Scan the QR code at the venue to access a <a href="{{ site.data.code_of_conduct.report-form-url }}" target="_blank" rel="noopener noreferrer">Google Form</a>.</li>
+  <li>Report directly to a <a href="#coc-team">team member</a>.</li>
+</ul>
+
+<div class="d-flex justify-content-center">
+    <a class="btn btn-primary btn-lg px-4 gap-3" href="{{ site.data.code_of_conduct.report-form-url }}" target="_blank" rel="noopener noreferrer">Report an Incident</a>
+</div>
+
+<h2>Code of Conduct Process</h2>
+<ol>
+  <li><strong>What happened?</strong> A behavior that violates the Code of Conduct occurs.</li>
+  <li><strong>Who can report?</strong> Victim, witness, volunteer, or organizer.</li>
+  <li><strong>How to report?</strong> Fill out a form. Assistance available on site if needed.</li>
+  <li><strong>What information is collected?</strong>
+    <ul>
+      <li>Type of behavior</li>
+      <li>Description of the incident</li>
+      <li>People involved (optional)</li>
+      <li>Safety and contact preferences</li>
+    </ul>
+  </li>
+  <li><strong>Who handles the report?</strong> An expert group (lawyer, mediator, psychologist).</li>
+  <li><strong>Evaluation and decision:</strong> The expert group reviews the report to assess seriousness, repetition, impact, and safety concerns. They decide on the appropriate course of action.</li>
+  <li><strong>Possible outcomes:</strong>
+    <ul>
+      <li>✅ Support & resources (e.g. listening, referral to a professional)</li>
+      <li>⚠️ Verbal or written warning to the person responsible</li>
+      <li>🚫 Exclusion from the event or community space</li>
+      <li>📝 Referral to legal authorities if applicable</li>
+    </ul>
+    <p>All decisions are made with confidentiality, proportionality, and the safety of the community and the individual in mind.</p>
+  </li>
+</ol>
+
+<h2 id="coc-team">The Team</h2>
+<p>
+  Your reports will be handled by the following external team of professionals in counselling and mediation. They are here for your support, so please feel free to also reach out to them directly via phone or email they provided.
+</p>
+
+{% assign coc_team = site.data.code_of_conduct.team %}
+{% for member in coc_team %}
+<div class="row mt-4 pt-4 items-center">
+  <div class="col-md-3 text-center">
+    <img class="img-fluid rounded-circle object-cover w-72 h-72 mx-auto" src="{{ member.image }}" alt="{{ member.name }}">
+  </div>
+  <div class="col-md-9 ps-lg-4">
+    <h4 class="font-bold text-xl mb-1 text-purple-700">{{ member.name }}</h4>
+    <p class="fs-6 my-3 font-semibold">{{ member.position }}</p>
+    <small class="d-block mb-4">{{ member.about | markdownify }}</small>
+    <ul class="list-unstyled mb-0">
+      <li class="mb-1"><span class="text-pink-500 text-xl">&#128222;</span> <strong>Contact:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a> | <a href="tel:{{ member.phone | remove: ' ' }}">{{ member.phone }}</a></li>
+      <li><span class="text-blue-600 text-xl">&#127760;</span> <a href="{{ member.website }}" target="_blank" rel="noopener noreferrer">{{ member.website | replace: 'https://', '' }}</a></li>
+    </ul>
+  </div>
+</div>
+{% endfor %}
+
+</div>
