@@ -1,8 +1,88 @@
 ---
 layout: conduct
 title: Code of Conduct
-permalink: code-of-conduct
 ---
 
+<style>
+  .coc-justify p, .coc-justify small, .coc-justify ul, .coc-justify ol, .coc-justify li {
+    text-align: justify;
+  }
+  .coc-justify h2 {
+    text-align: center;
+    margin-top: 1em;
+  }
+</style>
+<div class="coc-justify">
+
 <h1>Code of Conduct</h1>
-<p>Welcome to Scala Days! We are committed to providing a friendly, safe, and welcoming environment for all. Please treat everyone with respect and help us ensure a positive experience for every participant.</p>
+<p>Scala Days is governed by the <a href="https://www.scala-lang.org/conduct/">Scala Code of Conduct</a> and the <a href="https://www.epfl.ch/about/overview/values-and-ethics/code-of-conduct/">EPFL Code of Conduct</a>. We are committed to providing a safe, welcoming, and inclusive environment for all participants.</p>
+
+<h2>What to Report</h2>
+<ul>
+  <li>Harassment of any kind</li>
+  <li>Physical aggression</li>
+  <li>Unwanted sexual attention</li>
+  <li>Discriminatory language or behavior</li>
+</ul>
+<p>If you experience or witness any of the above, we encourage you to report it.</p>
+
+<h2>How to Report</h2>
+<p>
+  Here are the ways to report an incident:
+</p>
+<ul>
+  <li>Scan the QR code at the venue to access a Google Form.</li>
+  <li>Fill in a paper form at the venue.</li>
+  <li>Report directly to a team member.</li>
+</ul>
+
+<h2>Code of Conduct Process</h2>
+<ol>
+  <li><strong>What happened?</strong> A behavior that violates the Code of Conduct occurs.</li>
+  <li><strong>Who can report?</strong> Victim, witness, volunteer, or organizer.</li>
+  <li><strong>How to report?</strong> Fill out a form (paper or digital). Assistance available on site if needed.</li>
+  <li><strong>What information is collected?</strong>
+    <ul>
+      <li>Type of behavior</li>
+      <li>Description of the incident</li>
+      <li>People involved (optional)</li>
+      <li>Safety and contact preferences</li>
+    </ul>
+  </li>
+  <li><strong>Who handles the report?</strong> An expert group (lawyer, mediator, psychologist).</li>
+  <li><strong>Evaluation and decision:</strong> The expert group reviews the report to assess seriousness, repetition, impact, and safety concerns. They decide on the appropriate course of action.</li>
+  <li><strong>Possible outcomes:</strong>
+    <ul>
+      <li>✅ Support & resources (e.g. listening, referral to a professional)</li>
+      <li>⚠️ Verbal or written warning to the person responsible</li>
+      <li>🚫 Exclusion from the event or community space</li>
+      <li>📝 Referral to legal authorities if applicable</li>
+    </ul>
+    <p>All decisions are made with confidentiality, proportionality, and the safety of the community in mind.</p>
+  </li>
+</ol>
+
+<h2>The Team</h2>
+<p>
+  Your reports will be handled by the following external team of professionals in counselling and mediation. They are here for your support, so please feel free to also reach out to them directly via phone or email they provided.
+</p>
+
+{% assign coc_team = site.data.code_of_conduct_team %}
+{% for member in coc_team %}
+<div class="row mt-4 pt-4 items-center">
+  <div class="col-md-3 text-center">
+    <img class="img-fluid rounded-circle object-cover w-72 h-72 mx-auto" src="{{ member.image }}" alt="{{ member.name }}">
+  </div>
+  <div class="col-md-9 ps-lg-4">
+    <h4 class="font-bold text-xl mb-1 text-purple-700">&#128100; {{ member.name }} - {{ member.title }}</h4>
+    <p class="fs-6 my-3 font-semibold">{{ member.position }}</p>
+    <small class="d-block mb-4">{{ member.about | markdownify }}</small>
+    <ul class="list-unstyled mb-0">
+      <li class="mb-1"><span class="text-pink-500 text-xl">&#128222;</span> <strong>Contact:</strong> <a href="mailto:{{ member.email }}">{{ member.email }}</a> | <a href="tel:{{ member.phone | remove: ' ' }}">{{ member.phone }}</a></li>
+      <li><span class="text-blue-600 text-xl">&#127760;</span> <a href="{{ member.website }}" target="_blank" rel="noopener noreferrer">{{ member.website | replace: 'https://', '' }}</a></li>
+    </ul>
+  </div>
+</div>
+{% endfor %}
+
+</div>
