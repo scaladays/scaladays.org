@@ -473,13 +473,12 @@ talks-2025:
     speaker: ""
     # special: blank
     url: ""
-  - title: To be confirmed
+  - title: Akka Unplugged - the anti-patterns that kill performance (and how to fix them)
     day: day2
     stage: stage2
     time: 14:30 - 15:10
-    speaker: ""
-    # special: blank
-    url: ""
+    speaker: Lukasz Marchewka
+    url: /editions/2025/talks/akka-unplugged
   - title: Thinking in Scala 3 Types
     day: day2
     stage: stage3
@@ -1549,3 +1548,9 @@ speakers:
   twitter: https://x.com/nicolasrinaudo
   github: https://github.com/nrinaudo
 
+- name: Lukasz Marchewka
+  position: 'Scalac'
+  about: "I'm the CTO at Scalac, steering a distributed team that delivers high-impact software in Scala, Akka and other ecosystems. Drawing from way more than a decade in professional software engineering - including 10 years spent deep in Scala, functional programming, reactive architectures and domain-driven design - I specialize in transforming struggling implementations into high-performance, fault-tolerant systems."
+  talk: akka-unplugged
+  image: assets/img/2025/speakers/lukasz-marchewka.png
+  linkedin: https://www.linkedin.com/in/lukasz-marchewka-a6647473/
