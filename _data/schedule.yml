@@ -473,13 +473,12 @@ talks-2025:
     speaker: ""
     # special: blank
     url: ""
-  - title: To be confirmed
+  - title: Akka Unplugged - the anti-patterns that kill performance (and how to fix them)
     day: day2
     stage: stage2
     time: 14:30 - 15:10
-    speaker: ""
-    # special: blank
-    url: ""
+    speaker: Lukasz Marchewka
+    url: /editions/2025/talks/akka-unplugged
   - title: Thinking in Scala 3 Types
     day: day2
     stage: stage3
@@ -818,10 +817,10 @@ talks-2025:
     speaker: ""
     special: blank
     url: ""
-  - title: Closing Panel
+  - title: Closing Words
     day: day3
     stage: stage1
-    time: 18:00 - 19:00
+    time: 18:00 - 18:30
     speaker: ""
     url: ""
   - title: ""
@@ -1483,11 +1482,11 @@ speakers:
   image: assets/img/2025/speakers/rory-graves.jpg
   about: 'A builder of tools, fighting to balance performance and code clarity.
 
-Rory has been passionate about computing for as long as he can remember — starting with writing games in BASIC far too many years ago. Over a 30+ year career, he has worked across a vast range of systems at every scale, from embedded systems to distributed internet-scale bidding engines. His experience spans industries, company sizes (from two-person startups to multinational corporations), and programming paradigms.
+    Rory has been passionate about computing for as long as he can remember — starting with writing games in BASIC far too many years ago. Over a 30+ year career, he has worked across a vast range of systems at every scale, from embedded systems to distributed internet-scale bidding engines. His experience spans industries, company sizes (from two-person startups to multinational corporations), and programming paradigms.
 
-A long-time advocate of Scala, Rory has contributed to numerous open-source projects, including performance optimizations in the Scala compiler. Today, he works in a hybrid role supporting applied AI and ML research while continuing to mentor developers and share knowledge through public speaking.
+    A long-time advocate of Scala, Rory has contributed to numerous open-source projects, including performance optimizations in the Scala compiler. Today, he works in a hybrid role supporting applied AI and ML research while continuing to mentor developers and share knowledge through public speaking.
 
-Outside of software, Rory is a martial artist, a windmill tour guide, and a passionate mentor of programming and public speaking.'
+    Outside of software, Rory is a martial artist, a windmill tour guide, and a passionate mentor of programming and public speaking.'
   talk: scala-meets-genai-build-the
   linkedin: https://www.linkedin.com/in/roryjgraves/
   twitter: https://x.com/a_dev_musing
@@ -1540,12 +1539,18 @@ Outside of software, Rory is a martial artist, a windmill tour guide, and a pass
   position: 'JPMorgan'
   about: "Nicolas writes code for JPMorgan, where we use Scala to make some very complicated things seem very simple.
 
-After too many years as a Java programmer and a thankfully brief stint in marketing, Nicolas discovered Functional Programming through Scala and fell in love. Since then, he's made it his mission to learn and explain the scary bits, by focusing on practical applications.
+    After too many years as a Java programmer and a thankfully brief stint in marketing, Nicolas discovered Functional Programming through Scala and fell in love. Since then, he's made it his mission to learn and explain the scary bits, by focusing on practical applications.
 
-Nicolas is also the author and sole maintainer of a few useful OSS libraries, such as kantan.csv - https://nrinaudo.github.io/kantan.csv/."
+    Nicolas is also the author and sole maintainer of a few useful OSS libraries, such as kantan.csv - https://nrinaudo.github.io/kantan.csv/."
   talk: hands-on-capture-checking
   image: assets/img/2025/speakers/nicolas-rinaudo.jpg
   linkedin: https://www.linkedin.com/in/nicolasrinaudo/
   twitter: https://x.com/nicolasrinaudo
   github: https://github.com/nrinaudo
 
+- name: Lukasz Marchewka
+  position: 'Scalac'
+  about: "I'm the CTO at Scalac, steering a distributed team that delivers high-impact software in Scala, Akka and other ecosystems. Drawing from way more than a decade in professional software engineering - including 10 years spent deep in Scala, functional programming, reactive architectures and domain-driven design - I specialize in transforming struggling implementations into high-performance, fault-tolerant systems."
+  talk: akka-unplugged
+  image: assets/img/2025/speakers/lukasz-marchewka.png
+  linkedin: https://www.linkedin.com/in/lukasz-marchewka-a6647473/
