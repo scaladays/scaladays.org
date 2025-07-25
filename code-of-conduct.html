@@ -31,10 +31,14 @@ title: Code of Conduct
   Here are the ways to report an incident:
 </p>
 <ul>
-  <li>Scan the QR code at the venue to access a Google Form.</li>
+  <li>Scan the QR code at the venue to access a <a href="{{ site.data.code_of_conduct.report-form-url }}" target="_blank" rel="noopener noreferrer">Google Form</a>.</li>
   <li>Fill in a paper form at the venue.</li>
-  <li>Report directly to a team member.</li>
+  <li>Report directly to a <a href="#coc-team">team member</a>.</li>
 </ul>
+
+<div class="d-flex justify-content-center">
+    <a class="btn btn-primary btn-lg px-4 gap-3" href="{{ site.data.code_of_conduct.report-form-url }}" target="_blank" rel="noopener noreferrer">Report an Incident</a>
+</div>
 
 <h2>Code of Conduct Process</h2>
 <ol>
@@ -62,12 +66,12 @@ title: Code of Conduct
   </li>
 </ol>
 
-<h2>The Team</h2>
+<h2 id="coc-team">The Team</h2>
 <p>
   Your reports will be handled by the following external team of professionals in counselling and mediation. They are here for your support, so please feel free to also reach out to them directly via phone or email they provided.
 </p>
 
-{% assign coc_team = site.data.code_of_conduct_team %}
+{% assign coc_team = site.data.code_of_conduct.team %}
 {% for member in coc_team %}
 <div class="row mt-4 pt-4 items-center">
   <div class="col-md-3 text-center">
