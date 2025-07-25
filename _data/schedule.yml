@@ -1483,11 +1483,11 @@ speakers:
   image: assets/img/2025/speakers/rory-graves.jpg
   about: 'A builder of tools, fighting to balance performance and code clarity.
 
-Rory has been passionate about computing for as long as he can remember — starting with writing games in BASIC far too many years ago. Over a 30+ year career, he has worked across a vast range of systems at every scale, from embedded systems to distributed internet-scale bidding engines. His experience spans industries, company sizes (from two-person startups to multinational corporations), and programming paradigms.
+    Rory has been passionate about computing for as long as he can remember — starting with writing games in BASIC far too many years ago. Over a 30+ year career, he has worked across a vast range of systems at every scale, from embedded systems to distributed internet-scale bidding engines. His experience spans industries, company sizes (from two-person startups to multinational corporations), and programming paradigms.
 
-A long-time advocate of Scala, Rory has contributed to numerous open-source projects, including performance optimizations in the Scala compiler. Today, he works in a hybrid role supporting applied AI and ML research while continuing to mentor developers and share knowledge through public speaking.
+    A long-time advocate of Scala, Rory has contributed to numerous open-source projects, including performance optimizations in the Scala compiler. Today, he works in a hybrid role supporting applied AI and ML research while continuing to mentor developers and share knowledge through public speaking.
 
-Outside of software, Rory is a martial artist, a windmill tour guide, and a passionate mentor of programming and public speaking.'
+    Outside of software, Rory is a martial artist, a windmill tour guide, and a passionate mentor of programming and public speaking.'
   talk: scala-meets-genai-build-the
   linkedin: https://www.linkedin.com/in/roryjgraves/
   twitter: https://x.com/a_dev_musing
