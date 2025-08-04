@@ -20,6 +20,6 @@ Teams applying these anti-pattern fixes typically achieve significant improvemen
 
 The key success factors include recognizing that Akka's power requires disciplined application, focusing on proven patterns rather than clever solutions, and leveraging the framework's strengths while respecting its design principles.
 
-# The developer's field guide
+# TL;DR
 
 This talk reveals the performance killers lurking in real-world Akka systems and guides how to address them quickly. Instead of costly rewrites, you'll learn to spot and solve common design problems across HTTP, actors, persistence, and clustering using what Akka already gives you. The focused approach delivers major wins in speed, memory usage, stability, and maintainability by sticking to proven patterns that work with Akka's strengths, not against them.
