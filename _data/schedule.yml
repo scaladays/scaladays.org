@@ -285,12 +285,12 @@ talks-2025:
     special: registration
     url: ""
 
-  - title: Keynote
+  - title: Where Are We With Scala's Capabilities?
     day: day1
     stage: room1
     time: 17:00 - 18:00
     speaker: Martin Odersky
-    url: ""
+    url: /editions/2025/talks/scala-capabilities
   - special: blank
     day: day1
     stage: room2
@@ -1552,10 +1552,10 @@ speakers:
   talk: on-productivity-languages-like-elm-and-scala
 
 - name: Martin Odersky
-  position: Keynote Speaker
+  position: EPFL, Keynote Speaker
   image: assets/img/2025/speakers/martin-odersky.jpeg
   about: "Martin Odersky is the creator of the Scala programming language and a professor at EPFL in Lausanne, Switzerland. He is also the founder and chairman of the Scala Center. His research interests include programming languages, type systems, and compiler technology. At EPFL, he leads the Programming Methods Laboratory, where he implements the cutting-edge research ideas into the Scala programming language."
-  talk: keynote-martin-odersky
+  talk: scala-capabilities
   github: https://github.com/odersky
 
 - name: César Enrique Ramírez
