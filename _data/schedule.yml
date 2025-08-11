@@ -635,11 +635,12 @@ talks-2025:
     time: 11:00 - 11:40
     speaker: Mateusz Kubuszok
     url: /editions/2025/talks/can-we-have-the-standard
-  - title: To be confirmed
+  - title: "LLMs in the Wild: Streaming, RAG, and Real-Time GenAI at Scale with Scala and FS2"
     day: day3
     stage: stage1
     time: 11:50 - 12:30
-    speaker: ""
+    speaker: Muayad Sayed Ali
+    url: /editions/2025/talks/llms-in-the-wild
   - title: Bringing Scala to Server-Side Wasm with WASI & Component Model
     day: day3
     stage: stage2
@@ -1589,3 +1590,14 @@ speakers:
   about: "Hello, I am the team lead of the Scala Plugin team in IntelliJ IDEA at JetBrains. I hold a Master's degree in Computer Science, enjoy programming in Scala, and hacking on complex problems. Outside of work, I love traveling, playing guitar, and have a keen interest in history."
   talk: intellij-scala-plugin
   image: assets/img/2025/speakers/dmitrii-naumenko.jpeg
+
+- name: "Muayad Sayed Ali"
+  position: Writer
+  about: "
+    Muayad Sayed Ali is a technologist, builder, and mentor with a deep passion for turning cutting-edge AI into real-world impact. As Director of Engineering at Writer.com, he leads the teams behind one of the most advanced Generative AI platforms for enterprise—helping companies transform how they launch products, analyze data, and make decisions using LLM-powered agents.
+
+    Muayad's journey spans more than a decade of building high-performance systems at the intersection of machine learning, big data, and functional programming. He thrives on solving hard engineering problems at scale—whether it's designing production-grade GenAI infrastructure, fine-tuning RAG pipelines, or leading teams through the complexities of deploying AI responsibly.
+
+    Known online as @coldenzero, Muayad actively shares ideas, mentors engineers, and contributes to the developer community. He's driven by a belief that the future of work will be agentic, deeply contextual, and collaborative—and he's helping to build that future, one system at a time."
+  talk: llms-in-the-wild
+  image: assets/img/2025/speakers/muayad-sayed-ali.png
