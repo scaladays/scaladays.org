@@ -466,13 +466,12 @@ talks-2025:
     speaker: ""
     special: lunch
     url: ""
-  - title: To be confirmed
+  - title: "Boost Your Productivity with IntelliJ IDEA and Scala Plugin - and More"
     day: day2
     stage: stage1
     time: 14:30 - 15:10
-    speaker: ""
-    # special: blank
-    url: ""
+    speaker: Dmitrii Naumenko
+    url: /editions/2025/talks/intellij-scala-plugin
   - title: Akka Unplugged - the anti-patterns that kill performance (and how to fix them)
     day: day2
     stage: stage2
@@ -1584,3 +1583,9 @@ speakers:
   talk: akka-unplugged
   image: assets/img/2025/speakers/lukasz-marchewka.png
   linkedin: https://www.linkedin.com/in/lukasz-marchewka-a6647473/
+
+- name: Dmitrii Naumenko
+  position: JetBrains
+  about: "Hello, I am the team lead of the Scala Plugin team in IntelliJ IDEA at JetBrains. I hold a Master's degree in Computer Science, enjoy programming in Scala, and hacking on complex problems. Outside of work, I love traveling, playing guitar, and have a keen interest in history."
+  talk: intellij-scala-plugin
+  image: assets/img/2025/speakers/dmitrii-naumenko.jpeg
