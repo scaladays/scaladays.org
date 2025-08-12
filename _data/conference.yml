@@ -46,25 +46,25 @@ testimonials-title: Attendee Testimonials
 
 testimonials:
   - icon: img/assets/icon-quote.svg
-    description: Scala Days 2023 has been terrific, from the organization to the talks. I am really happy to see that the community is coming back together with a clear plan for the future. 
-    
+    description: Scala Days 2023 has been terrific, from the organization to the talks. I am really happy to see that the community is coming back together with a clear plan for the future.
+
   - icon: img/assets/icon-quote.svg
     description: Scala Days was by far the best conference I've ever been to. With lots of inspiring people and talks, this is an event you want to attend!
 
   - icon: img/assets/icon-quote.svg
-    description: I'm so happy that Scala Days is back and meeting so many wonderful people in person! 
+    description: I'm so happy that Scala Days is back and meeting so many wonderful people in person!
 
   - icon: img/assets/icon-quote.svg
-    description: I loved seeing new and familiar faces at the conference, exchanging notes, ideas, and our passion for Scala. 
+    description: I loved seeing new and familiar faces at the conference, exchanging notes, ideas, and our passion for Scala.
 
   - icon: img/assets/icon-quote.svg
-    description: Scala Days 2023 was a great community and learning event. 
+    description: Scala Days 2023 was a great community and learning event.
 
   - icon: img/assets/icon-quote.svg
-    description: It's a great way to discover the Scala community. 
+    description: It's a great way to discover the Scala community.
 
   - icon: img/assets/icon-quote.svg
-    description: I just loved it. I feel uplifted and lucky to be part of such a community. 
+    description: I just loved it. I feel uplifted and lucky to be part of such a community.
 
 
 about:
@@ -82,7 +82,7 @@ about:
 
   - icon: img/assets/icon-community.svg
     title: Family-friendly
-    description: Daycare will be available at the venue. Bring your family along! 
+    description: Daycare will be available at the venue. Bring your family along!
 
 host:
   - name: Scalacenter
@@ -144,41 +144,41 @@ sponsors:
   - type: Platinum
     icon: img/assets/icon-platinum.svg
     sponsor-list:
-      - title: 
-        logo: 
-        url: 
+      - title:
+        logo:
+        url:
         edition:
-  
+
   - type: Gold
     icon: img/assets/icon-gold.svg
     sponsor-list:
-      - title: 
-        logo: 
-        url: 
+      - title:
+        logo:
+        url:
         edition:
 
   - type: Silver
     icon: img/assets/icon-silver.svg
     sponsor-list:
-      - title: 
-        logo: 
-        url: 
+      - title:
+        logo:
+        url:
         edition:
 
   - type: Bronze
     icon: img/assets/icon-bronze.svg
     sponsor-list:
-      - title: 
-        logo: 
-        url: 
+      - title:
+        logo:
+        url:
         edition:
-        
+
   - type: Media
     icon: img/assets/icon-media.svg
     sponsor-list:
-     - title: 
-        logo: 
-        url: 
+     - title:
+        logo:
+        url:
         edition:
 
 # Subscribe
@@ -199,10 +199,10 @@ the-venue:
     description: While in the city, explore more of Lausanne! Lausanne is home to the Olympic Museum, offers stunning views of Lake Geneva, and is known for its vibrant cultural scene and beautiful parks, making it one of Switzerland's most picturesque cities. Lausanne was also named the best small town in the world in the first "Small Cities Index." <br><br> The city is strategically located in the heart of Europe within Switzerland's French-speaking region, it is easily navigated with public transport, and combines all of the benefits of a large, urban center with the relaxed pace of a small town. What's more exciting, all hotel guests are offered a Lausanne transport card. This card provides free access to public transportation as well as discounts and free admission with selected partners.
   - icon: img/assets/icon-airport.svg
     title: The Airport
-    description: Geneva Airport (GVA), also known as Genève-Cointrin Airport, is Switzerland’s second-busiest airport behind Zurich. GVA is located approximately 60 km from Lausanne and is connected to the city by both road and train. <br><br> While planning your travel, GVA isn't your only option! Lausanne may also be reached from Switzerland's other international airports such as Basel, Zurich, and Bern-Belp. Trains from major European cities such as Paris, Lyon, Frankfurt, Brussels, and Milan also arrive in Lausanne's train station on a regular basis. <br><br> Find more travel and access information on the <a href="https://www.lausanne-tourisme.ch/en/access-to-lausanne/" target="_blank" rel="noopener noreferrer">Lausanne Tourism website</a>. 
+    description: Geneva Airport (GVA), also known as Genève-Cointrin Airport, is Switzerland’s second-busiest airport behind Zurich. GVA is located approximately 60 km from Lausanne and is connected to the city by both road and train. <br><br> While planning your travel, GVA isn't your only option! Lausanne may also be reached from Switzerland's other international airports such as Basel, Zurich, and Bern-Belp. Trains from major European cities such as Paris, Lyon, Frankfurt, Brussels, and Milan also arrive in Lausanne's train station on a regular basis. <br><br> Find more travel and access information on the <a href="https://www.lausanne-tourisme.ch/en/access-to-lausanne/" target="_blank" rel="noopener noreferrer">Lausanne Tourism website</a>.
   - icon: img/assets/icon-city.svg
     title: Accommodations
-    description: "In collaboration with Laussane Tourism, a curated list of accommodation options from around Lausanne is the easiest way to book your stay during Scala Days. <br><br> <a href=\"https://meeting.artegis.com/lw/el/613cd11ac51a92a4652a11b650dc6d19/Book%20your%20room%20Scala%20Days%202025.html?BOOKING_EVENT_ID=13647\" target=\"_blank\" rel=\"noopener noreferrer\">Book Your Accommodation</a> <br><br> Accommodations booked through the above link provided by Lausanne Tourism <b>are NOT</b> in association with Scala Days and any bookings remain separate from conference ticket bookings. <br><br> If you choose a hotel in Lausanne, you will pay the Lausanne tourist tax which entitles you to receive the free Lausanne Transport Card upon your arrival. This card gives you free and unrestricted access to all public transport services in the city (bus, train, metro) and is valid for the entire duration of the reservation, including arrival and departure days. <br>"
+    description: "In collaboration with Laussane Tourism, a curated list of accommodation options from around Lausanne is the easiest way to book your stay during Scala Days. <br><br> To guarantee your stay during the conference in Lausanne and to book a room, please contact <a href='mailto:dafonseca@lausanne-tourisme.ch'>Jonathan Da Fonseca</a> at Lausanne-Tourisme by email. <br><br> Accommodations booked through the above link provided by Lausanne Tourism <b>are NOT</b> in association with Scala Days and any bookings remain separate from conference ticket bookings. <br><br> If you choose a hotel in Lausanne, you will pay the Lausanne tourist tax which entitles you to receive the free Lausanne Transport Card upon your arrival. This card gives you free and unrestricted access to all public transport services in the city (bus, train, metro) and is valid for the entire duration of the reservation, including arrival and departure days. <br>"
 
 the-venue-hero-description: The conference is organised by the Scala Center at the SwissTech Convention Center, in the heart of campus at EPFL (École Polytechnique Fédérale de Lausanne).
 the-venue-hero-cta: Learn more about the Venue
@@ -225,27 +225,27 @@ sponsor-hero-cta: Sponsorship Packages
 # ----------------------------------------------------------------------------------------------------------
 # ----------------------------------------------------------------------------------------------------------
 tickets:
-  - icon: 
+  - icon:
     title: Each Ticket Includes
     description: Conference tickets give access to all scheduled sessions including lunch, coffee breaks, the welcome reception, and the community party. During your registration process, we ask you kindly to let us know if you will participate in surrounding social events, it helps us place orders and avoid wasting food. <br><br> Exclusive and discounted tickets are available per demand for sponsors, group (5+) tickets, and awarded members. Please email info@scaladays.org for assistance. <br><br> Students can directly buy discounted tickets by choosing “Student - Conference” on the registration page, a valid student ID is required. <br><br> We also encourage individuals who have limited education budgets or otherwise are self-funded, joining from lower income countries, to reach out to the organizers, info@scaladays.org.
   - icon: img/assets/icon-airport.svg
     title: Visa/Invitation Letter
-    description: 
+    description:
       An invitation letter for your visa application procedure is available after completing the registration process.
-      If you need an invitation letter for your visa application procedure, please check the corresponding box during registration or contact dafonseca@lausanne-tourisme.ch. 
+      If you need an invitation letter for your visa application procedure, please check the corresponding box during registration or contact dafonseca@lausanne-tourisme.ch.
   - icon: img/assets/icon-airport.svg
     title: Accompanying Persons
-    description: 
-      An accompanying person is an adult who travels with a conference attendee for the occasion but does not participate in the conference sessions or workshops. To ensure they too have fun, the Scala Days conference organizers are offering a special “Accompanying Person” ticket, which grants access to the welcome reception, community party, and lunches at the conference venue during the event. 
+    description:
+      An accompanying person is an adult who travels with a conference attendee for the occasion but does not participate in the conference sessions or workshops. To ensure they too have fun, the Scala Days conference organizers are offering a special “Accompanying Person” ticket, which grants access to the welcome reception, community party, and lunches at the conference venue during the event.
       Additionally, the ticket includes a curated daytime program featuring activities such as a guided tour of Lausanne and a chocolate tasting experience. The cost for an accompanying person is CHF 400 and can be added to your booking during the registration process.
   - icon: img/assets/icon-airport.svg
     title: Daycare
-    description: 
+    description:
       If you are attending with a child (or children), daycare on site will be available and can be added to your booking during the registration process.
       If you are registering more than 2 children, please contact dafonseca@lausanne-tourisme.ch
   - icon: img/assets/icon-about-location.svg
     title: Post-conference site-seeing
-    description: Lausanne Tourisme is here to organise a fantastic wine tasting tour in the UNESCO World Heritage site of Lavaux near Lausanne, Friday 22nd August. This tour costs 55 CHF per person, and includes train ticket, guided tour, visit of a local winery with wine tasting. Places are limited and will be allocated on a first-come, first-served basis. 
+    description: Lausanne Tourisme is here to organise a fantastic wine tasting tour in the UNESCO World Heritage site of Lavaux near Lausanne, Friday 22nd August. This tour costs 55 CHF per person, and includes train ticket, guided tour, visit of a local winery with wine tasting. Places are limited and will be allocated on a first-come, first-served basis.
 
 ticket-hero-description: Learn more and register to attend today!
 ticket-hero-cta: Browse ticket options
@@ -254,4 +254,4 @@ ticket-hero-cta: Browse ticket options
 # Pricetable
 # ----------------------------------------------------------------------------------------------------------
 pricetable-title: Pricetable
-pricetable-subtitle: 
+pricetable-subtitle:
