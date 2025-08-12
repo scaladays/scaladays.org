@@ -19,7 +19,7 @@ pricetable-description-workshops: |
 pricetable:
   - title: Conference
     state: active
-    price: CHF 850
+    price: CHF 1050
     description: |
       {: .list-unstyled}
       - Access to all scheduled sessions
@@ -32,7 +32,7 @@ pricetable:
 
   - title: Workshop
     state: active
-    price: CHF 700
+    price: CHF 900
     description: |
       {: .list-unstyled}
       - Intimate classroom setting
@@ -44,7 +44,7 @@ pricetable:
 
   - title: Bundle
     state: active
-    price: CHF 1395
+    price: CHF 1755
     description:description: |
       {: .list-unstyled}
       - Includes the content of Conference and Workshop tickets
@@ -81,8 +81,8 @@ pricetable-workshops:
   - title: Functional Stream Processing
     workshop-id: zainab
     state: active
-    price1: CHF 800
-    price2: CHF 1490
+    price1: CHF 900
+    price2: CHF 1755
     description: "Led by Zainab Ali"
     date: Including VAT
     cta: Learn More
@@ -90,8 +90,8 @@ pricetable-workshops:
   - title: Functional Programming Strategies
     workshop-id: noel
     state: active
-    price1: CHF 800
-    price2: CHF 1490
+    price1: CHF 900
+    price2: CHF 1755
     description: "Led by Noel Welsh"
     date: Including VAT
     cta: Learn More
@@ -99,8 +99,8 @@ pricetable-workshops:
   - title: Real-World Zio
     workshop-id: daniel
     state: active
-    price1: CHF 800
-    price2: CHF 1490
+    price1: CHF 900
+    price2: CHF 1755
     description: "Led by Daniel Ciocirlan"
     date: Including VAT
     cta: Learn More
@@ -108,8 +108,8 @@ pricetable-workshops:
   - title: Domain Driven Design in Scala 3
     workshop-id: david
     state: active
-    price1: CHF 800
-    price2: CHF 1490
+    price1: CHF 900
+    price2: CHF 1755
     description: "Led by David Amancio Gil Méndez"
     date: Including VAT
     cta: Learn More
@@ -117,8 +117,8 @@ pricetable-workshops:
   - title: Effective Programming in Scala with Friendly Agents
     workshop-id: virtuslab
     state: active
-    price1: CHF 800
-    price2: CHF 1490
+    price1: CHF 900
+    price2: CHF 1755
     description: "Led by Tomasz Godzik and Łukasz Biały"
     date: Including VAT
     cta: Learn More
