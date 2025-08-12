@@ -14,7 +14,7 @@ Great tooling can make all the difference in your Scala workflow.
 Drop by their booth to explore support for new Scala concepts, build tools, and more. Take a quiz, grab some merch, and connect with the team about everything from your favorite features to what you’d like to see next.
 
 Don't miss their talks:
-- ["AI Assistance for Scala Developers: What JetBrains Brings to the Table"](/editions/2025/talks/ai-assistance-for-scala-developers) by Maciej Gorywoda
+- ["AI Tooling for Scala Developers: What JetBrains Brings to the Table"](/editions/2025/talks/ai-tooling-for-scala-developers) by Maciej Gorywoda
 - ["Boost Your Productivity with IntelliJ IDEA and Scala Plugin – and More"](/editions/2025/talks/intellij-scala-plugin) by Dmitrii Naumenko
 
 Come meet our Gold Sponsor [JetBrains](https://www.jetbrains.com/) at their booth.
