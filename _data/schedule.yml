@@ -504,12 +504,12 @@ talks-2025:
     speaker: Adrien Piquerez
     speaker2: Benoît Fouré
     url: /editions/2025/talks/coding-the-game-of-unspoken
-  - title: 'AI Assistance for Scala Developers: What JetBrains Brings to the Table'
+  - title: 'AI Tooling for Scala Developers: What JetBrains Brings to the Table'
     day: day2
     stage: stage3
     time: 15:20 - 16:00
     speaker: Maciej Gorywoda
-    url: /editions/2025/talks/ai-assistance-for-scala-developers
+    url: /editions/2025/talks/ai-tooling-for-scala-developers
   - title: A Typelevel retrospective
     day: day2
     stage: stage4
@@ -1214,7 +1214,7 @@ speakers:
     neural networks. I worked as a video game AI expert, a web  tools and Android
     developer, and since two years ago a person who writes and talks publicly about
     features of IntelliJ Idea with the Scala  Plugin. In 2024, I became a Scala Ambassador.
-  talk: ai-assistance-for-scala-developers
+  talk: ai-tooling-for-scala-developers
   linkedin: https://www.linkedin.com/in/mgorywoda/
   twitter: https://x.com/makingthematrix
   github: https://github.com/makingthematrix
