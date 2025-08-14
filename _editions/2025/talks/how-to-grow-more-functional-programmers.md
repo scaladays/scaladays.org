@@ -1,5 +1,5 @@
 ---
-title: "How to Grow More Functional Programmers"
+title: "Keynote: How to Grow More Functional Programmers"
 day: day2
 stage: stage1
 time: 09:00 - 10:00

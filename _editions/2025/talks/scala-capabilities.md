@@ -1,5 +1,5 @@
 ---
-title: "Where Are We With Scala's Capabilities?"
+title: "Keynote: Where Are We With Scala's Capabilities?"
 day: day1
 stage: room1
 time: 17:00 - 18:00

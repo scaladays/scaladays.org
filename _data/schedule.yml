@@ -285,7 +285,7 @@ talks-2025:
     special: registration
     url: ""
 
-  - title: Where Are We With Scala's Capabilities?
+  - title: "Keynote: Where Are We With Scala's Capabilities?"
     day: day1
     stage: room1
     time: 17:00 - 18:00
@@ -337,7 +337,7 @@ talks-2025:
     speaker: ""
     special: blank
     url: ""
-  - title: "How to Grow More Functional Programmers"
+  - title: "Keynote: How to Grow More Functional Programmers"
     day: day2
     stage: stage1
     time: 09:00 - 10:00
