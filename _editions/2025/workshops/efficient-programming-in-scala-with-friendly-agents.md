@@ -5,6 +5,7 @@ trainer: tomasz
 trainer2: lukasz
 level: Anyone that wants to catch on latest developments and see what AI can do for you
 order: 5
+room: INR 331
 ---
 
 ### Abstract
