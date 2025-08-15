@@ -2,8 +2,9 @@
 workshop-id: processing
 title: Functional Stream Processing
 trainer: zainab
-level: All 
+level: All
 order: 1
+room: INF 211
 ---
 
 ### Abstract
@@ -21,7 +22,7 @@ Equipped with functional streams in fs2, you'll discover that designing incremen
 
 - Scala developers at all levels (junior, mid-level and senior) and data engineers
 - Anyone who wants to develop practical skills in stream processing: understand what it is, how to use it and where to apply it.
-- Developers working on incremental pipelines or event driven architectures 
+- Developers working on incremental pipelines or event driven architectures
 - Technical decision makers who wish to know the differences between streaming technologies, such as fs2, reactive streams, Flink and Kafka
 
 
@@ -58,7 +59,7 @@ You’ll need a laptop with an IDE setup for basic Scala projects.
 - *Scaling challenges in event-driven systems:* We’ll explore the impact of load in incremental pipelines and the phenomena of backpressure.
 - *Designing simple, reliable systems with functional streams:* We’ll analyse the differences between pull and push systems, and of functional streams and reactive systems, and see how functional streams greatly simplify system design.
 - *Handling backpressure with queues:* We’ll use different types of queues to ensure predictable behaviour under load.
-- *Interoperating with the imperative world:* We’ll explore methods for dealing with push systems, callbacks and other runtimes. 
+- *Interoperating with the imperative world:* We’ll explore methods for dealing with push systems, callbacks and other runtimes.
 
 ##### Part 5: Application
 We’ll use everything we’ve learned to create an interactive game. We’ll write an event-based stream for receiving user input, have a publisher-subscriber model for handling input and updating game state, and a separate concurrent render loop for displaying state to the screen. We’ll then enhance it with error handling, metrics, and logging, as we would any production-ready application.

@@ -2,8 +2,9 @@
 workshop-id: strategies
 title: Functional Programming Strategies
 trainer: noel
-level: Intermediate 
+level: Intermediate
 order: 2
+room: BC 229
 ---
 
 ### Abstract
@@ -16,10 +17,10 @@ The workshop has two primary goals:
 
 2. To show how we translate these concepts into Scala code, providing a systematic and repeatable way for implementing designs in software. For example, we'll see how we can translate an abstract API into either FP or OO style code, depending on which is most appropriate for the situation.
 
-This workshop is about the big picture; it is focused on the design or architecture of code, and the implementation of these designs. So, for example, we won't talk about details such as how you might connect to a database in Scala, but discussing the overall design and implementation of a library for database interaction is definitely on topic. It's for people who see software libraries as force multipliers, and who want to build libraries that are more productive, flexible, and enjoyable to use. 
+This workshop is about the big picture; it is focused on the design or architecture of code, and the implementation of these designs. So, for example, we won't talk about details such as how you might connect to a database in Scala, but discussing the overall design and implementation of a library for database interaction is definitely on topic. It's for people who see software libraries as force multipliers, and who want to build libraries that are more productive, flexible, and enjoyable to use.
 
 
-### Target Audience 
+### Target Audience
 
 Developers who want to make themselves or their team more productive by building powerful abstractions, and developers who want a deep understanding of the concepts behind Scala and how to use them effectively.
 

@@ -4,6 +4,7 @@ title: Real-World ZIO
 level: Intermediate
 trainer: daniel
 order: 3
+room: BC 329
 ---
 
 ### Abstract
@@ -11,7 +12,7 @@ order: 3
 Just as Scala has transformed the way we build applications with functional programming, ZIO makes it easy to build provably correct systems and APIs to connect to them. With a focus on functional Scala and a real world application, this workshop is a practical way to learn full stack Scala 3 with ZIO and related libraries
 
 
-### Target Audience 
+### Target Audience
 
 - Developers at all levels (junior, mid, senior) comfortable with the Scala language
 - Anyone interested in the ZIO stack, Laminar and ScalaJS in a real life setting

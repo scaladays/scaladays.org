@@ -2,20 +2,21 @@
 workshop-id: ddd
 title: Domain Driven Design in Scala 3
 trainer: david
-level: Beginner 
+level: Beginner
 order: 4
+room: BC 010
 ---
 
 ### Abstract
 
 One of the shortcomings of Domain Driven Design (DDD) is that it can be a lengthy process to define the bounded contexts
-(BCs) properly, and subsequently to transcribe the BCs into a code and to introduce them in your codebase. 
+(BCs) properly, and subsequently to transcribe the BCs into a code and to introduce them in your codebase.
 
 This workshop aims to demonstrate how to minimize this inconvenience by relying on:
 - The robustness of DDD in Scala
 - The fast iteration loop provided by scripting in Scala-CLI
 - The ease of transforming a Proof of Concept (PoC) into a Minimum Viable Product (MVP) with the current Scala tooling
- 
+
 You will learn:
 - What the building blocks of DDD and Scala 3 are
 - Which production-tested libraries help us do DDD in Scala 3
@@ -24,14 +25,14 @@ You will learn:
 By the end of the workshop, you will have a full stack app with DDD implementations, ready for review.
 
 
-### Target Audience 
+### Target Audience
 
 If you are a Full-Stack Developer, a Software Engineer, a Data Engineer, a Migration Architect or a programming aficionado
 who would like to acquire, upgrade or master your skills in DDD, this workshop is for you.
 
 ### Prerequisites
 
-Prior knowledge of Scala is not necessary, although it is a plus – regardless of the flavour of Scala you code in. 
+Prior knowledge of Scala is not necessary, although it is a plus – regardless of the flavour of Scala you code in.
 
 Basic understanding of functional programming concepts like map, flapMap, error handling, type classes, etc. is required.
 
