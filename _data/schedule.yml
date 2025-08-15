@@ -68,7 +68,7 @@ talks-2025:
   - title: Domain Driven Design in Scala 3
     day: day1
     stage: room4
-    time: 14:00 - 17:00
+    time: 14:00 - 16:00
     speaker: David Amancio Gil Méndez
     url: "/editions/2025/workshops/ddd-in-scala-3"
 
@@ -94,7 +94,7 @@ talks-2025:
   - title: Efficient Programming in Scala with Friendly Agents
     day: day1
     stage: room5
-    time: 14:00 - 17:00
+    time: 14:00 - 16:00
     speaker: Tomasz Godzik, Łukasz Biały
     url: "/editions/2025/workshops/efficient-programming-in-scala-with-friendly-agents"
 
@@ -120,7 +120,7 @@ talks-2025:
   - title: Functional Programming Strategies
     day: day1
     stage: room2
-    time: 14:00 - 17:00
+    time: 14:00 - 16:00
     speaker: Noel Welsh
     url: "/editions/2025/workshops/functional-programming-strategies"
 
@@ -146,7 +146,7 @@ talks-2025:
   - title: Functional Stream Processing
     day: day1
     stage: room1
-    time: 14:00 - 17:00
+    time: 14:00 - 16:00
     speaker: Zainab Ali
     url: "/editions/2025/workshops/functional-stream-processing"
 
@@ -172,7 +172,7 @@ talks-2025:
   - title: Real-World ZIO
     day: day1
     stage: room3
-    time: 14:00 - 17:00
+    time: 14:00 - 16:00
     speaker: Daniel Ciocirlan
     url: "/editions/2025/workshops/real-world-zio"
 
