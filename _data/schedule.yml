@@ -21,15 +21,15 @@ days:
 
 stages:
   - id: room1
-    title: Room 1
+    title: INF 211
   - id: room2
-    title: Room 2
+    title: BC 229
   - id: room3
-    title: Room 3
+    title: BC 329
   - id: room4
-    title: Room 4
+    title: BC 010
   - id: room5
-    title: Room 5
+    title: INR 331
   - id: stage1
     title: Panorama
     description: "This track is set to showcase each corner of the Scala ecosystem - from language features, tooling innovation, discussing the future of the community and language, to creative talks and more. This is a great track for newcomers who want to gain an insight into where they can head out next, for seasoned conference-goers to get an overview of where Scala is headed, and everyone in between."
