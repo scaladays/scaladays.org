@@ -388,13 +388,13 @@ talks-2025:
     time: 11:00 - 11:40
     speaker: Oliver Bračevac
     url: /editions/2025/talks/capture-checking-a-new-approach
-  - title: Simple and safe serialization/pickling of closures in Scala 3
+  - title: Simple and Safe Pickling of Closures in Scala 3
     day: day2
     stage: stage4
     time: 10:10 - 10:50
     speaker: Jonas Spenger
     speaker2: Philipp Haller
-    url: /editions/2025/talks/simple-and-safe-serialization-pickling-of
+    url: /editions/2025/talks/simple-and-safe-pickling-of-closures
   - title: 'Taking the plunge: a deep dive into streaming with fs2'
     day: day2
     stage: stage1
@@ -1182,7 +1182,7 @@ speakers:
   image: assets/img/2025/speakers/jonas-spenger.jpg
   about: Jonas Spenger is a PhD student at KTH Royal Institute of Technology in Stockholm,
     working on distributed systems and programming languages.
-  talk: simple-and-safe-serialization-pickling-of
+  talk: simple-and-safe-pickling-of-closures
   twitter: https://x.com/JonasSpenger
   github: https://github.com/jspenger
 - name: Riccardo Cardin
@@ -1534,7 +1534,7 @@ speakers:
   position: ''
   image: assets/img/2025/speakers/philipp-haller.jpg
   about: ''
-  talk: simple-and-safe-serialization-pickling-of
+  talk: simple-and-safe-pickling-of-closures
   linkedin: https://www.linkedin.com/in/hallerp
   twitter: https://x.com/philippkhaller
   # github: ''
