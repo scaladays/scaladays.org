@@ -1,20 +1,21 @@
 "2025":
-  - title: Tickets
-    title-large: Learn More & Register Today
-    url: /tickets
-    id: tickets
+
+  - title: Schedule
+    url: /schedule
     nav: nav
-    section: hero
+    wip: false
 
   - title: Sponsors
     url: "/sponsorships"
     nav: nav
     wip: false
 
-  - title: Schedule
-    url: /schedule
+  - title: Tickets
+    title-large: Learn More & Register Today
+    url: /tickets
+    id: tickets
     nav: nav
-    wip: false
+    section: hero
 
   - title: Workshops
     url: /workshops
