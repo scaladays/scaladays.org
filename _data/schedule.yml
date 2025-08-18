@@ -292,22 +292,34 @@ talks-2025:
     speaker: Martin Odersky
     url: /editions/2025/talks/scala-capabilities
     room-override: "Panorama (Room 2/3)"
-  - special: blank
+  - title: "Keynote: Where Are We With Scala's Capabilities?"
     day: day1
     stage: room2
     time: 17:00 - 18:00
-  - special: blank
+    speaker: Martin Odersky
+    url: /editions/2025/talks/scala-capabilities
+    room-override: "Panorama (Room 2/3)"
+  - title: "Keynote: Where Are We With Scala's Capabilities?"
     day: day1
     stage: room3
     time: 17:00 - 18:00
-  - special: blank
+    speaker: Martin Odersky
+    url: /editions/2025/talks/scala-capabilities
+    room-override: "Panorama (Room 2/3)"
+  - title: "Keynote: Where Are We With Scala's Capabilities?"
     day: day1
     stage: room4
     time: 17:00 - 18:00
-  - special: blank
+    speaker: Martin Odersky
+    url: /editions/2025/talks/scala-capabilities
+    room-override: "Panorama (Room 2/3)"
+  - title: "Keynote: Where Are We With Scala's Capabilities?"
     day: day1
     stage: room5
     time: 17:00 - 18:00
+    speaker: Martin Odersky
+    url: /editions/2025/talks/scala-capabilities
+    room-override: "Panorama (Room 2/3)"
 
   # Subsequent days
   - title: Registration

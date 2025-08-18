@@ -71,7 +71,7 @@ permalink: schedule
                   <span class="badge fs-6 bg-secondary pl-4">{{ talk.time }}</span>
 
                   {% if talk.room-override %}
-                    <span class="badge fs-6 bg-secondary pl-4">{{ talk.room-override }}</span>
+                    <span class="badge fs-6 bg-secondary pl-4" style="word-break: break-word; max-width: 100%; white-space: normal; display: inline-block;">{{ talk.room-override }}</span>
                   {% endif %}
 
                   <h5 class="talk-title mb-2 {% if talk.room-override %}extended{% endif %}">{{ talk.title }}</h5>
