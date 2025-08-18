@@ -1,7 +1,7 @@
 ---
 title: "Keynote: Where Are We With Scala's Capabilities?"
 day: day1
-stage: room1
+stage: stage1
 time: 17:00 - 18:00
 speaker: Martin Odersky
 ---

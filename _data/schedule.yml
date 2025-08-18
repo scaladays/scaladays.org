@@ -291,6 +291,7 @@ talks-2025:
     time: 17:00 - 18:00
     speaker: Martin Odersky
     url: /editions/2025/talks/scala-capabilities
+    room-override: "Panorama (Room 2/3)"
   - special: blank
     day: day1
     stage: room2

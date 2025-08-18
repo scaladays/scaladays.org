@@ -69,7 +69,12 @@ permalink: schedule
                 {% else %}
                 <a class="item-schedule border d-block text-decoration-none text-dark" href="{{ talk.url | relative_url }}">
                   <span class="badge fs-6 bg-secondary pl-4">{{ talk.time }}</span>
-                  <h5 class="talk-title mb-2">{{ talk.title }}</h5>
+
+                  {% if talk.room-override %}
+                    <span class="badge fs-6 bg-secondary pl-4">{{ talk.room-override }}</span>
+                  {% endif %}
+
+                  <h5 class="talk-title mb-2 {% if talk.room-override %}extended{% endif %}">{{ talk.title }}</h5>
                   {% if talk.speaker %}
                   <p class="mb-0">{{ talk.speaker }}</p>
                   {% endif %}
