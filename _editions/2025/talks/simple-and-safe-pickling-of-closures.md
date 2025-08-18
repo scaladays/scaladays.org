@@ -1,5 +1,5 @@
 ---
-title: "Simple and safe serialization/pickling of closures in Scala 3"
+title: "Simple and Safe Pickling of Closures in Scala 3"
 day: day2
 stage: stage4
 time: 10:10 - 10:50
