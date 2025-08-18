@@ -500,6 +500,10 @@ th {
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
+
+    &.extended {
+      -webkit-line-clamp: unset;
+    }
 }
 
 .break {
