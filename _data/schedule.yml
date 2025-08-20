@@ -1549,7 +1549,7 @@ speakers:
 - name: Philipp Haller
   position: ''
   image: assets/img/2025/speakers/philipp-haller.jpg
-  about: ''
+  about: 'Philipp Haller is an associate professor in the School of Electrical Engineering and Computer Science (EECS) at KTH Royal Institute of Technology in Stockholm, Sweden. His main research interests are in the design and implementation of programming languages, type systems, concurrency, and distributed programming. He was part of the team that received the 2019 ACM SIGPLAN Programming Languages Software Award for the development of the Scala language. Prior to KTH, he was an early employee at Akka (formerly Lightbend, Inc.) working on concurrency in Scala, including futures and Akka. Prior to Akka, he was a post-doctoral fellow at Stanford University, USA, and at EPFL, Switzerland. In 2010 he received his PhD in computer science from EPFL for his work on race-free actors in Scala. In 2006 he received his Dipl.-Inform. degree from Karlsruhe Institute of Technology (KIT).'
   talk: simple-and-safe-pickling-of-closures
   linkedin: https://www.linkedin.com/in/hallerp
   twitter: https://x.com/philippkhaller
