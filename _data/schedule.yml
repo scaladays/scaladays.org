@@ -612,12 +612,13 @@ talks-2025:
     time: 10:10 - 10:50
     speaker: Jonas Chapuis
     url: /editions/2025/talks/full-stack-scala
-  - title: Painting with functions - Scala on GPUs
+  - title: Cryptic - keeps your secrets
     day: day3
     stage: stage3
     time: 10:10 - 10:50
-    speaker: Szymon Rodziewicz
-    url: /editions/2025/talks/painting-with-functions-scala
+    speaker: Odd Möller
+    speaker2: Martin Zachrison
+    url: /editions/2025/talks/cryptic-keeps-your-secrets
   - title: 'Level Up: Become a Compiler Engineer (and a Better Programmer)'
     day: day3
     stage: stage4
@@ -1625,3 +1626,19 @@ speakers:
   linkedin: https://www.linkedin.com/in/jodersky
   twitter: https://x.com/jodersky
   github: https://github.com/jodersky
+
+- name: "Odd Möller"
+  position: Youmoni
+  image: assets/img/2025/speakers/odd-moller.jpg
+  about: "I have been programming since childhood: first by stealing my mother's Pascal books, then by making games for my family to enjoy (or at least help debug), followed by doing labs, assignments and instructing others while at university. Professionally, I started doing enterprisy stuff using Java for about 15 years before seeing the light in the form of the Scala collection library (in its Scala 2.7 incarnation). Since that moment almost 20 years ago, I haven't looked back: it's all Scala with a side of SQL. I have also been fortunate to have had the time and opportunity to contribute to various open-source projects (including the Scala platform itself via work on the collections 2.13 revamp). I'm really excited to be back at ScalaDays, time to feed the brain once again."
+  talk: cryptic-keeps-your-secrets
+  linkedin: https://www.linkedin.com/in/oddmoller/
+  twitter: https://x.com/oddan
+
+- name: "Martin Zachrison"
+  position: "Kodmagi AB"
+  image: assets/img/2025/speakers/martin-zachrison.jpg
+  about: ""
+  talk: cryptic-keeps-your-secrets
+  linkedin: https://www.linkedin.com/in/cyberzac/
+  twitter: https://x.com/cyberzac
