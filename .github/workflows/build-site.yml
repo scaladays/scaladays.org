@@ -30,4 +30,4 @@ jobs:
           OCTOKIT_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PAGES_REPO_NWO: ${{ github.repository }}
       - name: Upload Website to GitHub Artifacts
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
