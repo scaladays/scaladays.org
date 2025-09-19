@@ -6,19 +6,18 @@
     <img src="{{ site.baseurl }}/img/assets/hero-shape.svg" alt="">
   </div>
 
-  <div class="container" data-aos="fade-down">
+  <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto position-relative z-3">
         <img class="hero-brand mb-4 mt-5" src="{{ site.baseurl }}/{{ site.data.conference.scaladays-brand }}" alt="">
-        <h1 class="fw-bold mb-4">Join us for the leading Scala conference.</h1>
-				<h4 class="fw-light mb-5">19 - 21 August, Lausanne, Switzerland</h4>
+        <h1 class="fw-bold mb-4">Thank you for joining us for the leading Scala conference</h1>
+				<h4 class="fw-light mb-5">on 19 - 21 August, in Lausanne, Switzerland</h4>
+        <h4 class="fw-light mb-5">
+          See you next year! Follow our <a href="https://x.com/scaladays" target="_blank">X</a> and <a href="https://www.linkedin.com/company/scaladays/" target="_blank">LinkedIn</a> for updates.
+        </h4>
 
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center hero-cta">
-          {% for item in site.data.nav.2025 %}
-          {% if item.section == 'hero' %}
-            <a type="button" class="btn btn-lg px-4 gap-3" href="{{ item.url | relative_url }}">{{item.title-large}}</a>
-          {% endif %}
-          {% endfor %}
+          <a type="button" class="btn btn-lg px-4 gap-3" href="https://archives.scaladays.org" target="_blank">Past Editions</a>
         </div>
       </div>
     </div>
