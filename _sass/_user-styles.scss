@@ -118,13 +118,7 @@
 
     .hero-cta {
         a {
-            &:first-child {
-                @extend .btn-primary;
-            }
-
-            &:nth-child(2n) {
-                @extend .btn-outline-light;
-            }
+            @extend .btn-primary;
         }
     }
 
