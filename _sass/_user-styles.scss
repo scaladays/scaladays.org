@@ -116,10 +116,35 @@
         width: 560px;
     }
 
+    h4 a {
+        color: #e8f4ff;
+        font-weight: 600;
+        text-decoration-color: rgba(255, 255, 255, 0.55);
+
+        &:hover,
+        &:focus {
+            color: #ffffff;
+            text-decoration-color: #ffffff;
+        }
+    }
+
     .hero-cta {
         a {
             @extend .btn-primary;
         }
+    }
+
+    .hero-cta-below {
+        margin-top: 3.5rem;
+
+        @include media-breakpoint-up(md) {
+            margin-top: 5rem;
+        }
+    }
+
+    .hero-past-editions a:hover {
+        color: $white !important;
+        text-decoration: underline !important;
     }
 
     .hero-arrow {
@@ -186,7 +211,7 @@
     left: 0;
 
 		&.home {
-			background: url("../../img/assets/background-2025.jpg") no-repeat center center;
+			background: url("../../img/assets/hero-background-sd26-desktop.jpg") no-repeat center center;
 			background-size: cover;
 		}
 
