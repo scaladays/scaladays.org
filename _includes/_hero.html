@@ -1,4 +1,4 @@
-<header id="hero" class="vh-100 d-flex align-items-center justify-content-center text-center text-white">
+<header id="hero" class="vh-100 d-flex align-items-center justify-content-center text-center text-white position-relative">
 
   <div class="cover-image home z-0 hero-zoom"></div>
 
@@ -8,20 +8,27 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 mx-auto position-relative z-3">
+      <div class="col-lg-8 mx-auto position-relative z-3 d-flex flex-column align-items-center">
         <img class="hero-brand mb-4 mt-5" src="{{ site.baseurl }}/{{ site.data.conference.scaladays-brand }}" alt="">
-        <h1 class="fw-bold mb-4">Thank you for joining us for the leading Scala conference</h1>
-				<h4 class="fw-light mb-5">on 19 - 21 August, in Lausanne, Switzerland</h4>
-        <h4 class="fw-light mb-5">
-          See you next year! Follow our <a href="https://mastodon.social/@scaladays" target="_blank" rel="me noopener noreferrer">Mastodon</a>, <a href="https://bsky.app/profile/scaladays.org" target="_blank" rel="noopener noreferrer">BlueSky</a> and <a href="https://www.linkedin.com/company/scaladays/" target="_blank" rel="noopener noreferrer">LinkedIn</a> for updates.
+        <h1 class="fw-bold mb-4">The leading Scala conference is coming to Berlin this fall</h1>
+        <h4 class="fw-light mb-2">12–13 October 2026</h4>
+        <h4 class="fw-light mb-2">Kulturbrauerei Berlin</h4>
+        <h4 class="fw-light mb-4">Schönhauser Allee 36, 10435 Berlin</h4>
+        <h4 class="fw-light mb-0">
+          Follow our <a href="https://mastodon.social/@scaladays" target="_blank" rel="me noopener noreferrer">Mastodon</a>, <a href="https://bsky.app/profile/scaladays.org" target="_blank" rel="noopener noreferrer">Bluesky</a> and <a href="https://www.linkedin.com/company/scaladays/" target="_blank" rel="noopener noreferrer">LinkedIn</a> for updates.
         </h4>
 
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center hero-cta">
-          <a type="button" class="btn btn-lg px-4 gap-3" href="https://archives.scaladays.org" target="_blank">Past Editions</a>
-          <a type="button" class="btn btn-lg px-4 gap-3" href="https://archives.scaladays.org/2025/" target="_blank">Scala Days 2025</a>
+        <div class="d-grid gap-2 d-sm-flex flex-wrap justify-content-sm-center hero-cta hero-cta-below">
+          <a type="button" class="btn btn-lg px-4 gap-3" href="https://tickets.plainschwarz.com/scaladays26/" target="_blank" rel="noopener noreferrer">Tickets</a>
+          <a type="button" class="btn btn-lg px-4 gap-3" href="mailto:info@scaladays.org?subject=Scala%20Days%202026%20sponsorship%20inquiry&amp;body=Hello%2C%0A%0AI%27m%20interested%20in%20learning%20more%20about%20sponsorship%20opportunities%20for%20Scala%20Days%202026%20in%20Berlin%20%2812%E2%80%9313%20October%20at%20Kulturbrauerei%20Berlin%29.%0A%0APlease%20share%20details%20on%20available%20packages%20and%20next%20steps.%0A%0ABest%20regards%2C%0A">Become a sponsor</a>
+          <a type="button" class="btn btn-lg px-4 gap-3" href="https://plainschwarz.com/scala-days-2026-newsletter/" target="_blank" rel="noopener noreferrer">Join Mailing List</a>
         </div>
       </div>
     </div>
   </div>
+
+  <p class="hero-past-editions position-absolute bottom-0 start-50 translate-middle-x mb-4 mb-md-5 px-3 z-3">
+    <a class="link-light text-white-50 small text-decoration-none" href="https://archives.scaladays.org" target="_blank" rel="noopener noreferrer">Past editions</a>
+  </p>
 
 </header>
