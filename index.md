@@ -1,4 +1,4 @@
 ---
 layout: home
-title: Time to meet again
+title: Scala Days 2026 | Time to meet again
 ---
