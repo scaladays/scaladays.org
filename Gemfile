@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem 'bootstrap', '~> 5.3.3'
+gem 'bootstrap', '~> 5.3.8'
 gem "jekyll"
 group :jekyll_plugins do
   gem "jekyll-github-metadata"
