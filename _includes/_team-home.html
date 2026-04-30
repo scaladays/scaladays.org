@@ -20,13 +20,6 @@
                 <p>{{ member.position }}</p>
                 <ul class="d-flex list-unstyled">
 
-                    {% if member.about != null %}
-   
-                    <li class="me-2">
-                        <a data-bs-toggle="collapse" href="#{{ member.id }}" role="button" aria-expanded="false" aria-controls="{{ member.id }}"><img class="icon-social" src="{{ site.baseurl }}/img/assets/icon-about.svg" alt=""></a>
-                    </li>
-                    {% endif %}
-
                     {% if member.linkedin != null %}
                     <li class="me-2">
                         <a href="{{ member.linkedin }}" target="_blank" rel="noopener noreferrer"><img class="icon-social"
@@ -46,9 +39,6 @@
                     </li>
                     {% endif %}
                 </ul>
-                <div class="collapse" id="{{ member.id }}">
-                    {{ member.about | markdownify }}
-                </div>
             </div>
             
             </div>
