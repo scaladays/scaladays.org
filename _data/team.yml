@@ -48,7 +48,7 @@ members:
     bluesky: "https://bsky.app/profile/noelwelsh.bsky.social"
     mastodon: "https://types.pl/@noelwelsh"
   - name: "Seth Tisue"
-    position:
+    position: "Scala Core Team"
     about: "Seth has been active in the Scala community since 2008 in roles including user, contributor, meetup and conference organizer, speaker, podcaster, moderator, and more. He is currently a voting member of the Scala Core Team as “Community Advocate”. He likes compilers, interpreters, functional programming, open source, and clean code."
     image: "/assets/img/2025/program-committee/seth-tisue.jpg"
     linkedin: "https://www.linkedin.com/in/sethtisue/"
